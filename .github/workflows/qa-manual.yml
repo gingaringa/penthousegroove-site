@@ -5,24 +5,20 @@ on:
     inputs:
       seed_fake_daily:
         description: "今日の日付のダミーdailyを一時生成（QAのみ）"
-        type: boolean
         required: false
-        default: false
+        default: "false"
       fake_title:
         description: "ダミーdailyのタイトル"
-        type: string
         required: false
         default: "QA Test Entry"
       fake_comment:
         description: "ダミーdailyのコメント（HTML可）"
-        type: string
         required: false
         default: "<p>QA用のテストです。</p>"
       debug:
         description: "Print AWS identity and try S3 list (for troubleshooting)"
-        type: boolean
         required: false
-        default: false
+        default: "false"
 
 permissions:
   contents: read
@@ -39,7 +35,7 @@ jobs:
         with: { node-version: "22" }
 
       - name: Debug: AWS identity & bucket access (optional)
-        if: inputs.debug == true
+        if: inputs.debug == 'true'
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
           QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
@@ -51,11 +47,10 @@ jobs:
           echo "REGION=${AWS_REGION}"
           echo "QA_BUCKET=${QA_BUCKET}"
           echo "QA_CF_ID=${QA_CF_ID}"
-          # Try listing the bucket root (read access). Failure here usually means IAM or bucket policy issue.
           aws s3 ls "s3://${QA_BUCKET}/" || true
 
       - name: Seed fake daily (optional)
-        if: inputs.seed_fake_daily == true
+        if: inputs.seed_fake_daily == 'true'
         run: |
           TZ=Asia/Tokyo d=$(date +%F)
           mkdir -p content/daily

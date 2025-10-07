@@ -1,0 +1,107 @@
+name: Daily Pipeline (JST)
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # JST 09:00 運用1
+    - cron: "30 0 * * *"  # JST 09:30 運用2
+    - cron: "0 1 * * *"   # JST 10:00 運用3+4
+    - cron: "0 3 * * *"   # JST 12:00 運用5  ← 12:00JST=03:00UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-recommend
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+
+  ingest_recommend_json:
+    if: github.event.schedule == '0 0 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Ingest today (append to recommend.json)
+        run: node scripts/ingest-today.mjs
+
+      - name: Commit recommend.json (if changed)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: ingest recommend for today (JST)"
+          file_pattern: public/recommend.json
+
+  update_updates_json:
+    if: github.event.schedule == '30 0 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Update updates.json (recommend.message)
+        run: node scripts/update-updates-json.mjs
+
+      - name: Commit updates.json (if changed)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update updates.json (recommend)"
+          file_pattern: public/updates.json
+
+  build_and_deploy:
+    if: github.event.schedule == '0 1 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install deps if needed
+        run: |
+          if [ -f package-lock.json ]; then npm ci; fi
+
+      - name: Generate pages
+        working-directory: public
+        run: node generate-recommend-pages.js
+
+      - name: Configure AWS
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region:            ${{ secrets.AWS_REGION }}
+
+      - name: Sync to S3 (targeted)
+        run: |
+          aws s3 sync public s3://${{ secrets.S3_BUCKET }}/ --delete \
+            --exclude "*" \
+            --include "recommend.json" \
+            --include "updates.json" \
+            --include "recommend.html" \
+            --include "recommend_pages/*"
+
+      - name: CloudFront invalidation (ALL paths)
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${{ secrets.CF_DISTRIBUTION_ID }}" \
+            --paths "/*"
+
+  notify_line:
+    if: github.event.schedule == '0 3 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send LINE broadcast
+        run: |
+          curl -s -X POST "${{ secrets.NOTIFY_ENDPOINT }}?token=${{ secrets.NOTIFY_TOKEN }}"

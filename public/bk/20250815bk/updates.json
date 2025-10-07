@@ -1,0 +1,24 @@
+{
+    "event": {
+      "lastUpdate": "20250625",
+      "message": "夏のイベント『SUMMER NIGHT DRIVE』を追加"
+    },
+    "eventArchive": {
+      "lastUpdate": "20250620",
+      "message": "5月のイベントをアーカイブへ移動"
+    },
+    "youtube": {
+      "lastUpdate": "20250624",
+      "kind": "video",
+      "title": "DJ Set Vol.10 - Rooftop Session",
+      "url": "https://youtu.be/xxxxxxxx"
+    },
+    "goods": {
+      "lastUpdate": "20250618",
+      "message": "新作Tシャツを追加（L/XL補充）"
+    },
+    "recommend": {
+      "lastUpdate": "20250625",
+      "message": "Today's Recommend を更新"
+    }
+  }

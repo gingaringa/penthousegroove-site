@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "PENTHOUSE GROOVE 2025 SUMMER SPECIAL GIG",
+            "startDate": "2025-08-16T21:00:00+09:00",
+            "location": {
+              "@type": "Place",
+              "name": "NOMATA",
+              "address": "2-17-26 Yakuin, Chuo-ku, Fukuoka, Japan (JUN Building)"
+            },
+            "image": ["https://penthousegroove.com/logo.png"],
+            "description": "PENTHOUSE GROOVE a.k.a. Father & Son Da presents a vinyl-only lounge DJ night at NOMATA. Jazz / Soul / Latin / World / Electronica.",
+            "performer": {
+              "@type": "MusicGroup",
+              "name": "PENTHOUSE GROOVE"
+            },
+            "organizer": {
+              "@type": "Organization",
+              "name": "PENTHOUSE GROOVE",
+              "url": "https://penthousegroove.com"
+            }
+          }
+    </script>
+
+    <meta property="og:title" content="PENTHOUSE GROOVE - DJイベント & レコード">
+    <meta property="og:description" content="エレクトロニカ、ジャズ、ソウルなどを楽しむDJイベント！最新のYouTube配信情報も。">
+    <meta property="og:image" content="https://penthousegroove.com/logo.png">
+    <meta property="og:url" content="https://penthousegroove.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PENTHOUSE GROOVE - 音楽の世界">
+    <meta name="twitter:description" content="DJイベント、YouTube配信、オンラインショップなど充実！">
+    <meta name="twitter:image" content="https://penthousegroove.com/logo.png">
+
+    <meta name="description" content="DJイベント、おすすめレコード、PENTHOUSE GROOVEの最新情報をお届けします。">
+    <meta name="keywords" content="PENTHOUSE GROOVE, DJイベント, レコード, YouTube, electronica, jazz, soul, vinyl">
+    <meta name="author" content="PENTHOUSE GROOVE">
+    <meta name="robots" content="index, follow">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6145399931555398"
+     crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENTHOUSE GROOVE</title>
+    <link rel="canonical" href="https://penthousegroove.com/">
+    <link rel="stylesheet" href="style.css?v=20250823">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+</head>
+
+
+
+<body>
+    <div id="intro-video" style="display: flex; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: black; z-index: 10000; align-items: center; justify-content: center; overflow: hidden;">
+        <video id="intro-video-element" playsinline muted autoplay preload="auto" style="width: 100%; height: 100%; object-fit: cover;">
+          Your browser does not support the video tag.
+        </video>
+        <button id="skip-button" onclick="hideIntro()" style="position: absolute; bottom: 20px; right: 20px; background: rgba(0,0,0,0.5); color: white; border: none; padding: 8px 12px; border-radius: 5px; font-size: 14px; cursor: pointer; z-index: 10001;">
+          Skip
+        </button>
+    </div>
+
+    <div class="fixed-bg"></div>
+    <div class="background-video-container">
+      <video id="background-video" playsinline muted autoplay loop preload="auto">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <header>
+        <img src="logo.png" alt="イベントロゴ" loading="lazy" class="event-logo">
+        <h1>PENTHOUSE GROOVE</h1>
+        <h2 class="dj-subtitle">- DJ set by Father & Son Da -</h2>
+        <nav>
+            <ul>
+                <li><a href="#about-us">ABOUT US</a></li>
+                <li><a href="#event">EVENT</a></li>
+                <li><a href="#youtube-section">YouTube</a></li>
+                <li><a href="#shop">GOODS</a></li>
+                <li><a href="#recommend">TODAY'S RECOMMEND</a></li>
+                <li><a href="#break">TAKE A BREAK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- LINE Subscribe CTA (bilingual) -->
+    <section id="line-subscribe" class="content-box" style="margin-top: 12px;">
+      <div style="text-align:center;max-width:900px;margin:0 auto;">
+        <h2 class="section-title" style="margin-bottom:8px;">UPDATE NOTIFICATION</h2>
+        <p style="margin:4px 0 12px;">
+          ウェブサイトの更新通知、YouTube/イベント/新プロダクトの情報をいち早くゲット! レコメンド曲も毎日お届け📩<br>
+          <small>Get website updates, early info on YouTube/events/new products, and daily song recommendations 📩</small>
+        </p>
+        <!-- Updates (Latest 5) inside LINE subscribe -->
+        <div class="updates-box">
+          <p class="updates-subhead">直近の更新 / <span lang="en">Latest updates</span></p>
+          <ul id="updates-list" class="updates-list" aria-live="polite">
+            <!-- populated by script.js -->
+          </ul>
+        </div>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+          <a class="base-button line-button"
+             href="https://line.me/R/ti/p/@789zzsdk"
+             target="_blank" rel="noopener noreferrer">
+            LINEで更新通知を受け取る
+          </a>
+          <button class="base-button" id="line-howto-btn" type="button">使い方・QRで追加 / How to (QR)</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- LINE How-to / QR modal (bilingual) -->
+    <div id="line-howto-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.6); z-index:9999; align-items:center; justify-content:center;">
+      <div class="line-modal-box" style="background:#fff; color:#222; width:min(720px,92vw); max-height:88vh; overflow:auto; border-radius:12px; padding:18px; box-shadow:0 10px 30px rgba(0,0,0,.25)">
+        <h3 style="margin:0 0 10px;">LINEで更新通知を受け取るには / How to subscribe on LINE</h3>
+        <ol style="line-height:1.7; padding-left:1.2em; margin:8px 0 12px;">
+          <li>スマホの方：<a href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener">こちらをタップ</a>して友だち追加。</li>
+          <li>PCの方：下のQRをスマホで読み取り、友だち追加。</li>
+          <li>更新通知は「ウェブサイト更新・イベント/新プロダクト・毎日のレコメンド」中心。不要になればいつでも解除できます。</li>
+        </ol>
+        <ol style="line-height:1.7; padding-left:1.2em; margin:0 0 12px;">
+          <li>On smartphone: tap <a href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener">this link</a> to add as a friend.</li>
+          <li>On desktop: scan the QR below with your phone to add.</li>
+          <li>We’ll send website updates, event/new product info, and daily song recommendations. You can opt out anytime.</li>
+        </ol>
+        <div style="display:flex;justify-content:center;margin:10px 0 16px;">
+          <img alt="LINE QR" width="180" height="180"
+            src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%40789zzsdk">
+        </div>
+        <div style="display:flex;gap:10px;justify-content:flex-end;">
+          <a class="base-button line-button" href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener">LINEを開く / Open LINE</a>
+          <button class="base-button" id="line-howto-close" type="button">閉じる / Close</button>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="about-us" class="content-box">
+        <h2 class="section-title">ABOUT US</h2>
+        <p>"Sun Ra"ならぬ"Father&Son Da"と銘打って、VINYL ONLYで親子でDJをしています!</p>
+        <p>我々のペントハウスからお届けするYoutubeでのDJ配信に加えて、DJイベントなども行っています!</p>
+        <p>年代、ジャンル、あらゆる垣根を飛び越えて創り出される"PENTHOUSE GROOVE"を体感してみて下さい⚡️</p>
+        <p>DJのブッキングやイベント企画依頼も承りますので、お気軽にお問い合わせください!</p>
+        <p><strong>"Listen To MyTube🎧"</strong></p>
+        <br>
+        <p>We call ourselves "Father & Son Da" as a playful nod to Sun Ra!</p>
+        <p>In addition to DJing on Youtube brought to you from our penthouse, we also hold DJ events using only analog records!!</p>
+        <p>Experience the “PENTHOUSE GROOVE” created by jumping over the boundaries of ages, genres, and all kinds of barriers⚡️</p>
+        <p>We are open to DJ bookings and event planning requests, so feel free to contact us!</p> 
+        <p><strong>"Listen To MyTube🎧"</strong></p>
+
+    </section>
+
+   
+    <section id="event" class="content-box">
+        <h2 class="section-title">EVENT</h2>
+
+        <div class="event-item">
+            <h3>PENTHOUSE GROOVE 2025 SUMMER SPECIAL GIG</h3>
+            <p>2025/8/16 (SAT) 21:00~ 
+                <a href="https://maps.app.goo.gl/99attzXS5SdW3i5V8" target="_blank" rel="noopener noreferrer">@NOMATA</a>
+            </p>
+            <p>
+詳細は以下のフライヤーをクリック！<br>
+For more info, click the flyer below!
+</p>
+            <div class="event-cta-row">
+  <a class="base-button" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=PENTHOUSE%20GROOVE%202025%20SUMMER%20SPECIAL%20GIG&dates=20250816T210000/20250816T230000&details=PENTHOUSE%20GROOVE%20SUMMER%20SPECIAL%20GIG&location=NOMATA&ctz=Asia/Tokyo" target="_blank" rel="noopener">📅 カレンダーに追加</a>
+  <a class="base-button" href="https://maps.app.goo.gl/99attzXS5SdW3i5V8" target="_blank" rel="noopener">📍 NOMATAを開く</a>
+  <a class="base-button line-button" href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener">🔔 LINEでリマインド</a>
+</div>
+            <p><span id="countdown">23日 10時間 30分 15秒</span></p>
+            <div class="event-flyer">
+              <a href="https://www.instagram.com/reel/DMoJCQATfJZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                <img src="PENTHOUSE GROOVE 2025 SUMMER SPECIAL GIG.jpg" alt="PENTHOUSE GROOVE 2025 SUMMER SPECIAL GIG - Click to view Instagram Reel" loading="lazy">
+              </a>
+            </div>
+        </div>
+
+        <h4>Event History</h4>
+        <ul class="event-history"> 
+          <li><a href="event-archive.html#vol3">【PENTHOUSE GROOVE 2025 SUMMER SPECIAL GIG】2025/08/16 @NOMATA</a></li>
+          <li><a href="event-archive.html#vol2">【PENTHOUSE GROOVE 1st Anniversary DJ EVENT】2025/05/02 @NOMATA</a></li>
+          <li>【PENTHOUSE GROOVE SPECIAL DJ EVENT】2024/12/27 @NOMATA</li>
+        </ul>
+        <!-- Mini preview cards for Event Archive (2 items) -->
+        <div id="event-mini-grid" class="event-mini-grid" aria-label="Event archive preview">
+          <a class="event-mini-card" href="event-archive.html#vol3" data-anchor="vol3">
+            <span class="badge">VOL.3</span>
+            <div class="thumb" aria-hidden="true"></div>
+            <div class="content">
+              <p class="title">2025 SUMMER SPECIAL GIG</p>
+              <p class="meta">2025/08/16 @ NOMATA</p>
+            </div>
+          </a>
+          <a class="event-mini-card" href="event-archive.html#vol2" data-anchor="vol2">
+            <span class="badge">VOL.2</span>
+            <div class="thumb" aria-hidden="true"></div>
+            <div class="content">
+              <p class="title">1st Anniversary DJ EVENT</p>
+              <p class="meta">2025/05/02 @ NOMATA</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Lightweight text link to archive -->
+        <p class="event-archive-more">
+          <a href="event-archive.html" class="event-archive-link">→ もっと見る / <span lang="en">View more</span></a>
+        </p>
+
+        <!-- UTM attach & random thumbs from event-archive.html -->
+        <!-- Event mini-cards bootstrap (moved logic into script.js) -->
+<script>
+    (function initEventMini(){
+      function run(){ if (window.PHG && PHG.eventMiniInit) PHG.eventMiniInit(); }
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", run, { once:true });
+      } else {
+        run();
+      }
+    })();
+  </script>
+        <h3>Please booking us!</h3>
+        
+        <div class="carousel">
+            <div class="carousel-track">
+              <img src="IMG_9668.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真1" loading="eager" style="width:200px; height:200px;">
+              <img src="IMG_0576.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真2" loading="eager" style="width:200px; height:200px;">
+              <img src="IMG_9733.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真3" loading="eager" style="width:200px; height:200px;">
+              <img src="222184902.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真4" loading="eager" style="width:200px; height:200px;">
+              <img src="0222192422.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真5" loading="eager" style="width:200px; height:200px;">
+              <img src="0222192113.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真6" loading="eager" style="width:200px; height:200px;">
+
+              <!-- 画像を複製 -->
+               
+              <img src="IMG_9668.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真1">
+              <img src="IMG_0576.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真2">
+              <img src="IMG_9733.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真3">
+              <img src="222184902.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真4">
+              <img src="0222192422.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真5">
+              <img src="0222192113.jpeg" alt="PENTHOUSE GROOVEイベントのDJプレイ写真6">
+            </div>
+        </div>
+        
+        
+        <!-- CONTACTボタンを追加 -->
+         
+        <div class="contact-button-container">
+            <a href="#contact" class="contact-button">CONTACT</a>
+            <a href="event-archive.html" class="contact-button arrow" id="event-archive-button">EVENT ARCHIVE</a>
+         </div>
+
+        <!--<div id="countdown" class="countdown"></div>-->
+    </section>
+
+    <section id="youtube-section" class="content-box">
+        <h2 class="section-title">YouTube</h2>
+        <h3>/ vinyl / record / 7inch / 12inch / DJ / jazz / soul / latin / world /electronica/etc...</h3>
+        <h3 class="section-subhead">最新動画 / <span lang="en">Latest video</span></h3>
+        <p>【goodbye crazy summer 2025】</p>
+        <p>
+steel pan.summer of love & DUB.climate change.<br>
+Zang Tumb Tuum.<br><br>
+この夏を締めくくるにふさわしいDJセットです!お見逃しなく!<br>
+<br>
+The perfect DJ set to close out the summer! Don’t miss it!<br>
+
+</p>
+        <p>Listen To MyTube!</p>
+        <p>▶️ <a href="https://www.youtube.com/@penthousegroove?sub_confirmation=1" target="_blank" rel="noopener noreferrer" style="white-space: nowrap; color: blue; text-decoration: underline;">Subscribe to our channel</a></p>
+        <span class="new-tag">NEW</span>
+        <div class="video-container">
+            <iframe
+            loading="lazy"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Yqp6ozcXVts?si=hK1Ti_817Vxo2KJp&v=20250811"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        </div>
+
+        <!-- CTA: Watch on YouTube (app) + Subscribe -->
+        <div class="youtube-cta-row" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:10px;">
+          <a id="yt-open-app" class="youtube-button" href="https://www.youtube.com/watch?v=Yqp6ozcXVts" target="_blank" rel="noopener">
+            ▶ Watch on YouTube
+          </a>
+          <a class="youtube-button" href="https://www.youtube.com/@penthousegroove?sub_confirmation=1" target="_blank" rel="noopener">
+            🔔 Subscribe
+          </a>
+        </div>
+
+        <!-- 過去の動画スライダー -->
+    <!--<div class="youtube-slider">
+        <div class="youtube-slide-track">
+            <a href="https://www.youtube.com/watch?v=01KPXqgB6f0&t=76s" target="_blank">
+                <img src="thumbnail1.jpeg" alt="PENTHOUSE GROOVE Youtube動画 1" loading="lazy">
+            </a>
+            <a href="https://www.youtube.com/watch?v=TlkoDq_GKnc" target="_blank">
+                <img src="thumbnail2.jpeg" alt="PENTHOUSE GROOVE Youtube動画 2" loading="lazy">
+            </a>
+            <a href="https://www.youtube.com/watch?v=KFGbv3r3rho&t=57s" target="_blank">
+                <img src="thumbnail3.jpeg" alt="PENTHOUSE GROOVE Youtube動画 3" loading="lazy">
+            </a>
+            <a href="https://www.youtube.com/watch?v=grgFlhoK7A8" target="_blank">
+                <img src="thumbnail4.jpeg" alt="PENTHOUSE GROOVE Youtube動画 4" loading="lazy">
+            </a>
+            <a href="https://www.youtube.com/watch?v=gJ5lcuSsTTo" target="_blank"></a>
+                <img src="thumbnail5.jpeg" alt="PENTHOUSE GROOVE Youtube動画 5" loading="lazy">
+            </a>
+            <a href="https://www.youtube.com/watch?v=_vmjRROXLu8" target="_blank"></a>
+            <img src="thumbnail6.jpeg" alt="PENTHOUSE GROOVE Youtube動画 6" loading="lazy">
+        </a>
+        </div>
+    </div>-->
+
+
+        <!-- Playlists: two-card preview with latest items -->
+        <h3 class="section-subhead">再生リスト / <span lang="en">Playlists</span></h3>
+        <p class="playlist-note" style="text-align:center;margin:12px auto 6px;max-width:900px;">
+          「DJ Video」はオンデマンド配信のDJ動画まとめ／「DJ Live Stream」は生配信のDJ動画のアーカイブです。<br>
+          <small>“DJ Video” = on‑demand DJ videos, “DJ Live Stream” = livestream DJ archive.</small>
+        </p>
+
+        <div id="playlist-cards" class="playlist-cards" aria-label="DJ playlists"></div>
+
+        <script>
+(function(){
+  // --- Config: playlist IDs and thumbnails (random pick from candidates) ---
+  // You can keep latest as a fallback. candidates are randomly chosen on each load.
+  var PLAYLISTS = {
+    video: {
+      nameJP: 'DJ Video（オンデマンド）',
+      nameEN: 'DJ Video (on‑demand)',
+      listId: 'PL1XWDvW3iR7hRPSgpCeB4iD0mCfwwjMEa',
+      latest: 'Yqp6ozcXVts',
+      candidates: [
+        'Yqp6ozcXVts','mnOTE6EiDCQ','FY7gm-EwMZk','BN9dpMZYzHA','gV5eBHbyZfU','TfuR_eZkphY','6YiIxuIt4xs',
+        'Nh1RP51AHxk','d0MF9kVb8QA','RU51RoiJ1Dk','gJ5lcuSsTTo','_vmjRROXLu8','01KPXqgB6f0',
+        'xLVCjJKPtag','TlkoDq_GKnc','X-ixkUx8p4I','djviQ-jvM88'
+      ]
+    },
+    live:  {
+      nameJP: 'DJ Live Stream（生配信アーカイブ）',
+      nameEN: 'DJ Live Stream (livestream archive)',
+      listId: 'PL1XWDvW3iR7hx6zCjNw0mIJ_6Krr72JcK',
+      latest: '16y6kGc6U94',
+      candidates: [
+        '16y6kGc6U94','Xxx9O4Ctp4U','b3Q6Ne0ztH4','9dMvEcoms4U','9DulvCHZwrg',
+        'KFGbv3r3rho','grgFlhoK7A8','OxFJ3f5Df_c','zpwPB_I1ihk'
+      ]
+    }
+  };
+
+  // 現在の埋め込み動画ID（最終フォールバック用）
+  var iframe = document.querySelector('#youtube-section iframe');
+  var m = iframe && iframe.src ? iframe.src.match(/embed\/([A-Za-z0-9_-]{11})/) : null;
+  var currentId = m ? m[1] : '';
+
+  function pickId(cfg){
+    try{
+      var pool = Array.isArray(cfg.candidates) ? cfg.candidates.slice() : [];
+      // validate & de-duplicate
+      pool = pool.filter(function(id, i, arr){
+        return /^[A-Za-z0-9_-]{11}$/.test(id) && arr.indexOf(id) === i;
+      });
+      if (pool.length){
+        var idx = Math.floor(Math.random() * pool.length);
+        return pool[idx];
+      }
+    }catch(_){}
+    return cfg.latest || currentId || '';
+  }
+
+  function cardHTML(kind, cfg){
+    var vid = pickId(cfg);
+    var thumb = vid ? ('https://i.ytimg.com/vi/' + vid + '/mqdefault.jpg') : '';
+    var href = vid
+      ? ('https://www.youtube.com/watch?v=' + vid + '&list=' + cfg.listId)
+      : ('https://www.youtube.com/playlist?list=' + cfg.listId);
+
+    var label = (kind === 'video') ? 'DJ Video' : 'DJ Live Stream';
+    var jp = (kind === 'video') ? 'オンデマンド' : '生配信アーカイブ';
+    var en = (kind === 'video') ? 'On‑demand DJ videos' : 'Livestream DJ archive';
+
+    return ''
+      + '<a class="playlist-card" href="' + href + '" target="_blank" rel="noopener">'
+      +   (thumb ? '<img loading="lazy" src="' + thumb + '" alt="' + cfg.nameEN + ' thumbnail">' : '')
+      +   '<span class="label">' + label + '</span>'
+      +   '<div class="title">'
+      +     '<strong>' + jp + '</strong><br>'
+      +     '<small>' + en + '</small>'
+      +   '</div>'
+      +   '<span class="badge">▶ Play</span>'
+      + '</a>';
+  }
+
+  var host = document.getElementById('playlist-cards');
+  if (!host) return;
+
+  // 並び順：左＝DJ Video、右＝DJ Live Stream
+  host.innerHTML = cardHTML('video', PLAYLISTS.video) + cardHTML('live', PLAYLISTS.live);
+})();
+        </script>
+        <!-- JSON-LD: VideoObject (auto-generated from the current embed) -->
+<script>
+(function(){
+  try{
+    if (window.__videoLDInjected) return; // avoid duplicates
+    var iframe = document.querySelector('#youtube-section iframe');
+    if(!iframe || !iframe.src) return;
+    var m = iframe.src.match(/embed\/([A-Za-z0-9_-]{11})/);
+    if(!m) return;
+    var vid = m[1];
+
+    // Title: prefer the first paragraph text in YouTube section, fallback to document title
+    var titleP = document.querySelector('#youtube-section p');
+    var vName = (titleP && titleP.textContent.trim()) ? titleP.textContent.trim() : (document.title + ' - YouTube');
+
+    var ld = {
+      "@context":"https://schema.org",
+      "@type":"VideoObject",
+      "name": vName,
+      "description":"PENTHOUSE GROOVEのDJ配信・アーカイブ。Jazz/Soul/Latin/Electronicaなど。/ DJ livestream & archive by PENTHOUSE GROOVE.",
+      "thumbnailUrl":["https://i.ytimg.com/vi/"+vid+"/hqdefault.jpg"],
+      "embedUrl":"https://www.youtube-nocookie.com/embed/"+vid,
+      "contentUrl":"https://www.youtube.com/watch?v="+vid,
+      "publisher": {"@type":"Organization","name":"PENTHOUSE GROOVE"}
+    };
+
+    // Remove previous one if exists, then inject
+    var old = document.getElementById('videoobject-jsonld');
+    if (old) old.remove();
+    var s = document.createElement('script');
+    s.type = 'application/ld+json';
+    s.id = 'videoobject-jsonld';
+    s.textContent = JSON.stringify(ld);
+    document.head.appendChild(s);
+    window.__videoLDInjected = true;
+  } catch(e){ console.warn('[VideoObject LD] generation failed:', e); }
+})();
+</script>
+    </section>
+    
+     <section id="shop" class="content-box" data-section="goods">
+         <h2 class="section-title">GOODS</h2>
+         <p>
+           <strong>公式オンラインストア</strong><br>
+           <small>Official online store of PENTHOUSE GROOVE</small>
+         </p>
+         <p style="text-align:center; margin: 6px 0 10px;">
+           PENTHOUSE GROOVE オフィシャルグッズをゲットしてイベントへGO⚡️<br>
+           <small>Get PENTHOUSE GROOVE official goods and head to the next event! ⚡️</small>
+         </p>
+         <div class="goods-coupon-box" style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-content:center;margin:8px 0 14px;">
+           <div style="text-align:left;max-width:520px;">
+             <div style="font-weight:bold;">LINE友だち追加で <span style="color:#06C755;">5% OFFクーポン</span> をプレゼント！</div>
+             <div style="font-size:13px;opacity:.85;">Add us on LINE and get a <strong>5% OFF coupon</strong> instantly.</div>
+           </div>
+           <a class="base-button line-button" href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener">5% OFF を受け取る / Get 5% OFF</a>
+         </div>
+         <!--<p style="text-align:center;margin-top:6px;">
+           LINE：
+           <a href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener noreferrer">
+             <img src="line-logo.png" alt="LINE" style="width:26px; height:26px; vertical-align:middle; margin-right:6px;">
+             <span style="vertical-align:middle;">@penthouse_groove</span>
+           </a>
+         </p>-->
+
+         <div class="goods-grid">
+           <article class="goods-card" data-cat="tshirt">
+             <a href="https://pnthsgroove.base.shop/items/114699092" target="_blank" rel="noopener noreferrer">
+               <span class="badge new">NEW</span>
+               <span class="badge hot">HOT</span>
+               <div class="thumb"><img src="PENTHOUSE GROOVE Sun Ra & Father & Son Da T-shirt .jpg" alt="PENTHOUSE GROOVE &quot;Sun Ra &amp; Father &amp; Son Da&quot; T-shirt (Black)" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE "Sun Ra &amp; Father &amp; Son Da" T-shirt (Black)</h4>
+               <p class="price">¥3,800</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+
+           <article class="goods-card" data-cat="tshirt">
+             <a href="https://pnthsgroove.base.shop/items/114697979" target="_blank" rel="noopener noreferrer">
+               <span class="badge new">NEW</span>
+               <div class="thumb"><img src="PENTHOUSE GROOVE Eye of Ra T-shirt White.jpg" alt="PENTHOUSE GROOVE &quot;Eye of PG&quot; T-shirt (White)" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE "Eye of PG" T-shirt (White)</h4>
+               <p class="price">¥3,300</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+
+           <article class="goods-card" data-cat="tshirt">
+             <a href="https://pnthsgroove.base.shop/items/114698172" target="_blank" rel="noopener noreferrer">
+               <span class="badge new">NEW</span>
+               <div class="thumb"><img src="PENTHOUSE GROOVE Eye of PG T-shirt Black.jpg" alt="PENTHOUSE GROOVE &quot;Eye of PG&quot; T-shirt (Black)" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE "Eye of PG" T-shirt (Black)</h4>
+               <p class="price">¥3,300</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+
+           <article class="goods-card" data-cat="tshirt">
+             <a href="https://pnthsgroove.base.shop/items/104157076" target="_blank" rel="noopener noreferrer">
+               <div class="thumb"><img src="penthousegroove-koinobori-tshirt_1.png" alt="PENTHOUSE GROOVE 1st Anniversary &quot;koinobori&quot; T-shirt" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE 1st Anniversary "koinobori" T-shirt</h4>
+               <p class="price">¥3,800</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+
+           <article class="goods-card" data-cat="tshirt">
+             <a href="https://pnthsgroove.base.shop/items/104149359" target="_blank" rel="noopener noreferrer">
+               <span class="badge hot">HOT</span>
+               <div class="thumb"><img src="penthousegroove-diamondeye-tshirt_1.png" alt="PENTHOUSE GROOVE &quot;diamond eye&quot; white T-shirt" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE "diamond eye" white T-shirt</h4>
+               <p class="price">¥3,800</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+
+           <article class="goods-card" data-cat="sticker">
+             <a href="https://pnthsgroove.base.shop/items/99617403" target="_blank" rel="noopener noreferrer">
+               <span class="badge hot">HOT</span>
+               <div class="thumb"><img src="item-button.JPEG" alt="PENTHOUSE GROOVE Ringer T-shirt" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE Ringer T-shirt</h4>
+               <p class="price">¥3,800</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+
+           <article class="goods-card" data-cat="sticker">
+             <a href="https://pnthsgroove.base.shop/items/99617706" target="_blank" rel="noopener noreferrer">
+               <div class="thumb"><img src="item-button2.JPEG" alt="PENTHOUSE GROOVE Bag for 7inch vinyl records" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE Bag for 7inch vinyl records</h4>
+               <p class="price">¥2,800</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+
+           <article class="goods-card" data-cat="sticker">
+             <a href="https://pnthsgroove.base.shop/items/99620915" target="_blank" rel="noopener noreferrer">
+               <div class="thumb"><img src="item-button3.JPEG" alt="PENTHOUSE GROOVE 12.0oz heavy weight hoodie" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE 12.0oz heavy weight hoodie</h4>
+               <p class="price">¥9,800</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+
+           <article class="goods-card" data-cat="sticker">
+             <a href="https://pnthsgroove.base.shop/items/99620140" target="_blank" rel="noopener noreferrer">
+               <div class="thumb"><img src="item-button4.JPEG" alt="PENTHOUSE GROOVE Long sleeve T-shirt with 3D logo" loading="lazy" width="600" height="600"></div>
+               <h4 class="name">PENTHOUSE GROOVE Long sleeve T-shirt with 3D logo</h4>
+               <p class="price">¥4,500</p>
+               <span class="mini-cta">View</span>
+             </a>
+           </article>
+         </div>
+        <div class="base-shop-button">
+            <!-- ボタンも中央揃え -->
+            <a href="https://pnthsgroove.base.shop" class="base-button" target="_blank" rel="noopener noreferrer">CHECK ONLINE STORE</a>
+        </div>
+        <script>
+(function(){
+  var goods = document.querySelector('#shop');
+  if(!goods) return;
+  var utm = 'utm_source=phg_site&utm_medium=goods_section&utm_campaign=shop_click';
+  goods.querySelectorAll('a[href^="https://pnthsgroove.base.shop"]').forEach(function(a){
+    if (a.href.indexOf('utm_source=') > -1) return;
+    a.href += (a.href.indexOf('?') > -1 ? '&' : '?') + utm;
+  });
+})();
+</script>
+    </section>
+
+    <section id="recommend" class="content-box">
+        <h2 class="section-title">TODAY'S RECOMMEND</h2>
+
+        <h3 id="recommend-title">Feel Like Makin' Love  - Roberta Flack</h3>
+        <div id="recommend-comment">
+            <p>ロバータ・フラックの5作目。<br>円熟味を増し、よりスケール・アップしたヴォーカルに全世界が酔いしれた名盤。</p>
+            <p>ロバータ・フラックさんのご冥福をお祈りします。</p>
+            <p>Roberta Flack's fifth album.<br>Her voice became more refined and powerful, captivating audiences worldwide.</p>
+            <p>Rest in peace, Roberta Flack.</p>
+        </div>
+
+        <div class="apple-music-playlist">
+            <iframe id="recommend-embed" height="175" width="100%" title="Media player" src="https://embed.music.apple.com/us/album/feel-like-makin-love/120157309?i=120157223" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" allow="autoplay *; encrypted-media *; clipboard-write" style="border: 0px; border-radius: 12px;"></iframe>
+        </div>
+
+        <!-- YouTubeボタンを追加するための空のdiv -->
+        <div id="recommend-buttons"></div>
+        <div class="recommend-share">
+          <button class="base-button" id="share-open" type="button">Share</button>
+          <div id="share-menu" class="share-menu" aria-hidden="true">
+            <a id="share-menu-x" href="#" target="_blank" rel="noopener">Share on X</a>
+            <button id="share-copy" type="button">Copy link</button>
+            <a id="share-ig-open" href="https://www.instagram.com/" target="_blank" rel="noopener">Open Instagram</a>
+            <p class="share-hint">Open Instagram and paste the link into your post or story.</p>
+          </div>
+          <p class="share-subtle">or <a href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener">🔔 LINEで毎日レコメンドを受け取る</a></p>
+        </div>
+        <div class="archive-button-container">
+            <a href="recommend.html" class="archive-button">Check Archive</a>
+        </div>
+    </section>
+
+    <section id="break" class="content-box">
+      <h2 class="section-title">TAKE A BREAK</h2>
+      <p>ちょっと一息つきたいときに。音楽に限らず、気軽に楽しめるコンテンツやちょっとしたコラムを紹介していく予定です。<br>
+      A space to unwind—expect light content, mini columns, and relaxing features beyond music.</p>
+      <!-- コンテンツは今後追加予定 -->
+      <div class="takeabreak-image-container">
+        <a href="takeabreak.html">
+          <img src="PENTHOUSEGROOVE_TAKEABREAK_square.jpg" alt="Take a Break イメージ画像" class="takeabreak-image">
+        </a>
+      </div>
+
+      <!-- Take a Break mini-cards (サムネは画像/YouTubeから自動抽出) -->
+      <div id="takeabreak-mini-grid" class="event-mini-grid" aria-label="Take a Break preview">
+        <a class="event-mini-card" href="takeabreak.html#vol2" data-anchor="vol2">
+          <span class="badge">VOL.2</span>
+          <div class="thumb" aria-hidden="true"></div>
+          <div class="content">
+            <p class="title">Take a Break vol.2</p>
+            <p class="meta">最新の特集をチェック / <span lang="en">Latest highlights</span></p>
+          </div>
+        </a>
+        <a class="event-mini-card" href="takeabreak.html#vol1" data-anchor="vol1">
+          <span class="badge">VOL.1</span>
+          <div class="thumb" aria-hidden="true"></div>
+          <div class="content">
+            <p class="title">Take a Break vol.1</p>
+            <p class="meta">過去の人気コンテンツ / <span lang="en">Popular picks</span></p>
+          </div>
+        </a>
+      </div>
+
+      <!-- init: mini-card thumbs for Take a Break (共通ユーティリティを呼び出し) -->
+      <script>
+        (function(){
+          function run(){
+            if (!window.PHG || !PHG.attachMiniCardThumbs) return;
+            PHG.attachMiniCardThumbs({
+              pageUrl: 'takeabreak.html',
+              cardsQuery: '#takeabreak-mini-grid .event-mini-card',
+              anchorAttr: 'data-anchor'
+            });
+          }
+          if (document.readyState === 'loading'){
+            document.addEventListener('DOMContentLoaded', run, { once:true });
+          } else { run(); }
+        })();
+      </script>
+
+      <div class="takeabreak-button-container">
+        <a href="takeabreak.html" class="takeabreak-button">GO TO TAKE A BREAK</a>
+      </div>
+    </section>
+
+    <footer>
+        <section id="contact">
+            <h2 class="section-title">CONTACT</h2>
+            <h3>DJ booking/Event request/Website creation/etc...</h3>
+            <p>Email: 
+                <img src="mail-logo.png" alt="mail" style="width:30px; height:30px;">
+                <a href="mailto:penth.groove@gmail.com">penth.groove@gmail.com</a>
+            </p>
+            <p>Instagram：
+                <a href="https://www.instagram.com/penthouse_groove/" target="_blank" rel="noopener noreferrer">
+                    <img src="instagram-logo.png" alt="Instagram" style="width:30px; height:30px;">
+                    penthouse_groove
+                </a>
+            </p>
+
+            <p>LINE：
+                <a href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener noreferrer">
+                    <img src="line-logo.png" alt="LINE" style="width:30px; height:30px;">
+                    penthouse_groove
+                </a>
+            </p>
+    
+            <p>X（Twitter）：
+                <a href="https://twitter.com/PENTHOUSEG62161" target="_blank" rel="noopener noreferrer">
+                    <img src="x-logo.png" alt="X (Twitter)" style="width:30px; height:30px;">
+                    @PENTHOUSEG62161
+                </a>
+            </p>
+    
+            <p>TikTok：
+                <a href="https://www.tiktok.com/@penthouse.groove" target="_blank" rel="noopener noreferrer">
+                    <img src="tiktok-logo.png" alt="TikTok" style="width:30px; height:30px;">
+                    @penthouse.groove
+                </a>
+            </p>
+        </section>
+    </footer>
+    
+    <!-- Sticky LINE CTA (shows after scroll) -->
+    <div id="sticky-line-cta">
+      <div style="max-width:980px;margin:0 auto; display:flex; justify-content:center;">
+        <div class="sticky-card">
+          <a class="base-button line-button"
+             href="https://line.me/R/ti/p/@789zzsdk" target="_blank" rel="noopener">
+            LINEで更新通知を受け取る
+          </a>
+          <button id="sticky-line-close" class="sticky-close" aria-label="閉じる">×</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // LINE how-to modal (open/close)
+      (function(){
+        var modal = document.getElementById('line-howto-modal');
+        var openBtn = document.getElementById('line-howto-btn');
+        var closeBtn = document.getElementById('line-howto-close');
+        if (openBtn) openBtn.addEventListener('click', function(){ modal.style.display='flex'; });
+        if (closeBtn) closeBtn.addEventListener('click', function(){ modal.style.display='none'; });
+        if (modal) modal.addEventListener('click', function(e){ if(e.target===modal) modal.style.display='none'; });
+        // ESCでモーダルを閉じる
+        document.addEventListener('keydown', function(ev){
+          if (ev.key === 'Escape' && modal && modal.style.display === 'flex') {
+            modal.style.display = 'none';
+          }
+        });
+      })();
+
+      // Sticky CTA: show once after 30% scroll; allow dismiss with × and don't re-show in this session
+      (function(){
+        var sticky = document.getElementById('sticky-line-cta');
+        var dismissed = sessionStorage.getItem('stickyLineDismissed') === '1';
+        if (dismissed) return;
+
+        function onScroll(){
+          if (sticky.classList.contains('is-visible')) return;
+          var h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+          if (window.scrollY > h * 0.3) {
+            sticky.classList.add('is-visible');
+            window.removeEventListener('scroll', onScroll);
+          }
+        }
+        window.addEventListener('scroll', onScroll, {passive:true});
+
+        var closeBtn = document.getElementById('sticky-line-close');
+        if (closeBtn) {
+          closeBtn.addEventListener('click', function(){
+            sticky.classList.remove('is-visible');
+            sticky.style.display = 'none';
+            sessionStorage.setItem('stickyLineDismissed','1');
+          });
+        }
+      })();
+    </script>
+
+    <script src="recommend.js?v=20250822"></script>
+    <script src="script.js?v=20250830"></script>
+    <script src="countdown.js?v=20250822" defer></script>
+    <script src="scroll.js?v=20250822"></script>
+    <script src="intro.js?v=20250822"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function() {
+        var backgroundVideo = document.getElementById('background-video');
+        var source = document.createElement('source');
+        
+        if (window.innerWidth <= 768) {
+          // スマホサイズ
+          source.src = 'background-mobile_move.mp4';
+        } else {
+          // PCサイズ
+          source.src = 'background-pc_move.mp4';
+        }
+        
+        source.type = 'video/mp4';
+        backgroundVideo.appendChild(source);
+ 
+        backgroundVideo.addEventListener('canplaythrough', function() {
+          document.querySelector('.fixed-bg').style.display = 'none';
+        });
+ 
+        backgroundVideo.load();
+        backgroundVideo.play();
+      });
+    </script>
+</body>
+</html>

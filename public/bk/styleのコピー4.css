@@ -1,0 +1,166 @@
+/* 全体のスタイル設定 */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー */
+header {
+    background-color: rgba(32, 32, 32, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.event-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* セクションタイトル */
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* 各セクションのスタイル */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+/* YouTubeセクション */
+.new-tag {
+    font-size: 16px;
+    color: #ff0000; /* 赤字を維持 */
+    display: block; /* ブロック要素に変更 */
+    text-align: center; /* 中央揃え */
+    margin: 10px 0; /* 上下に少し余白を追加 */
+    font-weight: bold;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: calc(100vw * 0.5625); /* アスペクト比16:9を維持 */
+    max-width: 560px;
+    max-height: 315px;
+    margin: 0 auto;
+    display: block;
+}
+
+.youtube-button-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.youtube-button {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.youtube-button:hover {
+    background-color: #CC0000;
+}
+
+/* GOODSセクション */
+.item-image-container {
+    /*text-align: center;*/
+    /*margin-top: 10px;*/
+
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    text-align: center;
+    width: 200px; /* 商品の幅を統一 */
+}
+
+.item-button-image {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s; /* ホバー時のエフェクト */
+}
+
+.item-button-image:hover {
+    transform: scale(1.05); /* ホバー時の拡大効果を復元 */
+}
+
+.scroll-container {
+    display: flex;
+    justify-content: center; /* 子要素を中央揃え */
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    /* -webkit-overflow-scrolling: touch;*/
+    width: 100%; /* 親要素の幅を全体に広げる */
+    max-width: 90vw; /* 画面幅に応じて適切に中央寄せ */
+    margin: 0 auto;  /* 完全な中央揃え */
+    padding: 10px 0; /* 上下の余白 */
+    position: relative;
+  }
+/* 左端の画像が見切れないようにダミー要素を追加 */
+.scroll-container::before {
+    content: "";
+    flex: 0 0 40px;  /* ここで左側に余白を確保 */
+}
+
+
+.base-shop-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.base-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.base-button:hover {
+    background-color: #cc5200;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 10px;
+}

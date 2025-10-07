@@ -1,4 +1,4 @@
-name: QA Deploy (manual)
+name: QA Manual Deploy
 
 on:
   workflow_dispatch:

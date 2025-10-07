@@ -18,6 +18,11 @@ on:
         type: string
         required: false
         default: "<p>QA用のテストです。</p>"
+      debug:
+        description: "Print AWS identity and try S3 list (for troubleshooting)"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
@@ -32,6 +37,22 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
+
+      - name: Debug: AWS identity & bucket access (optional)
+        if: inputs.debug == true
+        env:
+          QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
+          QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+        run: |
+          set -eux
+          aws --version
+          aws sts get-caller-identity
+          echo "REGION=${AWS_REGION}"
+          echo "QA_BUCKET=${QA_BUCKET}"
+          echo "QA_CF_ID=${QA_CF_ID}"
+          # Try listing the bucket root (read access). Failure here usually means IAM or bucket policy issue.
+          aws s3 ls "s3://${QA_BUCKET}/" || true
 
       - name: Seed fake daily (optional)
         if: inputs.seed_fake_daily == true

@@ -1,0 +1,80 @@
+name: QA Deploy (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      seed_fake_daily:
+        description: "今日の日付のダミーdailyを一時生成（QAのみ）"
+        type: boolean
+        required: false
+        default: false
+      fake_title:
+        description: "ダミーdailyのタイトル"
+        type: string
+        required: false
+        default: "QA Test Entry"
+      fake_comment:
+        description: "ダミーdailyのコメント（HTML可）"
+        type: string
+        required: false
+        default: "<p>QA用のテストです。</p>"
+
+permissions:
+  contents: read
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+
+      - name: Seed fake daily (optional)
+        if: inputs.seed_fake_daily == true
+        run: |
+          TZ=Asia/Tokyo d=$(date +%F)
+          mkdir -p content/daily
+          cat > content/daily/$d.json <<JSON
+          {
+            "date": "$d",
+            "title": "${{ inputs.fake_title }}",
+            "comment": "${{ inputs.fake_comment }}"
+          }
+          JSON
+          echo "seeded content/daily/$d.json"
+
+      - name: Ingest (no commit)
+        run: node scripts/ingest-today.mjs
+
+      - name: Update updates.json (no commit)
+        run: node scripts/update-updates-json.mjs
+
+      - name: Generate pages
+        working-directory: public
+        run: node generate-recommend-pages.js
+
+      - name: Configure AWS
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region:            ${{ secrets.AWS_REGION }}
+
+      - name: Sync to QA S3
+        run: |
+          aws s3 sync public s3://${{ secrets.S3_BUCKET_QA }}/ --delete \
+            --exclude "*" \
+            --include "recommend.json" \
+            --include "updates.json" \
+            --include "recommend.html" \
+            --include "recommend_pages/*"
+
+      - name: Invalidate QA CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${{ secrets.CF_DISTRIBUTION_ID_QA }}" \
+            --paths "/*"

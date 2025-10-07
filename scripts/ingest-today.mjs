@@ -12,7 +12,7 @@ if (!fs.existsSync(dailyPath)) {
   process.exit(0);
 }
 
-// recommend.json は最初に無ければ空配列で作成
+// recommend.json は無ければ空配列で作る
 if (!fs.existsSync(recommendPath)) {
   fs.writeFileSync(recommendPath, '[]\n', 'utf8');
 }
@@ -26,7 +26,7 @@ if (arr.some(x => x.date === today)) {
   process.exit(0);
 }
 
-// 必須フィールドだけ最低限チェック
+// 必須フィールドチェック
 if (!daily.title || !daily.date) {
   console.log(`[ingest] invalid daily json (need date/title) -> SKIP`);
   process.exit(0);

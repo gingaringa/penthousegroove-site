@@ -16,8 +16,8 @@ jobs:
   qa-scheduled:
     runs-on: ubuntu-latest
     steps:
-      # ★スケジュールはデフォルトブランチのワークフローが走るため、
-      #   実体のコンテンツは QA ブランチを checkout します
+      # スケジュールはデフォルトブランチのワークフローが走るため、
+      # 実体のコンテンツは QA ブランチを checkout します
       - uses: actions/checkout@v4
         with:
           ref: qa
@@ -81,7 +81,7 @@ jobs:
             --include "recommend.html" \
             --include "recommend_pages/*"
 
-      # ⑦ CloudFront(QA) 最小無効化（全体 /* より速く＆安い）
+      # ⑦ CloudFront(QA) 最小無効化
       - name: Invalidate QA CloudFront (targeted)
         env: { QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }} }
         run: |

@@ -1,4 +1,4 @@
-name: QA Scheduled Deploy & Notify
+name: QA Scheduled Deploy name: QA Scheduled Deploy & Notify Notify v2
 
 on:
   schedule:

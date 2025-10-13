@@ -1,4 +1,4 @@
-name: QA Manual Dispatch (safe)
+name: QA Manual Dispatch (safe v2)
 on:
   workflow_dispatch:
 env:

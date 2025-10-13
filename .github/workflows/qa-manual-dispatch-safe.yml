@@ -1,0 +1,8 @@
+name: QA Manual Dispatch (safe)
+on:
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "dispatch ok"

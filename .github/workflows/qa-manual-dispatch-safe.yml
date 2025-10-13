@@ -21,15 +21,12 @@ jobs:
         with:
           node-version: "22"
 
-      # ① daily を取り込み（recommend.json に反映）
       - name: Ingest (no commit)
         run: node scripts/ingest-today.mjs
 
-      # ② updates.json（recommend.message）更新
       - name: Update updates.json (no commit)
         run: node scripts/update-updates-json.mjs
 
-      # ③ updates.json の recommend.lastUpdate を “今日かそれ以前の最新日付” に自動更新
       - name: Bump updates.json lastUpdate (auto)
         run: |
           python - <<'PY'
@@ -52,12 +49,10 @@ jobs:
           print('lastUpdate ->', latest)
           PY
 
-      # ④ HTML 生成
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
 
-      # ⑤ AWS 認証
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -65,7 +60,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
 
-      # ⑥ S3(QA) へ同期（必要ファイルのみ）
       - name: Sync to QA S3
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
@@ -77,7 +71,6 @@ jobs:
             --include "recommend.html" \
             --include "recommend_pages/*"
 
-      # ⑦ CloudFront(QA) 最小無効化
       - name: Invalidate QA CloudFront (targeted)
         env:
           QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
@@ -87,7 +80,6 @@ jobs:
             --distribution-id "$QA_CF_ID" \
             --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
 
-      # ⑧ QA LINE 通知（シークレットがあれば実行）
       - name: Trigger QA notify
         if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
         run: |

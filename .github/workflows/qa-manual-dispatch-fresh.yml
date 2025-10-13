@@ -1,0 +1,14 @@
+name: QA Manual Dispatch (fresh)
+on:
+  workflow_dispatch:
+env:
+  TZ: Asia/Tokyo
+permissions:
+  contents: read
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: qa }
+      - run: echo "manual fresh ok"

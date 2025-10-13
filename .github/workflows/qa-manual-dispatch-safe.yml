@@ -13,6 +13,9 @@ jobs:
   qa:
     runs-on: ubuntu-latest
     steps:
+      - name: Init
+        run: echo "workflow started (main triggers, QA branch content)"
+
       - uses: actions/checkout@v4
         with:
           ref: qa
@@ -80,7 +83,11 @@ jobs:
             --distribution-id "$QA_CF_ID" \
             --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
 
-      - name: Trigger QA notify
-        if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
+      - name: Trigger QA notify (shell check)
         run: |
-          curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"
+          if [ -n "${{ secrets.QA_NOTIFY_URL }}" ] && [ -n "${{ secrets.QA_NOTIFY_TOKEN }}" ]; then
+            echo "Send QA notify..."
+            curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"
+          else
+            echo "QA_NOTIFY_URL or QA_NOTIFY_TOKEN missing; skip notify."
+          fi

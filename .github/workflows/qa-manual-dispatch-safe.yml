@@ -1,13 +1,10 @@
-name: QA Manual Dispatch (safe v3)
-
+name: QA Manual Dispatch (safe)
 on:
   workflow_dispatch:
-
-permissions:
-  contents: read
-
 env:
   TZ: Asia/Tokyo
+permissions:
+  contents: read
 
 jobs:
   qa:
@@ -16,7 +13,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: qa
-
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
@@ -51,7 +47,6 @@ jobs:
               json.dump(d,f,ensure_ascii=False,indent=2)
           print('lastUpdate ->', latest)
           PY
-
       # ④ HTML 生成
       - name: Generate pages
         working-directory: public
@@ -67,8 +62,7 @@ jobs:
 
       # ⑥ S3(QA) へ同期（必要ファイルのみ）
       - name: Sync to QA S3
-        env:
-          QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
+        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
         run: |
           aws s3 sync public "s3://${QA_BUCKET}/" --delete \
             --exclude "*" \
@@ -79,8 +73,7 @@ jobs:
 
       # ⑦ CloudFront(QA) 最小無効化
       - name: Invalidate QA CloudFront (targeted)
-        env:
-          QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
+        env: { QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }} }
         run: |
           L=$(TZ=Asia/Tokyo date +%F)
           aws cloudfront create-invalidation \

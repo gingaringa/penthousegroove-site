@@ -2,22 +2,21 @@ name: QA Scheduled Deploy & Notify
 
 on:
   schedule:
-    - cron: '10 22 * * *'   # JST 07:10（UTC 22:10 前日）
+    # JST 07:10（UTC 22:10 前日）
+    - cron: '10 22 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 env:
   TZ: Asia/Tokyo
 
-permissions:
-  contents: read
-
 jobs:
-  qa:
+  qa-scheduled:
     runs-on: ubuntu-latest
     steps:
-      - name: Init
-        run: echo "scheduled workflow started (main triggers, QA branch content)"
-
+      # スケジュールは main 側で走る。中身は QA ブランチを使用
       - uses: actions/checkout@v4
         with:
           ref: qa
@@ -26,38 +25,100 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Ingest (no commit)
-        run: node scripts/ingest-today.mjs
-
-      - name: Update updates.json (no commit)
-        run: node scripts/update-updates-json.mjs
-
-      - name: Bump updates.json lastUpdate (auto)
+      # ① 既存 recommend.json と daily(今日まで)をマージして再構築（欠け対策・冪等）
+      - name: Rebuild recommend.json by merge (<= today)
         run: |
           python - <<'PY'
-          import json,glob,io,re,datetime
-          files = glob.glob('content/daily/*.json')
-          dates=[]
-          for p in files:
-            m=re.search(r'(\d{4}-\d{2}-\d{2})\.json$', p)
-            if m: dates.append(m.group(1))
-          today=datetime.date.today().isoformat()
-          dates=[d for d in dates if d<=today]
-          if not dates: raise SystemExit(0)
-          latest=max(dates).replace('-','')
-          path='public/updates.json'
-          d=json.load(io.open(path,encoding='utf-8'))
-          if (d.get('recommend') or {}).get('lastUpdate')!=latest:
-            d.setdefault('recommend',{})['lastUpdate']=latest
-            with io.open(path,'w',encoding='utf-8') as f:
-              json.dump(d,f,ensure_ascii=False,indent=2)
-          print('lastUpdate ->', latest)
+          import json,glob,io,re,datetime,os
+          JST = datetime.timezone(datetime.timedelta(hours=9))
+          today = datetime.datetime.now(JST).date()
+          def ymd(s):
+              try: return datetime.date.fromisoformat(s)
+              except: return datetime.date(1970,1,1)
+
+          rec_path='public/recommend.json'
+          existing=[]
+          if os.path.exists(rec_path):
+              try: existing=json.load(io.open(rec_path,encoding='utf-8'))
+              except Exception: existing=[]
+
+          by_date={}
+          # 既存（今日まで）は残す
+          for x in existing:
+              d=x.get('date')
+              if not d: continue
+              if ymd(d) <= today:
+                  by_date[d]=x
+
+          # daily の分（今日まで）は上書き／追加
+          for p in glob.glob('content/daily/*.json'):
+              m=re.search(r'(\d{4}-\d{2}-\d{2})\.json$', p)
+              if not m: continue
+              d=m.group(1)
+              if ymd(d) > today: 
+                  continue
+              obj=json.load(io.open(p,encoding='utf-8'))
+              if obj.get('date')!=d: obj['date']=d
+              by_date[d]=obj
+
+          arr=[by_date[k] for k in sorted(by_date)]
+          os.makedirs('public', exist_ok=True)
+          with io.open(rec_path,'w',encoding='utf-8') as f:
+              json.dump(arr,f,ensure_ascii=False,indent=2)
+          print(f"[rebuild] wrote {len(arr)} items (latest={arr[-1]['date'] if arr else 'n/a'})")
           PY
 
+      # ② updates.json を recommend.json の最新項目に同期（lastUpdate と message を揃える）
+      - name: Sync updates.json from latest entry
+        run: |
+          python - <<'PY'
+          import json,io,os,re
+          rec=json.load(io.open('public/recommend.json',encoding='utf-8'))
+          if not rec:
+              print('[updates] no recommend.json items -> skip')
+              raise SystemExit(0)
+          latest=rec[-1]
+          path='public/updates.json'
+          upd={}
+          if os.path.exists(path):
+              try: upd=json.load(io.open(path,encoding='utf-8'))
+              except Exception: upd={}
+          upd.setdefault('recommend',{})
+          upd['recommend']['lastUpdate']=latest['date'].replace('-','')
+          def html_to_text(s):
+              s=str(s or '')
+              s=re.sub(r'<br\s*/?>', '\n', s, flags=re.I)
+              s=re.sub(r'</p>\s*<p>', '\n\n', s, flags=re.I)
+              s=re.sub(r'</?p>', '', s, flags=re.I)
+              s=re.sub(r'<[^>]+>', '', s)
+              return s
+          upd['recommend']['message']=("Today's Recommend:\n{title}\n\n{body}"
+            .format(title=latest.get('title',''), body=html_to_text(latest.get('comment','')))).strip()
+          with io.open(path,'w',encoding='utf-8') as f:
+              json.dump(upd,f,ensure_ascii=False,indent=2)
+          print("[updates] synced to", upd['recommend']['lastUpdate'])
+          PY
+
+      # ③ HTML 生成（public を作業ディレクトリに）
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
 
+      # ④ 生成物を QA ブランチへコミット（repo 側を常に最新に）
+      - name: Commit QA artifacts
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/recommend.json public/updates.json public/recommend.html public/recommend_pages/
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "chore(qa): auto-sync recommend & pages [skip ci]"
+            git push origin qa
+          fi
+
+      # ⑤ AWS 認証
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -65,9 +126,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
 
+      # ⑥ S3(QA) へ必要ファイルだけ同期
       - name: Sync to QA S3
-        env:
-          QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
+        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
         run: |
           aws s3 sync public "s3://${QA_BUCKET}/" --delete \
             --exclude "*" \
@@ -76,20 +137,37 @@ jobs:
             --include "recommend.html" \
             --include "recommend_pages/*"
 
+      # ⑦ CloudFront(QA) 最小無効化（/recommend.html を追加）
       - name: Invalidate QA CloudFront (targeted)
-        env:
-          QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
+        env: { QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }} }
         run: |
           L=$(TZ=Asia/Tokyo date +%F)
           aws cloudfront create-invalidation \
             --distribution-id "$QA_CF_ID" \
-            --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
+            --paths "/updates.json" "/recommend.json" "/recommend.html" "/recommend_pages/recommend-${L}.html"
 
-      - name: Trigger QA notify (shell check)
+      # ⑧ 任意：反映確認
+      - name: Wait until CloudFront shows new lastUpdate
         run: |
-          if [ -n "${{ secrets.QA_NOTIFY_URL }}" ] && [ -n "${{ secrets.QA_NOTIFY_TOKEN }}" ]; then
-            echo "Send QA notify..."
-            curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"
-          else
-            echo "QA_NOTIFY_URL or QA_NOTIFY_TOKEN missing; skip notify."
-          fi
+          set -e
+          WANT=$(python - <<'PY'
+          import json; print((json.load(open('public/updates.json')).get('recommend') or {}).get('lastUpdate',''))
+          PY
+          )
+          URL="https://d1xxonlnsg0phc.cloudfront.net/updates.json?ts=$(date +%s)"
+          for i in $(seq 1 10); do
+            CUR=$(curl -fSs "$URL" | python - <<'PY'
+          import sys,json; print((json.load(sys.stdin).get('recommend') or {}).get('lastUpdate',''))
+          PY
+          )
+            echo "try#$i want=$WANT got=$CUR"
+            [ "$CUR" = "$WANT" ] && exit 0
+            sleep 6
+          done
+          exit 0
+
+      # ⑨ QA 通知（シークレットが設定されていれば実行）
+      - name: Trigger QA notify
+        if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
+        run: |
+          curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"

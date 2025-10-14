@@ -140,7 +140,7 @@ async function initRecommend() {
   try { await handleDeepLinkScroll(); } catch (_) {}
 
   // ====== recommend.html のアーカイブ表示 ======
-  const listEl = document.getElementById("recommend-list");
+  const listEl = document.getElementById("recommend-list") || document.getElementById("recommend-archive-list");
   if (listEl) {
     const sorted = [...data].sort((a, b) => parseYMD(b.date) - parseYMD(a.date));
     sorted.forEach((item) => {

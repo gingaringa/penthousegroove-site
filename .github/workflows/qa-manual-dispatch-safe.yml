@@ -133,3 +133,4 @@ jobs:
         if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
         run: |
           curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"
+# touch to re-register

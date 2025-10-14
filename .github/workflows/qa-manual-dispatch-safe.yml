@@ -22,7 +22,7 @@ jobs:
           node-version: "22"
 
       - name: Ingest (full rebuild)
-        run: node scripts/ingest-today.mjs
+        run: node scripts/rebuild-recommend-all.mjs
 
       - name: Update updates.json (no commit)
         run: node scripts/update-updates-json.mjs

@@ -26,7 +26,7 @@ jobs:
 
       # ① full rebuild（recommend.json を冪等に再構築）
       - name: Ingest (full rebuild)
-        run: node scripts/ingest-today.mjs
+        run: node scripts/rebuild-recommend-all.mjs
 
       # ② updates.json（recommend.message）更新
       - name: Update updates.json (no commit)

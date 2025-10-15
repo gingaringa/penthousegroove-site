@@ -2,7 +2,7 @@ name: QA Quick Deploy
 on: workflow_dispatch
 
 permissions:
-  contents: read
+  contents: write
 
 env:
   TZ: Asia/Tokyo
@@ -12,14 +12,76 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: qa
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
 
-      - name: Ingest (no commit)
-        run: node scripts/ingest-today.mjs
+      - name: Rebuild recommend.json (full, merge history + daily)
+        run: |
+          node - <<'JS'
+          import fs from 'fs'; import path from 'path';
+          const pub = 'public/recommend.json';
+          let base=[]; if (fs.existsSync(pub)) { try { base = JSON.parse(fs.readFileSync(pub,'utf-8')); } catch {}
+          }
+          const map = new Map();
+          for (const it of base) if (it?.date) map.set(it.date, it);
+          const dir='content/daily';
+          if (fs.existsSync(dir)) {
+            for (const f of fs.readdirSync(dir)) {
+              if (!/^\d{4}-\d{2}-\d{2}\.json$/.test(f)) continue;
+              try {
+                const d=JSON.parse(fs.readFileSync(path.join(dir,f),'utf-8'));
+                if (d?.date) map.set(d.date, d); // daily wins
+              } catch {}
+            }
+          }
+          const arr=Array.from(map.values()).sort((a,b)=> String(a.date).localeCompare(String(b.date)));
+          fs.writeFileSync(pub, JSON.stringify(arr,null,2));
+          console.log('[rebuild] wrote', arr.length, 'entries');
+          JS
 
       - name: Update updates.json (no commit)
         run: node scripts/update-updates-json.mjs
+
+      - name: Bump updates.json recommend.lastUpdate (auto)
+        run: |
+          python - <<'PY'
+          import json,glob,io,re,datetime
+          files = glob.glob('content/daily/*.json')
+          dates=[]
+          for p in files:
+            m=re.search(r'(\d{4}-\d{2}-\d{2})\.json$', p)
+            if m: dates.append(m.group(1))
+          today=datetime.date.today().isoformat()
+          # 最新かつ「今日まで」の日付
+          dates=[d for d in dates if d<=today]
+          latest = max(dates).replace('-','') if dates else today.replace('-','')
+          path='public/updates.json'
+          d=json.load(io.open(path,encoding='utf-8'))
+          d.setdefault('recommend',{})['lastUpdate']=latest
+          with io.open(path,'w',encoding='utf-8') as f:
+            json.dump(d,f,ensure_ascii=False,indent=2)
+          print('lastUpdate ->', latest)
+          PY
+
+      - name: Filter recommend.json to <= today (JST)
+        run: |
+          cp public/recommend.json /tmp/recommend.full.json
+          python - <<'PY'
+          import json, datetime
+          try:
+            from zoneinfo import ZoneInfo
+          except ImportError:
+            from backports.zoneinfo import ZoneInfo  # runner fallback
+          with open('public/recommend.json','r',encoding='utf-8') as f:
+              arr=json.load(f)
+          today=datetime.datetime.now(ZoneInfo("Asia/Tokyo")).date().isoformat()
+          filtered=[x for x in arr if x.get('date','') <= today]
+          with open('public/recommend.json','w',encoding='utf-8') as f:
+              json.dump(filtered, f, ensure_ascii=False, indent=2)
+          print('filtered to <= ', today, ' count=', len(filtered))
+          PY
 
       - name: Generate pages
         working-directory: public
@@ -49,6 +111,19 @@ jobs:
 
       - name: Invalidate QA CloudFront
         run: |
+          L=$(TZ=Asia/Tokyo date +%F)
           aws cloudfront create-invalidation \
             --distribution-id "${{ secrets.CF_DISTRIBUTION_ID_QA }}" \
-            --paths "/*"
+            --paths "/updates.json" "/recommend.json" "/recommend.html" "/recommend_pages/recommend-${L}.html"
+
+      - name: Restore full recommend.json
+        run: |
+          test -f /tmp/recommend.full.json && mv /tmp/recommend.full.json public/recommend.json || true
+
+      - name: Commit artifacts back to QA (optional)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public
+          git commit -m "ci(qa-quick): update artifacts ($(date -u +%F))" || echo "no changes"
+          git push origin HEAD:qa || true

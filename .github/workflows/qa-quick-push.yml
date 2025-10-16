@@ -1,0 +1,90 @@
+name: QA Quick Deploy (push)
+
+on:
+  push:
+    branches: [qa]
+    paths:
+      - 'content/daily/**'
+      - 'public/recommend.json'
+      - 'public/updates.json'
+      - 'public/generate-recommend-pages.js'
+      - 'scripts/**'
+      - '.github/workflows/qa-quick-push.yml'
+
+env:
+  TZ: Asia/Tokyo
+
+permissions:
+  contents: write
+
+jobs:
+  qa-quick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: qa
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # ① 全件から再構築
+      - name: Rebuild recommend.json (full)
+        run: node scripts/rebuild-recommend.mjs
+
+      # ② 未来日フィルタ（JST基準で <= 今日 だけ残す）
+      - name: Filter recommend.json to <= today (JST)
+        run: |
+          node -e '
+            const fs=require("fs");
+            const p="public/recommend.json";
+            let arr=JSON.parse(fs.readFileSync(p,"utf8"));
+            const jstNow=new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Tokyo"}));
+            const y=jstNow.getFullYear(), m=("0"+(jstNow.getMonth()+1)).slice(-2), d=("0"+jstNow.getDate()).slice(-2);
+            const today=`${y}-${m}-${d}`;
+            arr = (Array.isArray(arr)?arr:arr.items||[]).filter(it => it.date && it.date <= today);
+            fs.writeFileSync(p, JSON.stringify(arr,null,2));
+            console.log("kept", arr.length, "items up to", today);
+          '
+
+      # ③ HTML 生成
+      - name: Generate pages
+        working-directory: public
+        run: node generate-recommend-pages.js
+
+      # ④ AWS 認証
+      - name: Configure AWS
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region:            ${{ secrets.AWS_REGION }}
+
+      # ⑤ S3（QA）へ最低限だけ反映（ターゲット同期）
+      - name: Sync to QA S3 (targeted)
+        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
+        run: |
+          set -e
+          aws s3 cp public/recommend.json "s3://${QA_BUCKET}/recommend.json"
+          aws s3 cp public/updates.json   "s3://${QA_BUCKET}/updates.json"
+          aws s3 cp public/recommend.html "s3://${QA_BUCKET}/recommend.html"
+          L=$(TZ=Asia/Tokyo date +%F)
+          aws s3 cp "public/recommend_pages/recommend-${L}.html" "s3://${QA_BUCKET}/recommend_pages/recommend-${L}.html"
+
+      # ⑥ CloudFront（QA）当日分だけ無効化
+      - name: Invalidate QA CloudFront (targeted)
+        env: { QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }} }
+        run: |
+          L=$(TZ=Asia/Tokyo date +%F)
+          aws cloudfront create-invalidation \
+            --distribution-id "$QA_CF_ID" \
+            --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
+
+      # ⑦ 成果物を qa ブランチへコミット（VSCodeで最新を見れるように）
+      - name: Commit artifacts back to QA
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/recommend.json public/recommend.html public/recommend_pages public/updates.json
+          git commit -m "ci(qa): rebuild/filter/generate (push)" || echo "no changes"
+          git push origin HEAD:qa || true

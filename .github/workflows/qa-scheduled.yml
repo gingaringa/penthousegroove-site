@@ -16,6 +16,7 @@ jobs:
   qa-scheduled:
     runs-on: ubuntu-latest
     steps:
+      # 実体のコンテンツは QA ブランチから取得
       - uses: actions/checkout@v4
         with:
           ref: qa
@@ -24,80 +25,43 @@ jobs:
         with:
           node-version: "22"
 
-      # ① full rebuild（recommend.json を冪等に再構築）
-      - name: Ingest (full rebuild)
-        run: |
-          node - <<'JS'
-          import fs from 'fs'; import path from 'path';
-          const pub = 'public/recommend.json';
-          let base=[]; if (fs.existsSync(pub)) { try { base = JSON.parse(fs.readFileSync(pub,'utf-8')); } catch {}
-          }
-          const map = new Map();
-          for (const it of base) if (it?.date) map.set(it.date, it);
-          const dir='content/daily';
-          if (fs.existsSync(dir)) {
-            for (const f of fs.readdirSync(dir)) {
-              if (!/^\d{4}-\d{2}-\d{2}\.json$/.test(f)) continue;
-              try {
-                const d=JSON.parse(fs.readFileSync(path.join(dir,f),'utf-8'));
-                if (d?.date) map.set(d.date, d); // daily wins
-              } catch {}
-            }
-          }
-          const arr=Array.from(map.values()).sort((a,b)=> String(a.date).localeCompare(String(b.date)));
-          fs.writeFileSync(pub, JSON.stringify(arr,null,2));
-          console.log('[rebuild] wrote', arr.length, 'entries');
-          JS
+      # ① recommend.json を全件から再構築（欠落防止・冪等）
+      - name: Rebuild recommend.json (full)
+        run: node scripts/rebuild-recommend.mjs
 
-      # ② updates.json（recommend.message）更新
-      - name: Update updates.json (no commit)
-        run: node scripts/update-updates-json.mjs
-
-      - name: Bump updates.json recommend.lastUpdate (auto)
-        run: |
-          python - <<'PY'
-          import json,glob,io,re,datetime
-          files = glob.glob('content/daily/*.json')
-          dates=[]
-          for p in files:
-            m=re.search(r'(\d{4}-\d{2}-\d{2})\.json$', p)
-            if m: dates.append(m.group(1))
-          today=datetime.date.today().isoformat()
-          dates=[d for d in dates if d<=today]
-          latest = max(dates).replace('-','') if dates else today.replace('-','')
-          path='public/updates.json'
-          d=json.load(io.open(path,encoding='utf-8'))
-          d.setdefault('recommend',{})['lastUpdate']=latest
-          with io.open(path,'w',encoding='utf-8') as f:
-            json.dump(d,f,ensure_ascii=False,indent=2)
-          print('lastUpdate ->', latest)
-          PY
-
-      # ③ Filter recommend.json to <= today (JST)
+      # ② “今日（JST）以前”にフィルタした recommend.json を適用
       - name: Filter recommend.json to <= today (JST)
         run: |
-          cp public/recommend.json /tmp/recommend.full.json
-          python - <<'PY'
-          import json, datetime
-          try:
-            from zoneinfo import ZoneInfo
-          except ImportError:
-            from backports.zoneinfo import ZoneInfo  # runner fallback
-          with open('public/recommend.json','r',encoding='utf-8') as f:
-              arr=json.load(f)
-          today=datetime.datetime.now(ZoneInfo("Asia/Tokyo")).date().isoformat()
-          filtered=[x for x in arr if x.get('date','') <= today]
-          with open('public/recommend.json','w',encoding='utf-8') as f:
-              json.dump(filtered, f, ensure_ascii=False, indent=2)
-          print('filtered to <= ', today, ' count=', len(filtered))
-          PY
+          node -e '
+            const fs=require("fs");
+            const path="public/recommend.json";
+            const a=JSON.parse(fs.readFileSync(path,"utf8"));
+            const JST=new Date().toLocaleString("en-US",{timeZone:"Asia/Tokyo"});
+            const today=(d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`)(new Date(JST));
+            const out=a.filter(x=>x.date && x.date<=today);
+            fs.writeFileSync(path, JSON.stringify(out,null,2));
+            console.log("kept",out.length,"items (<= ",today,")");
+          '
 
-      # ④ HTML 生成
+      # ③ updates.json を recommend に合わせて更新
+      - name: Update updates.json
+        run: node scripts/update-updates-json.mjs
+
+      # ④ recommend_pages と recommend.html を生成（public を作業DIRに）
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
 
-      # ⑦ AWS 認証
+      # ⑤ 生成物を QA ブランチにコミット（履歴を痩せさせない）
+      - name: Commit artifacts back to QA
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/recommend.json public/recommend.html public/recommend_pages public/updates.json
+          git commit -m "ci(qa): rebuild/filter/generate (scheduled)" || echo "no changes"
+          git push origin HEAD:qa || true
+
+      # ⑥ AWS 認証
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -105,7 +69,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
 
-      # ⑧ S3(QA) へ必要ファイルだけ同期
+      # ⑦ 必要ファイルのみ同期
       - name: Sync to QA S3
         env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
         run: |
@@ -116,49 +80,17 @@ jobs:
             --include "recommend.html" \
             --include "recommend_pages/*"
 
-      # ⑨ CloudFront(QA) 最小無効化（recommend.html も追加）
+      # ⑧ CloudFront 最小無効化（当日ページのみ）
       - name: Invalidate QA CloudFront (targeted)
         env: { QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }} }
         run: |
           L=$(TZ=Asia/Tokyo date +%F)
           aws cloudfront create-invalidation \
-            --distribution-id "${{ secrets.CF_DISTRIBUTION_ID_QA }}" \
-            --paths "/updates.json" "/recommend.json" "/recommend.html" "/recommend_pages/recommend-${L}.html"
+            --distribution-id "$QA_CF_ID" \
+            --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
 
-      # ⑩（任意）反映確認
-      - name: Wait until CloudFront shows new lastUpdate
-        run: |
-          set -e
-          WANT=$(python - <<'PY'
-          import json; print((json.load(open('public/updates.json')).get('recommend') or {}).get('lastUpdate',''))
-          PY
-          )
-          URL="https://d1xxonlnsg0phc.cloudfront.net/updates.json?ts=$(date +%s)"
-          for i in $(seq 1 15); do
-            CUR=$(curl -fSs "$URL" | python - <<'PY'
-          import sys,json; print((json.load(sys.stdin).get('recommend') or {}).get('lastUpdate',''))
-          PY
-          )
-            echo "try#$i want=$WANT got=$CUR"
-            [ "$CUR" = "$WANT" ] && exit 0
-            sleep 8
-          done
-          exit 0
-
-      # ⑪ QA 通知（シークレットが設定されていれば実行）
+      # ⑨ QA 通知（設定済み時のみ）
       - name: Trigger QA notify
         if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
         run: |
           curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"
-
-      - name: Restore full recommend.json
-        run: |
-          test -f /tmp/recommend.full.json && mv /tmp/recommend.full.json public/recommend.json || true
-
-      - name: Commit artifacts back to QA
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A public
-          git commit -m "ci(qa): auto-update artifacts ($(date -u +%F))" || echo "no changes"
-          git push origin HEAD:qa

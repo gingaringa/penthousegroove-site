@@ -1,5 +1,7 @@
 name: QA Quick Deploy
-on: workflow_dispatch
+
+on:
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -8,80 +10,34 @@ env:
   TZ: Asia/Tokyo
 
 jobs:
-  qa:
+  qa-quick:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: qa
       - uses: actions/setup-node@v4
-        with: { node-version: "22" }
+        with:
+          node-version: "22"
 
-      - name: Rebuild recommend.json (full, merge history + daily)
-        run: |
-          node - <<'JS'
-          import fs from 'fs'; import path from 'path';
-          const pub = 'public/recommend.json';
-          let base=[]; if (fs.existsSync(pub)) { try { base = JSON.parse(fs.readFileSync(pub,'utf-8')); } catch {}
-          }
-          const map = new Map();
-          for (const it of base) if (it?.date) map.set(it.date, it);
-          const dir='content/daily';
-          if (fs.existsSync(dir)) {
-            for (const f of fs.readdirSync(dir)) {
-              if (!/^\d{4}-\d{2}-\d{2}\.json$/.test(f)) continue;
-              try {
-                const d=JSON.parse(fs.readFileSync(path.join(dir,f),'utf-8'));
-                if (d?.date) map.set(d.date, d); // daily wins
-              } catch {}
-            }
-          }
-          const arr=Array.from(map.values()).sort((a,b)=> String(a.date).localeCompare(String(b.date)));
-          fs.writeFileSync(pub, JSON.stringify(arr,null,2));
-          console.log('[rebuild] wrote', arr.length, 'entries');
-          JS
-
-      - name: Update updates.json (no commit)
-        run: node scripts/update-updates-json.mjs
-
-      - name: Bump updates.json recommend.lastUpdate (auto)
-        run: |
-          python - <<'PY'
-          import json,glob,io,re,datetime
-          files = glob.glob('content/daily/*.json')
-          dates=[]
-          for p in files:
-            m=re.search(r'(\d{4}-\d{2}-\d{2})\.json$', p)
-            if m: dates.append(m.group(1))
-          today=datetime.date.today().isoformat()
-          # 最新かつ「今日まで」の日付
-          dates=[d for d in dates if d<=today]
-          latest = max(dates).replace('-','') if dates else today.replace('-','')
-          path='public/updates.json'
-          d=json.load(io.open(path,encoding='utf-8'))
-          d.setdefault('recommend',{})['lastUpdate']=latest
-          with io.open(path,'w',encoding='utf-8') as f:
-            json.dump(d,f,ensure_ascii=False,indent=2)
-          print('lastUpdate ->', latest)
-          PY
+      - name: Rebuild recommend.json (full)
+        run: node scripts/rebuild-recommend.mjs
 
       - name: Filter recommend.json to <= today (JST)
         run: |
-          cp public/recommend.json /tmp/recommend.full.json
-          python - <<'PY'
-          import json, datetime
-          try:
-            from zoneinfo import ZoneInfo
-          except ImportError:
-            from backports.zoneinfo import ZoneInfo  # runner fallback
-          with open('public/recommend.json','r',encoding='utf-8') as f:
-              arr=json.load(f)
-          today=datetime.datetime.now(ZoneInfo("Asia/Tokyo")).date().isoformat()
-          filtered=[x for x in arr if x.get('date','') <= today]
-          with open('public/recommend.json','w',encoding='utf-8') as f:
-              json.dump(filtered, f, ensure_ascii=False, indent=2)
-          print('filtered to <= ', today, ' count=', len(filtered))
-          PY
+          node -e '
+            const fs=require("fs");
+            const path="public/recommend.json";
+            const a=JSON.parse(fs.readFileSync(path,"utf8"));
+            const JST=new Date().toLocaleString("en-US",{timeZone:"Asia/Tokyo"});
+            const today=(d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`)(new Date(JST));
+            const out=a.filter(x=>x.date && x.date<=today);
+            fs.writeFileSync(path, JSON.stringify(out,null,2));
+            console.log("kept",out.length,"items (<= ",today,")");
+          '
+
+      - name: Update updates.json
+        run: node scripts/update-updates-json.mjs
 
       - name: Generate pages
         working-directory: public
@@ -94,36 +50,29 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
 
-      - name: Diagnostics (whoami & list QA bucket)
-        run: |
-          aws sts get-caller-identity
-          aws configure list
-          aws s3 ls "s3://${{ secrets.S3_BUCKET_QA }}/" || true
-
       - name: Sync to QA S3
+        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
         run: |
-          aws s3 sync public s3://${{ secrets.S3_BUCKET_QA }}/ --delete \
+          aws s3 sync public "s3://${QA_BUCKET}/" --delete \
             --exclude "*" \
             --include "recommend.json" \
             --include "updates.json" \
             --include "recommend.html" \
             --include "recommend_pages/*"
 
-      - name: Invalidate QA CloudFront
+      - name: Invalidate QA CloudFront (targeted)
+        env: { QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }} }
         run: |
           L=$(TZ=Asia/Tokyo date +%F)
           aws cloudfront create-invalidation \
-            --distribution-id "${{ secrets.CF_DISTRIBUTION_ID_QA }}" \
-            --paths "/updates.json" "/recommend.json" "/recommend.html" "/recommend_pages/recommend-${L}.html"
+            --distribution-id "$QA_CF_ID" \
+            --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
 
-      - name: Restore full recommend.json
-        run: |
-          test -f /tmp/recommend.full.json && mv /tmp/recommend.full.json public/recommend.json || true
-
-      - name: Commit artifacts back to QA (optional)
+      # Quick は通知なし（検証用）
+      - name: Commit artifacts back to QA
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A public
-          git commit -m "ci(qa-quick): update artifacts ($(date -u +%F))" || echo "no changes"
+          git add public/recommend.json public/recommend.html public/recommend_pages public/updates.json
+          git commit -m "ci(qa): rebuild/filter/generate (quick)" || echo "no changes"
           git push origin HEAD:qa || true

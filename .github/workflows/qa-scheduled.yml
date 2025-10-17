@@ -35,6 +35,7 @@ jobs:
         run: node scripts/ingest-today.mjs
       - name: Update updates.json (no commit)
         run: node scripts/update-updates-json.mjs
+
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
@@ -48,8 +49,7 @@ jobs:
 
       - name: Sync to QA S3
         if: ${{ secrets.S3_BUCKET_QA != '' }}
-        env:
-          QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
+        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
         run: |
           aws s3 sync public "s3://${QA_BUCKET}/" --delete \
             --exclude "*" \

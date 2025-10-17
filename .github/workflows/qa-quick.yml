@@ -42,8 +42,7 @@ jobs:
 
       - name: Sync to QA S3
         if: ${{ secrets.S3_BUCKET_QA != '' }}
-        env:
-          QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
+        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
         run: |
           aws s3 sync public "s3://${QA_BUCKET}/" --delete \
             --exclude "*" \

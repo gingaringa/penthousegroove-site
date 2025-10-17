@@ -1,9 +1,0 @@
-name: ZZ Ping (dispatch sanity)
-on: [workflow_dispatch]
-permissions:
-  contents: read
-jobs:
-  ping:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "OK: workflow_dispatch works $(date -u +%FT%TZ)"

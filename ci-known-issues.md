@@ -1,10 +1,17 @@
-## ingest-today.mjs: TypeError: arr.some is not a function
-- 現象: GitHub Actions の `Ingest (no commit)` で TypeError、Job が失敗。
-- 原因: `public/recommend.json` が配列ではなく `{items:[...]}` 形式のときに `arr` が配列になっていない。
-- 対応: `arr = Array.isArray(d)? d : (Array.isArray(d.items)? d.items : [])` に修正。`.some()` 呼び出しは配列ガード。
-- 再発抑止: Workflow 側で `continue-on-error: true` を設定。
+# CI Known Issues (quick reference)
 
-## Workflow YAML: Unrecognized named-value: 'secrets' in if:
-- 現象: GUI に "Invalid workflow file ... Unrecognized named-value: 'secrets'"。
-- 原因: `if: ${{ secrets.FOO != '' }}` を置く位置や書式のミスで式が解釈されない。
-- 対応: `if:` を使わず、シェル内 `if [ -n "$ENV" ]; then ... fi` へ変更し、ENV は `env:` で注入。
+## 1) zsh: parse error near ')'
+- 原因: 長いワンライナーを zsh に貼ると `$(...)`/正規表現/全角文字混在で構文崩れ
+- 対応: `bash --noprofile --norc` で実行、または1行ずつに分ける
+
+## 2) scripts/ingest-today.mjs: TypeError: arr.some is not a function
+- 原因: recommend.json が {items:[...]} 形のときに配列前提で .some を呼ぶ
+- 対応: 
+  const d = JSON.parse(fs.readFileSync(p,'utf8'));
+  const arr = Array.isArray(d) ? d : (d.items || []);
+
+## 3) public/generate-recommend-pages.js: TypeError: data is not iterable
+- 原因: recommend.json が {items:[...]} 形のとき data を配列にしていない
+- 対応:
+  const _raw = JSON.parse(...);
+  const data = Array.isArray(_raw) ? _raw : (_raw.items || []);

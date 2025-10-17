@@ -16,12 +16,30 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Sanity check (which secrets are set)
+        env:
+          HAS_AWS_ID:           ${{ secrets.AWS_ACCESS_KEY_ID }}
+          HAS_AWS_SECRET:       ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          HAS_REGION:           ${{ secrets.AWS_REGION }}
+          HAS_BUCKET:           ${{ secrets.S3_BUCKET_QA }}
+          HAS_CF:               ${{ secrets.CF_DISTRIBUTION_ID_QA }}
+          HAS_NOTIFY_URL:       ${{ secrets.QA_NOTIFY_URL }}
+          HAS_NOTIFY_TOKEN:     ${{ secrets.QA_NOTIFY_TOKEN }}
+        run: |
+          for v in HAS_AWS_ID HAS_AWS_SECRET HAS_REGION HAS_BUCKET HAS_CF HAS_NOTIFY_URL HAS_NOTIFY_TOKEN; do
+            if [ -n "${!v}" ]; then echo "$v=SET"; else echo "$v=EMPTY"; fi
+          done
+
+      - name: Install deps if package.json exists
+        run: |
+          if [ -f package.json ]; then npm ci --no-audit --prefer-offline; fi
+
       - name: Rebuild recommend.json (full)
         run: node scripts/rebuild-recommend.mjs
 
       - name: Filter recommend.json to <= today (JST)
         shell: bash
-        run: |
+        run: >
           node -e "const fs=require('fs');const p='public/recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(d.items||[]);const today=new Date().toISOString().slice(0,10);const out=items.filter(x=>(x.date||'')<=today);fs.writeFileSync(p,JSON.stringify({items:out},null,2));"
 
       - name: Generate pages
@@ -35,7 +53,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
 
-      - name: Sync to QA S3 (shell guard)
+      - name: Sync to QA S3 (guard in shell)
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
         run: |
@@ -47,20 +65,19 @@ jobs:
             echo "skip: S3_BUCKET_QA is empty"
           fi
 
-      - name: Invalidate QA CloudFront (shell guard)
+      - name: Invalidate QA CloudFront (guard in shell)
         env:
           QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
         run: |
           if [ -n "$QA_CF_ID" ]; then
             L=$(TZ=Asia/Tokyo date +%F)
-            aws cloudfront create-invalidation \
-              --distribution-id "$QA_CF_ID" \
+            aws cloudfront create-invalidation --distribution-id "$QA_CF_ID" \
               --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
           else
             echo "skip: CF_DISTRIBUTION_ID_QA is empty"
           fi
 
-      - name: Trigger QA notify (shell guard)
+      - name: Trigger QA notify (guard in shell)
         env:
           QA_NOTIFY_URL:   ${{ secrets.QA_NOTIFY_URL }}
           QA_NOTIFY_TOKEN: ${{ secrets.QA_NOTIFY_TOKEN }}

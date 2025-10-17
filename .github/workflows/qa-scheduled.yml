@@ -12,32 +12,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: qa
+        with: { ref: qa }
       - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
+        with: { node-version: '22' }
+
       - name: Rebuild recommend.json (full)
         run: node scripts/rebuild-recommend.mjs
+
       - name: Filter recommend.json to <= today (JST)
         run: |
-          node -e "const fs=require('fs');const p='public/recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(d.items||[]);const today=new Date().toISOString().slice(0,10);const out=items.filter(x=>(x.date||'')<=today);const outData=Array.isArray(d)?out:{...d,items:out};fs.writeFileSync(p,JSON.stringify(outData,null,2));"
+          node -e "const fs=require('fs');const p='public/recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(d.items||[]);const today=new Date().toISOString().slice(0,10);const out=items.filter(x=>(x.date||'')<=today);fs.writeFileSync(p,JSON.stringify(out,null,2));"
+
       - name: Ingest (no commit)
         run: node scripts/ingest-today.mjs
       - name: Update updates.json (no commit)
         run: node scripts/update-updates-json.mjs
+
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
+
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          aws-region:            ${{ secrets.AWS_REGION }}
+
       - name: Sync to QA S3
-        env:
-          QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
+        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
         run: |
           if [ -n "$QA_BUCKET" ]; then
             aws s3 sync public "s3://${QA_BUCKET}/" --delete \
@@ -49,9 +52,9 @@ jobs:
           else
             echo "skip: S3_BUCKET_QA is empty"
           fi
+
       - name: Invalidate QA CloudFront
-        env:
-          QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
+        env: { QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }} }
         run: |
           if [ -n "$QA_CF_ID" ]; then
             L=$(TZ=Asia/Tokyo date +%F)
@@ -60,6 +63,7 @@ jobs:
           else
             echo "skip: CF_DISTRIBUTION_ID_QA is empty"
           fi
+
       - name: Trigger QA notify
         env:
           QA_NOTIFY_URL:   ${{ secrets.QA_NOTIFY_URL }}

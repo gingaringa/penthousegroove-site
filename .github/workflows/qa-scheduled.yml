@@ -15,10 +15,8 @@ jobs:
         with: { ref: qa }
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
-
       - name: Rebuild recommend.json (full)
         run: node scripts/rebuild-recommend.mjs
-
       - name: Filter recommend.json to <= today (JST)
         run: |
           node - <<'JS'
@@ -30,42 +28,35 @@ jobs:
           const out = items.filter(x => (x.date || '') <= today);
           fs.writeFileSync(p, JSON.stringify({items: out}, null, 2));
           JS
-
       - name: Ingest (no commit)
         run: node scripts/ingest-today.mjs
       - name: Update updates.json (no commit)
         run: node scripts/update-updates-json.mjs
-
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
-
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
-
       - name: Sync to QA S3
-        if: ${{ secrets.S3_BUCKET_QA != '' }}
-        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
         run: |
-          aws s3 sync public "s3://${QA_BUCKET}/" --delete \
+          if [ -z "${{ secrets.S3_BUCKET_QA }}" ]; then echo "skip S3 (no bucket)"; exit 0; fi
+          aws s3 sync public "s3://${{ secrets.S3_BUCKET_QA }}/" --delete \
             --exclude "*" \
             --include "recommend.json" \
             --include "updates.json" \
             --include "recommend.html" \
             --include "recommend_pages/*"
-
       - name: Invalidate QA CloudFront
-        if: ${{ secrets.CF_DISTRIBUTION_ID_QA != '' }}
         run: |
+          if [ -z "${{ secrets.CF_DISTRIBUTION_ID_QA }}" ]; then echo "skip CF (no id)"; exit 0; fi
           aws cloudfront create-invalidation \
             --distribution-id "${{ secrets.CF_DISTRIBUTION_ID_QA }}" \
             --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-$(TZ=Asia/Tokyo date +%F).html"
-
       - name: Trigger QA notify
-        if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
         run: |
+          if [ -z "${{ secrets.QA_NOTIFY_URL }}" ] || [ -z "${{ secrets.QA_NOTIFY_TOKEN }}" ]; then echo "skip notify (no secrets)"; exit 0; fi
           curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"

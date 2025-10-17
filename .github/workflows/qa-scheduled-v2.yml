@@ -24,20 +24,22 @@ jobs:
       - name: Filter recommend.json to <= today (JST)
         run: |
           node - <<'JS'
-          const fs=require('fs');
-          const p='public/recommend.json';
-          const d=JSON.parse(fs.readFileSync(p,'utf8'));
-          const items=Array.isArray(d)?d:(d.items||[]);
-          const today=new Date().toISOString().slice(0,10);
-          const out=items.filter(x=>(x.date||'')<=today);
+          const fs = require('fs');
+          const p = 'public/recommend.json';
+          const d = JSON.parse(fs.readFileSync(p,'utf8'));
+          const items = Array.isArray(d) ? d : (d.items || []);
+          const today = new Date().toISOString().slice(0,10);
+          const out = items.filter(x => (x.date || '') <= today);
           fs.writeFileSync(p, JSON.stringify({items: out}, null, 2));
           JS
 
-      - name: Ingest (best-effort)
-        run: node scripts/ingest-today.mjs || echo "::warning::ingest-today failed (continuing)"
+      - name: Ingest (no commit)
+        continue-on-error: true
+        run: node scripts/ingest-today.mjs
 
-      - name: Update updates.json (best-effort)
-        run: node scripts/update-updates-json.mjs || echo "::warning::update-updates-json failed (continuing)"
+      - name: Update updates.json (no commit)
+        continue-on-error: true
+        run: node scripts/update-updates-json.mjs
 
       - name: Generate pages
         working-directory: public
@@ -50,7 +52,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
 
-      - name: Sync to QA S3 (guarded)
+      - name: Sync to QA S3
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
         run: |
@@ -62,10 +64,10 @@ jobs:
               --include "recommend.html" \
               --include "recommend_pages/*"
           else
-            echo "skip: S3_BUCKET_QA is empty"
+            echo "::notice::skip S3 sync; S3_BUCKET_QA is empty"
           fi
 
-      - name: Invalidate QA CloudFront (guarded)
+      - name: Invalidate QA CloudFront
         env:
           QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
         run: |
@@ -74,10 +76,10 @@ jobs:
             aws cloudfront create-invalidation --distribution-id "$QA_CF_ID" \
               --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
           else
-            echo "skip: CF_DISTRIBUTION_ID_QA is empty"
+            echo "::notice::skip CloudFront; CF_DISTRIBUTION_ID_QA is empty"
           fi
 
-      - name: Trigger QA notify (guarded)
+      - name: Trigger QA notify
         env:
           QA_NOTIFY_URL: ${{ secrets.QA_NOTIFY_URL }}
           QA_NOTIFY_TOKEN: ${{ secrets.QA_NOTIFY_TOKEN }}
@@ -85,5 +87,5 @@ jobs:
           if [ -n "$QA_NOTIFY_URL" ] && [ -n "$QA_NOTIFY_TOKEN" ]; then
             curl -fSs -X POST "$QA_NOTIFY_URL/admin/notify-send?token=$QA_NOTIFY_TOKEN" | tee notify.json
           else
-            echo '{"sent": false, "reason": "missing notify env"}' | tee notify.json
+            echo '{"sent": false, "reason":"missing notify env"}' | tee notify.json
           fi

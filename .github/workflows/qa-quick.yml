@@ -2,7 +2,7 @@ name: QA Quick Deploy
 on:
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 env:
   TZ: Asia/Tokyo
 jobs:
@@ -14,29 +14,34 @@ jobs:
           ref: qa
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
+
       - name: Rebuild recommend.json (full)
         run: node scripts/rebuild-recommend.mjs
+
       - name: Filter recommend.json to <= today (JST)
         run: |
           node -e '
             const fs=require("fs");
             const p="public/recommend.json";
             const d=JSON.parse(fs.readFileSync(p,"utf8"));
-            const today=new Date().toLocaleDateString("sv-SE",{timeZone:"Asia/Tokyo"});
-            const list=(d.items||d).filter(x=>String(x.date||"")<=today);
-            const out=Array.isArray(d.items)?{...d,items:list}:list;
-            fs.writeFileSync(p,JSON.stringify(out,null,2));
+            const items=Array.isArray(d)?d:(d.items||[]);
+            const today=new Date().toISOString().slice(0,10);
+            const kept=items.filter(x=> (x.date||"")<=today);
+            fs.writeFileSync(p, JSON.stringify(kept, null, 2));
           '
+
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
+
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          aws-region:            ${{ secrets.AWS_REGION }}
+
       - name: Sync to QA S3
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
@@ -47,6 +52,7 @@ jobs:
             --include "updates.json" \
             --include "recommend.html" \
             --include "recommend_pages/*"
+
       - name: Invalidate QA CloudFront (targeted)
         if: ${{ secrets.CF_DISTRIBUTION_ID_QA != '' }}
         env:
@@ -56,10 +62,8 @@ jobs:
           aws cloudfront create-invalidation \
             --distribution-id "$QA_CF_ID" \
             --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
-      - name: Commit artifacts back to QA
+
+      - name: Trigger QA notify
+        if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/recommend.json public/recommend.html public/recommend_pages public/updates.json || true
-          git commit -m "ci(qa): quick rebuild/filter/generate" || echo "no changes"
-          git push origin HEAD:qa || true
+          curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"

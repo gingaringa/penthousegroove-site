@@ -1,0 +1,9 @@
+name: ZZ Ping 4 (dispatch sanity)
+on: [workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "OK: workflow_dispatch works"

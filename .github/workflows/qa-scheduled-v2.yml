@@ -29,7 +29,7 @@ jobs:
       - name: Rebuild recommend.json (full)
         run: node scripts/rebuild-recommend.mjs
 
-      - name: Filter recommend.json to <= today (JST)
+      - name: Filter recommend.json to <= today (JST)  # ← 配列のまま保存
         shell: bash
         run: |
           node - <<'JS'
@@ -37,9 +37,9 @@ jobs:
           const p='public/recommend.json';
           const d=JSON.parse(fs.readFileSync(p,'utf8'));
           const items=Array.isArray(d)?d:(d.items||[]);
-          const today=new Date().toISOString().slice(0,10);
-          const out=items.filter(x=>String(x.date||'')<=today);
-          fs.writeFileSync(p, JSON.stringify({items: out}, null, 2));
+          const t=new Date().toISOString().slice(0,10);
+          const out=items.filter(x=>String(x.date||'')<=t);
+          fs.writeFileSync(p, JSON.stringify(out, null, 2)); // ★ 配列で書く
           JS
 
       - name: Ingest today (no commit)

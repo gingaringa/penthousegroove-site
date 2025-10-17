@@ -17,63 +17,39 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-
-      - name: Sanity check (which secrets are set)
-        env:
-          HAS_AWS_ID:           ${{ secrets.AWS_ACCESS_KEY_ID }}
-          HAS_AWS_SECRET:       ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          HAS_REGION:           ${{ secrets.AWS_REGION }}
-          HAS_BUCKET:           ${{ secrets.S3_BUCKET_QA }}
-          HAS_CF:               ${{ secrets.CF_DISTRIBUTION_ID_QA }}
-          HAS_NOTIFY_URL:       ${{ secrets.QA_NOTIFY_URL }}
-          HAS_NOTIFY_TOKEN:     ${{ secrets.QA_NOTIFY_TOKEN }}
-        run: |
-          for v in HAS_AWS_ID HAS_AWS_SECRET HAS_REGION HAS_BUCKET HAS_CF HAS_NOTIFY_URL HAS_NOTIFY_TOKEN; do
-            if [ -n "${!v}" ]; then echo "$v=SET"; else echo "$v=EMPTY"; fi
-          done
-
-      - name: Install deps if package.json exists
-        run: |
-          if [ -f package.json ]; then npm ci --no-audit --prefer-offline; fi
-
       - name: Rebuild recommend.json (full)
         run: node scripts/rebuild-recommend.mjs
-
       - name: Filter recommend.json to <= today (JST)
-        shell: bash
-        run: >
-          node -e "const fs=require('fs');const p='public/recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(d.items||[]);const today=new Date().toISOString().slice(0,10);const out=items.filter(x=>(x.date||'')<=today);fs.writeFileSync(p,JSON.stringify({items:out},null,2));"
-
+        run: |
+          node -e "const fs=require('fs');const p='public/recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(d.items||[]);const today=new Date().toISOString().slice(0,10);const out=items.filter(x=>(x.date||'')<=today);const outData=Array.isArray(d)?out:{...d,items:out};fs.writeFileSync(p,JSON.stringify(outData,null,2));"
       - name: Ingest (no commit)
         run: node scripts/ingest-today.mjs
-
       - name: Update updates.json (no commit)
         run: node scripts/update-updates-json.mjs
-
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
-
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region:            ${{ secrets.AWS_REGION }}
-
-      - name: Sync to QA S3 (guard in shell)
+          aws-region: ${{ secrets.AWS_REGION }}
+      - name: Sync to QA S3
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
         run: |
           if [ -n "$QA_BUCKET" ]; then
-            aws s3 sync public "s3://${QA_BUCKET}/" --delete --exclude "*" \
-              --include "recommend.json" --include "updates.json" \
-              --include "recommend.html" --include "recommend_pages/*"
+            aws s3 sync public "s3://${QA_BUCKET}/" --delete \
+              --exclude "*" \
+              --include "recommend.json" \
+              --include "updates.json" \
+              --include "recommend.html" \
+              --include "recommend_pages/*"
           else
             echo "skip: S3_BUCKET_QA is empty"
           fi
-
-      - name: Invalidate QA CloudFront (guard in shell)
+      - name: Invalidate QA CloudFront
         env:
           QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
         run: |
@@ -84,8 +60,7 @@ jobs:
           else
             echo "skip: CF_DISTRIBUTION_ID_QA is empty"
           fi
-
-      - name: Trigger QA notify (guard in shell)
+      - name: Trigger QA notify
         env:
           QA_NOTIFY_URL:   ${{ secrets.QA_NOTIFY_URL }}
           QA_NOTIFY_TOKEN: ${{ secrets.QA_NOTIFY_TOKEN }}

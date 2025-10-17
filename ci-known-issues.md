@@ -15,3 +15,8 @@
 - 対応:
   const _raw = JSON.parse(...);
   const data = Array.isArray(_raw) ? _raw : (_raw.items || []);
+
+## Bash history expansion and one-liners
+- 現象: perl/sed ワンライナー内の ! で event not found
+- 対応: bash --noprofile --norc で入り、set +H を実行
+

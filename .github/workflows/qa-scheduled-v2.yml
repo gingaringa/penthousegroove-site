@@ -1,5 +1,4 @@
 name: QA Scheduled Deploy & Notify (v2)
-
 on:
   schedule:
     # 07:10 JST（UTC 22:10）
@@ -73,30 +72,20 @@ jobs:
             echo "skip: scripts/update-updates-json.mjs missing"
           fi
 
-      # ← ここからページ生成。JSON 形の揺れ対策として一時的に配列に正規化して実行し、終わったら元に戻す
+      # ← ここをヒアドキュメント→node -e に置換
       - name: Generate pages (guarded)
         shell: bash
         working-directory: public
         run: |
           set -e
           if [ -f generate-recommend-pages.js ] && [ -f recommend.json ]; then
-            # backup
             cp recommend.json recommend.orig.json
-            # 配列に正規化
-            node - <<'JS'
-            const fs=require('fs');
-            const p='recommend.json';
-            const d=JSON.parse(fs.readFileSync(p,'utf8'));
-            const items=Array.isArray(d)?d:(Array.isArray(d.items)?d.items:[]);
-            fs.writeFileSync('_recommend.gen.json', JSON.stringify(items,null,2));
-            JS
+            node -e "const fs=require('fs');const p='recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(Array.isArray(d.items)?d.items:[]);fs.writeFileSync('_recommend.gen.json', JSON.stringify(items,null,2));"
             mv _recommend.gen.json recommend.json
-            # 生成（失敗しても後続を続ける）
-            node generate-recommend-pages.js || { echo "warn: page generation failed (continuing)"; }
-            # restore
+            node generate-recommend-pages.js || { echo 'warn: page generation failed (continuing)'; }
             mv -f recommend.orig.json recommend.json || true
           else
-            echo "skip: generator or recommend.json missing"
+            echo 'skip: generator or recommend.json missing'
           fi
 
       - name: Configure AWS

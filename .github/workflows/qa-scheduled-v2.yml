@@ -18,18 +18,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: qa
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci --no-audit --no-fund
 
       - name: Rebuild recommend.json (full)
         run: node scripts/rebuild-recommend.mjs
 
-      - name: Filter recommend.json to <= today (JST)  # ← 配列のまま保存
+      - name: Filter recommend.json to <= today (JST)  # keep as array
         shell: bash
         run: |
           node - <<'JS'
@@ -39,7 +36,7 @@ jobs:
           const items=Array.isArray(d)?d:(d.items||[]);
           const t=new Date().toISOString().slice(0,10);
           const out=items.filter(x=>String(x.date||'')<=t);
-          fs.writeFileSync(p, JSON.stringify(out, null, 2)); // ★ 配列で書く
+          fs.writeFileSync(p, JSON.stringify(out, null, 2));
           JS
 
       - name: Ingest today (no commit)

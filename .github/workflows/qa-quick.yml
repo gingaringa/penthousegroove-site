@@ -31,22 +31,20 @@ jobs:
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
-      - name: Update updates.json (no commit)
-        run: node scripts/update-updates-json.mjs
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region:            ${{ secrets.AWS_REGION }}
+          aws-region: ${{ secrets.AWS_REGION }}
       - name: Sync to QA S3
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
         run: |
           aws s3 sync public "s3://${QA_BUCKET}/" --delete \
             --exclude "*" \
-            --include "updates.json" \
             --include "recommend.json" \
+            --include "updates.json" \
             --include "recommend.html" \
             --include "recommend_pages/*"
       - name: Invalidate QA CloudFront (targeted)

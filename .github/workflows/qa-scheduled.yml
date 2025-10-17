@@ -16,62 +16,29 @@ jobs:
           ref: qa
       - uses: actions/setup-node@v4
         with:
-          node-version: "22"
-
-      - name: Ingest (no commit)
-        run: node scripts/ingest-today.mjs
-
-      - name: Update updates.json (no commit)
-        run: node scripts/update-updates-json.mjs
-
-      - name: Bump updates.json lastUpdate (auto)
-        run: |
-          python - <<'PY'
-          import json,glob,io,re,datetime
-          files = glob.glob('content/daily/*.json')
-          dates=[]
-          for p in files:
-            m=re.search(r'(\d{4}-\d{2}-\d{2})\.json$', p)
-            if m: dates.append(m.group(1))
-          today=datetime.date.today().isoformat()
-          dates=[d for d in dates if d<=today]
-          if not dates: raise SystemExit(0)
-          latest=max(dates).replace('-','')
-          path='public/updates.json'
-          d=json.load(io.open(path,encoding='utf-8'))
-          if (d.get('recommend') or {}).get('lastUpdate')!=latest:
-            d.setdefault('recommend',{})['lastUpdate']=latest
-            with io.open(path,'w',encoding='utf-8') as f:
-              json.dump(d,f,ensure_ascii=False,indent=2)
-          print('lastUpdate ->', latest)
-          PY
-
+          node-version: '22'
       - name: Rebuild recommend.json (full)
         run: node scripts/rebuild-recommend.mjs
-
       - name: Filter recommend.json to <= today (JST)
         run: |
-          node -e '
-            const fs=require("fs");
-            const p="public/recommend.json";
-            const d=JSON.parse(fs.readFileSync(p,"utf8"));
-            const items=Array.isArray(d)?d:(d.items||[]);
-            const today=new Date().toISOString().slice(0,10);
-            const kept=items.filter(x=> (x.date||"")<=today);
-            fs.writeFileSync(p, JSON.stringify(kept, null, 2));
-          '
-
+          node - <<'JS'
+          const fs=require('fs');
+          const p='public/recommend.json';
+          const raw=JSON.parse(fs.readFileSync(p,'utf8'));
+          const items=Array.isArray(raw)?raw:(raw.items||[]);
+          const today=new Date().toISOString().slice(0,10);
+          const out={items: items.filter(x => (x.date||'') <= today)};
+          fs.writeFileSync(p, JSON.stringify(out,null,2));
+          JS
       - name: Generate pages
         working-directory: public
         run: node generate-recommend-pages.js
-
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
-
       - name: Sync to QA S3
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
@@ -82,17 +49,14 @@ jobs:
             --include "updates.json" \
             --include "recommend.html" \
             --include "recommend_pages/*"
-
-      - name: Invalidate QA CloudFront (targeted)
+      - name: Invalidate QA CloudFront
         if: ${{ secrets.CF_DISTRIBUTION_ID_QA != '' }}
         env:
           QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
         run: |
           L=$(TZ=Asia/Tokyo date +%F)
-          aws cloudfront create-invalidation \
-            --distribution-id "$QA_CF_ID" \
+          aws cloudfront create-invalidation --distribution-id "$QA_CF_ID" \
             --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
-
       - name: Trigger QA notify
         if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
         run: |

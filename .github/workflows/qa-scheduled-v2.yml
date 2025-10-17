@@ -3,18 +3,23 @@ on:
   schedule:
     - cron: '10 22 * * *'
   workflow_dispatch:
+
 permissions:
   contents: read
+
 env:
   TZ: Asia/Tokyo
+
 jobs:
   qa-scheduled:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: { ref: qa }
+        with:
+          ref: qa
       - uses: actions/setup-node@v4
-        with: { node-version: '22' }
+        with:
+          node-version: '22'
 
       - name: Rebuild recommend.json
         run: node scripts/rebuild-recommend.mjs
@@ -33,6 +38,7 @@ jobs:
 
       - name: Ingest (no commit)
         run: node scripts/ingest-today.mjs
+
       - name: Update updates.json (no commit)
         run: node scripts/update-updates-json.mjs
 
@@ -43,13 +49,14 @@ jobs:
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region:            ${{ secrets.AWS_REGION }}
+          aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Sync to QA S3
         if: ${{ secrets.S3_BUCKET_QA != '' }}
-        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
+        env:
+          QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
         run: |
           aws s3 sync public "s3://${QA_BUCKET}/" --delete \
             --exclude "*" \
@@ -60,7 +67,8 @@ jobs:
 
       - name: Invalidate QA CloudFront
         if: ${{ secrets.CF_DISTRIBUTION_ID_QA != '' }}
-        env: { QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }} }
+        env:
+          QA_CF_ID: ${{ secrets.CF_DISTRIBUTION_ID_QA }}
         run: |
           if [ -n "$QA_CF_ID" ]; then
             L=$(TZ=Asia/Tokyo date +%F)

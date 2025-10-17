@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const data = JSON.parse(fs.readFileSync('recommend.json', 'utf8'));
-
+const _raw = JSON.parse(fs.readFileSync('recommend.json', 'utf8'));
+const data = Array.isArray(_raw) ? _raw : (Array.isArray(_raw.items) ? _raw.items : []);
 // recommend_pagesディレクトリがなければ作成
 if (!fs.existsSync('recommend_pages')) {
   fs.mkdirSync('recommend_pages');

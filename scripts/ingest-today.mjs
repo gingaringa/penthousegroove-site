@@ -18,10 +18,10 @@ if (!fs.existsSync(recommendPath)) {
 }
 
 const daily = JSON.parse(fs.readFileSync(dailyPath, 'utf8'));
-const arr   = JSON.parse(fs.readFileSync(recommendPath, 'utf8'));
+const arr = Array.isArray(d) ? d : (Array.isArray(d.items) ? d.items : []);
 
 // 同日重複を防ぐ（idempotent）
-if (arr.some(x => x.date === today)) {
+if ((Array.isArray(arr)?arr:[]).some(x => x.date === today)) {
   console.log(`[ingest] ${today}: already appended -> NOOP`);
   process.exit(0);
 }

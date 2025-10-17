@@ -18,16 +18,9 @@ jobs:
         run: node scripts/rebuild-recommend.mjs
 
       - name: Filter recommend.json to <= today (JST)
-        run: |
-          node - <<'JS'
-          const fs = require('fs');
-          const p = 'public/recommend.json';
-          const d = JSON.parse(fs.readFileSync(p,'utf8'));
-          const items = Array.isArray(d) ? d : (d.items || []);
-          const today = new Date().toISOString().slice(0,10);
-          const out = items.filter(x => (x.date || '') <= today);
-          fs.writeFileSync(p, JSON.stringify({items: out}, null, 2));
-          JS
+        shell: bash
+        run: >
+          node -e "const fs=require('fs');const p='public/recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(d.items||[]);const today=new Date().toISOString().slice(0,10);const out=items.filter(x=>(x.date||'')<=today);fs.writeFileSync(p,JSON.stringify({items:out},null,2));"
 
       - name: Generate pages
         working-directory: public
@@ -42,23 +35,20 @@ jobs:
 
       - name: Sync to QA S3
         if: ${{ secrets.S3_BUCKET_QA != '' }}
-        env: { QA_BUCKET: ${{ secrets.S3_BUCKET_QA }} }
+        env:
+          QA_BUCKET: ${{ secrets.S3_BUCKET_QA }}
         run: |
-          aws s3 sync public "s3://${QA_BUCKET}/" --delete \
-            --exclude "*" \
-            --include "recommend.json" \
-            --include "updates.json" \
-            --include "recommend.html" \
-            --include "recommend_pages/*"
+          aws s3 sync public "s3://${QA_BUCKET}/" --delete --exclude "*" \
+            --include "recommend.json" --include "updates.json" \
+            --include "recommend.html" --include "recommend_pages/*"
 
       - name: Invalidate QA CloudFront
         if: ${{ secrets.CF_DISTRIBUTION_ID_QA != '' }}
-        run: |
-          aws cloudfront create-invalidation \
-            --distribution-id "${{ secrets.CF_DISTRIBUTION_ID_QA }}" \
-            --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-$(TZ=Asia/Tokyo date +%F).html"
+        run: >
+          aws cloudfront create-invalidation --distribution-id "${{ secrets.CF_DISTRIBUTION_ID_QA }}" \
+          --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-$(TZ=Asia/Tokyo date +%F).html"
 
       - name: Trigger QA notify
         if: ${{ secrets.QA_NOTIFY_URL != '' && secrets.QA_NOTIFY_TOKEN != '' }}
-        run: |
+        run: >
           curl -fSs -X POST "${{ secrets.QA_NOTIFY_URL }}/admin/notify-send?token=${{ secrets.QA_NOTIFY_TOKEN }}"

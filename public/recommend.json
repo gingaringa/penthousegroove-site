@@ -4702,5 +4702,51 @@
     "mood": ["mid", "high"],
     "country": ["Australia"],
     "city": ["Melbourne"]
+  },
+  {
+    "date": "2025-10-20",
+    "title": "Take Me To New York – Brooklyn Bridge Group",
+    "comment": "<p>フルート／ブラスの鋭いフレーズと随所に散りばめられたサイケデリックな電子音。<br>ライブラリの風合いと勢いのあるホーンが印象的な一曲。</p><p>Sharp flute/brass phrases with psychedelic electronic touches scattered throughout.<br>A striking cut with a library-music feel and energetic, punchy horns.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/take-me-to-new-york/1739875318?i=1739875801",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2025-10-21",
+    "title": "Reasons – Minnie Riperton",
+    "comment": "<p>ギターのリックとタイトなドラムが牽引するロックチューン。<br>Minnie Ripertonならではの伸びやかな高音がロックの文脈でも確かな煌めきを見せる一曲。</p><p>A rock tune driven by guitar licks and tight drums. Minnie Riperton’s signature soaring highs shine with a distinct sparkle, even in a rock setting.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/reasons/1443067528?i=1443067530",
+    "amazon_url": "https://amzn.to/4opJ191",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2025-10-22",
+    "title": "Pé no Chão – Grupo Ébano",
+    "comment": "<p>サンバ〜MPBの気配にコーラスが映えるブリージー・グルーヴ。<br>リズムギターとコーラスによる、南米的な熱気と都会的な印象の両方を持ち合わせる一曲。</p><p>A breezy groove where the chorus shines over samba-to-MPB vibes.<br>With rhythm guitar and choral vocals, it blends South American heat with an urban sheen.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/p%C3%A9-no-ch%C3%A3o/1692361733?i=1692361745",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2025-10-23",
+    "title": "We Don’t Need No Smurf Here – Cosmo Vitelli",
+    "comment": "<p>各所に差し込まれるスキャットと電子音が創出する怪しげなサウンド。<br>エレクトロニックなテクスチャとヌージャズの陰影が交差する一曲。</p><p>Scat interjections and electronic tones scattered throughout conjure a shadowy atmosphere.<br>Electronic textures intersect with nu-jazz shadings here.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/we-dont-need-no-smurf-here-dj-matsuoka-remix/272212705?i=272212708",
+    "amazon_url": "https://amzn.to/472LGy8",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["France"],
+    "city": ["Paris"]
   }
 ]

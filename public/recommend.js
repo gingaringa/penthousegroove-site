@@ -113,8 +113,9 @@ async function initRecommend() {
   // 先に deeplink を試す（JSON取得に失敗してもスクロールは効かせたい）
   try { await handleDeepLinkScroll(); } catch (_) {}
 
-  const data = await fetchJsonWithBust(JSON_URL);
-  if (window.__pglog) window.__pglog(data ? "[fetch] ok (" + (Array.isArray(data) ? data.length : "n/a") + " items)" : "[fetch] failed");
+  const raw = await fetchJsonWithBust(JSON_URL);
+  const data = Array.isArray(raw) ? raw : (raw && Array.isArray(raw.items) ? raw.items : []);
+if (window.__pglog) window.__pglog(data ? "[fetch] ok (" + (Array.isArray(data) ? data.length : "n/a") + " items)" : "[fetch] failed");
   if (!Array.isArray(data) || data.length === 0) {
     console.warn("[recommend] empty or invalid JSON");
     setupShareMenu('', '今日のおすすめ'); // JSONが取れなくてもShareは動く

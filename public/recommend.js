@@ -115,6 +115,11 @@ async function initRecommend() {
 
   const raw = await fetchJsonWithBust(JSON_URL);
   const data = Array.isArray(raw) ? raw : (raw && Array.isArray(raw.items) ? raw.items : []);
+
+  // --- JST cutoff: 今日(<=)のみ可視化 ---
+  const __jstNow = new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Tokyo'}));
+  const __cutoff = __jstNow.getFullYear()+'-'+String(__jstNow.getMonth()+1).padStart(2,'0')+'-'+String(__jstNow.getDate()).padStart(2,'0');
+  const available = (Array.isArray(data) ? data : []).filter(x => x && x.date && x.date <= __cutoff);
 if (window.__pglog) window.__pglog(data ? "[fetch] ok (" + (Array.isArray(data) ? data.length : "n/a") + " items)" : "[fetch] failed");
   if (!Array.isArray(data) || data.length === 0) {
     console.warn("[recommend] empty or invalid JSON");
@@ -123,7 +128,7 @@ if (window.__pglog) window.__pglog(data ? "[fetch] ok (" + (Array.isArray(data) 
   }
 
   // ✅ 最新曲は「配列末尾」前提をやめ、date最大の要素で判定
-  const latest = data.reduce((a, b) => (parseYMD(a.date) > parseYMD(b.date) ? a : b));
+  const latest = (available.length ? available : data).reduce((a, b) => (parseYMD(a.date) > parseYMD(b.date) ? a : b));
   if (window.__pglog) window.__pglog("[latest] " + (latest && latest.title ? latest.title : "(no title)"));
 
   // ====== main index: wait for elements (LINE WebView で遅延出現する対策) ======
@@ -143,7 +148,7 @@ if (window.__pglog) window.__pglog(data ? "[fetch] ok (" + (Array.isArray(data) 
   // ====== recommend.html のアーカイブ表示 ======
   const listEl = document.getElementById("recommend-list") || document.getElementById("recommend-archive-list");
   if (listEl) {
-    const sorted = [...data].sort((a, b) => parseYMD(b.date) - parseYMD(a.date));
+    const sorted = [...(available.length ? available : data)].sort((a, b) => parseYMD(b.date) - parseYMD(a.date));
     sorted.forEach((item) => {
       const li = document.createElement("li");
 

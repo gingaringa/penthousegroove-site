@@ -35,6 +35,9 @@ jobs:
             echo "skip: no scripts/rebuild-recommend.mjs"
             mkdir -p public
             [ -f public/recommend.json ] || echo '{"items":[]}' > public/recommend.json
+            aws cloudfront create-invalidation --distribution-id "$QA_CF_ID" \
+              --paths "/recommend.html"
+
           fi
 
       - name: Filter recommend.json to <= today (JST)

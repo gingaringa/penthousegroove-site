@@ -66,7 +66,7 @@ jobs:
           L=$(TZ=Asia/Tokyo date +%F)
           aws cloudfront create-invalidation \
             --distribution-id "$QA_CF_ID" \
-            --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
+            --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html" "/recommend.html"
 
       # Quick は通知なし（検証用）
       - name: Commit artifacts back to QA

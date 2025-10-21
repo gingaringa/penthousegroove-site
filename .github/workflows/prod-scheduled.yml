@@ -99,7 +99,7 @@ jobs:
       - name: Sync to PROD S3 (guarded)
         shell: bash
         env:
-          QA_BUCKET: ${{ secrets.S3_BUCKET }}
+          PROD_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
           set -e
           if [ -n "${PROD_BUCKET:-}" ]; then

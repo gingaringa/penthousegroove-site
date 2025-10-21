@@ -1,6 +1,10 @@
 // node scripts/ingest-today.mjs
 import fs from 'fs';
 
+// ensure d exists for both [] and {items:[]}
+const d = JSON.parse(fs.readFileSync('public/recommend.json','utf8'));
+
+
 const TZ = 'Asia/Tokyo';
 const today = new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year:'numeric', month:'2-digit', day:'2-digit' }).format(new Date()); // YYYY-MM-DD
 

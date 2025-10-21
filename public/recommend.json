@@ -4469,8 +4469,15 @@
   },
   {
     "date": "2025-10-07",
-    "title": "Test entry for pipeline",
-    "comment": "<p>動作確認用のサンプルです。</p>"
+    "title": "Seasons – Pete Jolly",
+    "comment": "<p>エレピやオルガンの気配と端正なリズムが揺れるクロスオーバー・グルーヴ。<br>シネマティックな余韻が心地よい一曲。</p><p>Hints of electric piano and organ ride a crossover groove with a poised rhythm.<br>A track with a pleasing, cinematic afterglow.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/seasons/1443886628?i=1443887669",
+    "amazon_url": "https://amzn.to/4pUu4Nx",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
   },
   {
     "date": "2025-10-08",
@@ -4650,5 +4657,163 @@
     "city": [
       "New York"
     ]
+  },
+  {
+    "date": "2025-10-16",
+    "title": "This Love – Joy Tones",
+    "comment": "<p>柔らかなリードとコーラスが寄り添うメロウなソウル・チューン。<br>60sらしい甘やかなムードがじわりと広がる一曲。</p><p>A mellow soul tune with a soft lead and close harmonies.<br>A sweet ’60s mood that slowly spreads.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/this-love-that-im-giving-you/415583897?i=415583940",
+    "youtube_url": "https://youtube.com/watch?v=zpwPB_I1ihk&t=7s",
+    "season": ["spring","winter"],
+    "weather": ["sunny","cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2025-10-17",
+    "title": "Guanabara – Maria Toledo & Luiz Bonfá",
+    "comment": "<p>ボサらしい軽やかなリズムにギターのアルペジオが寄り添う。<br>穏やかな声のレイヤーが余韻をそっと引き上げる一曲。</p><p>A bossa-like light rhythm with guitar arpeggios alongside.<br>Gentle layers of vocals quietly lift the afterglow.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/guanabara/1443798803?i=1443799612",
+    "season": ["spring", "summer","fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2025-10-18",
+    "title": "Motore a ioni – Piero Umiliani",
+    "comment": "<p>電子音のパルスとミニマルな反復が広がるスペース・グルーヴ。<br>実験系ライブラリの質感が淡く浮遊する一曲。</p><p>A space groove driven by electronic pulses and minimalist repetition.<br>The texture of experimental library music drifts in a gentle hover.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/motore-a-ioni/335021077?i=335021108",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2025-10-19",
+    "title": "Shaolin Monk Motherfunk – Hiatus Kaiyote",
+    "comment": "<p>タイトなアンサンブルが幾重もの展開を生み出す多層的なグルーヴ。<br>ジャズ的ハーモニーとエレクトロの質感が交差する一曲。</p><p>A tight ensemble weaves a multi-layered groove through ever-shifting sections.<br>Jazz harmonies intersect with electronic textures in this one.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/shaolin-monk-motherfunk/1018143607?i=1018143613",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Australia"],
+    "city": ["Melbourne"]
+  },
+  {
+    "date": "2025-10-20",
+    "title": "Take Me To New York – Brooklyn Bridge Group",
+    "comment": "<p>フルート／ブラスの鋭いフレーズと随所に散りばめられたサイケデリックな電子音。<br>ライブラリの風合いと勢いのあるホーンが印象的な一曲。</p><p>Sharp flute/brass phrases with psychedelic electronic touches scattered throughout.<br>A striking cut with a library-music feel and energetic, punchy horns.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/take-me-to-new-york/1739875318?i=1739875801",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2025-10-21",
+    "title": "Reasons – Minnie Riperton",
+    "comment": "<p>ギターのリックとタイトなドラムが牽引するロックチューン。<br>Minnie Ripertonならではの伸びやかな高音がロックの文脈でも確かな煌めきを見せる一曲。</p><p>A rock tune driven by guitar licks and tight drums. Minnie Riperton’s signature soaring highs shine with a distinct sparkle, even in a rock setting.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/reasons/1443067528?i=1443067530",
+    "amazon_url": "https://amzn.to/4opJ191",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2025-10-22",
+    "title": "Pé no Chão – Grupo Ébano",
+    "comment": "<p>サンバ〜MPBの気配にコーラスが映えるブリージー・グルーヴ。<br>リズムギターとコーラスによる、南米的な熱気と都会的な印象の両方を持ち合わせる一曲。</p><p>A breezy groove where the chorus shines over samba-to-MPB vibes.<br>With rhythm guitar and choral vocals, it blends South American heat with an urban sheen.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/p%C3%A9-no-ch%C3%A3o/1692361733?i=1692361745",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2025-10-23",
+    "title": "We Don’t Need No Smurf Here – Cosmo Vitelli",
+    "comment": "<p>各所に差し込まれるスキャットと電子音が創出する怪しげなサウンド。<br>エレクトロニックなテクスチャとヌージャズの陰影が交差する一曲。</p><p>Scat interjections and electronic tones scattered throughout conjure a shadowy atmosphere.<br>Electronic textures intersect with nu-jazz shadings here.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/we-dont-need-no-smurf-here-dj-matsuoka-remix/272212705?i=272212708",
+    "amazon_url": "https://amzn.to/472LGy8",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2025-10-24",
+    "title": "Sweet Thang – The 13th Floor",
+    "comment": "<p>軽やかなギターと煌めくシンセの音色。<br>メロウなムードとやわらかなコード感が、じわりと気分を引き上げる一曲。</p><p>Light, airy guitar and shimmering synth tones.<br>A mellow mood and gentle chord voicings that gradually lift your spirits.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/sweet-thang/1572850102?i=1572850103",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["St. Louis"]
+  },
+  {
+    "date": "2025-10-25",
+    "title": "Never Can Say Goodbye – Andy Williams",
+    "comment": "<p>柔らかいストリングスと温かみのあるボーカル。<br>そこに軽やかなコーラスが加わり、名曲をやさしく染め上げる一曲。</p><p>Soft strings and a warm vocal.<br>A light, airy chorus joins in, gently coloring this classic.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/never-can-say-goodbye/332102998?i=332104445",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2025-10-26",
+    "title": "I Feel Free – The Motherhood",
+    "comment": "<p>サイケ寄りのテクスチャが印象的なジャズ・ロック。<br>フレーズの反復に加え、エッジの効いたギターと勢いのあるサックスにより次第に熱を帯びていく一曲。</p><p>Jazz-rock with psychedelic-tinged textures.<br>Built on repeating phrases, sharp-edged guitar and a driving sax gradually turn up the heat.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-feel-free/1534140107?i=1534140110",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Germany"],
+    "city": ["Munich"]
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Trying – Nuspirit Helsinki",
+    "comment": "<p>ミニマルな反復的リズムとベースのうねりが揺れるヌー・ジャズ。<br>エレピのコードとヴォーカルがアーバンな空気感を生む一曲。</p><p>Nu-jazz that sways on minimal, repeating rhythms and an undulating bass.<br>Electric-piano chords and vocals conjure an urban atmosphere.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/trying-butti-49-nu-niveau-mix/642980343?i=642981376",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid","high"],
+    "country": ["Finland"],
+    "city": ["Helsinki"]
+  },
+  {
+    "date": "2025-10-28",
+    "title": "Leão de Bronze – Quinteto Ternura",
+    "comment": "<p>煌びやかなシンセとギターのカッティング。<br>コーラスと多層的なインストにより温かみと熱気が共存する一曲。</p><p>Sparkling synths and crisp rhythm-guitar chops.<br>Choral vocals and layered instrumentation let warmth and heat coexist.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/le%C3%A3o-de-bronze/366794190?i=366794203",
+    "amazon_url": "https://amzn.to/4ndpzes",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2025-10-29",
+    "title": "Without Rhyme or Reason – Spanky & Our Gang",
+    "comment": "<p>男女コーラスの重なりと穏やかなリズムが寄り添うソフト・ポップ。<br>ジャジーな気配と上品なアレンジが、メロウに余韻を引き上げる一曲。</p><p>Layered male–female harmonies nestle into a gentle rhythm for a soft-pop glide.<br>A jazzy air and elegant arranging elevate the mellow afterglow.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/without-rhyme-or-reason/1443619659?i=1443620532",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
   }
 ]

@@ -59,7 +59,7 @@ jobs:
           if [ -n "$QA_CF_ID" ]; then
             L=$(TZ=Asia/Tokyo date +%F)
             aws cloudfront create-invalidation --distribution-id "$QA_CF_ID" \
-              --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-$L.html"
+              --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-$L.html" "/recommend.html"
           else
             echo "skip: CF_DISTRIBUTION_ID_QA is empty"
           fi

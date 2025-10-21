@@ -35,13 +35,23 @@ jobs:
             echo "skip: no scripts/rebuild-recommend.mjs"
             mkdir -p public
             [ -f public/recommend.json ] || echo '{"items":[]}' > public/recommend.json
+
           fi
 
       - name: Filter recommend.json to <= today (JST)
         shell: bash
         run: |
           set -eo pipefail
-          node -e "const fs=require('fs');const p='public/recommend.json';if(!fs.existsSync(p)){console.log('skip: recommend.json missing');process.exit(0)};const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(Array.isArray(d.items)?d.items:[]);const today=new Date().toISOString().slice(0,10);const out=items.filter(x=>(x.date||'')<=today);fs.writeFileSync(p,JSON.stringify({items:out},null,2));"
+          node - <<'JS'
+          const fs = require('fs');
+          const p = 'public/recommend.json';
+          if (!fs.existsSync(p)) { console.log('skip: recommend.json missing'); process.exit(0); }
+          const d = JSON.parse(fs.readFileSync(p,'utf8'));
+          const items = Array.isArray(d) ? d : (Array.isArray(d.items) ? d.items : []);
+          const today = new Date().toISOString().slice(0,10);
+          const out = items.filter(x => (x.date || '') <= today);
+          fs.writeFileSync(p, JSON.stringify({items: out}, null, 2));
+          JS
 
       - name: Ingest (no commit; guarded)
         shell: bash
@@ -63,6 +73,7 @@ jobs:
             echo "skip: scripts/update-updates-json.mjs missing"
           fi
 
+      # ← ここをヒアドキュメント→node -e に置換
       - name: Generate pages (guarded)
         shell: bash
         working-directory: public
@@ -70,7 +81,7 @@ jobs:
           set -e
           if [ -f generate-recommend-pages.js ] && [ -f recommend.json ]; then
             cp recommend.json recommend.orig.json
-            node -e "const fs=require('fs');const p='recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(Array.isArray(d.items)?d.items:[]);fs.writeFileSync('_recommend.gen.json',JSON.stringify(items,null,2));"
+            node -e "const fs=require('fs');const p='recommend.json';const d=JSON.parse(fs.readFileSync(p,'utf8'));const items=Array.isArray(d)?d:(Array.isArray(d.items)?d.items:[]);fs.writeFileSync('_recommend.gen.json', JSON.stringify(items,null,2));"
             mv _recommend.gen.json recommend.json
             node generate-recommend-pages.js || { echo 'warn: page generation failed (continuing)'; }
             mv -f recommend.orig.json recommend.json || true
@@ -111,7 +122,7 @@ jobs:
           if [ -n "${QA_CF_ID:-}" ]; then
             L=$(TZ=Asia/Tokyo date +%F)
             aws cloudfront create-invalidation --distribution-id "$QA_CF_ID" \
-              --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html"
+              --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html" "/recommend.html"
           else
             echo "skip: CF_DISTRIBUTION_ID_QA is empty"
           fi

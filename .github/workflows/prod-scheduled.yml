@@ -1,7 +1,7 @@
 name: PROD Scheduled (daily)
 on:
   schedule:
-    # 07:10 JST（UTC 22:10）
+    # 11:30 JST（UTC 02:30）
     - cron: '30 2 * * *'
   workflow_dispatch:
 
@@ -102,8 +102,8 @@ jobs:
           QA_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
           set -e
-          if [ -n "${QA_BUCKET:-}" ]; then
-            aws s3 sync public "s3://${QA_BUCKET}/" --delete \
+          if [ -n "${PROD_BUCKET:-}" ]; then
+            aws s3 sync public "s3://${PROD_BUCKET}/" --delete \
               --exclude "*" \
               --include "recommend.json" \
               --include "updates.json" \

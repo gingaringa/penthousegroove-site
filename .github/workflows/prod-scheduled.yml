@@ -15,10 +15,10 @@ jobs:
   qa-scheduled:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout qa branch
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
-          ref: qa
+          ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -96,7 +96,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region:            ${{ secrets.AWS_REGION }}
 
-      - name: Sync to QA S3 (guarded)
+      - name: Sync to PROD S3 (guarded)
         shell: bash
         env:
           QA_BUCKET: ${{ secrets.S3_BUCKET }}

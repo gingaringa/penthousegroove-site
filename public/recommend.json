@@ -4748,5 +4748,72 @@
     "mood": ["mid"],
     "country": ["France"],
     "city": ["Paris"]
+  },
+  {
+    "date": "2025-10-24",
+    "title": "Sweet Thang – The 13th Floor",
+    "comment": "<p>軽やかなギターと煌めくシンセの音色。<br>メロウなムードとやわらかなコード感が、じわりと気分を引き上げる一曲。</p><p>Light, airy guitar and shimmering synth tones.<br>A mellow mood and gentle chord voicings that gradually lift your spirits.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/sweet-thang/1572850102?i=1572850103",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["St. Louis"]
+  },
+  {
+    "date": "2025-10-25",
+    "title": "Never Can Say Goodbye – Andy Williams",
+    "comment": "<p>柔らかいストリングスと温かみのあるボーカル。<br>そこに軽やかなコーラスが加わり、名曲をやさしく染め上げる一曲。</p><p>Soft strings and a warm vocal.<br>A light, airy chorus joins in, gently coloring this classic.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/never-can-say-goodbye/332102998?i=332104445",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2025-10-26",
+    "title": "I Feel Free – The Motherhood",
+    "comment": "<p>サイケ寄りのテクスチャが印象的なジャズ・ロック。<br>フレーズの反復に加え、エッジの効いたギターと勢いのあるサックスにより次第に熱を帯びていく一曲。</p><p>Jazz-rock with psychedelic-tinged textures.<br>Built on repeating phrases, sharp-edged guitar and a driving sax gradually turn up the heat.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-feel-free/1534140107?i=1534140110",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Germany"],
+    "city": ["Munich"]
+  },
+  {
+    "date": "2025-10-27",
+    "title": "Trying – Nuspirit Helsinki",
+    "comment": "<p>ミニマルな反復的リズムとベースのうねりが揺れるヌー・ジャズ。<br>エレピのコードとヴォーカルがアーバンな空気感を生む一曲。</p><p>Nu-jazz that sways on minimal, repeating rhythms and an undulating bass.<br>Electric-piano chords and vocals conjure an urban atmosphere.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/trying-butti-49-nu-niveau-mix/642980343?i=642981376",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid","high"],
+    "country": ["Finland"],
+    "city": ["Helsinki"]
+  },
+  {
+    "date": "2025-10-28",
+    "title": "Leão de Bronze – Quinteto Ternura",
+    "comment": "<p>煌びやかなシンセとギターのカッティング。<br>コーラスと多層的なインストにより温かみと熱気が共存する一曲。</p><p>Sparkling synths and crisp rhythm-guitar chops.<br>Choral vocals and layered instrumentation let warmth and heat coexist.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/le%C3%A3o-de-bronze/366794190?i=366794203",
+    "amazon_url": "https://amzn.to/4ndpzes",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2025-10-29",
+    "title": "Without Rhyme or Reason – Spanky & Our Gang",
+    "comment": "<p>男女コーラスの重なりと穏やかなリズムが寄り添うソフト・ポップ。<br>ジャジーな気配と上品なアレンジが、メロウに余韻を引き上げる一曲。</p><p>Layered male–female harmonies nestle into a gentle rhythm for a soft-pop glide.<br>A jazzy air and elegant arranging elevate the mellow afterglow.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/without-rhyme-or-reason/1443619659?i=1443620532",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
   }
 ]

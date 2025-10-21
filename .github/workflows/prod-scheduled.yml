@@ -146,3 +146,22 @@ jobs:
           else
             echo '{"sent": false, "reason":"missing notify secrets"}'
           fi
+      - name: Trigger PROD notify (guarded)
+        shell: bash
+        env:
+          NOTIFY_ENDPOINT: ${{ secrets.NOTIFY_ENDPOINT }}
+          NOTIFY_TOKEN: ${{ secrets.NOTIFY_TOKEN }}
+        run: |
+          set -e
+          if [ -n "${NOTIFY_ENDPOINT:-}" ] && [ -n "${NOTIFY_TOKEN:-}" ]; then
+            BASE="${NOTIFY_ENDPOINT%/}"
+            if [[ "$BASE" == *"/admin/notify-send" || "$BASE" == *"/admin/notify-send/" ]]; then
+              URL="$BASE"
+            else
+              URL="$BASE/admin/notify-send"
+            fi
+            echo "notify POST to: ${URL%%\?*} (token hidden)"
+            curl -fSs -X POST "$URL?token=$NOTIFY_TOKEN" || true
+          else
+            echo '{"sent": false, "reason":"missing notify secrets"}'
+          fi

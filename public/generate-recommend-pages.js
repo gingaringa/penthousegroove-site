@@ -1,14 +1,22 @@
 const fs = require('fs');
 const path = require('path');
-const _raw = JSON.parse(fs.readFileSync('recommend.json', 'utf8'));
+
+const ROOT = __dirname;
+const SRC  = require("path").join(ROOT, "recommend.json");
+const OUT  = require("path").join(ROOT, "recommend_pages");
+const _raw = JSON.parse(fs.readFileSync(SRC, "utf8"));
 const data = Array.isArray(_raw) ? _raw : (Array.isArray(_raw.items) ? _raw.items : []);
+const __jstNow = new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Tokyo'}));
+const __cutoff = __jstNow.getFullYear()+'-'+String(__jstNow.getMonth()+1).padStart(2,'0')+'-'+String(__jstNow.getDate()).padStart(2,'0');
+const visibleData = (Array.isArray(data)?data:[]).filter(x => x && x.date && x.date <= __cutoff);
+
 // recommend_pagesディレクトリがなければ作成
-if (!fs.existsSync('recommend_pages')) {
-  fs.mkdirSync('recommend_pages');
+if (!fs.existsSync(OUT)) {
+  fs.mkdirSync(OUT);
 }
 
 // 日付新しい順
-const sorted = [...data].sort((a, b) => b.date.localeCompare(a.date));
+const sorted = [...visibleData].sort((a, b) => b.date.localeCompare(a.date));
 
 // 1. recommend.html（アーカイブ目次）生成
 let archiveHtml = `
@@ -46,7 +54,7 @@ let archiveHtml = `
 </html>
 `;
 
-fs.writeFileSync('recommend.html', archiveHtml);
+fs.writeFileSync(require("path").join(ROOT,"recommend.html"), archiveHtml);
 
 // 2. 個別ページ群（recommend-YYYY-MM-DD.html）生成
 for (let i = 0; i < sorted.length; i++) {
@@ -114,7 +122,7 @@ for (let i = 0; i < sorted.length; i++) {
 </html>
   `;
 
-  fs.writeFileSync(path.join('recommend_pages', `recommend-${item.date}.html`), html);
+  fs.writeFileSync(require("path").join(OUT, `recommend-${item.date}.html`), html);
 }
 
 console.log("recommendアーカイブ＆個別ページを生成しました。");

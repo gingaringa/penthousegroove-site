@@ -12,7 +12,7 @@ env:
   TZ: Asia/Tokyo
 
 jobs:
-  qa-scheduled:
+  prod-scheduled:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
@@ -135,7 +135,14 @@ jobs:
         run: |
           set -e
           if [ -n "${NOTIFY_ENDPOINT:-}" ] && [ -n "${NOTIFY_TOKEN:-}" ]; then
-            curl -fSs -X POST "$NOTIFY_ENDPOINT/admin/notify-send?token=$NOTIFY_TOKEN" || true
+            BASE="${NOTIFY_ENDPOINT%/}"
+URL="$BASE"
+case "$BASE" in
+  */admin/notify-send|*/admin/notify-send/) URL="$BASE" ;;
+  *) URL="$BASE/admin/notify-send" ;;
+esac
+echo "notify POST to: ${URL%%\?*} (token hidden)"
+curl -fSs -X POST "$URL?token=$NOTIFY_TOKEN" | tee /dev/stderr || true
           else
             echo '{"sent": false, "reason":"missing notify secrets"}'
           fi

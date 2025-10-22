@@ -63,6 +63,15 @@ jobs:
             echo "skip: scripts/ingest-today.mjs missing"
           fi
 
+      - name: Update YouTube from daily (everyday; PROD)
+        shell: bash
+        run: |
+          set -e
+          if [ -f scripts/update-youtube-from-daily.mjs ]; then
+            node scripts/update-youtube-from-daily.mjs || { echo "warn: youtube update failed (continuing)"; }
+          else
+            echo "skip: scripts/update-youtube-from-daily.mjs missing"
+          fi
       - name: Update updates.json (no commit; guarded)
         shell: bash
         run: |

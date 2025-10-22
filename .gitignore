@@ -1,3 +1,8 @@
 node_modules/
 npm-debug.log*
 public/recommend_pages/
+
+# Local backups & logs
+.backup/
+*.log
+scripts/ingest-today.mjs.bak*

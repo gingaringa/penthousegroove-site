@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 env:
   TZ: Asia/Tokyo
@@ -127,6 +127,25 @@ jobs:
             echo "skip: CF_DISTRIBUTION_ID_QA is empty"
           fi
 
+      - name: Commit updates.json back to qa (keep Git in sync)
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f public/updates.json ]; then
+            echo "skip: public/updates.json not found"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin qa
+          git add public/updates.json
+          if git diff --cached --quiet; then
+            echo "no changes in updates.json; skip commit"
+            exit 0
+          fi
+          git commit -m "qa(ci): keep updates.json up to date (autocommit) [skip ci]"
+          git push origin HEAD:qa
       - name: Trigger QA notify (guarded)
         shell: bash
         env:

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 env:
   TZ: Asia/Tokyo
@@ -136,6 +136,26 @@ jobs:
             echo "skip: CF_DISTRIBUTION_ID is empty"
           fi
 
+      - name: Commit updates.json back to main (keep Git in sync)
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f public/updates.json ]; then
+            echo "skip: public/updates.json not found"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout -B main origin/main
+          git add public/updates.json
+          if git diff --cached --quiet; then
+            echo "no changes in updates.json; skip commit"
+            exit 0
+          fi
+          git commit -m "prod(ci): keep updates.json up to date (autocommit)"
+          git push origin HEAD:main
       - name: Trigger PROD notify (guarded)
         shell: bash
         env:

@@ -63,6 +63,15 @@ jobs:
           fi
 
       - name: Update YouTube from daily (everyday; QA)
+        shell: bash
+        run: |
+          set -e
+          if [ -f scripts/update-youtube-from-daily.mjs ]; then
+            node scripts/update-youtube-from-daily.mjs || { echo "warn: youtube update failed (continuing)"; }
+          else
+            echo "skip: scripts/update-youtube-from-daily.mjs missing"
+          fi
+
       - name: Clamp youtubeLastUpdate (monotonic, local files)
         shell: bash
         run: |
@@ -87,15 +96,6 @@ jobs:
             console.log('youtubeLastUpdate already >= files max =', clamped);
           }
           JS
-        shell: bash
-        run: |
-          set -e
-          if [ -f scripts/update-youtube-from-daily.mjs ]; then
-            node scripts/update-youtube-from-daily.mjs || { echo "warn: youtube update failed (continuing)"; }
-          else
-            echo "skip: scripts/update-youtube-from-daily.mjs missing"
-          fi
-
       - name: Update updates.json (no commit; guarded)
         shell: bash
         run: |

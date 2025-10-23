@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 env:
   TZ: Asia/Tokyo
@@ -72,30 +72,6 @@ jobs:
             echo "skip: scripts/update-youtube-from-daily.mjs missing"
           fi
 
-      - name: Clamp youtubeLastUpdate (monotonic, local files)
-        shell: bash
-        run: |
-          set -euo pipefail
-          node - <<'JS'
-          const fs=require('fs');
-          const updPath='public/updates.json';
-          if(!fs.existsSync(updPath)){ console.log('updates.json missing; skip clamp'); process.exit(0); }
-          const upd=JSON.parse(fs.readFileSync(updPath,'utf8'));
-          const dir='content/daily_youtube';
-          if(!fs.existsSync(dir)){ console.log('daily_youtube missing; skip clamp'); process.exit(0); }
-          const list=fs.readdirSync(dir).filter(f=>/^youtube-\d{4}-\d{2}-\d{2}\.json$/.test(f));
-          if(list.length===0){ console.log('no daily_youtube files; skip clamp'); process.exit(0); }
-          const maxFromFiles=Math.max(...list.map(f=>Number(f.match(/\d{4}-\d{2}-\d{2}/)[0].replace(/-/g,''))));
-          const cur=Number(upd.youtubeLastUpdate||0);
-          const clamped=Math.max(cur, maxFromFiles);
-          if(String(upd.youtubeLastUpdate)!==String(clamped)){
-            upd.youtubeLastUpdate=String(clamped);
-            fs.writeFileSync(updPath, JSON.stringify(upd,null,2));
-            console.log('clamped youtubeLastUpdate =', clamped);
-          }else{
-            console.log('youtubeLastUpdate already >= files max =', clamped);
-          }
-          JS
       - name: Update updates.json (no commit; guarded)
         shell: bash
         run: |
@@ -106,6 +82,23 @@ jobs:
             echo "skip: scripts/update-updates-json.mjs missing"
           fi
 
+      - name: Commit updates.json back to qa (guarded)
+        if: ${{ endsWith(github.ref, '/qa') }}
+        shell: bash
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 変更がある時だけコミット
+          if git diff --quiet -- public/updates.json; then
+            echo "no changes in updates.json; skip commit"
+            exit 0
+          fi
+
+          git add public/updates.json
+          git commit -m "qa(ci): update updates.json (auto)"
+          git push origin HEAD:qa
       - name: Generate pages (guarded)
         shell: bash
         working-directory: public

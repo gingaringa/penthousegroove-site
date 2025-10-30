@@ -4815,5 +4815,51 @@
     "mood": ["low", "mid"],
     "country": ["USA"],
     "city": ["Chicago"]
+  },
+  {
+    "date": "2025-10-30",
+    "title": "Playcar – Lesiman",
+    "comment": "<p>粒立つパーカッションに加えて怪しげに光るベースとエレピ。<br>映画のワンシーンが浮かぶような疾走感のあるライブラリ・グルーヴ。</p><p>Crisp, popping percussion meets a sly, shimmering bass and electric piano.<br>A propulsive library groove that conjures a cinematic scene.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/playcar/1657564121?i=1657564612",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2025-10-31",
+    "title": "Electric Chicken – Spirits Rejoice",
+    "comment": "<p>行進するようなピアノにファンキーなベース・ギター勢いを加えていくジャズファンク。<br>アフロフュージョンの熱量が電子音とともに駆け抜ける一曲。</p><p>A jazz-funk burner where a marching piano figure meets funky bass and guitar, cranking up the momentum.<br>Afro-fusion energy rips through alongside electronic tones.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/electric-chicken/1562481887?i=1562481895",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["South Africa"],
+    "city": ["Johannesburg"]
+  },
+  {
+    "date": "2025-11-01",
+    "title": "Stonedage – Fein",
+    "comment": "<p>歪むギターとタイトなリズムが駆けるジャズ・ロック寄りのグルーヴ。<br>ローファイかつサイケなテクスチャとリフの反復がじわりと高揚させる一曲。</p><p>A jazz-rock-leaning groove where distorted guitar and tight, driving rhythms take off.<br>Lo-fi, psychedelic textures and repeating riffs gradually turn up the heat.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/stonedage/1143412429?i=1143412953",
+    "amazon_url": "https://amzn.to/47a8xJC",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2025-11-02",
+    "title": "Oostend, Oostend – Cos",
+    "comment": "<p>エレピとオルガンが紡ぐ柔らかい浮遊感。<br>海辺の情景を思わせるライブラリーミュージックらしい余韻が静かな高揚感を誘う一曲。</p><p>A gentle, floating drift woven by electric piano and organ.<br>A library-music afterglow that evokes seaside scenes, inviting a quiet lift.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/oostend-oostend/375941300?i=375941387",
+    "amazon_url": "https://amzn.to/3Lv3NWm",
+    "season": ["spring", "fall"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["low", "mid"],
+    "country": ["Belgium"],
+    "city": ["Ostend"]
   }
 ]

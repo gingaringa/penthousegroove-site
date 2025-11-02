@@ -4861,5 +4861,84 @@
     "mood": ["low", "mid"],
     "country": ["Belgium"],
     "city": ["Ostend"]
+  },
+  {
+    "date": "2025-11-03",
+    "title": "Harlem Hendoo – Al Hirt",
+    "comment": "<p>分厚いホーンが牽引するグルーヴ。<br>どこか中東的なニュアンスをも感じさせるハープシコードの音色に引き込まれる一曲。</p><p>A groove driven by a thick horn section.<br>The harpsichord’s tone—tinged with a subtly Middle Eastern feel—draws you in.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/harlem-hendoo/1341831727?i=1341832526",
+    "amazon_url": "https://amzn.to/4oS9jRy",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["New Orleans"]
+  },
+  {
+    "date": "2025-11-04",
+    "title": "Lucky to Be Loved (By You) – Emanuel Lasky",
+    "comment": "<p>デトロイト・ソウルの気配をたたえた小粋なグルーヴ。<br>柔らかなリードとコーラスがノーザンソウル文脈でも親しまれる一曲。</p><p>A classy groove imbued with Detroit-soul vibes.<br>A gentle lead and sweet chorus vocals make it a favorite in the Northern Soul canon.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/lucky-to-be-loved/408260047?i=408260097",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Detroit"]
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Autumn Leaves – Jimmy Smith",
+    "comment": "<p>ハモンドオルガンとギターが醸し出す哀愁。<br>スタンダードをブルージーな色合いに染め上げた一曲。</p><p>Bittersweet melancholy from Hammond organ and guitar.<br>A jazz standard rendered in a bluesy hue.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E6%9E%AF%E8%91%89-remastered/1472776469?i=1472776476",
+    "amazon_url": "https://amzn.to/3Lh74J2",
+    "season": ["fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Hackensack"]
+  },
+  {
+    "date": "2025-11-06",
+    "title": "Standing Right Here – Paprika Soul",
+    "comment": "<p>軽やかに流れるエレピと軽快なギター。<br>アシッドジャズらしいグルーヴが魅力の一曲。</p><p>Lightly flowing electric piano and sprightly guitar.<br>An acid-jazz groove gives this track its appeal.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/standing-right-here/1568490732?i=1568490737",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["UK"],
+    "city": ["Lowestoft"]
+  },
+  {
+    "date": "2025-11-07",
+    "title": "Saturday Night on Saturn – Les Baxter",
+    "comment": "<p>レトロ・フューチャーなアレンジと軽やかなビートが揺れるスペース・エイジ・ポップ。<br>ブラスとストリングスの流麗かつ怪しげな気配にエキゾのムードが色を添える一曲。</p><p>Space-age pop with retro-futurist arranging and a light, swaying beat.<br>Flowing yet shadowy brass and strings, with a touch of exotica adding color.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/saturday-night-on-saturn/663936614?i=663936627",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2025-11-08",
+    "title": "Syracuse – Jean Sablon",
+    "comment": "<p>ピアノとストリングスによるヴェールのようなオーケストラに上品な歌声。<br>映画的な陰影を帯びたシャンソンのスタンダード。</p><p>An elegant vocal set against a veil-like orchestration of piano and strings.<br>A chanson standard tinged with cinematic shadows.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/syracuse/1104518275?i=1104519469",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rain"],
+    "mood": ["low", "mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2025-11-09",
+    "title": "These Boots Are Made for Walking – The Supremes",
+    "comment": "<p>重低音が響くホーンと柔らかいボーカルのレイヤー。<br>60sモータウン流のアレンジが光る一曲。</p><p>Low-end, thundering horns with soft, layered vocals.<br>A classic ’60s Motown-style arrangement that truly shines.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%81%AB%E3%81%8F%E3%81%84%E8%B2%B4%E6%96%B9/1444063087?i=1444063933",
+    "season": ["fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Detroit"]
   }
 ]

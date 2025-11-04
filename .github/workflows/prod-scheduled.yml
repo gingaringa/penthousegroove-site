@@ -123,18 +123,43 @@ jobs:
           fi
 
       - name: Invalidate PROD CloudFront (guarded)
+        id: cf_inv
         shell: bash
         env:
           CF_ID: ${{ secrets.CF_DISTRIBUTION_ID }}
         run: |
-          set -e
+          set -euo pipefail
           if [ -n "${CF_ID:-}" ]; then
-            L=$(TZ=Asia/Tokyo date +%F)
-            aws cloudfront create-invalidation --distribution-id "$CF_ID" \
-              --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-${L}.html" "/recommend.html"
+            JSON=$(aws cloudfront create-invalidation --distribution-id "$CF_ID" \
+              --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-$(TZ=Asia/Tokyo date +%F).html" "/recommend.html")
+            # JSON から Invalidation Id を抽出（jq不要）
+            INV_ID=$(python3 - <<'PY' "$JSON"
+import sys, json
+print(json.loads(sys.argv[1])["Invalidation"]["Id"])
+PY
+)
+            echo "Invalidation Id: $INV_ID"
+            printf 'inv_id=%s\n' "$INV_ID" >> "$GITHUB_OUTPUT"
           else
             echo "skip: CF_DISTRIBUTION_ID is empty"
+            echo "inv_id=" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Wait for CloudFront invalidation (guarded)
+        if: ${{ steps.cf_inv.outputs.inv_id != '' }}
+        timeout-minutes: 20
+        shell: bash
+        env:
+          CF_ID: ${{ secrets.CF_DISTRIBUTION_ID }}
+        run: |
+          set -euo pipefail
+          aws cloudfront wait invalidation-completed \
+            --distribution-id "$CF_ID" \
+            --id "${{ steps.cf_inv.outputs.inv_id }}"
+          # ついでに最終状態をログ出力（任意）
+          aws cloudfront get-invalidation \
+            --distribution-id "$CF_ID" \
+            --id "${{ steps.cf_inv.outputs.inv_id }}"
 
       - name: Commit updates.json back to main (keep Git in sync)
         if: ${{ always() }}

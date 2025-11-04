@@ -35,7 +35,6 @@ jobs:
             echo "skip: no scripts/rebuild-recommend.mjs"
             mkdir -p public
             [ -f public/recommend.json ] || echo '{"items":[]}' > public/recommend.json
-
           fi
 
       - name: Filter recommend.json to <= today (JST)
@@ -72,6 +71,7 @@ jobs:
           else
             echo "skip: scripts/update-youtube-from-daily.mjs missing"
           fi
+
       - name: Update updates.json (no commit; guarded)
         shell: bash
         run: |
@@ -132,12 +132,19 @@ jobs:
           if [ -n "${CF_ID:-}" ]; then
             JSON=$(aws cloudfront create-invalidation --distribution-id "$CF_ID" \
               --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-$(TZ=Asia/Tokyo date +%F).html" "/recommend.html")
-            # JSON から Invalidation Id を抽出（jq不要）
-            INV_ID=$(python3 - <<'PY' "$JSON"
-import sys, json
-print(json.loads(sys.argv[1])["Invalidation"]["Id"])
+
+            # JSON を一旦ファイルに書き出し
+            echo "$JSON" > cf_inv.json
+
+            # Python で Invalidation Id を抽出（jq 不要）
+            INV_ID=$(python3 - <<'PY'
+import json
+with open("cf_inv.json") as f:
+    data = json.load(f)
+print(data["Invalidation"]["Id"])
 PY
 )
+
             echo "Invalidation Id: $INV_ID"
             printf 'inv_id=%s\n' "$INV_ID" >> "$GITHUB_OUTPUT"
           else
@@ -156,7 +163,8 @@ PY
           aws cloudfront wait invalidation-completed \
             --distribution-id "$CF_ID" \
             --id "${{ steps.cf_inv.outputs.inv_id }}"
-          # ついでに最終状態をログ出力（任意）
+
+          # 最終状態をログに出しておく（任意）
           aws cloudfront get-invalidation \
             --distribution-id "$CF_ID" \
             --id "${{ steps.cf_inv.outputs.inv_id }}"
@@ -180,6 +188,7 @@ PY
           fi
           git commit -m "prod(ci): keep updates.json up to date (autocommit)"
           git push origin HEAD:main
+
       - name: Trigger PROD notify (guarded)
         shell: bash
         env:

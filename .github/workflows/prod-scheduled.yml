@@ -138,12 +138,12 @@ jobs:
 
             # Python で Invalidation Id を抽出（jq 不要）
             INV_ID=$(python3 - <<'PY'
-import json
-with open("cf_inv.json") as f:
-    data = json.load(f)
-print(data["Invalidation"]["Id"])
-PY
-)
+            import json
+            with open("cf_inv.json") as f:
+                data = json.load(f)
+            print(data["Invalidation"]["Id"])
+            PY
+            )
 
             echo "Invalidation Id: $INV_ID"
             printf 'inv_id=%s\n' "$INV_ID" >> "$GITHUB_OUTPUT"

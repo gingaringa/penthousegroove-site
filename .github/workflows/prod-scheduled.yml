@@ -132,19 +132,7 @@ jobs:
           if [ -n "${CF_ID:-}" ]; then
             JSON=$(aws cloudfront create-invalidation --distribution-id "$CF_ID" \
               --paths "/updates.json" "/recommend.json" "/recommend_pages/recommend-$(TZ=Asia/Tokyo date +%F).html" "/recommend.html")
-
-            # JSON を一旦ファイルに書き出し
-            echo "$JSON" > cf_inv.json
-
-            # Python で Invalidation Id を抽出（jq 不要）
-            INV_ID=$(python3 - <<'PY'
-            import json
-            with open("cf_inv.json") as f:
-                data = json.load(f)
-            print(data["Invalidation"]["Id"])
-            PY
-            )
-
+            INV_ID=$(node -e 'const j = JSON.parse(process.argv[1]); process.stdout.write(j.Invalidation.Id);' "$JSON")
             echo "Invalidation Id: $INV_ID"
             printf 'inv_id=%s\n' "$INV_ID" >> "$GITHUB_OUTPUT"
           else

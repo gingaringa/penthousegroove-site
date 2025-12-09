@@ -4925,7 +4925,7 @@
     "comment": "<p>ピアノとストリングスによるヴェールのようなオーケストラに上品な歌声。<br>映画的な陰影を帯びたシャンソンのスタンダード。</p><p>An elegant vocal set against a veil-like orchestration of piano and strings.<br>A chanson standard tinged with cinematic shadows.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/syracuse/1104518275?i=1104519469",
     "season": ["fall", "winter"],
-    "weather": ["cloudy", "rain"],
+    "weather": ["cloudy", "rainy"],
     "mood": ["low", "mid"],
     "country": ["France"],
     "city": ["Paris"]
@@ -5279,5 +5279,61 @@
     "mood": ["low", "mid"],
     "country": ["Brazil"],
     "city": ["São Paulo"]
+  },
+  {
+    "date": "2025-12-10",
+    "title": "Rio – Nico Gomez & His Orchestra",
+    "comment": "<p>パーカッションの粒立ち、サイケなスキャット、怪しげなピアノの進行が生み出すグルーヴ。<br>ボサらしさとどこか都会的な光沢が共存する一曲。</p><p>Crisp percussion, psychedelic scat, and a mysterious piano line shape a compelling groove.<br>Classic bossa touches blend smoothly with an understated urban sheen.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/rio/1378614639?i=1378614964",
+    "amazon_url": "https://amzn.to/44f25iJ",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Belgium"],
+    "city": ["Brussels"]
+  },
+  {
+    "date": "2025-12-11",
+    "title": "Blue Bayou – Mark Paul Norton",
+    "comment": "<p>ブロークン・ビート〜ヌー・ジャズ寄りの軽快なグルーヴ。<br>ギターとパーカッションが生み出すグルーヴィーな下地にピアノ、サックス、フルートの熱量が重なりじわじわと高揚していく一曲。</p><p>A lively groove leaning toward broken beat and nu-jazz.<br>On a rhythmic base shaped by guitar and percussion, the energy of piano, sax, and flute builds, creating a steady sense of uplift.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/blue-bayou-feat-regis-molina/1594941673?i=1594941687",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2025-12-12",
+    "title": "Manteca – 東京スカパラダイスオーケストラ",
+    "comment": "<p>タイトなリズムが駆け抜けるスカ。<br>ホーンセクションに熱量のあるピアノが押し寄せるスカパラ色全開の一曲。</p><p>Ska driven by tight, racing rhythms.<br>Their signature horn section surges as a fiery piano comes in—Skapara in full force.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/manteca/321223013?i=321223244",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["Japan"],
+    "city": ["Tokyo"]
+  },
+  {
+    "date": "2025-12-13",
+    "title": "I Do My Best to Impress – Linda Lewis",
+    "comment": "<p>軽やかなリズムと煌めく鍵盤のコードの気配が寄り添うメロウ・ソウル。<br>伸びやかなハイトーンとやわらかなコーラスがじわりと気分を引き上げる一曲。</p><p>A mellow-soul glide where light rhythms meet shimmering keyboard chords.<br>Her soaring highs and gentle backing vocals gradually lift your spirits.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-do-my-best-to-impress/325194204?i=325194303",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2025-12-14",
+    "title": "Affair in Aruba – Les Baxter & 101 Strings Orchestra",
+    "comment": "<p>夜風のように涼やかに流れるストリングス。<br>エキゾの気配と軽やかなパーカッションが心地よく香る一曲。</p><p>Strings that flow as coolly as a night breeze.<br>Hints of exotica and light, dancing percussion give this track a gently soothing feel.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/affair-in-aruba/1447632652?i=1447632658",
+    "season": ["summer", "spring"],
+    "weather": ["sunny","cloudy"],
+    "mood": ["mid","high"],
+    "country": ["Aruba"],
+    "city": ["Oranjestad"]
   }
 ]

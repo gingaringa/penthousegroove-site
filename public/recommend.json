@@ -5335,5 +5335,109 @@
     "mood": ["mid","high"],
     "country": ["Aruba"],
     "city": ["Oranjestad"]
+  },
+  {
+    "date": "2025-12-15",
+    "title": "L’Arrivée des camionneurs – Michel Legrand",
+    "comment": "<p>ホーンと木管がジャズワルツのリズムに乗って、キャラバンが街に押し寄せる高揚感を描き出す。<br>某映画の幕開けを告げるシネマティックでスウィング感のある一曲。</p><p>Horns and woodwinds ride a jazz waltz groove, evoking the excitement of a caravan entering town.<br>A cinematic, swinging cut that opens a certain film.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/arriv%C3%A9e-des-camionneurs-from-les-demoiselles-de-rochefort/1442704149?i=1442704610",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["France"],
+    "city": ["Rochefort"]
+  },
+  {
+    "date": "2025-12-16",
+    "title": "Flyin’ High – Julius Wechter",
+    "comment": "<p>涼しげなマリンバやリズミカルなホーンのフレーズが、軽やかなリズムの上でふわりと跳ねる。<br>流れるようなストリングスに男性コーラスによるスキャットが彩りを加える一曲。</p><p>Cool, breezy marimba and rhythmic horn phrases float and bounce over a light-footed groove.<br>Flowing strings and wordless male scat vocals add a splash of color to this track.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/flyin-high/1443560966?i=1443561258",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Selenge – Céline Dessberg",
+    "comment": "<p>ヤトガ（モンゴルの弦楽器）の響きとしなやかなリズムセクションが、ミッドグルーヴの上でゆったりと揺れる。<br>ジャズ〜ソウル〜ワールドのニュアンスが溶け合うドリーミーな一曲。</p><p>The yatga (a Mongolian stringed instrument) and supple rhythm section sway gently over a mid-tempo groove.<br>A dreamy track where shades of jazz, soul, and world music blend seamlessly.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/selenge/1783666671?i=1783666672",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["low", "mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Running – Monika Linges",
+    "comment": "<p>エレピのコードとしなやかなベースが、ブラジリアン/ジャズグルーヴの上で踊る。<br>風通しのいいヴォーカルとコーラスが舞い上がるヨーロッパ産ブラジリアンフュージョン。</p><p>Electric piano chords and a supple bassline dance over a Brazilian/jazz groove.<br>Airy vocals and choruses lift off in this European Brazilian fusion cut.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/running-remastered/1035359024?i=1035359408",
+    "amazon_url": "https://amzn.to/4oV5f2C",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Germany"],
+    "city": ["Aachen"]
+  },
+  {
+    "date": "2025-12-19",
+    "title": "Pop Impressions – Janko Nilovic",
+    "comment": "<p>タイトなドラムとうねるベースの上で鍵盤、ホーン、そして特徴的なフレーズが次々と立ち上がる。<br>ライブラリ作品ならではの細やかなアレンジが冴える一曲。</p><p>Over tight drums and rolling bassline, keys, horns, and signature phrases rise in turn.<br>Finely detailed, library-style arrangements really shine.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/pop-impressions-remastered/906662651?i=906662666",
+    "amazon_url": "https://amzn.to/4996DtE",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2025-12-20",
+    "title": "Sweet Maryline – Christian Gaubert",
+    "comment": "<p>グルーヴィーなギターとホーンに伸びやかなボーカルが広がるファンキーなビート。<br>フレンチソウル〜ジャズファンクのアーバングルーヴが魅力の一曲。</p><p>A funky beat where groovy guitar and horns open up around a soaring vocal.<br>An urban groove that blends French soul and jazz-funk with ease.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/sweet-maryline/385095943?i=385095959",
+    "amazon_url": "https://amzn.to/44pHBUm",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Moonlight Serenade – Tuxedo Junction",
+    "comment": "<p>リードのハーモニーとやわらかなブラスがしっとりと揺れる。<br>夜の空気に溶けるように染み入るビッグバンドのクラシック。</p><p>Warm brass and a harmonized lead line sway gently with a mellow touch.<br>A big band classic that soaks in like it’s melting into the night air.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/moonlight-serenade/299818552?i=299818586",
+    "youtube_url": "https://www.youtube.com/watch?v=0mZnbUDd0iI&t=2203s",
+    "season": ["fall", "winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high", "mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2025-12-22",
+    "title": "Moonbird – Roger Webb",
+    "comment": "<p>しなやかなベースとやわらかなドラムの上で、ワードレスヴォーカルと鍵盤がふわりと揺れる。<br>ライブラリ作品らしい静かな高揚感とドリーミーな質感が印象的なイージーリスニング/レアグルーヴ寄りの一曲。</p><p>Over a supple bassline and soft drums, wordless vocals and keys drift and sway.<br>A track leaning toward easy listening/rare groove, with a quiet lift and dreamy texture that feels distinctly library-made.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/moonbird/1361531462?i=1361531730",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["low", "mid"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2025-12-23",
+    "title": "I Am the Black Gold of the Sun – Nuyorican Soul feat. Jocelyn Brown",
+    "comment": "<p>キーボードやストリングスのレイヤーが次第に高揚する。<br>ソウルフルでスピリチュアルな雰囲気にブロークンビーツが彩りを加える一曲。</p><p>Layers of keys and strings gradually build into an uplifting swell.<br>A soulful, spiritual atmosphere colored by broken beats.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-am-the-black-gold-of-the-sun-feat-jocelyn-brown/1452859623?i=1452859914",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy","sunny"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["New York"]
   }
+
 ]

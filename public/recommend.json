@@ -5438,6 +5438,100 @@
     "mood": ["mid", "high"],
     "country": ["USA"],
     "city": ["New York"]
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Alle Jahre wieder – Jazzrausch Bigband",
+    "comment": "<p>クリスマスムードたっぷりの音色の上で進行するホーンとビッグバンドのリズム。<br>伝統的なクリスマスコラールをジャジーにアレンジした一曲。</p><p>Horns and big band rhythms drive forward over a sound full of Christmas mood.<br>A jazzy arrangement of a traditional Christmas chorale.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/alle-jahre-wieder-feat-marco-dufner-julian-hesse-frederik/1649001374?i=1649001746",
+    "amazon_url": "https://amzn.to/4954m1g",
+    "season": ["winter"],
+    "weather": ["snowy","cloudy","sunny"],
+    "mood": ["mid", "high"],
+    "country": ["Germany"],
+    "city": ["Munich"]
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Winter Wonderland – Günter Kallmann Chor",
+    "comment": "<p>やわらかなコーラスが温かみのある音色の上でふわりと広がる。<br>オーケストラ風のアレンジが雪景色のきらめきを描き出す、ドリーミーなホリデーチューン。</p><p>Choral harmonies bloom gently over warm, glowing tones.<br>An orchestral-leaning arrangement that captures the sparkle of a snowy scene—a dreamy holiday tune.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/christmas-sing-in/1443562544?i=1443562602",
+    "season": ["winter"],
+    "weather": ["snowy", "cloudy","sunny"],
+    "mood": ["low", "mid"],
+    "country": ["Germany"],
+    "city": ["Berlin"]
+  },
+  {
+    "date": "2025-12-26",
+    "title": "A Rã – João Donato",
+    "comment": "<p>鍵盤のフレーズと丸みのあるベースが、刻んで跳ねるグルーヴの上でゆらめく。<br>波打つヴォーカルとパーカッションに木管が加わり、どこか幻想的なブラジリアンムードを運ぶ一曲。</p><p>Keyboard phrases and a rounded bassline shimmer over a chopped, bouncing groove.<br>Waving vocals and percussion meet woodwinds, carrying a slightly dreamlike Brazilian mood.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/a-r%C3%A3/1796793934?i=1796793943",
+    "amazon_url": "https://amzn.to/4b1CMEJ",
+    "season": ["summer"],
+    "weather": ["cloudy","sunny"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio Branco"]
+  },
+  {
+    "date": "2025-12-27",
+    "title": "Cloudburst – Frank Strazzeri",
+    "comment": "<p>歯切れの良い鍵盤とうねるベースがスペーシーなシンセとともに駆け抜ける。<br>じわじわと熱を帯びていくグルーヴィーなジャズファンク。</p><p>Crisp keyboard lines and a rolling bassline race alongside spacey synth tones.<br>A groovy jazz-funk track that slowly builds heat.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/cloudburst/1758793600?i=1758793607",
+    "amazon_url": "https://amzn.to/4jgzMGU",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2025-12-28",
+    "title": "Partido Alto – Airto Moreira",
+    "comment": "<p>パーカッションとベースが跳ねる独特なグルーヴ。<br>伸びやかなヴォーカルとコーラスのレイヤーがブラジリアンフュージョンの高揚感を押し上げる一曲。</p><p>A distinctive groove where percussion and bass bounce and snap.<br>Soaring vocals and layered choruses push the uplifting energy of Brazilian fusion even higher.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/partido-alto/1136358103?i=1136358210",
+    "youtube_url": "https://www.youtube.com/watch?v=-ewY-O2P5iE&t=282s",
+    "amazon_url": "https://amzn.to/4qcfLn4",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["São Paulo"]
+  },
+  {
+    "date": "2025-12-29",
+    "title": "Abstract Fever – The Mighty Bop",
+    "comment": "<p>ビートとサンプルの断片が折り重なるダウンテンポグルーヴ。<br>スペースエイジポップ/ヒップホップ/エレクトロニカの狭間を漂うようなトリップ感抜群の一曲。</p><p>A downtempo groove where beats and fragmented samples stack and weave together.<br>A deeply trippy track that drifts between space-age pop, hip-hop, and electronica.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/abstract-fever/1792838393?i=1792838630",
+    "amazon_url": "https://amzn.to/44YQ5Cn",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2025-12-30",
+    "title": "Uno Está – Alex Malheiros & Banda Utopia",
+    "comment": "<p>しなやかなベースとドラムのグルーヴの上でやわらかな鍵盤とヴォーカルが揺れる。<br>心地よいブラジリアンクロスオーバーへと染め上げた一曲。</p><p>Soft keys and vocals sway over a supple groove of bass and drums.<br>A classic re-colored into a smooth Brazilian crossover vibe.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/uno-est%C3%A1-feat-sabrina-malheiros/1041465735?i=1041466852",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2025-12-31",
+    "title": "My Best Step – Lady Wray",
+    "comment": "<p>展開性のあるビートとゴスペル調のバックコーラスに、ソウルフルで温かみのある歌声がじわりと滲む。<br>ヴィンテージソウルのムードと現代的な質感が溶け合う一曲。</p><p>A beat with a sense of progression, gospel-tinged backing vocals, and a soulful, warm voice that slowly seeps in.<br>A track where vintage-soul mood melts into a modern texture.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/my-best-step/1817621221?i=1817621222",
+    "season": ["fall", "winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low","mid"],
+    "country": ["USA"],
+    "city": ["Portsmouth"]
   }
 
 ]

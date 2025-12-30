@@ -5532,6 +5532,121 @@
     "mood": ["low","mid"],
     "country": ["USA"],
     "city": ["Portsmouth"]
+  },
+  {
+    "date": "2026-01-01",
+    "title": "I Am An Instrument – Sun Ra",
+    "comment": "<p>スポークンワードとハープのようにきらめく鍵盤が静かに呼応する。<br>宇宙や音楽への瞑想的なモノローグが、コズミック/スピリチュアルなムードを広げる一曲。</p><p>Spoken word quietly answers shimmering, harp-like keys.<br>A meditative monologue on the cosmos and music, expanding a cosmic, spiritual mood.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-am-an-instrument/1167478569?i=1167478666",
+    "youtube_url": "https://www.youtube.com/watch?v=b3Q6Ne0ztH4&t=44s",
+    "amazon_url": "https://amzn.to/4jjImVi",
+    "season": ["winter"],
+    "weather": ["cloudy", "snowy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-01-02",
+    "title": "Be Thankful for What You&#39;ve Got – Massive Attack",
+    "comment": "<p>スモーキーなベースラインの上でギターや鍵盤の響きがにじむ。<br>フィリーソウルの名曲を、ダビーで内省的なトリップホップへと染め上げた一曲。</p><p>Over a smoky bassline, guitar and keys seep in and shimmer.<br>A Philly soul classic reimagined as a dubby, introspective trip-hop trip.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/be-thankful-for-what-youve-got-perfecto-mix/724379865?i=724380330",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["UK"],
+    "city": ["Bristol"]
+  },
+  {
+    "date": "2026-01-03",
+    "title": "Jacaranda – Luiz Bonfá",
+    "comment": "<p>ギターのアルペジオとやわらかなコードがミッドグルーヴの上で煌めきながら揺れる。<br>耳に残るギターのフレーズが特徴的なブラジリアン・ギター・ジャズ。</p><p>Shimmering guitar arpeggios and gentle chords sway over a mid-tempo groove.<br>A Brazilian guitar-jazz gem defined by a memorable, lingering guitar phrase.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/jacaranda/274381151?i=274381713",
+    "amazon_url": "https://amzn.to/48ZODlr",
+    "season": ["summer","fall"],
+    "weather": ["sunny","cloudy"],
+    "mood": ["mid","high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-01-04",
+    "title": "I Love My Baby (My Baby Loves Jazz) – United Future Organization",
+    "comment": "<p>ジャジーなホーンと鍵盤が跳ねるパーカッションと共に躍る。<br>クラブジャズの躍動感と洒落たアレンジが溶け合う一曲。</p><p>Jazzy horns and keys dance alongside bouncy percussion.<br>A track where club-jazz momentum meets sleek, stylish arranging.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-love-my-baby-my-baby-loves-jazz-norman-cook-ashley/1443341897?i=1443342489",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Japan"],
+    "city": ["Tokyo"]
+  },
+  {
+    "date": "2026-01-05",
+    "title": "Caretera Panamericana – Piero Umiliani",
+    "comment": "<p>うねるベースとパーカッションに加えて、ローファイな質感の電子音が駆け抜ける。<br>イタリア産ライブラリーらしいシネマティックなムードがにじむ、疾走感のある一曲。</p><p>A rippling bass and percussion, with lo-fi electronic tones rushing through.<br>A fast-paced track where a cinematic, Italian library-music mood seeps in.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/caretera-panamericana/335174533?i=335175810",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2026-01-06",
+    "title": "Samba Michel – Anne Haigis",
+    "comment": "<p>やわらかなヴォーカルとアンサンブルがサンバグルーヴの上で心地よく揺れる。<br>ブラジルらしい力強い風合いと柔らかな歌声が共存する一曲。</p><p>Soft vocals and the ensemble sway comfortably over a samba groove.<br>A track where Brazil-like strength and a gentle voice coexist.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/samba-michel/522350786?i=522350941",
+    "season": ["summer","fall"],
+    "weather": ["sunny","cloudy"],
+    "mood": ["mid","high"],
+    "country": ["Germany"],
+    "city": ["Rottweil am Neckar"]
+  },
+  {
+    "date": "2026-01-07",
+    "title": "Right Down Here – Asha Puthli",
+    "comment": "<p>ゆったりと渦を巻く鍵盤やギターと高音・低音を見事に使い分けるヴォーカル。<br>ソウル〜ジャズのムードとバレアリックな浮遊感が溶け合うトリップ感のある一曲。</p><p>Swirling, laid-back keys and guitar, paired with vocals that glide effortlessly between highs and lows.<br>A trippy track where soul-jazz moods melt into a Balearic sense of float.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/right-down-here/1525352938?i=1525352941",
+    "amazon_url": "https://amzn.to/49w7lRL",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["India"],
+    "city": ["Mumbai"]
+  },
+  {
+    "date": "2026-01-08",
+    "title": "Abrace Paul McCartney Por Mim – Umas E Outras",
+    "comment": "<p>やわらかなヴォーカルとアンサンブルがやさしく揺れ動く。<br>ポールマッカートニーへのオマージュをポルトガル語で包み込んだ一曲。</p><p>Soft vocals and ensemble work sway gently together.<br>A Portuguese-language tribute that wraps an homage to Paul McCartney in warmth.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%A2%E3%83%96%E3%83%A9%E3%83%83%E3%82%BB-%E3%83%9D%E3%83%BC%E3%83%AB-%E3%83%9E%E3%83%83%E3%82%AB%E3%83%BC%E3%83%88%E3%83%8B%E3%83%BC-%E3%83%9D%E3%83%AB-%E3%83%9F%E3%83%B3/1721467271?i=1721467672",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["low", "mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-01-09",
+    "title": "Chagall de Basse – François Rabbath",
+    "comment": "<p>歌うようなコントラバスのフレーズが、静かな伴奏の上でゆっくりと浮かび上がる。<br>クラシックとジャズの狭間をたゆたうような、余白の多いサウンドスケープが染み入る一曲。</p><p>A singing double-bass phrase slowly rises over a quiet accompaniment.<br>A spacious soundscape drifting between classical and jazz, and it sinks right in.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=IJdFaGBI_NY",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-01-10",
+    "title": "Latin Strut – Joe Bataan",
+    "comment": "<p>ホーンとオルガンのファンキーなフレーズが、ラテンのリズムの上を練り歩く。<br>ソウル/ラテンファンクの熱気とストリート感が一体となった一曲。</p><p>Funky horn and organ phrases strut over a Latin rhythm.<br>A track where the heat of soul/Latin funk and a streetwise vibe come together as one.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/latin-strut-2022-remaster/1650418172?i=1650418179",
+    "season": ["summer","fall"],
+    "weather": ["sunny","cloudy"],
+    "mood": ["high", "mid"],
+    "country": ["USA"],
+    "city": ["New York"]
   }
 
 ]

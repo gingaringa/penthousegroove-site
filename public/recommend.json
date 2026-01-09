@@ -5647,6 +5647,187 @@
     "mood": ["high", "mid"],
     "country": ["USA"],
     "city": ["New York"]
+  },
+  {
+    "date": "2026-01-11",
+    "title": "Higga-Boom – Gene Harris",
+    "comment": "<p>うねるベースとタイトなドラムの上で、ピアノのリフやホーンのフレーズが次々と飛び込んでくる。<br>ジャズファンク〜ソウルジャズのグルーヴが、ミッドテンポながらも力強い高揚を生む一曲。</p><p>Over a rolling bassline and tight drums, piano riffs and horn phrases jump in one after another.<br>A jazz-funk to soul-jazz groove that delivers a powerful lift, even at a mid-tempo pace.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%92%E3%82%AC-%E3%83%96%E3%83%BC%E3%83%A0/1444048865?i=1444049221",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Benton Harbor"]
+  },
+  {
+    "date": "2026-01-12",
+    "title": "Come With Me – Ronny Jordan",
+    "comment": "<p>ウォームなギターが軽やかなビートの上で柔らかくうねる。<br>名曲をアシッドジャズ寄りのサウンドでアップデートした心地よいカバー。</p><p>Warm guitar lines ripple softly over a light, breezy beat.<br>A comfortable cover that updates the classic with an acid-jazz-leaning sound.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/come-with-me-allstars-funkadelic-jazz-edit/1445276763?i=1445276936",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-01-13",
+    "title": "Sementes, Graines & Seeds – Tania Maria",
+    "comment": "<p>エレピのコードとうねるベースが渦を描くように絡み合う。<br>力強いヴォーカルとパーカッションの躍動が、ブラジリアンジャズ/ファンクの熱と涼しさを同時に運ぶ一曲。</p><p>Electric piano chords and a rolling bassline coil in a swirling interplay.<br>Powerful vocals and percussion carry both the heat and cool of Brazilian jazz/funk.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%BB%E3%83%A1%E3%83%B3%E3%83%84-%E3%82%B0%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%BA-%E3%82%A2%E3%83%B3%E3%83%89-%E3%82%B7%E3%83%BC%E3%82%BA/1519832624?i=1519832643",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["São Luís"]
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Pheno-men – Alain Mion",
+    "comment": "<p>軽やかな鍵盤の響きと電子的なシンセ／エフェクトのレイヤーがじわじわと広がっていく。<br>ジャズファンク〜ソウルジャズ寄りのグルーヴにフレンチレアグルーヴらしいコズミックなムードがにじむ一曲。</p><p>Light, airy keys and layers of electronic synths/effects gradually spread out.<br>A jazz-funk to soul-jazz-leaning groove where a cosmic mood—distinctly French rare groove—seeps through.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/pheno-men/287912912?i=287912929",
+    "season": ["spring", "fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-01-15",
+    "title": "Transcontinental – Ready Made",
+    "comment": "<p>くぐもったビートの上で鍵盤とサウンドエフェクトがレイヤーを重ねる。<br>ラウンジ寄りの質感に、フレンチエレクトロニカならではの都会的なムードが滲む一曲。</p><p>Over a muffled beat, keys and sound effects stack in layered waves.<br>A lounge-leaning texture with an urban mood that feels distinctly French electronica.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/transcontinental-2020-remastered-version/1514585664?i=1514586246",
+    "amazon_url": "https://amzn.to/4qQG7LP",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-01-16",
+    "title": "A Million Stars – Mackey Feary Band",
+    "comment": "<p>エレピと柔らかなベースがAORグルーヴの上を漂う。<br>ホーンやストリングスの気配が夜風のようなニュアンスを添える、ハワイ産メロウソウル。</p><p>Electric piano and a soft bassline drift over an AOR groove.<br>Hints of horns and strings add a night-breeze nuance to this Hawaii-born mellow soul.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/a-million-stars/1367678816?i=1367679071",
+    "amazon_url": "https://amzn.to/49rzcBt",
+    "season": ["summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Honolulu"]
+  },
+  {
+    "date": "2026-01-17",
+    "title": "Ulla et Georgie – Jean-Pierre Mirouze",
+    "comment": "<p>押し寄せるパーカッションと流れ込むストリングスが描くフレンチサイケグルーヴ。<br>フリーキーなサックスとライブラリームードが溶け合う一曲。</p><p>A French psychedelic groove painted by surging percussion and flowing strings.<br>A track where freaky sax and library-music mood melt together.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/ulla-et-georgie/1394029686?i=1394030525",
+    "amazon_url": "https://amzn.to/4jBf1pt",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid", "high"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-01-18",
+    "title": "Nereci – Djavan & Marizinha",
+    "comment": "<p>パーカッションの粒立ちとしなやかなベースが、アフロ〜サンバ寄りのミッドグルーヴを描く。<br>コーラスのレイヤーと浮遊感のあるビブラフォンが重なり合う、海風をまとったブラジル産MPBグルーヴ。</p><p>Crisp percussion and a supple bassline shape an Afro-to-samba-leaning mid-groove.<br>Layered choruses and floating vibraphone intertwine in this sea-breeze Brazilian MPB groove.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%8D%E3%83%AC%E3%82%B7%E3%83%BC/1728139389?i=1728139764",
+    "season": ["summer","fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Maceió"]
+  },
+  {
+    "date": "2026-01-19",
+    "title": "Tonight – Koop",
+    "comment": "<p>スウィンギーなウッドベース、軽やかな鍵盤、スモーキーなヴォーカルがしなやかなミッドグルーヴの上で静かに揺れる。<br>ジャジーな生演奏の質感とラウンジ寄りの空気感が溶け合う、深夜に馴染む一曲。</p><p>Swinging upright bass, light keys, and a smoky vocal sway quietly over a supple mid-groove.<br>A late-night fit where jazzy live-played texture melts into a lounge-leaning atmosphere.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/tonight/285952445?i=285952484",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["Sweden"],
+    "city": ["Stockholm"]
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Always Have to Say Goodbye – Plunky & Oneness Of Juju",
+    "comment": "<p>柔らかな鍵盤のコードとうねるベースがじわじわとグルーヴを描く。<br>コーラスのレイヤーとアフロ〜ディスコ調のアレンジが溶け合う一曲。</p><p>Soft keyboard chords and a rolling bassline slowly carve out the groove.<br>Layered chorus vocals melt into an Afro-to-disco-tinged arrangement.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/always-have-to-say-goodbye/1559799382?i=1559799730",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Washington, D.C."]
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Enquanto Houver – Celso Rubinstein",
+    "comment": "<p>浮遊感のあるエレピとカッティングギターがソフトなサンバ調ビートの上で溶け合う。<br>ブラジリアンアーバンAORのムードが柔らかな歌声と共に漂う一曲。</p><p>Floating electric piano and cutting guitar melt into a soft samba-tinged beat.<br>A Brazilian urban AOR mood drifts along with gentle vocals.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/enquanto-houver/1449848169?i=1449848184",
+    "amazon_url": "https://amzn.to/4qboh5X",
+    "season": ["summer", "spring"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-01-22",
+    "title": "The Sophisticated Hippie (Easy Mo Bee Remix) – Horace Silver",
+    "comment": "<p>ジャズファンク寄りのリフと太いビートがじわじわと反復する。<br>70sブルーノートのムードと90sヒップホップの質感が溶け合う一曲。</p><p>Jazz-funk riffs ride over a thick, repeating beat.<br>70s Blue Note vibes merge with the gritty feel of 90s hip-hop on this hybrid cut, too.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/the-sophisticated-hippie-easy-mo-bee-remix/1444200869?i=1444201117",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-01-23",
+    "title": "San Juan Sunset – Deodato",
+    "comment": "<p>エレピ系のコードと丸みのあるベースがミッドグルーヴの上でゆらめく。<br>サンセットの情景を思わせるメロディにブラジリアンフュージョン調のムードが溶け合う一曲。</p><p>Electric-piano-style chords and a rounded bassline shimmer over a mid-tempo groove.<br>A sunset-evoking melody melts into a Brazilian-fusion-tinged mood.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/san-juan-sunset/272491238?i=272491392",
+    "amazon_url": "https://amzn.to/4stbXQp",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-01-24",
+    "title": "Jessica – Roy Porter Sound Machine",
+    "comment": "<p>ホーンのリフとエレピのコードが、タイトなドラムとベースのうねりの上でじわじわ熱を帯びる。<br>メランコリックなマイナー感とジャズファンク〜レアグルーヴの躍動が同居する一曲。</p><p>Horn riffs and electric piano chords heat up over tight drums and rolling bassline.<br>A track where melancholic minor-key shades meet the drive of jazz-funk to rare groove.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/jessica/300284501?i=300284503",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-01-25",
+    "title": "Baby I Don’t Know Where Love – Air",
+    "comment": "<p>浮遊感あるエレピとしなやかなベースがゆったりと渦を巻く。<br>ジャズロック〜ソウル寄りのアンサンブルに、どこかブラジリアンジャズの気配をまとったディープトラック。</p><p>Floating electric piano and a supple bassline slowly swirl and drift.<br>A deep cut where a jazz-rock-to-soul-leaning ensemble carries a subtle hint of Brazilian jazz.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/baby-i-dont-know-where-love/1260530223?i=1260530251",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid", "high"],
+    "country": ["France"],
+    "city": ["Versailles"]
+  },
+  {
+    "date": "2026-01-26",
+    "title": "Sam Blues – Sambalanca Trio",
+    "comment": "<p>キレのあるピアノのフレーズとウォーキング気味のベースがビートの上を転がるように駆ける。<br>ボッサ〜ジャズのニュアンスが溶け合ったブラジリアンピアノトリオによる一曲。</p><p>Crisp piano phrases and a near-walking bassline roll and run over the beat.<br>A Brazilian piano-trio cut where bossa and jazz nuances melt together.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/sam-blues/781151585?i=781151652",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["São Paulo"]
   }
 
 ]

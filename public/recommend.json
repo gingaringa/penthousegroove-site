@@ -5828,6 +5828,166 @@
     "mood": ["mid", "high"],
     "country": ["Brazil"],
     "city": ["São Paulo"]
+  },
+  {
+    "date": "2026-01-27",
+    "title": "Robin’s Theme (1966) – The Sensational Guitars of Dan & Dale",
+    "comment": "<p>Sun Ra のオルガンが匿名名義のバンドに紛れ込んだ一曲。<br>60s調のギターの上でサントラ〜ジャズのニュアンスが揺らめくカルト感満載のトラック。</p><p>A track where Sun Ra’s organ slips in under an anonymous band name.<br>Soundtrack-to-jazz nuances shimmer over 60s-style guitar—pure cult vibes.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/robins-theme/342680185?i=342680239",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid","high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-01-28",
+    "title": "Nairobi – Romolo Grano & Gianni Oddi",
+    "comment": "<p>次第に広がるパーカッションの粒立ちと低音のパルス。<br>ホーンやフルートの気配が差し込むライブラリ調のグルーヴが、エキゾチックな映像を想起させる一曲。</p><p>Crisp percussion gradually spreads, riding on low-end pulses.<br>A library-style groove with hints of horns and flute that conjures exotic imagery.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/nairobi-feat-gianni-oddi/1728928308?i=1728928573",
+    "amazon_url": "https://amzn.to/3NpoKDo",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2026-01-29",
+    "title": "Under The Jamaican Moon – Nick DeCaro",
+    "comment": "<p>やわらかな鍵盤とギターが、メロウグルーヴの上でゆったりと揺れる。<br>カリビアンな風味を帯びたAOR〜ソフトロックと穏やかなコーラスが、潮風まじりの郷愁を運ぶ一曲。</p><p>Soft keys and guitar sway gently over a mellow groove.<br>Caribbean-tinged AOR/soft rock and calm chorus vocals carry a sea-breeze nostalgia.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%B8%E3%83%A3%E3%83%9E%E3%82%A4%E3%82%AB%E3%81%AE%E6%9C%88%E3%81%AE%E4%B8%8B%E3%81%A7/1712803736?i=1712803755",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Jamaica"],
+    "city": ["Kingston"]
+  },
+  {
+    "date": "2026-01-30",
+    "title": "Amigo Branco – Marcia Maria",
+    "comment": "<p>跳ねるリズムとうねるベースの上で、ギターと鍵盤のフレーズがグルーヴィーに踊る。<br>サンバ〜ブラジリアンディスコ調のトラックに伸びやかな歌声が重なり、甘く高揚していく一曲。</p><p>Over bouncing rhythms and a rolling bassline, guitar and keyboard phrases dance with groove.<br>A samba-to-Brazilian-disco-tinged track where soaring vocals layer in, building a sweet lift.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/amigo-branco/1678889099?i=1678889109",
+    "season": ["summer"],
+    "weather": ["sunny","cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["São Paulo"]
+  },
+  {
+    "date": "2026-01-31",
+    "title": "Self-Help Is Needed – Oliver Nelson",
+    "comment": "<p>少しずつフレーズを重ねて行進するホーンとピアノ。<br>多層的リズムセクションと厚みのあるアレンジが次第に熱を帯びるモーダル調ジャズグルーヴ。</p><p>Over a quiet beat horns and piano stack phrases like call-and-response.<br>A modal-leaning jazz groove where the layered rhythm section and thick arranging gradually build heat.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/self-help-is-needed/669334215?i=669334593",
+    "amazon_url": "https://amzn.to/4bfcVcG",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["St. Louis"]
+  },
+  {
+    "date": "2026-02-01",
+    "title": "Porto Cammelli – Silvano D’Auria feat. Edda Dell’Orso",
+    "comment": "<p>煌めくグルーヴを描き出す弦のレイヤーとワードレスヴォーカル。<br>地中海の夕景を思わせる、ファンク感を帯びたイタリア産ライブラリー。</p><p>Layered strings and wordless vocals sketch out a shimmering groove.<br>An Italian library cut with a touch of funk, evoking a Mediterranean sunset.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/porto-cammelli-feat-edda-dellorso/1796567628?i=1796567833",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2026-02-02",
+    "title": "Aleluia – Robson Jorge & Lincoln Olivetti",
+    "comment": "<p>しなやかにうねるベースの上でシンセとギターのフレーズがきらめきを描く。<br>爽やかなコーラスが心地よい80sブラジリアンブギー〜AOR。</p><p>Over a rolling bassline synth and guitar phrases sketch shimmering sparks.<br>A fresh, uplifting chorus makes this 80s Brazilian boogie/AOR cut feel effortlessly good.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/aleluia/917821499?i=917821599",
+    "amazon_url": "https://amzn.to/4k11J5R",
+    "season": ["spring","summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-02-03",
+    "title": "Don’t Let Love Get You Down – Archie Bell & The Drells",
+    "comment": "<p>うねるベースとストリングスのレイヤーが生み出す柔らかなグルーヴ。<br>フィリーソウル調のリードとコーラスが切なさと高揚感を同時に運ぶ一曲。</p><p>A soft groove shaped by a rolling bassline and layered strings.<br>Philly-soul-style leads and chorus vocals carry both bittersweetness and uplift at once.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/dont-let-love-get-you-down/278418129?i=278418137",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Houston"]
+  },
+  {
+    "date": "2026-02-04",
+    "title": "Snow Queen – The City",
+    "comment": "<p>静かに跳ねるビートの上で、ピアノとギターがスモーキーな歌声をやわらかく包む。<br>ソフトロック寄りの柔らかな質感でほろ苦い余韻を残す一曲。</p><p>Over a quietly bouncing beat, piano and guitar softly wrap a smoky vocal.<br>A soft-rock-leaning track that leaves a gently bittersweet afterglow.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/snow-queen/379505003?i=379505012",
+    "amazon_url": "https://amzn.to/4acMQdi",
+    "season": ["winter"],
+    "weather": ["snowy", "cloudy","rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Hang On In There – Mike James Kirkland",
+    "comment": "<p>柔らかなリードとコーラスがミッドグルーヴの上で波打つ。<br>ドラムとベースにオーケストレーションが徐々に乗り、じっくりとピークへ向かう一曲。</p><p>Soft lead vocals and chorus swell and wave over a mid-tempo groove.<br>Orchestration gradually joins the drums and bass, building patiently toward a peak.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/hang-on-in-there/1516960329?i=1516960333",
+    "amazon_url": "https://amzn.to/4qOOTtO",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Detroit"]
+  },
+  {
+    "date": "2026-02-06",
+    "title": "Toque Tropical – Junior Mendes",
+    "comment": "<p>ミッドグルーヴの上で、エレピ系のコードと滑らかなコーラスが溶け合う。<br>柔らかなヴォーカルとブラジリアンソウル〜AOR寄りのムードが溶け合う、サンセットタイムに似合う一曲。</p><p>Electric-piano-style chords and smooth chorus vocals melt together over a mid-tempo groove.<br>Soft vocals and a Brazilian soul-to-AOR-leaning mood make this a perfect fit for sunset time.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/toque-tropical/1483720444?i=1483720446",
+    "season": ["summer", "fall"],
+    "weather": ["sunny"],
+    "mood": ["low", "mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-02-07",
+    "title": "Feijão Com Farinha – Helio Matheus",
+    "comment": "<p>跳ねるようなリズムの上で、ギターとホーンのフレーズが軽快に行き交う。<br>サンバ〜ブラジリアン・ソウル寄りのグルーヴが、土っぽさと都会的なムードを同時に運ぶ一曲。</p><p>Over a bouncing rhythm, guitar and horn phrases trade off with nimble ease.<br>A samba-to-Brazilian-soul-leaning groove that carries both earthy grit and an urban mood at once.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/feij%C3%A3o-com-farinha/1512365362?i=1512365582",
+    "season": ["spring","summer"],
+    "weather": ["sunny","cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-02-08",
+    "title": "Middle Of The Night – Lalo Schifrin",
+    "comment": "<p>ゆったりとしたグルーヴの上で、スペーシーなエレピ系のコードとカッティングギターがなめらかに流れ出す。<br>徐々にストリングスやホーンの気配が重なるシネマティックな一曲。</p><p>Over a laid-back groove, spacey electric-piano-style chords and cutting guitar flow smoothly.<br>A cinematic track where hints of strings and horns gradually layer in.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/middle-of-the-night/1439532064?i=1439532378",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid"],
+    "country": ["Argentina"],
+    "city": ["Buenos Aires"]
+  },
+  {
+    "date": "2026-02-09",
+    "title": "Kofijahm (Coffee Jam) – Mandrill",
+    "comment": "<p>じわじわと立ち上がるトライブ感のあるサウンド。<br>マルチフォニクス的奏法のフルートが荒々しいアクセントを加える、レアグルーヴ感たっぷりの一曲。</p><p>A tribal-tinged sound that gradually rises and takes shape.<br>A multiphonics-style flute adds a wild accent to this rare-groove-heavy cut.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/kofijahm-coffee-jam/1434741590?i=1434742036",
+    "amazon_url": "https://amzn.to/4r2KmUk",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["New York"]
   }
 
 ]

@@ -6307,6 +6307,166 @@
     "mood": ["low","mid"],
     "country": ["United States"],
     "city": ["Pensacola"]
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Forty-Nine Reasons – Julius Brockington",
+    "comment": "<p>フルートのフレーズとやわらかな鍵盤が、スムースなグルーヴの上で静かに揺れる。<br>穏やかな浮遊感と70sレアグルーヴのムードがじわじわと染み込んでくる一曲。</p><p>Flute phrases and soft keys sway quietly over a smooth groove.<br>A track where gentle float and 70s rare-groove mood slowly seep in.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/forty-nine-reasons/1659001669?i=1659002886",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["low", "mid"],
+    "country": ["United States"],
+    "city": ["Baltimore"]
+  },
+  {
+    "date": "2026-03-11",
+    "title": "Aphrodisiaco – Bungalove",
+    "comment": "<p>軽やかなパーカッションと柔らかなサウンドのレイヤーがラウンジ・グルーヴを静かに押し出す。<br>ボサ／ラテンの風味をまとったチルアウト感が、遅い時間のリラックスにちょうどいい一曲。</p><p>Light percussion and soft layered sounds quietly push a lounge groove forward.<br>Bossa/Latin-tinged chillout vibes make it just right for late-night relaxation.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/aphrodisiaco/317074746?i=317074786",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2026-03-12",
+    "title": "Whistle Samba – Luiz Bonfá & Maria Toledo",
+    "comment": "<p>口笛とスキャットが寄り添うように絡み合う、ボサ寄りのミッドグルーヴ。<br>ガット・ギターとささやくようなヴォーカルが、ドリーミーなラウンジ感を運ぶ一曲。</p><p>A bossa-leaning mid-groove where whistling and scat intertwine like close companions.<br>Nylon-string guitar and whisper-soft vocals carry a dreamy lounge feel.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/whistle-samba/1443798803?i=1443799061",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-03-13",
+    "title": "Vai Vai – Jean-Pierre Sabar",
+    "comment": "<p>アコースティックギター、鍵盤のフレーズ、コーラスが軽やかなパーカッションの上でさらりと揺れる。<br>フランス産ボッサ〜ライブラリ寄りのグルーヴに、どこか映像的なムードがにじむ一曲。</p><p>Acoustic guitar, keyboard phrases, and chorus vocals sway lightly over airy percussion.<br>A French bossa-to-library-leaning groove with a subtly cinematic mood seeping through.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/vai-vai/1518944063?i=1518944580",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-03-14",
+    "title": "Children of the Night – Hysear Don Walker",
+    "comment": "<p>しっとりとしたリズムセクションと鍵盤のコードが、深夜の空気のように静かに漂う。<br>ウォーミーなエレピがじわじわと広がるメロウグルーヴ。</p><p>A mellow rhythm section and keyboard chords drift quietly like late-night air.<br>A warm electric piano slowly spreads into a mellow groove.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/children-of-the-night/987781756?i=987781774",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-03-15",
+    "title": "I’m Your Slave – Don Cunningham Quartet",
+    "comment": "<p>柔らかかつ軽やかなピアノと深みのあるヴォーカル。<br>パーカッションの粒立ちがジャジーな雰囲気にラテンジャズグルーヴを乗せる一曲。</p><p>Soft, light-footed piano with a deep, resonant vocal.<br>Crisp, popping percussion rides a jazzy atmosphere into a Latin-jazz groove.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/im-your-slave/1878047925?i=1878047927",
+    "amazon_url": "https://amzn.to/3OSbdFa",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["United States"],
+    "city": ["St. Louis"]
+  },
+  {
+    "date": "2026-03-16",
+    "title": "Sài Gòn – Carol Kim",
+    "comment": "<p>軽やかなリズムとうねるベースの上で、ホーンや鍵盤のフレーズがきらきらと駆け抜ける。<br>60s〜70sサイゴンの雰囲気を閉じ込めたような、チャチャ〜ヴィンテージポップ調の一曲。</p><p>Over a light rhythm and rolling bassline, horn and keyboard phrases sparkle as they race through.<br>A cha-cha-to-vintage-pop cut that bottles the vibe of 60s–70s Saigon!!!</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/s%C3%A0i-g%C3%B2n/1775429357?i=1775429358",
+    "amazon_url": "https://amzn.to/3MKA4dm",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Vietnam"],
+    "city": ["Ho Chi Minh City"]
+  },
+  {
+    "date": "2026-03-17",
+    "title": "Perfume de Cebola – Filó Machado",
+    "comment": "<p>やわらかなエレピと小気味良いヴォーカルが爽やかな南米の風とともにくるくると揺れる。<br>スキャットを含むひねりの効いたメロディが、じんわりクセになる一曲。</p><p>Soft electric piano and a nimble vocal swirl lightly, carried by a fresh South American breeze.<br>A twisted, scat-kissed melody slowly becomes addictive.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/perfume-de-cebola/1168204791?i=1168205024",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["São Paulo"]
+  },
+  {
+    "date": "2026-03-18",
+    "title": "Voir Venise – Alain Goraguer",
+    "comment": "<p>ハイテンポでスリリングな展開の中で、ベースの重低音がゆっくりと歩みを進める。<br>フレンチ映画の情景を切り取ったような、シネマティックなサウンドトラック・チューン。</p><p>Amid a high-tempo, thrilling ride, the bass moves forward with a slow, heavy stride.<br>A cinematic soundtrack tune that feels like a snapshot from a French film.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/voir-venise/1821208829?i=1821208831",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid", "high"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-03-19",
+    "title": "You Light Up My Life – Judy Roberts",
+    "comment": "<p>浮遊感のあるエレピの上で澄んだ歌声が柔らかく旋回する。<br>名バラードをサンバ〜フュージョン調のライトジャズに仕立てた心地よい一曲。</p><p>A clear, pure vocal gently circles over floating electric piano.<br>A comfortable take that turns the famous ballad into a light jazz cut with samba-to-fusion touches.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/you-light-up-my-life/276438337?i=276438343",
+    "amazon_url": "https://amzn.to/4loMlRp",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high", "mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-03-20",
+    "title": "Paradise – Durand Jones & The Indications, Aaron Frazer",
+    "comment": "<p>柔らかなリズムセクションの上で、2人のボーカルがメロディを紡ぐ。<br>70sスウィートソウルのムードを現代的な質感でなぞった一曲。</p><p>Over a soft rhythm section, the two vocals weave the melody together.<br>A track that traces the mood of 70s sweet soul with a modern sheen.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/paradise/1797634063?i=1797634068",
+    "amazon_url": "https://amzn.to/3MMDOuU",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Bloomington"]
+  },
+  {
+    "date": "2026-03-21",
+    "title": "Fab Chick – Roger Roger",
+    "comment": "<p>浮遊感のあるオルガン／シンセにどこかエキゾチックな要素がスパイスとして加わる、ジャジー・ライブラリー・グルーヴ。<br>スペーシーなムードが立ち上がるポップで小粋な一曲。</p><p>A jazzy library groove where floating organ/synth lines are spiced with a touch of exotic flavor.<br>A poppy, cheeky cut with a spacey mood rising up.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=f1OZrqRpsaE",
+    "season": ["summer","fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-03-22",
+    "title": "Cái Trâm Em Cài – Carol Kim",
+    "comment": "<p>ざらついたヴィンテージ録音の質感と、揺れるオルガン／ギターが印象的なベトナム歌謡。<br>ボレロの気配に、昭和歌謡にも通じる声色が映える。<br>少し粗い鳴りまでもが情緒になっている一曲。</p><p>Vietnamese pop with gritty vintage texture and swaying organ/guitar.<br>A bolero hint, and a vocal tone that echoes Japanese Showa-era pop.<br>Even rough edges become part of the emotion.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/c%C3%A1i-tr%C3%A2m-em-c%C3%A0i/1573890279?i=1573890282",
+    "season": ["spring","summer","fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["Vietnam"],
+    "city": ["Ho Chi Minh City"]
+  },
+  {
+    "date": "2026-03-23",
+    "title": "2 Deep – Gang Starr",
+    "comment": "<p>タイトなドラムとループする上モノが、重心低めのビートをじわじわと押し出す。<br>90s東海岸ヒップホップらしい硬質なグルーヴと、夜更けの空気をまとったラップが深く沈み込む一曲。</p><p>Tight drums and looping melodic fragments push forward a low-slung groove.<br>A deep East Coast ’90s hip-hop cut where hard-edged rhythm and late-night atmosphere sink in slowly.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/2-deep/1442868254?i=1442868268",
+    "amazon_url": "https://amzn.to/4srmCdm",
+    "season": ["summer","fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
   }
 
 ]

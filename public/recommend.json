@@ -6633,6 +6633,168 @@
     "mood": ["mid"],
     "country": ["Hungary"],
     "city": ["Budapest"]
+  },
+  {
+    "date": "2026-04-07",
+    "title": "Sho’ Nuff – Sly, Slick & Wicked",
+    "comment": "<p>しなやかなリズムとパーカッションの上で、ヴォーカルとコーラスがじわじわと熱を帯びていく。<br>スウィートソウル寄りの甘さと、少しやさぐれたムードが同居する、サンプリング源としても愛される一曲。</p><p>Over a supple rhythm and layered percussion, the lead vocal and harmonies slowly build in warmth.<br>A beloved sampling source, this track blends sweet soul softness with a slightly rough-edged mood.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/sho-nuff/1445169235?i=1445169240",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-04-08",
+    "title": "Astral Dance – Daniel Bechet",
+    "comment": "<p>浮遊感のある鍵盤やアンサンブルのフレーズに弦楽の熱量が伝播する。<br>フレンチ・ジャズ〜フュージョン寄りの洗練とメロウな高揚感が同居する一曲。</p><p>Floating keyboards and ensemble phrases carry the warmth and momentum of the strings.<br>A track where French jazz-to-fusion sophistication coexists with a mellow sense of uplift.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/astral-dance/1672742516?i=1672742525",
+    "amazon_url": "https://amzn.to/41Iyah0",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-04-09",
+    "title": "Take Life Easy – Christy Essien Igbokwe",
+    "comment": "<p>グルーヴィーなベースの上で、ヴォーカルとアンサンブルが一風変わったコード進行で歩みを進める。<br>アフロポップ/アフロファンク調の癖になる一曲。</p><p>Over a groovy bassline, the vocals and ensemble move forward through an unusual chord progression.<br>An addictive track with an Afro-pop / Afro-funk feel.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/take-life-easy/1724671910?i=1724671920",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Nigeria"],
+    "city": ["Lagos"]
+  },
+  {
+    "date": "2026-04-10",
+    "title": "My Favorite Song – The Kay-Gees",
+    "comment": "<p>しなやかなリズムとベースの上で、鍵盤やアンサンブルのフレーズがやわらかくほどけていく。<br>70sソウル〜ファンク寄りのストレートなメロウさと高揚感が同居する一曲。</p><p>Over a supple rhythm and bassline, the keyboard and ensemble phrases gently unfold.<br>A track where the direct mellowness and uplifting feel of ’70s soul and funk coexist.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/my-favorite-song/1279142005?i=1279142012",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-04-11",
+    "title": "Cochise – Ed Lincoln",
+    "comment": "<p>オルガンやアンサンブルのフレーズが、軽やかなブラジリアン・グルーヴの上で小気味よく弾む。<br>ジャズボッサ〜ラウンジ寄りの洒落た高揚感がにじむブラジル産カバー。</p><p>Organ and ensemble phrases bounce crisply over a light Brazilian groove.<br>A Brazilian cover with a stylish sense of uplift, leaning toward jazz bossa and lounge.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/cochise/639547743?i=639548059",
+    "amazon_url": "https://amzn.to/4tz1Rgx",
+    "season": ["spring", "summer"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-04-12",
+    "title": "Di-gue-ding-ding – Michel Legrand",
+    "comment": "<p>ブラスやストリングスのフレーズがきびきびと駆け抜ける。<br>フレンチラウンジ〜イージーリスニング調の洒落た高揚感にスキャット風の遊び心がにじむ一曲。</p><p>Brass and strings race through the arrangement with precision.<br>A track where the stylish uplift of French lounge and easy listening is touched with a playful scat-like spirit.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%87%E3%82%A3-%E3%82%B0-%E3%83%87%E3%82%A3%E3%83%B3-%E3%83%87%E3%82%A3%E3%83%B3/1555289488?i=1555289833",
+    "youtube_url": "https://www.youtube.com/watch?v=C68LF7KZZYI&t=789s",
+    "amazon_url": "https://amzn.to/4bT4Muy",
+    "season": ["spring", "summer","fall"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-04-13",
+    "title": "Music To Watch Girls By – The Bob Crewe Generation",
+    "comment": "<p>軽快に跳ねるブラスとリズム。<br>60sラウンジ〜イージーリスニング調のシネマティックなムードで名曲を包み直したカバー。</p><p>Brisk brass and rhythm.<br>A cover that wraps a classic tune in the cinematic mood of ’60s lounge and easy listening.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/music-to-watch-girls-by/1443284190?i=1443284439",
+    "amazon_url": "https://amzn.to/3QkRe2h",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-04-14",
+    "title": "Open Up Your Mind – Gerardo Frisina",
+    "comment": "<p>ローファイな質感のループが東洋的なパーカッションと共に緩やかに熱を帯びる。<br>ラテンジャズ/クラブジャズの洗練と都会的な高揚感が溶け合う一曲。</p><p>A lo-fi textured loop slowly builds heat alongside Eastern-tinged percussion.<br>A track where the sophistication of Latin jazz and club jazz melts into an urban sense of uplift.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/open-up-your-mind/156145266?i=156145279",
+    "amazon_url": "https://amzn.to/3PHVfhj",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy", "rainy"],
+    "mood": ["low","mid"],
+    "country": ["Italy"],
+    "city": ["Milan"]
+  },
+  {
+    "date": "2026-04-15",
+    "title": "Gangster Story – Guido & Maurizio De Angelis",
+    "comment": "<p>ストーリーが進展していくかのようにしていくようにタイトなビートが次第に展開する。<br>70sイタリア映画サントラらしい緊張感とラウンジ感が交差する一曲。</p><p>A tight beat gradually unfolds, as if the story itself were moving forward.<br>A track where the tension and lounge-like feel of a ’70s Italian film soundtrack intersect.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/gangster-story/439166049?i=439166166",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid","high"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Gica’s Dance - Reworked By The Nicola Conte Jazz Combo – Gerardo Frisina",
+    "comment": "<p>涼やかなビブラフォンと共にホーンと鍵盤が静かにかつ熱く踊り出す。<br>クラブジャズグルーヴをより高揚感のある質感へ磨き上げた一曲。</p><p>Alongside the cool shimmer of vibraphone, horns and keys begin to dance with quiet intensity.<br>A track that polishes its club jazz groove into a more uplifting form.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/gicas-dance-reworked-by-the-nicola-conte-jazz-combo/160062311?i=160062314",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Italy"],
+    "city": ["Bari"]
+  },
+  {
+    "date": "2026-04-17",
+    "title": "Won’t You Open Up Your Senses – Horace Silver",
+    "comment": "<p>煙のようにゆらめく丸みのあるグルーヴ。<br>ソウルジャズ/スピリチュアルの温度感と、耳に残るワルツのメロディが同居する一曲。</p><p>A rounded groove that shimmers like smoke.<br>A track where the warmth of soul jazz and spiritual jazz coexists with a waltz melody that lingers in the ear.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%A6%E3%82%A9%E3%83%B3%E3%83%88-%E3%83%A6%E3%83%BC-%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3-%E3%82%A2%E3%83%83%E3%83%97-%E3%83%A6%E3%82%A2-%E3%82%BB%E3%83%B3%E3%82%B7%E3%82%BA/1460194295?i=1460194301",
+    "amazon_url": "https://amzn.to/4vu8DGf",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-04-18",
+    "title": "That’s What She Says – Manfredo Fest",
+    "comment": "<p>鍵盤とアンサンブルが陽の光を浴びるように柔らかくほどけていく。<br>ブラジリアンジャズファンクの滑らかさとメロウな高揚感が同居する一曲。</p><p>Keys and ensemble lines gently unfold as if bathed in sunlight.<br>A track where the smoothness of Brazilian jazz-funk coexists with a mellow sense of uplift.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/thats-what-she-says/1517769004?i=1517769350",
+    "amazon_url": "https://amzn.to/4bS26NJ",
+    "season": ["spring", "summer","fall"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["São Paulo"]
+  },
+  {
+    "date": "2026-04-19",
+    "title": "Sintonia – Sabrina Malheiros",
+    "comment": "<p>軽やかに踊る鍵盤、跳ねるベースと共に静かに揺れるギター。<br>アシッドジャズの要素を含んだグルーヴに対極的な柔らかいヴォーカルが溶け合う、モダン・ブラジリアン。</p><p>Light, dancing keys, a bouncing bass, and guitar that sways softly beneath it all.<br>A modern Brazilian track where a groove with touches of acid jazz melts into a contrastingly soft vocal.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/sintonia/1040237303?i=1040238143",
+    "season": ["spring", "summer","fall"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-04-20",
+    "title": "I Dream of Jeannie – Television’s Greatest Hits Band",
+    "comment": "<p>軽やかなテーマの旋律と小気味よいリズム感。<br>ポップでドリーミーなムードがさらりと通り過ぎる、某曲にもサンプリングされた一曲。</p><p>A light, memorable theme melody and a crisp sense of rhythm.<br>A track with a pop and dreamy mood that passes by effortlessly, and was also sampled in a certain song.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-dream-of-jeannie/461602603?i=461602608",
+    "season": ["spring", "summer","fall"],
+    "weather": ["sunny"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
   }
 
 ]

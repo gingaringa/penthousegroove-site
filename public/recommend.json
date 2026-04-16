@@ -6795,6 +6795,100 @@
     "mood": ["mid"],
     "country": ["USA"],
     "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-04-21",
+    "title": "The Girls from Paramaribo – Berry Lipman Orchestra",
+    "comment": "<p>華やかなストリングス感と軽やかなグルーヴ。<br>春風のように爽やかなコーラスがもたらすムードがさらりと広がる一曲。</p><p>Lush strings and a light groove.<br>A track where the breeze-like freshness of the chorus gently spreads mood.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/the-girls-from-paramaribo/333428504?i=333428816",
+    "amazon_url": "https://amzn.to/4t0V1jU",
+    "season": ["spring"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Netherlands"],
+    "city": ["Amsterdam"]
+  },
+  {
+    "date": "2026-04-22",
+    "title": "Theme From Electric Surfboard – Jack McDuff",
+    "comment": "<p>うねるオルガンのトーンと、静かな低音のパルス。<br>ソウルジャズ寄りの中速グルーヴがじわりと熱を帯びていく一曲。</p><p>A wavering organ tone and a quiet pulse in the low end.<br>A track where a mid-tempo soul-jazz groove gradually builds heat.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/theme-from-electric-surfboard/723583289?i=723583736",
+    "amazon_url": "https://amzn.to/4t6drj7",
+    "season": ["spring", "summer"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-04-23",
+    "title": "And the Melody Still Lingers On – Chaka Khan",
+    "comment": "<p>グルーヴィーなヴォーカルとメロディが次第に熱を帯びる。<br>A Night in TunisiaをR&B/ジャズ/クロスオーバーの艶で包み直した一曲。</p><p>Groovy vocals and melody gradually build in intensity.<br>A track that reimagines A Night in Tunisia with the sheen of R&B, jazz, and crossover.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/and-the-melody-still-lingers-on-night-in-tunisia/266611641?i=266613018",
+    "amazon_url": "https://amzn.to/4cldf8O",
+    "season": ["fall", "winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-04-24",
+    "title": "Kayaların Oğlu – Barış Manço",
+    "comment": "<p>サイケ寄りの鍵盤の揺らぎや環境音と共に語りかけるようなフレーズが進行していく。<br>トルコ産ロック〜アナトリアン・ポップ寄りの熱量と土っぽさがにじむ、存在感のある一曲。</p><p>Psychedelic-leaning keys, ambient sounds, and phrasework that moves forward as if speaking directly to you.<br>A powerful track with the heat and earthiness of Turkish rock and Anatolian pop.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/kayalar%C4%B1n-o%C4%9Flu/654611816?i=654611817",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["Turkey"],
+    "city": ["Istanbul"]
+  },
+  {
+    "date": "2026-04-25",
+    "title": "Cristo Redentor - Pt II – Gene Harris",
+    "comment": "<p>温かみのある鍵盤の響きとしなやかなリズムが穏やかなグルーヴの上で徐々に広がる。<br>某名曲をソウルジャズ調の落ち着いた温度感で包む心地よいカバー。</p><p>Warm keys and a supple rhythm spread across a gentle groove.<br>A pleasing cover that wraps a certain classic in the calm warmth of soul jazz.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88-%E3%83%AA%E3%83%87%E3%83%B3%E3%82%BF%E3%83%BCpart2/1443086799?i=1443087862",
+    "amazon_url": "https://amzn.to/4cDUmiC",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-04-26",
+    "title": "Love Expressions – David Versace",
+    "comment": "<p>浮遊感のあるやわらかな鍵盤とアンサンブルのレイヤーがゆったりと広がる。<br>オーケストラルなメロウネスと現行ジャズ寄りのしなやかさが溶け合う、静かな高揚感を持った一曲。</p><p>Soft, floating keys and ensemble lines unfold slowly.<br>A track with quiet uplift, where orchestral mellowness melts into the supple feel of modern jazz.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/love-expressions/1486582840?i=1486582841",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Il ricordo di Serena – Riz Ortolani",
+    "comment": "<p>ストリングスやメロディの断片がじんわりと広がる。<br>イタリア産サントラらしいメランコリックな気配とシネマティックな余韻が残る一曲。</p><p>Strings and fragments of melody slowly spread outward.<br>A track that leaves behind the melancholic air and cinematic afterglow of an Italian soundtrack.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/il-ricordo-di-serena/545430854?i=545430858",
+    "amazon_url": "https://amzn.to/4ckNMfr",
+    "season": ["fall", "winter"],
+    "weather": ["rainy", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2026-04-28",
+    "title": "The End of a Love Affair – Julie London",
+    "comment": "<p>静かに沈むようなアンサンブルの上で哀愁漂うヴォーカルが淡く揺れる。<br>夜更けのムードと失恋の余韻がにじむ、スモーキーな一曲。</p><p>Over a quiet ensemble, a wistful vocal sways softly.<br>A smoky track tinged with late-night mood and the aftertaste of heartbreak.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/the-end-of-a-love-affair/724453421?i=724454649",
+    "amazon_url": "https://amzn.to/4cjQ0Mb",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low","mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
   }
 
 ]

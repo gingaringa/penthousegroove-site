@@ -6889,6 +6889,143 @@
     "mood": ["low","mid"],
     "country": ["USA"],
     "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-04-29",
+    "title": "La Rose De Papier – Michel Colombier",
+    "comment": "<p>やわらかなストリングス感と、サイケな要素を含んだフレンチポップ寄りの淡い揺らぎ。<br>甘さを含んだメロディと少し夢見心地なムードが静かに残る一曲。</p><p>Soft string-like textures and a pale, gently swaying French pop feel with a hint of psychedelia.<br>A track where a sweet melody and a slightly dreamy mood linger quietly.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/la-rose-de-papier/74425914?i=74425781",
+    "season": ["spring","fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-04-30",
+    "title": "Harlem Nocturne – 101 Strings Orchestra",
+    "comment": "<p>妖しさを帯びたストリングスの流れと、夜気を含んだムード。<br>どこかエキゾチックな香りが静かに広がる、深夜向きの一曲。</p><p>A flow of strings tinged with mystery, and a mood filled with the night air.<br>A late-night track where a quietly exotic atmosphere slowly unfolds.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/harlem-nocturne/1797587320?i=1797588145",
+    "season": ["fall", "spring"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Gnawa – Makaya McCraven",
+    "comment": "<p>細かな打楽器の粒立ちと、うねる低音のパルス。<br>スピリチュアル・ジャズのムードとビート感が静かにせめぎ合う一曲。</p><p>The fine texture of percussion and a pulsing, rolling low end.<br>A track where the mood of spiritual jazz and a beat-driven feel quietly push against each other.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/gnawa/1464528028?i=1464528216",
+    "amazon_url": "https://amzn.to/4w0nvwg",
+    "season": ["spring", "summer"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-05-02",
+    "title": "Para de Fazer - 4hero Remix – Marcos Valle, 4hero",
+    "comment": "<p>しなやかなブラジリアンの質感と、やわらかなブロークン寄りのグルーヴ。<br>都会的な浮遊感と温かな高揚がゆっくり広がる一曲。</p><p>A supple Brazilian texture and a soft, broken-beat-leaning groove.<br>A track where an urban sense of weightlessness and warm uplift slowly spread.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/para-de-fazer-4hero-remix/1040519337?i=1040519344",
+    "season": ["spring", "summer"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-05-03",
+    "title": "You Can’t Hide Love – Creative Source",
+    "comment": "<p>やわらかなコーラスの重なりと、しなやかなソウル寄りの中速グルーヴ。<br>甘さのあるメロディと都会的な余韻がじんわり残る一曲。</p><p>Layers of soft chorus vocals and a supple, soul-leaning mid-tempo groove.<br>A track where a sweet melody and an urban afterglow gently linger.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/you-cant-hide-love/1590252199?i=1590252212",
+    "season": ["spring", "summer"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-05-04",
+    "title": "Stone Folk – The Advancement",
+    "comment": "<p>素朴なフォーク感と、サイケ寄りのにじんだ揺らぎ。<br>やわらかな土っぽさの中に、少し不思議な浮遊感が残る一曲。</p><p>A rustic folk feel and a blurred, psychedelic-leaning sway.<br>A track where a slightly mysterious sense of weightlessness lingers within its soft, earthy texture.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/stone-folk/1646605508?i=1646605515",
+    "amazon_url": "https://amzn.to/4t5ztC3",
+    "season": ["spring", "fall"],
+    "weather": ["cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Friendly Pressure – Jhelisa",
+    "comment": "<p>やわらかなギターの入りと、しなやかなグルーヴ。<br>アシッドジャズ寄りの浮遊感と、やさしい高揚がじんわり残る一曲。</p><p>A soft guitar intro and a supple groove.<br>A track where an acid jazz-leaning sense of weightlessness and gentle uplift linger warmly.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/friendly-pressure-album-version/27679564?i=27679555",
+    "season": ["spring", "summer"],
+    "weather": ["cloudy", "sunny"],
+    "mood": ["low", "mid"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-05-06",
+    "title": "My Latin Brother – George Benson",
+    "comment": "<p>しなやかなギターのフレーズと、ラテン寄りの軽やかなグルーヴ。<br>洗練された流れるような音色とあたたかな高揚が心地よく広がる一曲。</p><p>Supple guitar phrases and a light, Latin-leaning groove.<br>A track where refined, flowing tones and a warm sense of uplift spread pleasantly.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/my-latin-brother/192830244?i=192830670",
+    "amazon_url": "https://amzn.to/4mXkc4I",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Pittsburgh"]
+  },
+  {
+    "date": "2026-05-07",
+    "title": "Samba Mortale – Real Ax Band",
+    "comment": "<p>切れのあるピアノのリフと、打楽器が前に出た疾走感。<br>フュージョン寄りの熱量とブラジリアンの跳ね方が一気に駆け抜ける一曲。</p><p>Sharp piano riffs and a driving feel led by forward-pushing percussion.<br>A track where fusion-leaning heat and a Brazilian bounce rush through all at once.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/samba-mortale/75582544?i=75582348",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Germany"],
+    "city": ["Berlin"]
+  },
+  {
+    "date": "2026-05-08",
+    "title": "Black Land Of The Nile – Masequa Myers",
+    "comment": "<p>スモーキーかつジャジーなグルーヴと、静かなスピリチュアル・ジャズの揺らぎ。<br>柔らかな高揚と夜気を含んだムードがじんわり残る一曲。</p><p>A smoky, jazzy groove and the quiet sway of spiritual jazz.<br>A track where soft uplift and a night-air mood gently linger.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/black-land-of-the-nile/968019916?i=968020017",
+    "season": ["spring", "summer"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-05-09",
+    "title": "Le voyage – The Mighty Bop",
+    "comment": "<p>やわらかなブレイク感と、低音のパルスを帯びたグルーヴ。<br>フレンチタッチの浮遊感とスモーキーなムードがじんわり広がる一曲。</p><p>A soft breakbeat feel and a groove carried by a pulsing low end.<br>A track where a French touch-leaning sense of weightlessness and a smoky mood slowly spread.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/le-voyage/266362430?i=266362509",
+    "amazon_url": "https://amzn.to/42y0KSB",
+    "season": ["spring", "fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["high", "mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-05-10",
+    "title": "Spiritual Eternal – Alice Coltrane",
+    "comment": "<p>オーケストラの空気感に電子鍵盤の音が共鳴する。<br>スピリチュアル・ジャズのムードが独自の雰囲気でやわらかく立ちのぼる一曲。</p><p>The atmosphere of an orchestra resonates with the sound of electric keys.<br>A track where the mood of spiritual jazz rises softly with a uniquely otherworldly feel.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/spiritual-eternal/65127415?i=65127255",
+    "amazon_url": "https://amzn.to/4t1zOpd",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
   }
 
 ]

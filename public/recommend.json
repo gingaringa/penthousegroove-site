@@ -4473,11 +4473,24 @@
     "comment": "<p>エレピやオルガンの気配と端正なリズムが揺れるクロスオーバー・グルーヴ。<br>シネマティックな余韻が心地よい一曲。</p><p>Hints of electric piano and organ ride a crossover groove with a poised rhythm.<br>A track with a pleasing, cinematic afterglow.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/seasons/1443886628?i=1443887669",
     "amazon_url": "https://amzn.to/4pUu4Nx",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2025-10-08",
@@ -4664,55 +4677,120 @@
     "comment": "<p>柔らかなリードとコーラスが寄り添うメロウなソウル・チューン。<br>60sらしい甘やかなムードがじわりと広がる一曲。</p><p>A mellow soul tune with a soft lead and close harmonies.<br>A sweet ’60s mood that slowly spreads.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/this-love-that-im-giving-you/415583897?i=415583940",
     "youtube_url": "https://youtube.com/watch?v=zpwPB_I1ihk&t=7s",
-    "season": ["spring","winter"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "spring",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2025-10-17",
     "title": "Guanabara – Maria Toledo & Luiz Bonfá",
     "comment": "<p>ボサらしい軽やかなリズムにギターのアルペジオが寄り添う。<br>穏やかな声のレイヤーが余韻をそっと引き上げる一曲。</p><p>A bossa-like light rhythm with guitar arpeggios alongside.<br>Gentle layers of vocals quietly lift the afterglow.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/guanabara/1443798803?i=1443799612",
-    "season": ["spring", "summer","fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2025-10-18",
     "title": "Motore a ioni – Piero Umiliani",
     "comment": "<p>電子音のパルスとミニマルな反復が広がるスペース・グルーヴ。<br>実験系ライブラリの質感が淡く浮遊する一曲。</p><p>A space groove driven by electronic pulses and minimalist repetition.<br>The texture of experimental library music drifts in a gentle hover.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/motore-a-ioni/335021077?i=335021108",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2025-10-19",
     "title": "Shaolin Monk Motherfunk – Hiatus Kaiyote",
     "comment": "<p>タイトなアンサンブルが幾重もの展開を生み出す多層的なグルーヴ。<br>ジャズ的ハーモニーとエレクトロの質感が交差する一曲。</p><p>A tight ensemble weaves a multi-layered groove through ever-shifting sections.<br>Jazz harmonies intersect with electronic textures in this one.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/shaolin-monk-motherfunk/1018143607?i=1018143613",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["Australia"],
-    "city": ["Melbourne"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Australia"
+    ],
+    "city": [
+      "Melbourne"
+    ]
   },
   {
     "date": "2025-10-20",
     "title": "Take Me To New York – Brooklyn Bridge Group",
     "comment": "<p>フルート／ブラスの鋭いフレーズと随所に散りばめられたサイケデリックな電子音。<br>ライブラリの風合いと勢いのあるホーンが印象的な一曲。</p><p>Sharp flute/brass phrases with psychedelic electronic touches scattered throughout.<br>A striking cut with a library-music feel and energetic, punchy horns.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/take-me-to-new-york/1739875318?i=1739875801",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2025-10-21",
@@ -4720,22 +4798,47 @@
     "comment": "<p>ギターのリックとタイトなドラムが牽引するロックチューン。<br>Minnie Ripertonならではの伸びやかな高音がロックの文脈でも確かな煌めきを見せる一曲。</p><p>A rock tune driven by guitar licks and tight drums. Minnie Riperton’s signature soaring highs shine with a distinct sparkle, even in a rock setting.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/reasons/1443067528?i=1443067530",
     "amazon_url": "https://amzn.to/4opJ191",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2025-10-22",
     "title": "Pé no Chão – Grupo Ébano",
     "comment": "<p>サンバ〜MPBの気配にコーラスが映えるブリージー・グルーヴ。<br>リズムギターとコーラスによる、南米的な熱気と都会的な印象の両方を持ち合わせる一曲。</p><p>A breezy groove where the chorus shines over samba-to-MPB vibes.<br>With rhythm guitar and choral vocals, it blends South American heat with an urban sheen.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/p%C3%A9-no-ch%C3%A3o/1692361733?i=1692361745",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2025-10-23",
@@ -4743,55 +4846,119 @@
     "comment": "<p>各所に差し込まれるスキャットと電子音が創出する怪しげなサウンド。<br>エレクトロニックなテクスチャとヌージャズの陰影が交差する一曲。</p><p>Scat interjections and electronic tones scattered throughout conjure a shadowy atmosphere.<br>Electronic textures intersect with nu-jazz shadings here.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/we-dont-need-no-smurf-here-dj-matsuoka-remix/272212705?i=272212708",
     "amazon_url": "https://amzn.to/472LGy8",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-10-24",
     "title": "Sweet Thang – The 13th Floor",
     "comment": "<p>軽やかなギターと煌めくシンセの音色。<br>メロウなムードとやわらかなコード感が、じわりと気分を引き上げる一曲。</p><p>Light, airy guitar and shimmering synth tones.<br>A mellow mood and gentle chord voicings that gradually lift your spirits.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/sweet-thang/1572850102?i=1572850103",
-    "season": ["spring", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["St. Louis"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "St. Louis"
+    ]
   },
   {
     "date": "2025-10-25",
     "title": "Never Can Say Goodbye – Andy Williams",
     "comment": "<p>柔らかいストリングスと温かみのあるボーカル。<br>そこに軽やかなコーラスが加わり、名曲をやさしく染め上げる一曲。</p><p>Soft strings and a warm vocal.<br>A light, airy chorus joins in, gently coloring this classic.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/never-can-say-goodbye/332102998?i=332104445",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2025-10-26",
     "title": "I Feel Free – The Motherhood",
     "comment": "<p>サイケ寄りのテクスチャが印象的なジャズ・ロック。<br>フレーズの反復に加え、エッジの効いたギターと勢いのあるサックスにより次第に熱を帯びていく一曲。</p><p>Jazz-rock with psychedelic-tinged textures.<br>Built on repeating phrases, sharp-edged guitar and a driving sax gradually turn up the heat.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/i-feel-free/1534140107?i=1534140110",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["Germany"],
-    "city": ["Munich"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Munich"
+    ]
   },
   {
     "date": "2025-10-27",
     "title": "Trying – Nuspirit Helsinki",
     "comment": "<p>ミニマルな反復的リズムとベースのうねりが揺れるヌー・ジャズ。<br>エレピのコードとヴォーカルがアーバンな空気感を生む一曲。</p><p>Nu-jazz that sways on minimal, repeating rhythms and an undulating bass.<br>Electric-piano chords and vocals conjure an urban atmosphere.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/trying-butti-49-nu-niveau-mix/642980343?i=642981376",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid","high"],
-    "country": ["Finland"],
-    "city": ["Helsinki"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Finland"
+    ],
+    "city": [
+      "Helsinki"
+    ]
   },
   {
     "date": "2025-10-28",
@@ -4799,44 +4966,96 @@
     "comment": "<p>煌びやかなシンセとギターのカッティング。<br>コーラスと多層的なインストにより温かみと熱気が共存する一曲。</p><p>Sparkling synths and crisp rhythm-guitar chops.<br>Choral vocals and layered instrumentation let warmth and heat coexist.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/le%C3%A3o-de-bronze/366794190?i=366794203",
     "amazon_url": "https://amzn.to/4ndpzes",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2025-10-29",
     "title": "Without Rhyme or Reason – Spanky & Our Gang",
     "comment": "<p>男女コーラスの重なりと穏やかなリズムが寄り添うソフト・ポップ。<br>ジャジーな気配と上品なアレンジが、メロウに余韻を引き上げる一曲。</p><p>Layered male–female harmonies nestle into a gentle rhythm for a soft-pop glide.<br>A jazzy air and elegant arranging elevate the mellow afterglow.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/without-rhyme-or-reason/1443619659?i=1443620532",
-    "season": ["spring", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2025-10-30",
     "title": "Playcar – Lesiman",
     "comment": "<p>粒立つパーカッションに加えて怪しげに光るベースとエレピ。<br>映画のワンシーンが浮かぶような疾走感のあるライブラリ・グルーヴ。</p><p>Crisp, popping percussion meets a sly, shimmering bass and electric piano.<br>A propulsive library groove that conjures a cinematic scene.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/playcar/1657564121?i=1657564612",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2025-10-31",
     "title": "Electric Chicken – Spirits Rejoice",
     "comment": "<p>行進するようなピアノにファンキーなベース・ギター勢いを加えていくジャズファンク。<br>アフロフュージョンの熱量が電子音とともに駆け抜ける一曲。</p><p>A jazz-funk burner where a marching piano figure meets funky bass and guitar, cranking up the momentum.<br>Afro-fusion energy rips through alongside electronic tones.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/electric-chicken/1562481887?i=1562481895",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["South Africa"],
-    "city": ["Johannesburg"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "South Africa"
+    ],
+    "city": [
+      "Johannesburg"
+    ]
   },
   {
     "date": "2025-11-01",
@@ -4844,11 +5063,24 @@
     "comment": "<p>歪むギターとタイトなリズムが駆けるジャズ・ロック寄りのグルーヴ。<br>ローファイかつサイケなテクスチャとリフの反復がじわりと高揚させる一曲。</p><p>A jazz-rock-leaning groove where distorted guitar and tight, driving rhythms take off.<br>Lo-fi, psychedelic textures and repeating riffs gradually turn up the heat.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/stonedage/1143412429?i=1143412953",
     "amazon_url": "https://amzn.to/47a8xJC",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2025-11-02",
@@ -4856,11 +5088,24 @@
     "comment": "<p>エレピとオルガンが紡ぐ柔らかい浮遊感。<br>海辺の情景を思わせるライブラリーミュージックらしい余韻が静かな高揚感を誘う一曲。</p><p>A gentle, floating drift woven by electric piano and organ.<br>A library-music afterglow that evokes seaside scenes, inviting a quiet lift.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/oostend-oostend/375941300?i=375941387",
     "amazon_url": "https://amzn.to/3Lv3NWm",
-    "season": ["spring", "fall"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["low", "mid"],
-    "country": ["Belgium"],
-    "city": ["Ostend"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Belgium"
+    ],
+    "city": [
+      "Ostend"
+    ]
   },
   {
     "date": "2025-11-03",
@@ -4868,22 +5113,48 @@
     "comment": "<p>分厚いホーンが牽引するグルーヴ。<br>どこか中東的なニュアンスをも感じさせるハープシコードの音色に引き込まれる一曲。</p><p>A groove driven by a thick horn section.<br>The harpsichord’s tone—tinged with a subtly Middle Eastern feel—draws you in.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/harlem-hendoo/1341831727?i=1341832526",
     "amazon_url": "https://amzn.to/4oS9jRy",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["New Orleans"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New Orleans"
+    ]
   },
   {
     "date": "2025-11-04",
     "title": "Lucky to Be Loved (By You) – Emanuel Lasky",
     "comment": "<p>デトロイト・ソウルの気配をたたえた小粋なグルーヴ。<br>柔らかなリードとコーラスがノーザンソウル文脈でも親しまれる一曲。</p><p>A classy groove imbued with Detroit-soul vibes.<br>A gentle lead and sweet chorus vocals make it a favorite in the Northern Soul canon.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/lucky-to-be-loved/408260047?i=408260097",
-    "season": ["spring", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Detroit"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Detroit"
+    ]
   },
   {
     "date": "2025-11-05",
@@ -4891,77 +5162,166 @@
     "comment": "<p>ハモンドオルガンとギターが醸し出す哀愁。<br>スタンダードをブルージーな色合いに染め上げた一曲。</p><p>Bittersweet melancholy from Hammond organ and guitar.<br>A jazz standard rendered in a bluesy hue.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E6%9E%AF%E8%91%89-remastered/1472776469?i=1472776476",
     "amazon_url": "https://amzn.to/3Lh74J2",
-    "season": ["fall"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Hackensack"]
+    "season": [
+      "fall"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Hackensack"
+    ]
   },
   {
     "date": "2025-11-06",
     "title": "Standing Right Here – Paprika Soul",
     "comment": "<p>軽やかに流れるエレピと軽快なギター。<br>アシッドジャズらしいグルーヴが魅力の一曲。</p><p>Lightly flowing electric piano and sprightly guitar.<br>An acid-jazz groove gives this track its appeal.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/standing-right-here/1568490732?i=1568490737",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["UK"],
-    "city": ["Lowestoft"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "Lowestoft"
+    ]
   },
   {
     "date": "2025-11-07",
     "title": "Saturday Night on Saturn – Les Baxter",
     "comment": "<p>レトロ・フューチャーなアレンジと軽やかなビートが揺れるスペース・エイジ・ポップ。<br>ブラスとストリングスの流麗かつ怪しげな気配にエキゾのムードが色を添える一曲。</p><p>Space-age pop with retro-futurist arranging and a light, swaying beat.<br>Flowing yet shadowy brass and strings, with a touch of exotica adding color.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/saturday-night-on-saturn/663936614?i=663936627",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2025-11-08",
     "title": "Syracuse – Jean Sablon",
     "comment": "<p>ピアノとストリングスによるヴェールのようなオーケストラに上品な歌声。<br>映画的な陰影を帯びたシャンソンのスタンダード。</p><p>An elegant vocal set against a veil-like orchestration of piano and strings.<br>A chanson standard tinged with cinematic shadows.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/syracuse/1104518275?i=1104519469",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-11-09",
     "title": "These Boots Are Made for Walking – The Supremes",
     "comment": "<p>重低音が響くホーンと柔らかいボーカルのレイヤー。<br>60sモータウン流のアレンジが光る一曲。</p><p>Low-end, thundering horns with soft, layered vocals.<br>A classic ’60s Motown-style arrangement that truly shines.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%81%AB%E3%81%8F%E3%81%84%E8%B2%B4%E6%96%B9/1444063087?i=1444063933",
-    "season": ["fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Detroit"]
+    "season": [
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Detroit"
+    ]
   },
   {
     "date": "2025-11-10",
     "title": "Nergal – Marcos Resende & Index",
     "comment": "<p>うねるシンセのレイヤーとタイトなリズム・セクションが、じわじわと熱を帯びていく。<br>スピリチュアル・ジャズとブラジリアン・ジャズ・ファンクの狭間を漂う、トリップ感のある長尺トラック。</p><p>Undulating synth layers and a tight rhythm section gradually turn up the heat.<br>A long, trippy track that drifts between spiritual jazz and Brazilian jazz-funk.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/nergal/1540067335?i=1540067440",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2025-11-11",
     "title": "Don’t Be Afraid (Do As I Say) – Frankie Karl & The Dreams",
     "comment": "<p>甘いファルセットにコーラスが重なるスウィートソウル。<br>寄り添うようなメロディと柔らかなグルーヴが、ローライダー／チカーノソウルのムードを醸し出す一曲。</p><p>Sweet soul with a tender falsetto wrapped in rich chorus.<br>An embracing melody and gentle groove create the mood of lowrider/Chicano soul.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/dont-be-afraid-do-as-i-say/1584067398?i=1584067407",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2025-11-12",
@@ -4969,11 +5329,24 @@
     "comment": "<p>煌めくエレピとふくよかなベースが渦を巻くように絡み合う。<br>要所に差し込まれる多層的な電子音がほんのりサイケなブラジリアン・ジャズのムードを運ぶ一曲。</p><p>Shimmering electric piano and full, rounded bass coil together in a swirling interplay.<br>Layered electronic touches dropped in at key moments bring a gently psychedelic Brazilian jazz mood to this track.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/roda-mundo/1472431466?i=1472431476",
     "amazon_url": "https://amzn.to/4nMoVoP",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2025-11-13",
@@ -4981,22 +5354,48 @@
     "comment": "<p>ギターのリフと端切れの良いピアノが駆けるブラジル産ファンク/MPB。<br>ホーンやコーラスのレイヤーがじわじわ高揚を押し上げる一曲。</p><p>Brazilian funk/MPB driven by guitar riffs and crisp, punchy piano.<br>Layered horns and chorus steadily push the energy higher in this track.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/morro-do-barraco-sem-%C3%A1gua/1695625429?i=1695625446",
     "amazon_url": "https://amzn.to/3LsUgPJ",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2025-11-14",
     "title": "Ophis Le Serpentaire – V. Geminiani",
     "comment": "<p>低音のパルスにじわりと滲むエフェクトが空間の奥行きを創るライブラリグルーヴ。<br>木管／ストリングスとコズミック寄りのサイケなテクスチャが絡み、ミステリアスに揺らめく一曲。</p><p>A library groove where low-end pulses and slow-blurring effects create depth.<br>Woodwinds and strings intertwine with cosmic-leaning psychedelic textures, making for a mysterious shimmer in the air too.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/ophis-le-serpentaire/1799754401?i=1799754735",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-11-15",
@@ -5004,55 +5403,120 @@
     "comment": "<p>ギター/ビブラフォン/電子音が穏やかなビートの上で波紋を作るかのように揺らめく。<br>空港のターミナルで旅先に思いを馳せるかのようなラウンジトラック。</p><p>Guitar, vibraphone and electro tones ripple and shimmer over a gentle beat.<br>A lounge track that feels like gazing toward your next destination in an airport terminal.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/departures/258318325?i=258318329",
     "amazon_url": "https://amzn.to/49IhN9n",
-    "season": ["spring", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2025-11-16",
     "title": "Hands – Agent K",
     "comment": "<p>ジャジーな鍵盤のフレーズとうねるベースが、ブロークンなビートの上で浮き沈みするロング・グルーヴ。<br>リズムの細かな揺れとじわじわ変化する展開に身を預けたくなる、UKブロークンビートど真ん中の一曲。</p><p>A long-form groove where jazzy keyboard phrases and a rolling bassline rise and fall over a broken beat.<br>Subtle rhythmic shifts and slowly evolving sections make you want to sink into it—UK broken beat at its best.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/hands/41585422?i=41585412",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2025-11-17",
     "title": "The Hard Blues – The Julius Hemphill Sextet",
     "comment": "<p>サックスの重なりと低音のパルスが押し寄せ創られるグルーヴ。<br>ブルースの芯を残したままアヴァンギャルド寄りのジャズへと拡張していく、緊張感と高揚が共存する一曲。</p><p>A groove built from surging layers of saxophones and low-end pulses.<br>Keeping the core of blues intact while expanding into avant-leaning jazz, it’s one where tension and exhilaration coexist.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/the-hard-blues/131292739?i=131292855",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["St. Louis"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "St. Louis"
+    ]
   },
   {
     "date": "2025-11-18",
     "title": "Me Ver Em Você – Guilherme Coutinho",
     "comment": "<p>少し切なさを帯びた歌声が、やわらかなピアノと共にそっとメロディをなぞる。<br>派手さはなくとも静かな高揚感が印象的なブラジリアングルーヴ。</p><p>A slightly wistful vocal gently traces the melody alongside soft piano.<br>Without any flash, a quiet sense of uplift gives this Brazilian groove its impact.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/me-ver-em-voc%C3%AA/988081914?i=988081922",
-    "season": ["spring", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2025-11-19",
     "title": "Nightingale – Dee Felice Trio",
     "comment": "<p>ピアノの軽快なフレーズとウォーキングベース、スナップの効いたドラムが一体となって駆け出す。<br>ボッサの軽やかさとソウルジャズの熱量が交差する、静かながらも確かな熱を感じる一曲。</p><p>Lively piano phrases, walking bass, and snappy drums take off together as one.<br>A track where the lightness of bossa meets the energy of soul jazz, quietly radiating a steady heat.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/nightingale/1537574683?i=1537574684",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Cincinnati"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Cincinnati"
+    ]
   },
   {
     "date": "2025-11-20",
@@ -5060,22 +5524,48 @@
     "comment": "<p>ギターのリフと浮遊感あるグルーヴが印象的なブラジリアングルーヴ。<br>汽笛のような音色やシンセのレイヤーがじわじわと広がる、実験的かつコズミックな一曲。</p><p>A Brazilian groove marked by guitar riffs and a floating, weightless feel.<br>Whistle-like tones and layered synths gradually spread out, making for an experimental and cosmic track.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/f%C3%A1brica/309659356?i=309659491",
     "amazon_url": "https://amzn.to/47wWLcz",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2025-11-21",
     "title": "What Are You Doing the Rest of Your Life? – Jaye P. Morgan",
     "comment": "<p>穏やかな曲調に哀愁を纏うヴォーカル。<br>速めのピッチと軽やかなコーラスが憂いの中にひと匙の軽やかさを加える一曲。</p><p>Vocals draped in melancholy over a gentle setting.<br>A slightly brisk tempo and airy chorus add a touch of lightness to the wistfulness.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/what-are-you-doing-for-the-rest-of-your-life/1212701600?i=1212702213",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2025-11-22",
@@ -5083,11 +5573,24 @@
     "comment": "<p>ストリングスとエコーの効いたギターがとろけるように揺れる。<br>ソウルフルな歌声とサイケなサウンドが絡み合う、サイケデリックディープソウル。</p><p>Strings and echo-drenched guitar sway in a molten drift.<br>Soulful vocals intertwine with psychedelic sonics in this piece of psychedelic deep soul.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/deep-inside-you/1473628576?i=1473628826",
     "amazon_url": "https://amzn.to/4nGKqHn",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Columbus"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Columbus"
+    ]
   },
   {
     "date": "2025-11-23",
@@ -5095,22 +5598,48 @@
     "comment": "<p>煌めくシンセ、温かみのあるエレピ、しなやかなベースが静かに揺れる。<br>ジャズフュージョンのグルーヴとどこかオーケストラ的なニュアンスが溶け合うメロウな一曲。</p><p>Shimmering synths, warm electric piano, and a supple bass line sway quietly.<br>A mellow track where jazz-fusion groove melts together with a subtly orchestral feel.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/lost-my-love/1558504337?i=1558505139",
     "amazon_url": "https://amzn.to/3JSVyD8",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Detroit"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Detroit"
+    ]
   },
   {
     "date": "2025-11-24",
     "title": "About Love – Ben Sidran",
     "comment": "<p>歯切れの良いエレピに疾走感のあるギターとベースが徐々に生み出すグルーヴ。<br>ジャズとソウルの狭間でさりげなく揺れる、深夜ムードの一曲。</p><p>Crisp electric piano, with driving guitar and bass gradually building the groove.<br>A late-night tune that sways subtly between jazz and soul.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/about-love/1399734905?i=1399735346",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Madison"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Madison"
+    ]
   },
   {
     "date": "2025-11-25",
@@ -5118,11 +5647,24 @@
     "comment": "<p>グルーヴィーなベースのリフが転がるように進み、その上をエレピが滑らかに駆ける。<br>スペーシーな浮遊感とともにじわじわ熱量を上げていくブラジリアン・フュージョン／ファンク。</p><p>Groovy bass riffs roll forward while electric piano runs smoothly on top.<br>Brazilian fusion/funk that slowly builds in intensity, wrapped in a spacey sense of floating.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/despertar/262196640?i=262196684",
     "amazon_url": "https://amzn.to/4qX9OM3",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2025-11-26",
@@ -5130,88 +5672,192 @@
     "comment": "<p>ビタースウィートなホーンとギターが、ボッサ寄りのグルーヴの上で軽やかに揺れる。<br>60s映画音楽のムードとクラブジャズ感が溶け合う、ジャジーかつエレガントな一曲。</p><p>Bittersweet horns and guitar sway lightly over a bossa-tinged groove.<br>A jazzy, elegant track where the mood of 60s film music melts into a club-jazz sensibility.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/jet-sounds/160743713?i=160743715",
     "amazon_url": "https://amzn.to/47Kv4M3",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Italy"],
-    "city": ["Bari"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Bari"
+    ]
   },
   {
     "date": "2025-11-27",
     "title": "People Make the World Go Round – Bobby Hutcherson",
     "comment": "<p>マリンバとエレピにコーラスがふわりと重なる立体的なアレンジ。<br>名曲をスピリチュアルかつグルーヴィなものへと染め上げた一曲。</p><p>Layers of marimba and electric piano are gently wrapped in soft choral touches.<br>A classic soul tune transformed into a groovy jazz interpretation with a subtly spiritual edge.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/people-make-the-world-go-round/1444132730?i=1444132738",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2025-11-28",
     "title": "Cellphone in the Bath – Iceblink",
     "comment": "<p>霞がかったシンセとリバーブの残響がたゆたうアンビエント・テクスチャ。<br>水面のゆらぎのようなサウンドスケープとどこか東洋的な音像が穏やかな浮遊感を演出する一曲。</p><p>Ambient textures of hazy synths and reverberant echoes drifting about.<br>A soundscape like ripples on the water’s surface, with a subtly Eastern-tinged image that creates a gentle sense of floating.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/cellphone-in-the-bath/1493897810?i=1493898074",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Oakland"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Oakland"
+    ]
   },
   {
     "date": "2025-11-29",
     "title": "Pop Electronique N°1 – Cecil Leuter",
     "comment": "<p>アナログシンセのビープや反復的なドラムが摩訶不思議に行き交う。<br>実験的な電子音とどこかポップなモチーフが同居する、フレンチライブラリーのディープトラック。</p><p>Beeping analog synths and repetitive drums dart about in delightfully strange ways.<br>An experimental electronic piece where quirky pop motifs coexist with deep French library vibes.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/pop-%C3%A9lectronique-no-1/1394060104?i=1394060968",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-11-30",
     "title": "Ce mortel ennui – Serge Gainsbourg",
     "comment": "<p>ジャジーなピアノ、残響をまとったヴィブラフォン、しゃがれ声がシニカルに踊る初期シャンソン。<br>パリのカフェの煙ったアンニュイをそのまま封じ込めたような一曲。</p><p>Jazzy piano, reverberant vibraphone, and his husky voice dancing with cynicism in an early chanson cut.<br>A track that feels like it’s bottled the smoky ennui of a Parisian café just as it is.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/ce-mortel-ennui-live/1444065951?i=1444066330",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-12-01",
     "title": "Turlututu Capot Pointu – Michel Colombier",
     "comment": "<p>華麗に舞うストリングスとサイケなサウンドの上でスキャット混じりのコーラスが弾む。<br>フレンチソフトロックと映画音楽的な遊び心が溶け合う60sフレンチグルーヴ。</p><p>Strings pirouette flamboyantly while scat-laced chorus vocals bounce over a psychedelic backdrop.<br>A slice of 60s French groove where French soft rock melts into playful, film-score-style fun.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/turlututu-capot-pointu/74425914?i=74425727",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-12-02",
     "title": "Infrarouge – The Mighty Bop",
     "comment": "<p>ざらっとしたビートに鍵盤やシンセのフレーズがゆったりと漂うブレイクビーツ。<br>ジャズ/ダウンテンポのニュアンスと90sフレンチクラブの空気感が溶け合う、チルでコズミックな一曲。</p><p>Dusty beats with keyboard and synth phrases drifting lazily over the top.<br>A chill, cosmic track where jazz/down-tempo nuances melt into the vibe of 90s French club music.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/infrarouge/1792838393?i=1792838411",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-12-03",
     "title": "Psychose – Cortex",
     "comment": "<p>ギターのカッティングとエレピのコードが、タイトなリズムの上で刻まれるジャズファンクグルーヴ。<br>フレンチジャズファンクのムードとスペーシーな浮遊感がクセになる一曲。</p><p>Choppy guitar and electric piano chords lock in over a tight rhythm for a jazz-funk groove.<br>A track where the mood of French jazz-funk and a spacey sense of floatiness become seriously addictive.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/psychose/1684510736?i=1684510822",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-12-04",
@@ -5219,66 +5865,142 @@
     "comment": "<p>ベースが牽引するしなやかなリズムと軽やかなエレピが揺れるヨーロッパ産ブラジリアンジャズ。<br>女性ヴォーカルがグルーヴィーに舞う一曲。</p><p>European Brazilian jazz with supple, bass-led rhythms and lightly swaying electric piano.<br>A track where the female vocal dances groovily over the groove.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/primrose-samba/1435546444?i=1435546725",
     "amazon_url": "https://amzn.to/4836Cqu",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Germany"],
-    "city": ["Frankfurt"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Frankfurt"
+    ]
   },
   {
     "date": "2025-12-05",
     "title": "A Go Go – Trüby Trio",
     "comment": "<p>ジャジーな鍵盤とサックスのフレーズがスリリングに駆け抜ける。<br>ジャズとブラジリアンの要素を高揚感のあるクラブ・グルーヴへと仕立てた、90sニュージャズ〜ラテンD’n’Bクラシック。</p><p>Jazzy keyboard and sax phrases race through with thrilling momentum.<br>A 90s nu-jazz / Latin D’n’B classic that turns jazz and Brazilian elements into an elevating club groove.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/a-go-go/17440972?i=17440953",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Germany"],
-    "city": ["Munich"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Munich"
+    ]
   },
   {
     "date": "2025-12-06",
     "title": "L.O.V.E. and You & I – Jazzanova",
     "comment": "<p>ジャジーなピアノ、彩りを加えるコーラス、ループするフレーズがじわりと重なり合う。<br>ローファイな音質とニュージャズ的なアレンジが溶け合う、アーリー00sクラブジャズの名曲。</p><p>Jazzy piano, colorfully layered chorus, and looping phrases gradually stack up.<br>A classic of early-00s club jazz, where lo-fi sonics melt into a nu-jazz-style arrangement.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/l-o-v-e-and-you-i/6841337?i=6841271",
-    "season": ["spring", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Germany"],
-    "city": ["Berlin"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Berlin"
+    ]
   },
   {
     "date": "2025-12-07",
     "title": "Jingle Bells – De-Phazz",
     "comment": "<p>しっとりとしたビートとやわらかな鍵盤の上で、コーラスとヴォーカルがゆったりと揺れるクリスマスグルーヴ。<br>ラウンジ〜ジャズ寄りのアレンジが溶け合う、リラックス系ホリデーチューン。</p><p>A Christmas groove where chorus and vocals sway gently over a smooth beat and soft keys.<br>A laid-back holiday tune that blends lounge and jazz-tinged arranging.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/jingle-bells/1534372275?i=1534372379",
-    "season": ["winter"],
-    "weather": ["cloudy", "snowy"],
-    "mood": ["low", "mid"],
-    "country": ["Germany"],
-    "city": ["Heidelberg"]
+    "season": [
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "snowy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Heidelberg"
+    ]
   },
   {
     "date": "2025-12-08",
     "title": "Fröhliche Weihnacht überall – Jazzrausch Bigband",
     "comment": "<p>分厚いホーンとピアノがスウィングするビッグバンドアレンジ。<br>ダイナミックなサウンドがドイツの伝統的なクリスマスのメロディをジャズクラブ仕様に再構築した一曲。</p><p>A big band arrangement with thick horns and piano in full swing.<br>Its dynamic sound rebuilds a traditional German Christmas melody into something fit for a jazz club.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/fr%C3%B6hliche-weihnacht-%C3%BCberall/1482607688?i=1482607893",
-    "season": ["winter"],
-    "weather": ["cloudy", "snowy"],
-    "mood": ["mid", "high"],
-    "country": ["Germany"],
-    "city": ["Munich"]
+    "season": [
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "snowy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Munich"
+    ]
   },
   {
     "date": "2025-12-09",
     "title": "Garra – Cláudia",
     "comment": "<p>原作のドリーミーな雰囲気を踏襲したしなやかなメロディ。<br>控えめながらも柔らかな歌声とコーラスの気配が心地よい一曲。</p><p>A supple melody that stays true to the dreamy mood of the original.<br>Understated, gentle vocals and a hint of chorus make for a soothing listen.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%AC%E3%83%BC%E3%83%8F/713337653?i=713337755",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2025-12-10",
@@ -5286,88 +6008,190 @@
     "comment": "<p>パーカッションの粒立ち、サイケなスキャット、怪しげなピアノの進行が生み出すグルーヴ。<br>ボサらしさとどこか都会的な光沢が共存する一曲。</p><p>Crisp percussion, psychedelic scat, and a mysterious piano line shape a compelling groove.<br>Classic bossa touches blend smoothly with an understated urban sheen.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/rio/1378614639?i=1378614964",
     "amazon_url": "https://amzn.to/44f25iJ",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Belgium"],
-    "city": ["Brussels"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Belgium"
+    ],
+    "city": [
+      "Brussels"
+    ]
   },
   {
     "date": "2025-12-11",
     "title": "Blue Bayou – Mark Paul Norton",
     "comment": "<p>ブロークン・ビート〜ヌー・ジャズ寄りの軽快なグルーヴ。<br>ギターとパーカッションが生み出すグルーヴィーな下地にピアノ、サックス、フルートの熱量が重なりじわじわと高揚していく一曲。</p><p>A lively groove leaning toward broken beat and nu-jazz.<br>On a rhythmic base shaped by guitar and percussion, the energy of piano, sax, and flute builds, creating a steady sense of uplift.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/blue-bayou-feat-regis-molina/1594941673?i=1594941687",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2025-12-12",
     "title": "Manteca – 東京スカパラダイスオーケストラ",
     "comment": "<p>タイトなリズムが駆け抜けるスカ。<br>ホーンセクションに熱量のあるピアノが押し寄せるスカパラ色全開の一曲。</p><p>Ska driven by tight, racing rhythms.<br>Their signature horn section surges as a fiery piano comes in—Skapara in full force.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/manteca/321223013?i=321223244",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["high"],
-    "country": ["Japan"],
-    "city": ["Tokyo"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "high"
+    ],
+    "country": [
+      "Japan"
+    ],
+    "city": [
+      "Tokyo"
+    ]
   },
   {
     "date": "2025-12-13",
     "title": "I Do My Best to Impress – Linda Lewis",
     "comment": "<p>軽やかなリズムと煌めく鍵盤のコードの気配が寄り添うメロウ・ソウル。<br>伸びやかなハイトーンとやわらかなコーラスがじわりと気分を引き上げる一曲。</p><p>A mellow-soul glide where light rhythms meet shimmering keyboard chords.<br>Her soaring highs and gentle backing vocals gradually lift your spirits.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/i-do-my-best-to-impress/325194204?i=325194303",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2025-12-14",
     "title": "Affair in Aruba – Les Baxter & 101 Strings Orchestra",
     "comment": "<p>夜風のように涼やかに流れるストリングス。<br>エキゾの気配と軽やかなパーカッションが心地よく香る一曲。</p><p>Strings that flow as coolly as a night breeze.<br>Hints of exotica and light, dancing percussion give this track a gently soothing feel.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/affair-in-aruba/1447632652?i=1447632658",
-    "season": ["summer", "spring"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid","high"],
-    "country": ["Aruba"],
-    "city": ["Oranjestad"]
+    "season": [
+      "summer",
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Aruba"
+    ],
+    "city": [
+      "Oranjestad"
+    ]
   },
   {
     "date": "2025-12-15",
     "title": "L’Arrivée des camionneurs – Michel Legrand",
     "comment": "<p>ホーンと木管がジャズワルツのリズムに乗って、キャラバンが街に押し寄せる高揚感を描き出す。<br>某映画の幕開けを告げるシネマティックでスウィング感のある一曲。</p><p>Horns and woodwinds ride a jazz waltz groove, evoking the excitement of a caravan entering town.<br>A cinematic, swinging cut that opens a certain film.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/arriv%C3%A9e-des-camionneurs-from-les-demoiselles-de-rochefort/1442704149?i=1442704610",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Rochefort"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Rochefort"
+    ]
   },
   {
     "date": "2025-12-16",
     "title": "Flyin’ High – Julius Wechter",
     "comment": "<p>涼しげなマリンバやリズミカルなホーンのフレーズが、軽やかなリズムの上でふわりと跳ねる。<br>流れるようなストリングスに男性コーラスによるスキャットが彩りを加える一曲。</p><p>Cool, breezy marimba and rhythmic horn phrases float and bounce over a light-footed groove.<br>Flowing strings and wordless male scat vocals add a splash of color to this track.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/flyin-high/1443560966?i=1443561258",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2025-12-17",
     "title": "Selenge – Céline Dessberg",
     "comment": "<p>ヤトガ（モンゴルの弦楽器）の響きとしなやかなリズムセクションが、ミッドグルーヴの上でゆったりと揺れる。<br>ジャズ〜ソウル〜ワールドのニュアンスが溶け合うドリーミーな一曲。</p><p>The yatga (a Mongolian stringed instrument) and supple rhythm section sway gently over a mid-tempo groove.<br>A dreamy track where shades of jazz, soul, and world music blend seamlessly.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/selenge/1783666671?i=1783666672",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-12-18",
@@ -5375,11 +6199,24 @@
     "comment": "<p>エレピのコードとしなやかなベースが、ブラジリアン/ジャズグルーヴの上で踊る。<br>風通しのいいヴォーカルとコーラスが舞い上がるヨーロッパ産ブラジリアンフュージョン。</p><p>Electric piano chords and a supple bassline dance over a Brazilian/jazz groove.<br>Airy vocals and choruses lift off in this European Brazilian fusion cut.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/running-remastered/1035359024?i=1035359408",
     "amazon_url": "https://amzn.to/4oV5f2C",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Germany"],
-    "city": ["Aachen"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Aachen"
+    ]
   },
   {
     "date": "2025-12-19",
@@ -5387,11 +6224,24 @@
     "comment": "<p>タイトなドラムとうねるベースの上で鍵盤、ホーン、そして特徴的なフレーズが次々と立ち上がる。<br>ライブラリ作品ならではの細やかなアレンジが冴える一曲。</p><p>Over tight drums and rolling bassline, keys, horns, and signature phrases rise in turn.<br>Finely detailed, library-style arrangements really shine.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/pop-impressions-remastered/906662651?i=906662666",
     "amazon_url": "https://amzn.to/4996DtE",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-12-20",
@@ -5399,11 +6249,24 @@
     "comment": "<p>グルーヴィーなギターとホーンに伸びやかなボーカルが広がるファンキーなビート。<br>フレンチソウル〜ジャズファンクのアーバングルーヴが魅力の一曲。</p><p>A funky beat where groovy guitar and horns open up around a soaring vocal.<br>An urban groove that blends French soul and jazz-funk with ease.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/sweet-maryline/385095943?i=385095959",
     "amazon_url": "https://amzn.to/44pHBUm",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-12-21",
@@ -5411,33 +6274,72 @@
     "comment": "<p>リードのハーモニーとやわらかなブラスがしっとりと揺れる。<br>夜の空気に溶けるように染み入るビッグバンドのクラシック。</p><p>Warm brass and a harmonized lead line sway gently with a mellow touch.<br>A big band classic that soaks in like it’s melting into the night air.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/moonlight-serenade/299818552?i=299818586",
     "youtube_url": "https://www.youtube.com/watch?v=0mZnbUDd0iI&t=2203s",
-    "season": ["fall", "winter"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["high", "mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "high",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2025-12-22",
     "title": "Moonbird – Roger Webb",
     "comment": "<p>しなやかなベースとやわらかなドラムの上で、ワードレスヴォーカルと鍵盤がふわりと揺れる。<br>ライブラリ作品らしい静かな高揚感とドリーミーな質感が印象的なイージーリスニング/レアグルーヴ寄りの一曲。</p><p>Over a supple bassline and soft drums, wordless vocals and keys drift and sway.<br>A track leaning toward easy listening/rare groove, with a quiet lift and dreamy texture that feels distinctly library-made.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/moonbird/1361531462?i=1361531730",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["low", "mid"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2025-12-23",
     "title": "I Am the Black Gold of the Sun – Nuyorican Soul feat. Jocelyn Brown",
     "comment": "<p>キーボードやストリングスのレイヤーが次第に高揚する。<br>ソウルフルでスピリチュアルな雰囲気にブロークンビーツが彩りを加える一曲。</p><p>Layers of keys and strings gradually build into an uplifting swell.<br>A soulful, spiritual atmosphere colored by broken beats.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/i-am-the-black-gold-of-the-sun-feat-jocelyn-brown/1452859623?i=1452859914",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy","sunny"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2025-12-24",
@@ -5445,22 +6347,48 @@
     "comment": "<p>クリスマスムードたっぷりの音色の上で進行するホーンとビッグバンドのリズム。<br>伝統的なクリスマスコラールをジャジーにアレンジした一曲。</p><p>Horns and big band rhythms drive forward over a sound full of Christmas mood.<br>A jazzy arrangement of a traditional Christmas chorale.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/alle-jahre-wieder-feat-marco-dufner-julian-hesse-frederik/1649001374?i=1649001746",
     "amazon_url": "https://amzn.to/4954m1g",
-    "season": ["winter"],
-    "weather": ["snowy","cloudy","sunny"],
-    "mood": ["mid", "high"],
-    "country": ["Germany"],
-    "city": ["Munich"]
+    "season": [
+      "winter"
+    ],
+    "weather": [
+      "snowy",
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Munich"
+    ]
   },
   {
     "date": "2025-12-25",
     "title": "Winter Wonderland – Günter Kallmann Chor",
     "comment": "<p>やわらかなコーラスが温かみのある音色の上でふわりと広がる。<br>オーケストラ風のアレンジが雪景色のきらめきを描き出す、ドリーミーなホリデーチューン。</p><p>Choral harmonies bloom gently over warm, glowing tones.<br>An orchestral-leaning arrangement that captures the sparkle of a snowy scene—a dreamy holiday tune.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/christmas-sing-in/1443562544?i=1443562602",
-    "season": ["winter"],
-    "weather": ["snowy", "cloudy","sunny"],
-    "mood": ["low", "mid"],
-    "country": ["Germany"],
-    "city": ["Berlin"]
+    "season": [
+      "winter"
+    ],
+    "weather": [
+      "snowy",
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Berlin"
+    ]
   },
   {
     "date": "2025-12-26",
@@ -5468,11 +6396,23 @@
     "comment": "<p>鍵盤のフレーズと丸みのあるベースが、刻んで跳ねるグルーヴの上でゆらめく。<br>波打つヴォーカルとパーカッションに木管が加わり、どこか幻想的なブラジリアンムードを運ぶ一曲。</p><p>Keyboard phrases and a rounded bassline shimmer over a chopped, bouncing groove.<br>Waving vocals and percussion meet woodwinds, carrying a slightly dreamlike Brazilian mood.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/a-r%C3%A3/1796793934?i=1796793943",
     "amazon_url": "https://amzn.to/4b1CMEJ",
-    "season": ["summer"],
-    "weather": ["cloudy","sunny"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio Branco"]
+    "season": [
+      "summer"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio Branco"
+    ]
   },
   {
     "date": "2025-12-27",
@@ -5480,11 +6420,24 @@
     "comment": "<p>歯切れの良い鍵盤とうねるベースがスペーシーなシンセとともに駆け抜ける。<br>じわじわと熱を帯びていくグルーヴィーなジャズファンク。</p><p>Crisp keyboard lines and a rolling bassline race alongside spacey synth tones.<br>A groovy jazz-funk track that slowly builds heat.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/cloudburst/1758793600?i=1758793607",
     "amazon_url": "https://amzn.to/4jgzMGU",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2025-12-28",
@@ -5493,11 +6446,23 @@
     "apple_music_embed": "https://embed.music.apple.com/jp/album/partido-alto/1136358103?i=1136358210",
     "youtube_url": "https://www.youtube.com/watch?v=-ewY-O2P5iE&t=282s",
     "amazon_url": "https://amzn.to/4qcfLn4",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2025-12-29",
@@ -5505,33 +6470,70 @@
     "comment": "<p>ビートとサンプルの断片が折り重なるダウンテンポグルーヴ。<br>スペースエイジポップ/ヒップホップ/エレクトロニカの狭間を漂うようなトリップ感抜群の一曲。</p><p>A downtempo groove where beats and fragmented samples stack and weave together.<br>A deeply trippy track that drifts between space-age pop, hip-hop, and electronica.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/abstract-fever/1792838393?i=1792838630",
     "amazon_url": "https://amzn.to/44YQ5Cn",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2025-12-30",
     "title": "Uno Está – Alex Malheiros & Banda Utopia",
     "comment": "<p>しなやかなベースとドラムのグルーヴの上でやわらかな鍵盤とヴォーカルが揺れる。<br>心地よいブラジリアンクロスオーバーへと染め上げた一曲。</p><p>Soft keys and vocals sway over a supple groove of bass and drums.<br>A classic re-colored into a smooth Brazilian crossover vibe.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/uno-est%C3%A1-feat-sabrina-malheiros/1041465735?i=1041466852",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2025-12-31",
     "title": "My Best Step – Lady Wray",
     "comment": "<p>展開性のあるビートとゴスペル調のバックコーラスに、ソウルフルで温かみのある歌声がじわりと滲む。<br>ヴィンテージソウルのムードと現代的な質感が溶け合う一曲。</p><p>A beat with a sense of progression, gospel-tinged backing vocals, and a soulful, warm voice that slowly seeps in.<br>A track where vintage-soul mood melts into a modern texture.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/my-best-step/1817621221?i=1817621222",
-    "season": ["fall", "winter"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low","mid"],
-    "country": ["USA"],
-    "city": ["Portsmouth"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Portsmouth"
+    ]
   },
   {
     "date": "2026-01-01",
@@ -5540,22 +6542,47 @@
     "apple_music_embed": "https://embed.music.apple.com/jp/album/i-am-an-instrument/1167478569?i=1167478666",
     "youtube_url": "https://www.youtube.com/watch?v=b3Q6Ne0ztH4&t=44s",
     "amazon_url": "https://amzn.to/4jjImVi",
-    "season": ["winter"],
-    "weather": ["cloudy", "snowy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "snowy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2026-01-02",
     "title": "Be Thankful for What You&#39;ve Got – Massive Attack",
     "comment": "<p>スモーキーなベースラインの上でギターや鍵盤の響きがにじむ。<br>フィリーソウルの名曲を、ダビーで内省的なトリップホップへと染め上げた一曲。</p><p>Over a smoky bassline, guitar and keys seep in and shimmer.<br>A Philly soul classic reimagined as a dubby, introspective trip-hop trip.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/be-thankful-for-what-youve-got-perfecto-mix/724379865?i=724380330",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["UK"],
-    "city": ["Bristol"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "Bristol"
+    ]
   },
   {
     "date": "2026-01-03",
@@ -5563,44 +6590,96 @@
     "comment": "<p>ギターのアルペジオとやわらかなコードがミッドグルーヴの上で煌めきながら揺れる。<br>耳に残るギターのフレーズが特徴的なブラジリアン・ギター・ジャズ。</p><p>Shimmering guitar arpeggios and gentle chords sway over a mid-tempo groove.<br>A Brazilian guitar-jazz gem defined by a memorable, lingering guitar phrase.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/jacaranda/274381151?i=274381713",
     "amazon_url": "https://amzn.to/48ZODlr",
-    "season": ["summer","fall"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid","high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-01-04",
     "title": "I Love My Baby (My Baby Loves Jazz) – United Future Organization",
     "comment": "<p>ジャジーなホーンと鍵盤が跳ねるパーカッションと共に躍る。<br>クラブジャズの躍動感と洒落たアレンジが溶け合う一曲。</p><p>Jazzy horns and keys dance alongside bouncy percussion.<br>A track where club-jazz momentum meets sleek, stylish arranging.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/i-love-my-baby-my-baby-loves-jazz-norman-cook-ashley/1443341897?i=1443342489",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["Japan"],
-    "city": ["Tokyo"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Japan"
+    ],
+    "city": [
+      "Tokyo"
+    ]
   },
   {
     "date": "2026-01-05",
     "title": "Caretera Panamericana – Piero Umiliani",
     "comment": "<p>うねるベースとパーカッションに加えて、ローファイな質感の電子音が駆け抜ける。<br>イタリア産ライブラリーらしいシネマティックなムードがにじむ、疾走感のある一曲。</p><p>A rippling bass and percussion, with lo-fi electronic tones rushing through.<br>A fast-paced track where a cinematic, Italian library-music mood seeps in.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/caretera-panamericana/335174533?i=335175810",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2026-01-06",
     "title": "Samba Michel – Anne Haigis",
     "comment": "<p>やわらかなヴォーカルとアンサンブルがサンバグルーヴの上で心地よく揺れる。<br>ブラジルらしい力強い風合いと柔らかな歌声が共存する一曲。</p><p>Soft vocals and the ensemble sway comfortably over a samba groove.<br>A track where Brazil-like strength and a gentle voice coexist.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/samba-michel/522350786?i=522350941",
-    "season": ["summer","fall"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid","high"],
-    "country": ["Germany"],
-    "city": ["Rottweil am Neckar"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Rottweil am Neckar"
+    ]
   },
   {
     "date": "2026-01-07",
@@ -5608,22 +6687,48 @@
     "comment": "<p>ゆったりと渦を巻く鍵盤やギターと高音・低音を見事に使い分けるヴォーカル。<br>ソウル〜ジャズのムードとバレアリックな浮遊感が溶け合うトリップ感のある一曲。</p><p>Swirling, laid-back keys and guitar, paired with vocals that glide effortlessly between highs and lows.<br>A trippy track where soul-jazz moods melt into a Balearic sense of float.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/right-down-here/1525352938?i=1525352941",
     "amazon_url": "https://amzn.to/49w7lRL",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["India"],
-    "city": ["Mumbai"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "India"
+    ],
+    "city": [
+      "Mumbai"
+    ]
   },
   {
     "date": "2026-01-08",
     "title": "Abrace Paul McCartney Por Mim – Umas E Outras",
     "comment": "<p>やわらかなヴォーカルとアンサンブルがやさしく揺れ動く。<br>ポールマッカートニーへのオマージュをポルトガル語で包み込んだ一曲。</p><p>Soft vocals and ensemble work sway gently together.<br>A Portuguese-language tribute that wraps an homage to Paul McCartney in warmth.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%A2%E3%83%96%E3%83%A9%E3%83%83%E3%82%BB-%E3%83%9D%E3%83%BC%E3%83%AB-%E3%83%9E%E3%83%83%E3%82%AB%E3%83%BC%E3%83%88%E3%83%8B%E3%83%BC-%E3%83%9D%E3%83%AB-%E3%83%9F%E3%83%B3/1721467271?i=1721467672",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-01-09",
@@ -5631,66 +6736,144 @@
     "comment": "<p>歌うようなコントラバスのフレーズが、静かな伴奏の上でゆっくりと浮かび上がる。<br>クラシックとジャズの狭間をたゆたうような、余白の多いサウンドスケープが染み入る一曲。</p><p>A singing double-bass phrase slowly rises over a quiet accompaniment.<br>A spacious soundscape drifting between classical and jazz, and it sinks right in.</p>",
     "apple_music_embed": "",
     "youtube_url": "https://www.youtube.com/watch?v=IJdFaGBI_NY",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-01-10",
     "title": "Latin Strut – Joe Bataan",
     "comment": "<p>ホーンとオルガンのファンキーなフレーズが、ラテンのリズムの上を練り歩く。<br>ソウル/ラテンファンクの熱気とストリート感が一体となった一曲。</p><p>Funky horn and organ phrases strut over a Latin rhythm.<br>A track where the heat of soul/Latin funk and a streetwise vibe come together as one.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/latin-strut-2022-remaster/1650418172?i=1650418179",
-    "season": ["summer","fall"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["high", "mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "high",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-01-11",
     "title": "Higga-Boom – Gene Harris",
     "comment": "<p>うねるベースとタイトなドラムの上で、ピアノのリフやホーンのフレーズが次々と飛び込んでくる。<br>ジャズファンク〜ソウルジャズのグルーヴが、ミッドテンポながらも力強い高揚を生む一曲。</p><p>Over a rolling bassline and tight drums, piano riffs and horn phrases jump in one after another.<br>A jazz-funk to soul-jazz groove that delivers a powerful lift, even at a mid-tempo pace.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%92%E3%82%AC-%E3%83%96%E3%83%BC%E3%83%A0/1444048865?i=1444049221",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Benton Harbor"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Benton Harbor"
+    ]
   },
   {
     "date": "2026-01-12",
     "title": "Come With Me – Ronny Jordan",
     "comment": "<p>ウォームなギターが軽やかなビートの上で柔らかくうねる。<br>名曲をアシッドジャズ寄りのサウンドでアップデートした心地よいカバー。</p><p>Warm guitar lines ripple softly over a light, breezy beat.<br>A comfortable cover that updates the classic with an acid-jazz-leaning sound.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/come-with-me-allstars-funkadelic-jazz-edit/1445276763?i=1445276936",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2026-01-13",
     "title": "Sementes, Graines & Seeds – Tania Maria",
     "comment": "<p>エレピのコードとうねるベースが渦を描くように絡み合う。<br>力強いヴォーカルとパーカッションの躍動が、ブラジリアンジャズ/ファンクの熱と涼しさを同時に運ぶ一曲。</p><p>Electric piano chords and a rolling bassline coil in a swirling interplay.<br>Powerful vocals and percussion carry both the heat and cool of Brazilian jazz/funk.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%BB%E3%83%A1%E3%83%B3%E3%83%84-%E3%82%B0%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%BA-%E3%82%A2%E3%83%B3%E3%83%89-%E3%82%B7%E3%83%BC%E3%82%BA/1519832624?i=1519832643",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["São Luís"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Luís"
+    ]
   },
   {
     "date": "2026-01-14",
     "title": "Pheno-men – Alain Mion",
     "comment": "<p>軽やかな鍵盤の響きと電子的なシンセ／エフェクトのレイヤーがじわじわと広がっていく。<br>ジャズファンク〜ソウルジャズ寄りのグルーヴにフレンチレアグルーヴらしいコズミックなムードがにじむ一曲。</p><p>Light, airy keys and layers of electronic synths/effects gradually spread out.<br>A jazz-funk to soul-jazz-leaning groove where a cosmic mood—distinctly French rare groove—seeps through.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/pheno-men/287912912?i=287912929",
-    "season": ["spring", "fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-01-15",
@@ -5698,11 +6881,24 @@
     "comment": "<p>くぐもったビートの上で鍵盤とサウンドエフェクトがレイヤーを重ねる。<br>ラウンジ寄りの質感に、フレンチエレクトロニカならではの都会的なムードが滲む一曲。</p><p>Over a muffled beat, keys and sound effects stack in layered waves.<br>A lounge-leaning texture with an urban mood that feels distinctly French electronica.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/transcontinental-2020-remastered-version/1514585664?i=1514586246",
     "amazon_url": "https://amzn.to/4qQG7LP",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-01-16",
@@ -5710,11 +6906,23 @@
     "comment": "<p>エレピと柔らかなベースがAORグルーヴの上を漂う。<br>ホーンやストリングスの気配が夜風のようなニュアンスを添える、ハワイ産メロウソウル。</p><p>Electric piano and a soft bassline drift over an AOR groove.<br>Hints of horns and strings add a night-breeze nuance to this Hawaii-born mellow soul.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/a-million-stars/1367678816?i=1367679071",
     "amazon_url": "https://amzn.to/49rzcBt",
-    "season": ["summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Honolulu"]
+    "season": [
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Honolulu"
+    ]
   },
   {
     "date": "2026-01-17",
@@ -5722,44 +6930,95 @@
     "comment": "<p>押し寄せるパーカッションと流れ込むストリングスが描くフレンチサイケグルーヴ。<br>フリーキーなサックスとライブラリームードが溶け合う一曲。</p><p>A French psychedelic groove painted by surging percussion and flowing strings.<br>A track where freaky sax and library-music mood melt together.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/ulla-et-georgie/1394029686?i=1394030525",
     "amazon_url": "https://amzn.to/4jBf1pt",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-01-18",
     "title": "Nereci – Djavan & Marizinha",
     "comment": "<p>パーカッションの粒立ちとしなやかなベースが、アフロ〜サンバ寄りのミッドグルーヴを描く。<br>コーラスのレイヤーと浮遊感のあるビブラフォンが重なり合う、海風をまとったブラジル産MPBグルーヴ。</p><p>Crisp percussion and a supple bassline shape an Afro-to-samba-leaning mid-groove.<br>Layered choruses and floating vibraphone intertwine in this sea-breeze Brazilian MPB groove.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%8D%E3%83%AC%E3%82%B7%E3%83%BC/1728139389?i=1728139764",
-    "season": ["summer","fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Brazil"],
-    "city": ["Maceió"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Maceió"
+    ]
   },
   {
     "date": "2026-01-19",
     "title": "Tonight – Koop",
     "comment": "<p>スウィンギーなウッドベース、軽やかな鍵盤、スモーキーなヴォーカルがしなやかなミッドグルーヴの上で静かに揺れる。<br>ジャジーな生演奏の質感とラウンジ寄りの空気感が溶け合う、深夜に馴染む一曲。</p><p>Swinging upright bass, light keys, and a smoky vocal sway quietly over a supple mid-groove.<br>A late-night fit where jazzy live-played texture melts into a lounge-leaning atmosphere.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/tonight/285952445?i=285952484",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["Sweden"],
-    "city": ["Stockholm"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Sweden"
+    ],
+    "city": [
+      "Stockholm"
+    ]
   },
   {
     "date": "2026-01-20",
     "title": "Always Have to Say Goodbye – Plunky & Oneness Of Juju",
     "comment": "<p>柔らかな鍵盤のコードとうねるベースがじわじわとグルーヴを描く。<br>コーラスのレイヤーとアフロ〜ディスコ調のアレンジが溶け合う一曲。</p><p>Soft keyboard chords and a rolling bassline slowly carve out the groove.<br>Layered chorus vocals melt into an Afro-to-disco-tinged arrangement.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/always-have-to-say-goodbye/1559799382?i=1559799730",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Washington, D.C."]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Washington, D.C."
+    ]
   },
   {
     "date": "2026-01-21",
@@ -5767,22 +7026,48 @@
     "comment": "<p>浮遊感のあるエレピとカッティングギターがソフトなサンバ調ビートの上で溶け合う。<br>ブラジリアンアーバンAORのムードが柔らかな歌声と共に漂う一曲。</p><p>Floating electric piano and cutting guitar melt into a soft samba-tinged beat.<br>A Brazilian urban AOR mood drifts along with gentle vocals.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/enquanto-houver/1449848169?i=1449848184",
     "amazon_url": "https://amzn.to/4qboh5X",
-    "season": ["summer", "spring"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-01-22",
     "title": "The Sophisticated Hippie (Easy Mo Bee Remix) – Horace Silver",
     "comment": "<p>ジャズファンク寄りのリフと太いビートがじわじわと反復する。<br>70sブルーノートのムードと90sヒップホップの質感が溶け合う一曲。</p><p>Jazz-funk riffs ride over a thick, repeating beat.<br>70s Blue Note vibes merge with the gritty feel of 90s hip-hop on this hybrid cut, too.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/the-sophisticated-hippie-easy-mo-bee-remix/1444200869?i=1444201117",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-01-23",
@@ -5790,55 +7075,120 @@
     "comment": "<p>エレピ系のコードと丸みのあるベースがミッドグルーヴの上でゆらめく。<br>サンセットの情景を思わせるメロディにブラジリアンフュージョン調のムードが溶け合う一曲。</p><p>Electric-piano-style chords and a rounded bassline shimmer over a mid-tempo groove.<br>A sunset-evoking melody melts into a Brazilian-fusion-tinged mood.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/san-juan-sunset/272491238?i=272491392",
     "amazon_url": "https://amzn.to/4stbXQp",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-01-24",
     "title": "Jessica – Roy Porter Sound Machine",
     "comment": "<p>ホーンのリフとエレピのコードが、タイトなドラムとベースのうねりの上でじわじわ熱を帯びる。<br>メランコリックなマイナー感とジャズファンク〜レアグルーヴの躍動が同居する一曲。</p><p>Horn riffs and electric piano chords heat up over tight drums and rolling bassline.<br>A track where melancholic minor-key shades meet the drive of jazz-funk to rare groove.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/jessica/300284501?i=300284503",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2026-01-25",
     "title": "Baby I Don’t Know Where Love – Air",
     "comment": "<p>浮遊感あるエレピとしなやかなベースがゆったりと渦を巻く。<br>ジャズロック〜ソウル寄りのアンサンブルに、どこかブラジリアンジャズの気配をまとったディープトラック。</p><p>Floating electric piano and a supple bassline slowly swirl and drift.<br>A deep cut where a jazz-rock-to-soul-leaning ensemble carries a subtle hint of Brazilian jazz.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/baby-i-dont-know-where-love/1260530223?i=1260530251",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Versailles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Versailles"
+    ]
   },
   {
     "date": "2026-01-26",
     "title": "Sam Blues – Sambalanca Trio",
     "comment": "<p>キレのあるピアノのフレーズとウォーキング気味のベースがビートの上を転がるように駆ける。<br>ボッサ〜ジャズのニュアンスが溶け合ったブラジリアンピアノトリオによる一曲。</p><p>Crisp piano phrases and a near-walking bassline roll and run over the beat.<br>A Brazilian piano-trio cut where bossa and jazz nuances melt together.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/sam-blues/781151585?i=781151652",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2026-01-27",
     "title": "Robin’s Theme (1966) – The Sensational Guitars of Dan & Dale",
     "comment": "<p>Sun Ra のオルガンが匿名名義のバンドに紛れ込んだ一曲。<br>60s調のギターの上でサントラ〜ジャズのニュアンスが揺らめくカルト感満載のトラック。</p><p>A track where Sun Ra’s organ slips in under an anonymous band name.<br>Soundtrack-to-jazz nuances shimmer over 60s-style guitar—pure cult vibes.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/robins-theme/342680185?i=342680239",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid","high"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-01-28",
@@ -5846,33 +7196,70 @@
     "comment": "<p>次第に広がるパーカッションの粒立ちと低音のパルス。<br>ホーンやフルートの気配が差し込むライブラリ調のグルーヴが、エキゾチックな映像を想起させる一曲。</p><p>Crisp percussion gradually spreads, riding on low-end pulses.<br>A library-style groove with hints of horns and flute that conjures exotic imagery.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/nairobi-feat-gianni-oddi/1728928308?i=1728928573",
     "amazon_url": "https://amzn.to/3NpoKDo",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2026-01-29",
     "title": "Under The Jamaican Moon – Nick DeCaro",
     "comment": "<p>やわらかな鍵盤とギターが、メロウグルーヴの上でゆったりと揺れる。<br>カリビアンな風味を帯びたAOR〜ソフトロックと穏やかなコーラスが、潮風まじりの郷愁を運ぶ一曲。</p><p>Soft keys and guitar sway gently over a mellow groove.<br>Caribbean-tinged AOR/soft rock and calm chorus vocals carry a sea-breeze nostalgia.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%B8%E3%83%A3%E3%83%9E%E3%82%A4%E3%82%AB%E3%81%AE%E6%9C%88%E3%81%AE%E4%B8%8B%E3%81%A7/1712803736?i=1712803755",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Jamaica"],
-    "city": ["Kingston"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Jamaica"
+    ],
+    "city": [
+      "Kingston"
+    ]
   },
   {
     "date": "2026-01-30",
     "title": "Amigo Branco – Marcia Maria",
     "comment": "<p>跳ねるリズムとうねるベースの上で、ギターと鍵盤のフレーズがグルーヴィーに踊る。<br>サンバ〜ブラジリアンディスコ調のトラックに伸びやかな歌声が重なり、甘く高揚していく一曲。</p><p>Over bouncing rhythms and a rolling bassline, guitar and keyboard phrases dance with groove.<br>A samba-to-Brazilian-disco-tinged track where soaring vocals layer in, building a sweet lift.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/amigo-branco/1678889099?i=1678889109",
-    "season": ["summer"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2026-01-31",
@@ -5880,22 +7267,47 @@
     "comment": "<p>少しずつフレーズを重ねて行進するホーンとピアノ。<br>多層的リズムセクションと厚みのあるアレンジが次第に熱を帯びるモーダル調ジャズグルーヴ。</p><p>Over a quiet beat horns and piano stack phrases like call-and-response.<br>A modal-leaning jazz groove where the layered rhythm section and thick arranging gradually build heat.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/self-help-is-needed/669334215?i=669334593",
     "amazon_url": "https://amzn.to/4bfcVcG",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["St. Louis"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "St. Louis"
+    ]
   },
   {
     "date": "2026-02-01",
     "title": "Porto Cammelli – Silvano D’Auria feat. Edda Dell’Orso",
     "comment": "<p>煌めくグルーヴを描き出す弦のレイヤーとワードレスヴォーカル。<br>地中海の夕景を思わせる、ファンク感を帯びたイタリア産ライブラリー。</p><p>Layered strings and wordless vocals sketch out a shimmering groove.<br>An Italian library cut with a touch of funk, evoking a Mediterranean sunset.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/porto-cammelli-feat-edda-dellorso/1796567628?i=1796567833",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2026-02-02",
@@ -5903,22 +7315,48 @@
     "comment": "<p>しなやかにうねるベースの上でシンセとギターのフレーズがきらめきを描く。<br>爽やかなコーラスが心地よい80sブラジリアンブギー〜AOR。</p><p>Over a rolling bassline synth and guitar phrases sketch shimmering sparks.<br>A fresh, uplifting chorus makes this 80s Brazilian boogie/AOR cut feel effortlessly good.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/aleluia/917821499?i=917821599",
     "amazon_url": "https://amzn.to/4k11J5R",
-    "season": ["spring","summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-02-03",
     "title": "Don’t Let Love Get You Down – Archie Bell & The Drells",
     "comment": "<p>うねるベースとストリングスのレイヤーが生み出す柔らかなグルーヴ。<br>フィリーソウル調のリードとコーラスが切なさと高揚感を同時に運ぶ一曲。</p><p>A soft groove shaped by a rolling bassline and layered strings.<br>Philly-soul-style leads and chorus vocals carry both bittersweetness and uplift at once.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/dont-let-love-get-you-down/278418129?i=278418137",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Houston"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Houston"
+    ]
   },
   {
     "date": "2026-02-04",
@@ -5926,11 +7364,24 @@
     "comment": "<p>静かに跳ねるビートの上で、ピアノとギターがスモーキーな歌声をやわらかく包む。<br>ソフトロック寄りの柔らかな質感でほろ苦い余韻を残す一曲。</p><p>Over a quietly bouncing beat, piano and guitar softly wrap a smoky vocal.<br>A soft-rock-leaning track that leaves a gently bittersweet afterglow.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/snow-queen/379505003?i=379505012",
     "amazon_url": "https://amzn.to/4acMQdi",
-    "season": ["winter"],
-    "weather": ["snowy", "cloudy","rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "winter"
+    ],
+    "weather": [
+      "snowy",
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-02-05",
@@ -5938,44 +7389,92 @@
     "comment": "<p>柔らかなリードとコーラスがミッドグルーヴの上で波打つ。<br>ドラムとベースにオーケストレーションが徐々に乗り、じっくりとピークへ向かう一曲。</p><p>Soft lead vocals and chorus swell and wave over a mid-tempo groove.<br>Orchestration gradually joins the drums and bass, building patiently toward a peak.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/hang-on-in-there/1516960329?i=1516960333",
     "amazon_url": "https://amzn.to/4qOOTtO",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["Detroit"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Detroit"
+    ]
   },
   {
     "date": "2026-02-06",
     "title": "Toque Tropical – Junior Mendes",
     "comment": "<p>ミッドグルーヴの上で、エレピ系のコードと滑らかなコーラスが溶け合う。<br>柔らかなヴォーカルとブラジリアンソウル〜AOR寄りのムードが溶け合う、サンセットタイムに似合う一曲。</p><p>Electric-piano-style chords and smooth chorus vocals melt together over a mid-tempo groove.<br>Soft vocals and a Brazilian soul-to-AOR-leaning mood make this a perfect fit for sunset time.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/toque-tropical/1483720444?i=1483720446",
-    "season": ["summer", "fall"],
-    "weather": ["sunny"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-02-07",
     "title": "Feijão Com Farinha – Helio Matheus",
     "comment": "<p>跳ねるようなリズムの上で、ギターとホーンのフレーズが軽快に行き交う。<br>サンバ〜ブラジリアン・ソウル寄りのグルーヴが、土っぽさと都会的なムードを同時に運ぶ一曲。</p><p>Over a bouncing rhythm, guitar and horn phrases trade off with nimble ease.<br>A samba-to-Brazilian-soul-leaning groove that carries both earthy grit and an urban mood at once.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/feij%C3%A3o-com-farinha/1512365362?i=1512365582",
-    "season": ["spring","summer"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-02-08",
     "title": "Middle Of The Night – Lalo Schifrin",
     "comment": "<p>ゆったりとしたグルーヴの上で、スペーシーなエレピ系のコードとカッティングギターがなめらかに流れ出す。<br>徐々にストリングスやホーンの気配が重なるシネマティックな一曲。</p><p>Over a laid-back groove, spacey electric-piano-style chords and cutting guitar flow smoothly.<br>A cinematic track where hints of strings and horns gradually layer in.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/middle-of-the-night/1439532064?i=1439532378",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid"],
-    "country": ["Argentina"],
-    "city": ["Buenos Aires"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Argentina"
+    ],
+    "city": [
+      "Buenos Aires"
+    ]
   },
   {
     "date": "2026-02-09",
@@ -5983,11 +7482,24 @@
     "comment": "<p>じわじわと立ち上がるトライブ感のあるサウンド。<br>マルチフォニクス的奏法のフルートが荒々しいアクセントを加える、レアグルーヴ感たっぷりの一曲。</p><p>A tribal-tinged sound that gradually rises and takes shape.<br>A multiphonics-style flute adds a wild accent to this rare-groove-heavy cut.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/kofijahm-coffee-jam/1434741590?i=1434742036",
     "amazon_url": "https://amzn.to/4r2KmUk",
-    "season": ["summer", "fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-02-10",
@@ -5995,11 +7507,24 @@
     "comment": "<p>跳ねるドラムとうねるベースの上で、ギターと鍵盤が軽やかに駆ける。<br>ブラジリアンブギー調のグルーヴが、サルヴァドール行きのバカンス感を運ぶ一曲。</p><p>Bouncy drums and a rolling bassline set the groove as guitar and keys run light and fast.<br>A Brazilian boogie-leaning cut that carries a vacation vibe straight to Salvador.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/se-voc%C3%AA-for-a-salvador/537030545?i=537030626",
     "amazon_url": "https://amzn.to/4tlvJO5",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Salvador"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Salvador"
+    ]
   },
   {
     "date": "2026-02-11",
@@ -6007,22 +7532,48 @@
     "comment": "<p>ドリーミーなエレピのコードと女性コーラスがゆったりと浮遊する。<br>ソウルジャズのメロウさとフュージョンの滑らかな質感が溶け合う、70sドープグルーヴ。</p><p>Dreamy electric piano chords and a female chorus drift in a slow, weightless sway.<br>A 70s dope groove where soul-jazz mellowness melts into fusion’s smooth sheen.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/lady-of-the-night/1762454602?i=1762454612",
     "amazon_url": "https://amzn.to/3O1LaLd",
-    "season": ["winter", "spring"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "winter",
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2026-02-12",
     "title": "We’ve Only Just Begun – Frank Cunimondo Trio feat. Lynn Marino",
     "comment": "<p>スモーキーなヴォーカルとピアノトリオの柔らかなタッチが静かに揺れる。<br>かの名曲をジャズヴォーカルの質感でしっとりと染め上げたカバー。</p><p>A smoky vocal and the piano trio’s gentle touch sway quietly in the air.<br>A cover that softly soaks this classic in an intimate jazz-vocal feel.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E6%84%9B%E3%81%AE%E3%83%97%E3%83%AC%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%89-2022-remastered/1617574228?i=1617574389",
-    "season": ["winter", "spring"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Pittsburgh"]
+    "season": [
+      "winter",
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Pittsburgh"
+    ]
   },
   {
     "date": "2026-02-13",
@@ -6030,22 +7581,48 @@
     "comment": "<p>低音のパルスとドラムの上で、ストリングスやホーンのレイヤーが波紋のように広がる。<br>ジャズ/サイケ/サントラの狭間を漂うようなシネマティックでダークな一曲。</p><p>Over a low-end pulse and drums, layers of strings and horns spread out like ripples.<br>A cinematic, dark cut that drifts between jazz, psych, and soundtrack moods.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/the-signs-pt-1-instrumental/716555092?i=716555196",
     "youtube_url": "https://www.youtube.com/watch?v=SKxD2LhO11c",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-02-14",
     "title": "Pedras de Cristal – Junior Mendes",
     "comment": "<p>エレピ系のコードとふくよかなベースがブラジリアングルーヴの上でとろりと揺れる。<br>ブラジリアン・ブギー〜MPB寄りの甘さとほのかな切なさが同居する一曲。</p><p>Electric piano chords and a full, rounded bass sway sweetly over a Brazilian groove.<br>A cut where Brazilian boogie-to-MPB sweetness meets a faint touch of bittersweet air.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/pedras-de-cristal/1321211377?i=1321211580",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-02-15",
@@ -6053,11 +7630,24 @@
     "comment": "<p>囁くようなヴォーカルが、きらめくエレクトロニカ・ビートに静かに寄り添う。<br>フレンチポップのムードとラウンジの質感が溶け合う、深夜に馴染む一曲。</p><p>A whispery vocal quietly intertwines with finely shimmering, gently swaying electronica beats.<br>French-pop mood and lounge textures melt together into a late-night cut.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/a-ring/910760218?i=910760227",
     "amazon_url": "https://amzn.to/4knbj3a",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Japan"],
-    "city": ["Tokyo"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Japan"
+    ],
+    "city": [
+      "Tokyo"
+    ]
   },
   {
     "date": "2026-02-16",
@@ -6065,11 +7655,24 @@
     "comment": "<p>シンセのレイヤーとストリングスが渦を巻くように広がる。<br>フィリー由来のソウル/ディスコ感にスペーシーな質感が重なった、アフロフューチャリスティックな一曲。</p><p>Layers of synths and strings spread out in a swirling bloom.<br>An afrofuturistic cut where Philly-born soul/disco meets a spacey sheen.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/life-on-mars/926553482?i=926553519",
     "amazon_url": "https://amzn.to/4aBPcCE",
-    "season": ["fall", "winter"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["United States"],
-    "city": ["Philadelphia"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "Philadelphia"
+    ]
   },
   {
     "date": "2026-02-17",
@@ -6077,55 +7680,120 @@
     "comment": "<p>うねるパーカッションのリズムの上で、ホーンのフレーズが熱を帯びて吹き上がる。<br>ガーナ産アフロビートのグルーヴが土臭さと高揚感を同時に運ぶ一曲。</p><p>Over rolling percussion rhythms, horn phrases rise up with growing heat.<br>A Ghanaian afrobeat groove that carries earthy grit and uplift at once.</p>",
     "apple_music_embed": "",
     "youtube_url": "https://www.youtube.com/watch?v=-1bEhOdx6mY",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Ghana"],
-    "city": ["Accra"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Ghana"
+    ],
+    "city": [
+      "Accra"
+    ]
   },
   {
     "date": "2026-02-18",
     "title": "Melvalita – Dave Pike",
     "comment": "<p>ヴィブラフォンのフレーズとギターのコードが、ボッサグルーヴの上でなめらかに揺れる。<br>ブラジル由来のメロディとジャズのニュアンスが溶け合う、クールかつ温かみのある一曲。</p><p>Vibraphone phrases and guitar chords sway smoothly over a bossa groove.<br>A cool yet warm track where Brazilian-born melody blends with jazz nuance.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/melvalita-remastered/1439710177?i=1439710244",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-02-19",
     "title": "Anchi Bale Game – Admas",
     "comment": "<p>リズムボックスのビートとシンセ／鍵盤のレイヤーがゆったりと渦を巻く。<br>エチオ・ジャズのスケール感と80sエレクトロ〜ハイライフ寄りの質感が溶け合う、トリッピーな一曲。</p><p>A rhythm-box beat and layers of synth/keys swirl in a slow, easy pulse.<br>A trippy track where Ethio-jazz scale meets an ’80s electro-to-highlife-leaning texture.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/anchi-bale-game/1769580127?i=1769580128",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Ethiopia"],
-    "city": ["Addis Ababa"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Ethiopia"
+    ],
+    "city": [
+      "Addis Ababa"
+    ]
   },
   {
     "date": "2026-02-20",
     "title": "When I’m Gone – The Jones Girls",
     "comment": "<p>ストリングスのレイヤーとしなやかなベースが、ミッドグルーヴの上でじわじわとうねる。<br>フィリーソウル寄りのアレンジに乗ったヴォーカルとコーラスが、切なさと高揚感を同時に運ぶ一曲。</p><p>Layers of strings and a supple bassline slowly coil over a mid-tempo groove.<br>Vocals and chorus ride a Philly-soul–leaning arrangement, carrying both bittersweet emotion and lift at once.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/when-im-gone/954289848?i=954289886",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Philadelphia"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Philadelphia"
+    ]
   },
   {
     "date": "2026-02-21",
     "title": "Líquido Elemento – La Retreta Mayor",
     "comment": "<p>ファンキーなホーンと鍵盤のフレーズが渦を巻くように駆け抜ける。<br>ベネズエラ産ジャズファンク/ラテングルルーヴの熱気とサイケなムードが一体となった一曲。</p><p>Funky horn and keyboard phrases race forward in swirling waves.<br>A Venezuelan jazz-funk/Latin groove where heat and a psychedelic mood fuse into one.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/liquido-elemento/1680718865?i=1680719369",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Venezuela"],
-    "city": ["Caracas"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Venezuela"
+    ],
+    "city": [
+      "Caracas"
+    ]
   },
   {
     "date": "2026-02-22",
@@ -6133,22 +7801,48 @@
     "comment": "<p>熱量のあるグルーヴィーなギターとホーン。<br>ソウルフルかつヴィンテージソウル調のアレンジが沁みる一曲。</p><p>A high-heat groove powered by gritty guitar and horns.<br>A soulful track with a vintage-soul–styled arrangement that really sinks in.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/how-long-do-i-have-to-wait-for-you/1485059798?i=1485060216",
     "amazon_url": "https://amzn.to/4ahVaav",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-02-23",
     "title": "Just a Love Child – Bobbi Humphrey",
     "comment": "<p>柔らかなフルートとエレピのコードが、しなやかなボーカルとコーラスとともにとろけるように揺れる。<br>ソウルジャズ調のグルーヴに70sらしいメロウネスがにじむ一曲。</p><p>Soft flute and electric piano chords melt into a gentle sway alongside supple vocals and layered chorus.<br>A soul-jazz–leaning groove with that unmistakable 70s mellowness shining through.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/just-a-love-child/723475087?i=723475668",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-02-24",
@@ -6156,55 +7850,119 @@
     "comment": "<p>ループするレイドバック気味のビートの上で、カットアップされたヴォーカルとサンプルの断片が重なり合う。<br>ノスタルジックかつ多幸感のある一曲。</p><p>Over a looping, laid-back beat, cut-up vocals and fragments of samples stack and intertwine.<br>A nostalgic track filled with bright, blissful euphoria.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/since-i-left-you-cornelius-remix/1558002905?i=1558003369",
     "amazon_url": "https://amzn.to/3O4aY9p",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Australia"],
-    "city": ["Melbourne"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Australia"
+    ],
+    "city": [
+      "Melbourne"
+    ]
   },
   {
     "date": "2026-02-25",
     "title": "Ain’t No Sunshine – Boogaloo Joe Jones",
     "comment": "<p>ソウルフルなギターとテナーサックスが、ミッドグルーヴの上でゆったりと会話するように展開する。<br>オルガンとコンガのうねりがじわじわと熱を帯びていく一曲。</p><p>A soulful guitar and tenor sax unfold like a relaxed conversation over a mid-tempo groove.<br>Swirling organ and congas gradually build the heat.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/things-aint-what-they-used-to-be/1443114097?i=1443114528",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["United States"],
-    "city": ["New York"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-02-26",
     "title": "Que Bandeira – Evinha",
     "comment": "<p>跳ねるサンバ〜MPB寄りのリズムの上で、ストリングスとコーラス、そして柔らかなヴォーカルが軽やかに広がる。<br>70sブラジルらしい爽やかさとほろ苦さが同居する、胸のすくグルーヴ・チューン。</p><p>Over a bouncy samba-to-MPB groove, strings, chorus, and her soft vocals open up with an easy lift.<br>A breezy 70s Brazilian groove tune where freshness meets a touch of bittersweet.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/que-bandeira/1487008069?i=1487008072",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-02-27",
     "title": "Stenella dubia – Sandro Brugnolini",
     "comment": "<p>ゆったりと進行するベースとギターの上で、鍵盤やホーンがゆったりと渦を巻く。<br>水中を連想させるドリーミーなイタリアンライブラリーグルーヴ。</p><p>Keys and horns drift in gentle swirls over a laid-back bassline and guitar.<br>A dreamy Italian library groove that evokes an underwater mood.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/stenella-dubia/1137581356?i=1137582149",
-    "season": ["spring","summer"],
-    "weather": ["rainy", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "rainy",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2026-02-28",
     "title": "Hip-Notic Lady – Future Flight",
     "comment": "<p>ストリングスのレイヤーと柔らかなコーラスがとろりと揺れる。<br>モダンソウル〜ブギー寄りのサウンドにAORの艶感がにじむ、レアグルーヴ文脈でも愛される一曲。</p><p>Layers of strings and soft chorus vocals sway in a mellow, syrupy glide.<br>A modern soul-to-boogie-leaning cut with an AOR-like sheen—loved in the rare groove context, too.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%92%E3%83%97%E3%83%8E%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-%E3%83%AC%E3%83%87%E3%82%A3/1645580740?i=1645580742",
-    "season": ["spring","fall"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["low","mid"],
-    "country": ["United States"],
-    "city": ["Detroit"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "Detroit"
+    ]
   },
   {
     "date": "2026-03-01",
@@ -6212,55 +7970,119 @@
     "comment": "<p>マレット系のフレーズとホーンがラテン〜クンビア寄りのビートの上で踊る。<br>かの名曲をラテン仕様に仕立てた一曲。</p><p>Mallet-like lines and horns dance over a Latin-to-cumbia-leaning beat.<br>A cover that flips Sade’s classic into a latin groove.</p>",
     "apple_music_embed": "",
     "youtube_url": "https://www.youtube.com/watch?v=MmrZZ78mV9w",
-    "season": ["summer","fall"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Chile"],
-    "city": ["Santiago"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Chile"
+    ],
+    "city": [
+      "Santiago"
+    ]
   },
   {
     "date": "2026-03-02",
     "title": "Space Commercial – Eddie Harris",
     "comment": "<p>リズムボックスのパルス、サックス、爪弾くギターがゆったりとしたループの上でじわじわと絡み合う。<br>バレアリック〜フュージョンの狭間を漂う、時間感覚がふと緩むインストトラック。</p><p>Rhythm-box pulses, sax, and plucked guitar slowly intertwine over a laid-back loop.<br>An instrumental drifting between Balearic mood and fusion—one that gently loosens your sense of time.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/space-commercial/351177979?i=351178012",
-    "season": ["fall","winter"],
-    "weather": ["cloudy","rainy"],
-    "mood": ["mid", "low"],
-    "country": ["United States"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "low"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-03-03",
     "title": "Départ des forains – Michel Legrand",
     "comment": "<p>ホーンと木管のフレーズが、行進曲風のリズムに乗ってにぎやかに駆け出す。<br>移動サーカス団が街を後にするような高揚感を閉じ込めた、シネマティックな一曲。</p><p>Horn and woodwind phrases burst out brightly over a march-like rhythm.<br>A cinematic track that captures the lift of a traveling circus leaving town.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/d%C3%A9part-des-forains-from-les-demoiselles-de-rochefort/1442704149?i=1442705877",
-    "season": ["fall","winter"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid","high"],
-    "country": ["France"],
-    "city": ["Rochefort"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Rochefort"
+    ]
   },
   {
     "date": "2026-03-04",
     "title": "Fool’s Paradise – The Sylvers",
     "comment": "<p>うねるベースラインの上でコーラスとホーンの気配が広がるソウルグルーヴ。<br>70sファミリーグループらしいハーモニーとファンク寄りのノリが溶け合う、レアグルーヴ文脈でも知られる一曲。</p><p>Over a rolling bassline, choral harmonies and hints of horns spread into a smooth soul groove.<br>A 70s family-group blend of tight harmony and funk-leaning bounce—also loved in the rare groove lane.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/fools-paradise/1455970760?i=1455970762",
-    "season": ["summer","fall","winter"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["mid"],
-    "country": ["United States"],
-    "city": ["Los Angeles"]
+    "season": [
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-03-05",
     "title": "Xavier à la maison d’arrêt (Thème principal) – François de Roubaix",
     "comment": "<p>モノクロ映画のような質感がじわりと滲む。<br>フレンチサントラながらもどこか東洋を感じさせる弦楽器とサイケな質感が癖になる一曲。</p><p>A slow-blooming, film-noir haze seeps in like a black-and-white movie.<br>A French soundtrack cut where exotic-tinged strings and a subtly psychedelic texture keep pulling you back.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/xavier-%C3%A0-la-maison-darr%C3%AAt-th%C3%A8me-principal/1545859807?i=1545859815",
-    "season": ["fall","winter"],
-    "weather": ["cloudy"],
-    "mood": ["low","mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-03-06",
@@ -6268,33 +8090,70 @@
     "comment": "<p>ギターのカッティングとスペーシーな鍵盤がグルーヴィーに揺れる。<br>多層的なレイヤーとソウルフルな歌声が交わる熱量のある一曲。</p><p>Choppy guitar cuts and spacey keys sway with a steady groove.<br>Layered textures and soulful vocals meet with a charged, high-energy feel.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/peace-gone-away/1522533562?i=1522533672",
     "amazon_url": "https://amzn.to/4kYpKef",
-    "season": ["fall","winter"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["high"],
-    "country": ["United States"],
-    "city": ["Washington, D.C."]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "high"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "Washington, D.C."
+    ]
   },
   {
     "date": "2026-03-07",
     "title": "Lamento – Antônio Carlos Jobim",
     "comment": "<p>静かに揺れるリズムの上で、ギターと鍵盤のフレーズがしっとりとほどけていく。<br>ストリングスの気配をまとったアレンジが、ジョビンらしいボサノヴァの哀愁をやさしく描く一曲。</p><p>Over a gently swaying rhythm, guitar and keyboard phrases softly unfurl.<br>An arrangement touched with strings gently paints the wistful bossa-nova mood that feels so Jobim.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%A9%E3%83%A1%E3%83%B3%E3%83%88/1484688152?i=1484689185",
-    "season": ["summer","fall"],
-    "weather": ["sunny","cloudy"],
-    "mood": ["low","mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-03-08",
     "title": "Elysian Fields – Minus 8",
     "comment": "<p>柔らかなビートとベースの上で、エレピとサンプルの断片がゆったりと漂う。ジャジーなダウンテンポ〜ラウンジ寄りのサウンドが、黄昏から深夜まで静かに余韻を広げる一曲。</p><p>Over a soft beat and bassline, electric piano and clipped sample fragments drift in slow motion. A jazzy downtempo-to-lounge mood that quietly lingers from dusk into late night.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/elysian-fields/433267795?i=433267809",
-    "season": ["fall","winter"],
-    "weather": ["cloudy","rainy"],
-    "mood": ["mid"],
-    "country": ["Switzerland"],
-    "city": ["Zürich"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Switzerland"
+    ],
+    "city": [
+      "Zürich"
+    ]
   },
   {
     "date": "2026-03-09",
@@ -6302,66 +8161,142 @@
     "comment": "<p>ダブルトラック気味のギターフレーズと、軽やかにスウィングするリズムセクション。イージーリスニング寄りの抜け感の中に、きめ細かなギターのニュアンスが光る一曲。</p><p>Double-tracked-like guitar phrases ride over a lightly swinging rhythm section. Within an easy-listening airiness, the fine nuances of the guitar really shine through.</p>",
     "apple_music_embed": "",
     "youtube_url": "https://www.youtube.com/watch?v=oJCxT0MiOaw",
-    "season": ["spring","summer"],
-    "weather": ["sunny"],
-    "mood": ["low","mid"],
-    "country": ["United States"],
-    "city": ["Pensacola"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "Pensacola"
+    ]
   },
   {
     "date": "2026-03-10",
     "title": "Forty-Nine Reasons – Julius Brockington",
     "comment": "<p>フルートのフレーズとやわらかな鍵盤が、スムースなグルーヴの上で静かに揺れる。<br>穏やかな浮遊感と70sレアグルーヴのムードがじわじわと染み込んでくる一曲。</p><p>Flute phrases and soft keys sway quietly over a smooth groove.<br>A track where gentle float and 70s rare-groove mood slowly seep in.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/forty-nine-reasons/1659001669?i=1659002886",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["low", "mid"],
-    "country": ["United States"],
-    "city": ["Baltimore"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "Baltimore"
+    ]
   },
   {
     "date": "2026-03-11",
     "title": "Aphrodisiaco – Bungalove",
     "comment": "<p>軽やかなパーカッションと柔らかなサウンドのレイヤーがラウンジ・グルーヴを静かに押し出す。<br>ボサ／ラテンの風味をまとったチルアウト感が、遅い時間のリラックスにちょうどいい一曲。</p><p>Light percussion and soft layered sounds quietly push a lounge groove forward.<br>Bossa/Latin-tinged chillout vibes make it just right for late-night relaxation.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/aphrodisiaco/317074746?i=317074786",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2026-03-12",
     "title": "Whistle Samba – Luiz Bonfá & Maria Toledo",
     "comment": "<p>口笛とスキャットが寄り添うように絡み合う、ボサ寄りのミッドグルーヴ。<br>ガット・ギターとささやくようなヴォーカルが、ドリーミーなラウンジ感を運ぶ一曲。</p><p>A bossa-leaning mid-groove where whistling and scat intertwine like close companions.<br>Nylon-string guitar and whisper-soft vocals carry a dreamy lounge feel.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/whistle-samba/1443798803?i=1443799061",
-    "season": ["spring", "summer", "fall"],
-    "weather": ["sunny"],
-    "mood": ["mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-03-13",
     "title": "Vai Vai – Jean-Pierre Sabar",
     "comment": "<p>アコースティックギター、鍵盤のフレーズ、コーラスが軽やかなパーカッションの上でさらりと揺れる。<br>フランス産ボッサ〜ライブラリ寄りのグルーヴに、どこか映像的なムードがにじむ一曲。</p><p>Acoustic guitar, keyboard phrases, and chorus vocals sway lightly over airy percussion.<br>A French bossa-to-library-leaning groove with a subtly cinematic mood seeping through.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/vai-vai/1518944063?i=1518944580",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-03-14",
     "title": "Children of the Night – Hysear Don Walker",
     "comment": "<p>しっとりとしたリズムセクションと鍵盤のコードが、深夜の空気のように静かに漂う。<br>ウォーミーなエレピがじわじわと広がるメロウグルーヴ。</p><p>A mellow rhythm section and keyboard chords drift quietly like late-night air.<br>A warm electric piano slowly spreads into a mellow groove.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/children-of-the-night/987781756?i=987781774",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2026-03-15",
@@ -6369,11 +8304,23 @@
     "comment": "<p>柔らかかつ軽やかなピアノと深みのあるヴォーカル。<br>パーカッションの粒立ちがジャジーな雰囲気にラテンジャズグルーヴを乗せる一曲。</p><p>Soft, light-footed piano with a deep, resonant vocal.<br>Crisp, popping percussion rides a jazzy atmosphere into a Latin-jazz groove.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/im-your-slave/1878047925?i=1878047927",
     "amazon_url": "https://amzn.to/3OSbdFa",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["United States"],
-    "city": ["St. Louis"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "United States"
+    ],
+    "city": [
+      "St. Louis"
+    ]
   },
   {
     "date": "2026-03-16",
@@ -6381,33 +8328,72 @@
     "comment": "<p>軽やかなリズムとうねるベースの上で、ホーンや鍵盤のフレーズがきらきらと駆け抜ける。<br>60s〜70sサイゴンの雰囲気を閉じ込めたような、チャチャ〜ヴィンテージポップ調の一曲。</p><p>Over a light rhythm and rolling bassline, horn and keyboard phrases sparkle as they race through.<br>A cha-cha-to-vintage-pop cut that bottles the vibe of 60s–70s Saigon!!!</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/s%C3%A0i-g%C3%B2n/1775429357?i=1775429358",
     "amazon_url": "https://amzn.to/3MKA4dm",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Vietnam"],
-    "city": ["Ho Chi Minh City"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Vietnam"
+    ],
+    "city": [
+      "Ho Chi Minh City"
+    ]
   },
   {
     "date": "2026-03-17",
     "title": "Perfume de Cebola – Filó Machado",
     "comment": "<p>やわらかなエレピと小気味良いヴォーカルが爽やかな南米の風とともにくるくると揺れる。<br>スキャットを含むひねりの効いたメロディが、じんわりクセになる一曲。</p><p>Soft electric piano and a nimble vocal swirl lightly, carried by a fresh South American breeze.<br>A twisted, scat-kissed melody slowly becomes addictive.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/perfume-de-cebola/1168204791?i=1168205024",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2026-03-18",
     "title": "Voir Venise – Alain Goraguer",
     "comment": "<p>ハイテンポでスリリングな展開の中で、ベースの重低音がゆっくりと歩みを進める。<br>フレンチ映画の情景を切り取ったような、シネマティックなサウンドトラック・チューン。</p><p>Amid a high-tempo, thrilling ride, the bass moves forward with a slow, heavy stride.<br>A cinematic soundtrack tune that feels like a snapshot from a French film.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/voir-venise/1821208829?i=1821208831",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-03-19",
@@ -6415,11 +8401,24 @@
     "comment": "<p>浮遊感のあるエレピの上で澄んだ歌声が柔らかく旋回する。<br>名バラードをサンバ〜フュージョン調のライトジャズに仕立てた心地よい一曲。</p><p>A clear, pure vocal gently circles over floating electric piano.<br>A comfortable take that turns the famous ballad into a light jazz cut with samba-to-fusion touches.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/you-light-up-my-life/276438337?i=276438343",
     "amazon_url": "https://amzn.to/4loMlRp",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["high", "mid"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "high",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2026-03-20",
@@ -6427,11 +8426,24 @@
     "comment": "<p>柔らかなリズムセクションの上で、2人のボーカルがメロディを紡ぐ。<br>70sスウィートソウルのムードを現代的な質感でなぞった一曲。</p><p>Over a soft rhythm section, the two vocals weave the melody together.<br>A track that traces the mood of 70s sweet soul with a modern sheen.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/paradise/1797634063?i=1797634068",
     "amazon_url": "https://amzn.to/3MMDOuU",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Bloomington"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Bloomington"
+    ]
   },
   {
     "date": "2026-03-21",
@@ -6439,22 +8451,48 @@
     "comment": "<p>浮遊感のあるオルガン／シンセにどこかエキゾチックな要素がスパイスとして加わる、ジャジー・ライブラリー・グルーヴ。<br>スペーシーなムードが立ち上がるポップで小粋な一曲。</p><p>A jazzy library groove where floating organ/synth lines are spiced with a touch of exotic flavor.<br>A poppy, cheeky cut with a spacey mood rising up.</p>",
     "apple_music_embed": "",
     "youtube_url": "https://www.youtube.com/watch?v=f1OZrqRpsaE",
-    "season": ["summer","fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-03-22",
     "title": "Cái Trâm Em Cài – Carol Kim",
     "comment": "<p>ざらついたヴィンテージ録音の質感と、揺れるオルガン／ギターが印象的なベトナム歌謡。<br>ボレロの気配に、昭和歌謡にも通じる声色が映える。<br>少し粗い鳴りまでもが情緒になっている一曲。</p><p>Vietnamese pop with gritty vintage texture and swaying organ/guitar.<br>A bolero hint, and a vocal tone that echoes Japanese Showa-era pop.<br>Even rough edges become part of the emotion.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/c%C3%A1i-tr%C3%A2m-em-c%C3%A0i/1573890279?i=1573890282",
-    "season": ["spring","summer","fall"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["Vietnam"],
-    "city": ["Ho Chi Minh City"]
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Vietnam"
+    ],
+    "city": [
+      "Ho Chi Minh City"
+    ]
   },
   {
     "date": "2026-03-23",
@@ -6462,22 +8500,48 @@
     "comment": "<p>タイトなドラムとループする上モノが、重心低めのビートをじわじわと押し出す。<br>90s東海岸ヒップホップらしい硬質なグルーヴと、夜更けの空気をまとったラップが深く沈み込む一曲。</p><p>Tight drums and looping melodic fragments push forward a low-slung groove.<br>A deep East Coast ’90s hip-hop cut where hard-edged rhythm and late-night atmosphere sink in slowly.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/2-deep/1442868254?i=1442868268",
     "amazon_url": "https://amzn.to/4srmCdm",
-    "season": ["summer","fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-03-24",
     "title": "Fai presto fai presto – Gianni Ferrio",
     "comment": "<p>軽やかなビートの上で、ブラスやオーケストラのフレーズがさらりと駆け抜ける。<br>イタリア産サントラらしいコミカルさとラウンジ感が同居する、洒落たムードの一曲。</p><p>Over a light beat, brass and orchestral phrases glide through with ease.<br>A stylish cut where the playful charm of an Italian soundtrack meets a lounge-like mood.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/fai-presto-fai-presto/416005858?i=416005894",
-    "season": ["spring", "summer","fall"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2026-03-25",
@@ -6485,22 +8549,48 @@
     "comment": "<p>駆け抜けるパーカッションにブラスが熱量を増加させる。<br>ベネズエラ産ラテンジャズファンク/レアグルーヴの高揚感が、軽やかさと土っぽさを同時に運ぶ一曲。</p><p>Racing percussion and brass keep turning up the heat.<br>A Venezuelan Latin jazz-funk / rare groove cut whose uplifting energy carries both lightness and earthy grit at once.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/zambo/1680718865?i=1680719366",
     "amazon_url": "https://amzn.to/4byJlgL",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Venezuela"],
-    "city": ["Caracas"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Venezuela"
+    ],
+    "city": [
+      "Caracas"
+    ]
   },
   {
     "date": "2026-03-26",
     "title": "Mars Blues – Telemakus feat. Chino Corvalán, Ted Taforo, Corydrums",
     "comment": "<p>しなやかなリズムの上で、鍵盤やアンサンブルのレイヤーがゆるやかにほどけていく。<br>ジャジーかつファンキーな質感に、都会的な夜更けの浮遊感が滲む一曲。</p><p>Over a supple rhythm, layers of keys and ensemble slowly unfold.<br>A track where jazzy, funky textures are tinged with the floating feel of a late-night city.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/mars-blues-feat-corydrums/1573590923?i=1573591207",
-    "season": ["fall", "winter"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid","high"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-03-27",
@@ -6508,11 +8598,24 @@
     "comment": "<p>MPB〜AOR調のやわらかな高揚感が心地よく弾む。<br>Filó Machadoらしい軽やかなメロディに漂うほのかな哀愁がじんわり残る一曲。</p><p>A soft, uplifting MPB-to-AOR feel bounces along with ease.<br>The light melody so typical of Filó Machado carries a faint wistfulness that lingers gently.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/quero-pouco-quero-muito-feat-marcelo-machado-placa/1168210577?i=1168210662",
     "amazon_url": "https://amzn.to/4uL33P2",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2026-03-28",
@@ -6521,33 +8624,72 @@
     "apple_music_embed": "https://embed.music.apple.com/jp/album/voodoo-woman/1621356607?i=1621356621",
     "youtube_url": "https://www.youtube.com/watch?v=XB14DPjAXVo",
     "amazon_url": "https://amzn.to/4t4C27O",
-    "season": ["spring","summer","fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-03-29",
     "title": "Orange-coloured day – Liana Flores",
     "comment": "<p>やわらかなギターとピアノの上で、歌声が陽だまりのようにふわりと広がる。<br>60sジャズフォークの気配をまとった軽やかなアレンジが、穏やかな高揚を運ぶ一曲。</p><p>Over soft guitar and piano, her voice opens up like a patch of sunlight.<br>A light arrangement with hints of 60s jazz-folk that carries a gentle lift.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8%E8%89%B2%E3%81%AE%E6%97%A5/1767023484?i=1767023497",
-    "season": ["spring","fall"],
-    "weather": ["sunny"],
-    "mood": ["low", "mid"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2026-03-30",
     "title": "Maracay 3A.M. – Castellanos",
     "comment": "<p>夜気をまとったビートの上で、鍵盤やサンプルの断片がじわじわと輪郭を浮かべていく。<br>シネマティックなヒップホップ〜ビートメイク調の空気感が深夜の街の温度をそのまま封じ込めたような一曲。</p><p>Over a beat wrapped in night air, keys and fragments of samples slowly come into focus.<br>A track whose cinematic hip-hop / beatmaking atmosphere feels like it bottles the temperature of the city after midnight.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/maracay-3a-m/1654081248?i=1654081254",
-    "season": ["summer","fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["Venezuela"],
-    "city": ["Maracay"]
+    "season": [
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Venezuela"
+    ],
+    "city": [
+      "Maracay"
+    ]
   },
   {
     "date": "2026-03-31",
@@ -6555,11 +8697,24 @@
     "comment": "<p>どこかサイケなコーラスと共にホーンや鍵盤のフレーズが次第に熱を帯びる。<br>レアグルーヴ〜ファンクの土っぽさと高揚感が同時に立ち上がる一曲。</p><p>Horn and keyboard phrases gradually heat up alongside a subtly psychedelic chorus.<br>A track where the earthy grit and lift of rare groove and funk rise at the same time.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/evil-vibrations/1756894143?i=1756894149",
     "amazon_url": "https://amzn.to/4bDNY9f",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Detroit"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Detroit"
+    ]
   },
   {
     "date": "2026-04-01",
@@ -6567,11 +8722,24 @@
     "comment": "<p>アーバンなビートと浮遊感のある鍵盤のレイヤーの上で、ヴォーカルがゆったりと熱を帯びていく。<br>90sアシッドジャズの洗練と温度感が同居する、都会的な一曲。</p><p>Over an urban beat and layers of floating keys, the vocal slowly gathers heat.<br>A city-minded cut where the polish and warmth of 90s acid jazz coexist.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/mama-said/724365045?i=724365362",
     "amazon_url": "https://amzn.to/4lGoFIm",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid","high"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2026-04-02",
@@ -6579,11 +8747,23 @@
     "comment": "<p>前半の雰囲気から一転してストリングスやゆらめく声が煙のように広がっていく。<br>インド音楽の質感が滲む、祈りにも問いかけにも聴こえる一曲。</p><p>After the opening mood, strings and wavering voices spread out like smoke.<br>A track tinged with the texture of Indian music, sounding at once like a prayer and a question.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/beyond-skin/1275032585?i=1275033879",
     "amazon_url": "https://amzn.to/3PSQDVl",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low"],
-    "country": ["India"],
-    "city": ["Delhi"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low"
+    ],
+    "country": [
+      "India"
+    ],
+    "city": [
+      "Delhi"
+    ]
   },
   {
     "date": "2026-04-03",
@@ -6591,11 +8771,25 @@
     "comment": "<p>やわらかな鍵盤とギターが甘さと力強さを兼ね備えたボーカルと共にメロウに揺れる。<br>AOR調の滑らかな質感が夜風のような余韻をさらりと運ぶ一曲。</p><p>Soft keys and guitar sway mellifluously alongside a vocal that balances sweetness and strength.<br>An AOR-leaning smoothness carries its afterglow like a passing night breeze.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/itll-all-come-around/289291653?i=289291898",
     "amazon_url": "https://amzn.to/4lKgoDn",
-    "season": ["spring","summer", "fall","winter"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Canada"],
-    "city": ["Montreal"]
+    "season": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Canada"
+    ],
+    "city": [
+      "Montreal"
+    ]
   },
   {
     "date": "2026-04-04",
@@ -6603,11 +8797,23 @@
     "comment": "<p>軽やかかつどこか怪しさのある音色が波打つように湾曲する。<br>ライブラリー〜エキゾ寄りのムードと南国的な色合いがにじむ、サンプル・ソースとしても美味しい一曲。</p><p>Light, slightly mysterious tones curl and ripple like waves.<br>A library-to-exotica-leaning cut with tropical color—also a tasty sample source.</p>",
     "apple_music_embed": "",
     "youtube_url": "https://www.youtube.com/watch?v=Yr_kUXCwZDo",
-    "season": ["summer"],
-    "weather": ["sunny"],
-    "mood": ["low","mid", "high"],
-    "country": ["USA"],
-    "city": ["Honolulu"]
+    "season": [
+      "summer"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Honolulu"
+    ]
   },
   {
     "date": "2026-04-05",
@@ -6616,11 +8822,24 @@
     "apple_music_embed": "https://embed.music.apple.com/jp/album/the-girl-from-u-n-c-l-e/1443462329?i=1443463103",
     "youtube_url": "https://www.youtube.com/watch?v=ZRZQnI6kvF0",
     "amazon_url": "https://amzn.to/3PopWrG",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "rainy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "rainy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-04-06",
@@ -6628,22 +8847,46 @@
     "comment": "<p>温かみのあるギターが浮遊感のあるビートと共にゆるやかに蛇行し、次第に熱を帯びていく。<br>CTIらしいジャズ/フュージョンの質感に、東欧/中近東を思わせるスケール感が滲む一曲。</p><p>Warm guitar lines drift with a floating groove, gradually gathering heat.<br>A track where CTI-style jazz/fusion texture hints toward Eastern Europe and the Middle East.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/mizrab/281850164?i=281850258",
     "amazon_url": "https://amzn.to/3PqGEGH",
-    "season": ["fall", "winter"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["Hungary"],
-    "city": ["Budapest"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Hungary"
+    ],
+    "city": [
+      "Budapest"
+    ]
   },
   {
     "date": "2026-04-07",
     "title": "Sho’ Nuff – Sly, Slick & Wicked",
     "comment": "<p>しなやかなリズムとパーカッションの上で、ヴォーカルとコーラスがじわじわと熱を帯びていく。<br>スウィートソウル寄りの甘さと、少しやさぐれたムードが同居する、サンプリング源としても愛される一曲。</p><p>Over a supple rhythm and layered percussion, the lead vocal and harmonies slowly build in warmth.<br>A beloved sampling source, this track blends sweet soul softness with a slightly rough-edged mood.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/sho-nuff/1445169235?i=1445169240",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-04-08",
@@ -6651,33 +8894,71 @@
     "comment": "<p>浮遊感のある鍵盤やアンサンブルのフレーズに弦楽の熱量が伝播する。<br>フレンチ・ジャズ〜フュージョン寄りの洗練とメロウな高揚感が同居する一曲。</p><p>Floating keyboards and ensemble phrases carry the warmth and momentum of the strings.<br>A track where French jazz-to-fusion sophistication coexists with a mellow sense of uplift.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/astral-dance/1672742516?i=1672742525",
     "amazon_url": "https://amzn.to/41Iyah0",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-04-09",
     "title": "Take Life Easy – Christy Essien Igbokwe",
     "comment": "<p>グルーヴィーなベースの上で、ヴォーカルとアンサンブルが一風変わったコード進行で歩みを進める。<br>アフロポップ/アフロファンク調の癖になる一曲。</p><p>Over a groovy bassline, the vocals and ensemble move forward through an unusual chord progression.<br>An addictive track with an Afro-pop / Afro-funk feel.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/take-life-easy/1724671910?i=1724671920",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Nigeria"],
-    "city": ["Lagos"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Nigeria"
+    ],
+    "city": [
+      "Lagos"
+    ]
   },
   {
     "date": "2026-04-10",
     "title": "My Favorite Song – The Kay-Gees",
     "comment": "<p>しなやかなリズムとベースの上で、鍵盤やアンサンブルのフレーズがやわらかくほどけていく。<br>70sソウル〜ファンク寄りのストレートなメロウさと高揚感が同居する一曲。</p><p>Over a supple rhythm and bassline, the keyboard and ensemble phrases gently unfold.<br>A track where the direct mellowness and uplifting feel of ’70s soul and funk coexist.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/my-favorite-song/1279142005?i=1279142012",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-04-11",
@@ -6685,11 +8966,23 @@
     "comment": "<p>オルガンやアンサンブルのフレーズが、軽やかなブラジリアン・グルーヴの上で小気味よく弾む。<br>ジャズボッサ〜ラウンジ寄りの洒落た高揚感がにじむブラジル産カバー。</p><p>Organ and ensemble phrases bounce crisply over a light Brazilian groove.<br>A Brazilian cover with a stylish sense of uplift, leaning toward jazz bossa and lounge.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/cochise/639547743?i=639548059",
     "amazon_url": "https://amzn.to/4tz1Rgx",
-    "season": ["spring", "summer"],
-    "weather": ["sunny"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-04-12",
@@ -6698,11 +8991,24 @@
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%87%E3%82%A3-%E3%82%B0-%E3%83%87%E3%82%A3%E3%83%B3-%E3%83%87%E3%82%A3%E3%83%B3/1555289488?i=1555289833",
     "youtube_url": "https://www.youtube.com/watch?v=C68LF7KZZYI&t=789s",
     "amazon_url": "https://amzn.to/4bT4Muy",
-    "season": ["spring", "summer","fall"],
-    "weather": ["sunny"],
-    "mood": ["mid", "high"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-04-13",
@@ -6710,11 +9016,23 @@
     "comment": "<p>軽快に跳ねるブラスとリズム。<br>60sラウンジ〜イージーリスニング調のシネマティックなムードで名曲を包み直したカバー。</p><p>Brisk brass and rhythm.<br>A cover that wraps a classic tune in the cinematic mood of ’60s lounge and easy listening.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/music-to-watch-girls-by/1443284190?i=1443284439",
     "amazon_url": "https://amzn.to/3QkRe2h",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-04-14",
@@ -6722,33 +9040,73 @@
     "comment": "<p>ローファイな質感のループが東洋的なパーカッションと共に緩やかに熱を帯びる。<br>ラテンジャズ/クラブジャズの洗練と都会的な高揚感が溶け合う一曲。</p><p>A lo-fi textured loop slowly builds heat alongside Eastern-tinged percussion.<br>A track where the sophistication of Latin jazz and club jazz melts into an urban sense of uplift.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/open-up-your-mind/156145266?i=156145279",
     "amazon_url": "https://amzn.to/3PHVfhj",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy", "rainy"],
-    "mood": ["low","mid"],
-    "country": ["Italy"],
-    "city": ["Milan"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Milan"
+    ]
   },
   {
     "date": "2026-04-15",
     "title": "Gangster Story – Guido & Maurizio De Angelis",
     "comment": "<p>ストーリーが進展していくかのようにしていくようにタイトなビートが次第に展開する。<br>70sイタリア映画サントラらしい緊張感とラウンジ感が交差する一曲。</p><p>A tight beat gradually unfolds, as if the story itself were moving forward.<br>A track where the tension and lounge-like feel of a ’70s Italian film soundtrack intersect.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/gangster-story/439166049?i=439166166",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid","high"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2026-04-16",
     "title": "Gica’s Dance - Reworked By The Nicola Conte Jazz Combo – Gerardo Frisina",
     "comment": "<p>涼やかなビブラフォンと共にホーンと鍵盤が静かにかつ熱く踊り出す。<br>クラブジャズグルーヴをより高揚感のある質感へ磨き上げた一曲。</p><p>Alongside the cool shimmer of vibraphone, horns and keys begin to dance with quiet intensity.<br>A track that polishes its club jazz groove into a more uplifting form.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/gicas-dance-reworked-by-the-nicola-conte-jazz-combo/160062311?i=160062314",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Italy"],
-    "city": ["Bari"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Bari"
+    ]
   },
   {
     "date": "2026-04-17",
@@ -6756,11 +9114,23 @@
     "comment": "<p>煙のようにゆらめく丸みのあるグルーヴ。<br>ソウルジャズ/スピリチュアルの温度感と、耳に残るワルツのメロディが同居する一曲。</p><p>A rounded groove that shimmers like smoke.<br>A track where the warmth of soul jazz and spiritual jazz coexists with a waltz melody that lingers in the ear.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%A6%E3%82%A9%E3%83%B3%E3%83%88-%E3%83%A6%E3%83%BC-%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3-%E3%82%A2%E3%83%83%E3%83%97-%E3%83%A6%E3%82%A2-%E3%82%BB%E3%83%B3%E3%82%B7%E3%82%BA/1460194295?i=1460194301",
     "amazon_url": "https://amzn.to/4vu8DGf",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-04-18",
@@ -6768,33 +9138,71 @@
     "comment": "<p>鍵盤とアンサンブルが陽の光を浴びるように柔らかくほどけていく。<br>ブラジリアンジャズファンクの滑らかさとメロウな高揚感が同居する一曲。</p><p>Keys and ensemble lines gently unfold as if bathed in sunlight.<br>A track where the smoothness of Brazilian jazz-funk coexists with a mellow sense of uplift.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/thats-what-she-says/1517769004?i=1517769350",
     "amazon_url": "https://amzn.to/4bS26NJ",
-    "season": ["spring", "summer","fall"],
-    "weather": ["sunny"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["São Paulo"]
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "São Paulo"
+    ]
   },
   {
     "date": "2026-04-19",
     "title": "Sintonia – Sabrina Malheiros",
     "comment": "<p>軽やかに踊る鍵盤、跳ねるベースと共に静かに揺れるギター。<br>アシッドジャズの要素を含んだグルーヴに対極的な柔らかいヴォーカルが溶け合う、モダン・ブラジリアン。</p><p>Light, dancing keys, a bouncing bass, and guitar that sways softly beneath it all.<br>A modern Brazilian track where a groove with touches of acid jazz melts into a contrastingly soft vocal.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/sintonia/1040237303?i=1040238143",
-    "season": ["spring", "summer","fall"],
-    "weather": ["sunny"],
-    "mood": ["mid", "high"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-04-20",
     "title": "I Dream of Jeannie – Television’s Greatest Hits Band",
     "comment": "<p>軽やかなテーマの旋律と小気味よいリズム感。<br>ポップでドリーミーなムードがさらりと通り過ぎる、某曲にもサンプリングされた一曲。</p><p>A light, memorable theme melody and a crisp sense of rhythm.<br>A track with a pop and dreamy mood that passes by effortlessly, and was also sampled in a certain song.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/i-dream-of-jeannie/461602603?i=461602608",
-    "season": ["spring", "summer","fall"],
-    "weather": ["sunny"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-04-21",
@@ -6802,11 +9210,23 @@
     "comment": "<p>華やかなストリングス感と軽やかなグルーヴ。<br>春風のように爽やかなコーラスがもたらすムードがさらりと広がる一曲。</p><p>Lush strings and a light groove.<br>A track where the breeze-like freshness of the chorus gently spreads mood.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/the-girls-from-paramaribo/333428504?i=333428816",
     "amazon_url": "https://amzn.to/4t0V1jU",
-    "season": ["spring"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Netherlands"],
-    "city": ["Amsterdam"]
+    "season": [
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Netherlands"
+    ],
+    "city": [
+      "Amsterdam"
+    ]
   },
   {
     "date": "2026-04-22",
@@ -6814,11 +9234,23 @@
     "comment": "<p>うねるオルガンのトーンと、静かな低音のパルス。<br>ソウルジャズ寄りの中速グルーヴがじわりと熱を帯びていく一曲。</p><p>A wavering organ tone and a quiet pulse in the low end.<br>A track where a mid-tempo soul-jazz groove gradually builds heat.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/theme-from-electric-surfboard/723583289?i=723583736",
     "amazon_url": "https://amzn.to/4t6drj7",
-    "season": ["spring", "summer"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2026-04-23",
@@ -6826,22 +9258,47 @@
     "comment": "<p>グルーヴィーなヴォーカルとメロディが次第に熱を帯びる。<br>A Night in TunisiaをR&B/ジャズ/クロスオーバーの艶で包み直した一曲。</p><p>Groovy vocals and melody gradually build in intensity.<br>A track that reimagines A Night in Tunisia with the sheen of R&B, jazz, and crossover.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/and-the-melody-still-lingers-on-night-in-tunisia/266611641?i=266613018",
     "amazon_url": "https://amzn.to/4cldf8O",
-    "season": ["fall", "winter"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-04-24",
     "title": "Kayaların Oğlu – Barış Manço",
     "comment": "<p>サイケ寄りの鍵盤の揺らぎや環境音と共に語りかけるようなフレーズが進行していく。<br>トルコ産ロック〜アナトリアン・ポップ寄りの熱量と土っぽさがにじむ、存在感のある一曲。</p><p>Psychedelic-leaning keys, ambient sounds, and phrasework that moves forward as if speaking directly to you.<br>A powerful track with the heat and earthiness of Turkish rock and Anatolian pop.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/kayalar%C4%B1n-o%C4%9Flu/654611816?i=654611817",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["Turkey"],
-    "city": ["Istanbul"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Turkey"
+    ],
+    "city": [
+      "Istanbul"
+    ]
   },
   {
     "date": "2026-04-25",
@@ -6849,22 +9306,48 @@
     "comment": "<p>温かみのある鍵盤の響きとしなやかなリズムが穏やかなグルーヴの上で徐々に広がる。<br>某名曲をソウルジャズ調の落ち着いた温度感で包む心地よいカバー。</p><p>Warm keys and a supple rhythm spread across a gentle groove.<br>A pleasing cover that wraps a certain classic in the calm warmth of soul jazz.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88-%E3%83%AA%E3%83%87%E3%83%B3%E3%82%BF%E3%83%BCpart2/1443086799?i=1443087862",
     "amazon_url": "https://amzn.to/4cDUmiC",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2026-04-26",
     "title": "Love Expressions – David Versace",
     "comment": "<p>浮遊感のあるやわらかな鍵盤とアンサンブルのレイヤーがゆったりと広がる。<br>オーケストラルなメロウネスと現行ジャズ寄りのしなやかさが溶け合う、静かな高揚感を持った一曲。</p><p>Soft, floating keys and ensemble lines unfold slowly.<br>A track with quiet uplift, where orchestral mellowness melts into the supple feel of modern jazz.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/love-expressions/1486582840?i=1486582841",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-04-27",
@@ -6872,11 +9355,24 @@
     "comment": "<p>ストリングスやメロディの断片がじんわりと広がる。<br>イタリア産サントラらしいメランコリックな気配とシネマティックな余韻が残る一曲。</p><p>Strings and fragments of melody slowly spread outward.<br>A track that leaves behind the melancholic air and cinematic afterglow of an Italian soundtrack.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/il-ricordo-di-serena/545430854?i=545430858",
     "amazon_url": "https://amzn.to/4ckNMfr",
-    "season": ["fall", "winter"],
-    "weather": ["rainy", "cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["Italy"],
-    "city": ["Rome"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "rainy",
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "Italy"
+    ],
+    "city": [
+      "Rome"
+    ]
   },
   {
     "date": "2026-04-28",
@@ -6884,33 +9380,71 @@
     "comment": "<p>静かに沈むようなアンサンブルの上で哀愁漂うヴォーカルが淡く揺れる。<br>夜更けのムードと失恋の余韻がにじむ、スモーキーな一曲。</p><p>Over a quiet ensemble, a wistful vocal sways softly.<br>A smoky track tinged with late-night mood and the aftertaste of heartbreak.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/the-end-of-a-love-affair/724453421?i=724454649",
     "amazon_url": "https://amzn.to/4cjQ0Mb",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low","mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-04-29",
     "title": "La Rose De Papier – Michel Colombier",
     "comment": "<p>やわらかなストリングス感と、サイケな要素を含んだフレンチポップ寄りの淡い揺らぎ。<br>甘さを含んだメロディと少し夢見心地なムードが静かに残る一曲。</p><p>Soft string-like textures and a pale, gently swaying French pop feel with a hint of psychedelia.<br>A track where a sweet melody and a slightly dreamy mood linger quietly.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/la-rose-de-papier/74425914?i=74425781",
-    "season": ["spring","fall"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-04-30",
     "title": "Harlem Nocturne – 101 Strings Orchestra",
     "comment": "<p>妖しさを帯びたストリングスの流れと、夜気を含んだムード。<br>どこかエキゾチックな香りが静かに広がる、深夜向きの一曲。</p><p>A flow of strings tinged with mystery, and a mood filled with the night air.<br>A late-night track where a quietly exotic atmosphere slowly unfolds.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/harlem-nocturne/1797587320?i=1797588145",
-    "season": ["fall", "spring"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low"],
-    "country": ["USA"],
-    "city": ["New York"]
+    "season": [
+      "fall",
+      "spring"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "New York"
+    ]
   },
   {
     "date": "2026-05-01",
@@ -6918,33 +9452,69 @@
     "comment": "<p>細かな打楽器の粒立ちと、うねる低音のパルス。<br>スピリチュアル・ジャズのムードとビート感が静かにせめぎ合う一曲。</p><p>The fine texture of percussion and a pulsing, rolling low end.<br>A track where the mood of spiritual jazz and a beat-driven feel quietly push against each other.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/gnawa/1464528028?i=1464528216",
     "amazon_url": "https://amzn.to/4w0nvwg",
-    "season": ["spring", "summer"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2026-05-02",
     "title": "Para de Fazer - 4hero Remix – Marcos Valle, 4hero",
     "comment": "<p>しなやかなブラジリアンの質感と、やわらかなブロークン寄りのグルーヴ。<br>都会的な浮遊感と温かな高揚がゆっくり広がる一曲。</p><p>A supple Brazilian texture and a soft, broken-beat-leaning groove.<br>A track where an urban sense of weightlessness and warm uplift slowly spread.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/para-de-fazer-4hero-remix/1040519337?i=1040519344",
-    "season": ["spring", "summer"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid"],
-    "country": ["Brazil"],
-    "city": ["Rio de Janeiro"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
   },
   {
     "date": "2026-05-03",
     "title": "You Can’t Hide Love – Creative Source",
     "comment": "<p>やわらかなコーラスの重なりと、しなやかなソウル寄りの中速グルーヴ。<br>甘さのあるメロディと都会的な余韻がじんわり残る一曲。</p><p>Layers of soft chorus vocals and a supple, soul-leaning mid-tempo groove.<br>A track where a sweet melody and an urban afterglow gently linger.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/you-cant-hide-love/1590252199?i=1590252212",
-    "season": ["spring", "summer"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-05-04",
@@ -6952,22 +9522,47 @@
     "comment": "<p>素朴なフォーク感と、サイケ寄りのにじんだ揺らぎ。<br>やわらかな土っぽさの中に、少し不思議な浮遊感が残る一曲。</p><p>A rustic folk feel and a blurred, psychedelic-leaning sway.<br>A track where a slightly mysterious sense of weightlessness lingers within its soft, earthy texture.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/stone-folk/1646605508?i=1646605515",
     "amazon_url": "https://amzn.to/4t5ztC3",
-    "season": ["spring", "fall"],
-    "weather": ["cloudy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "cloudy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
   },
   {
     "date": "2026-05-05",
     "title": "Friendly Pressure – Jhelisa",
     "comment": "<p>やわらかなギターの入りと、しなやかなグルーヴ。<br>アシッドジャズ寄りの浮遊感と、やさしい高揚がじんわり残る一曲。</p><p>A soft guitar intro and a supple groove.<br>A track where an acid jazz-leaning sense of weightlessness and gentle uplift linger warmly.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/friendly-pressure-album-version/27679564?i=27679555",
-    "season": ["spring", "summer"],
-    "weather": ["cloudy", "sunny"],
-    "mood": ["low", "mid"],
-    "country": ["UK"],
-    "city": ["London"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "cloudy",
+      "sunny"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "UK"
+    ],
+    "city": [
+      "London"
+    ]
   },
   {
     "date": "2026-05-06",
@@ -6975,33 +9570,72 @@
     "comment": "<p>しなやかなギターのフレーズと、ラテン寄りの軽やかなグルーヴ。<br>洗練された流れるような音色とあたたかな高揚が心地よく広がる一曲。</p><p>Supple guitar phrases and a light, Latin-leaning groove.<br>A track where refined, flowing tones and a warm sense of uplift spread pleasantly.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/my-latin-brother/192830244?i=192830670",
     "amazon_url": "https://amzn.to/4mXkc4I",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["USA"],
-    "city": ["Pittsburgh"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Pittsburgh"
+    ]
   },
   {
     "date": "2026-05-07",
     "title": "Samba Mortale – Real Ax Band",
     "comment": "<p>切れのあるピアノのリフと、打楽器が前に出た疾走感。<br>フュージョン寄りの熱量とブラジリアンの跳ね方が一気に駆け抜ける一曲。</p><p>Sharp piano riffs and a driving feel led by forward-pushing percussion.<br>A track where fusion-leaning heat and a Brazilian bounce rush through all at once.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/samba-mortale/75582544?i=75582348",
-    "season": ["spring", "summer"],
-    "weather": ["sunny", "cloudy"],
-    "mood": ["mid", "high"],
-    "country": ["Germany"],
-    "city": ["Berlin"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "mood": [
+      "mid",
+      "high"
+    ],
+    "country": [
+      "Germany"
+    ],
+    "city": [
+      "Berlin"
+    ]
   },
   {
     "date": "2026-05-08",
     "title": "Black Land Of The Nile – Masequa Myers",
     "comment": "<p>スモーキーかつジャジーなグルーヴと、静かなスピリチュアル・ジャズの揺らぎ。<br>柔らかな高揚と夜気を含んだムードがじんわり残る一曲。</p><p>A smoky, jazzy groove and the quiet sway of spiritual jazz.<br>A track where soft uplift and a night-air mood gently linger.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/black-land-of-the-nile/968019916?i=968020017",
-    "season": ["spring", "summer"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Chicago"]
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Chicago"
+    ]
   },
   {
     "date": "2026-05-09",
@@ -7009,11 +9643,24 @@
     "comment": "<p>やわらかなブレイク感と、低音のパルスを帯びたグルーヴ。<br>フレンチタッチの浮遊感とスモーキーなムードがじんわり広がる一曲。</p><p>A soft breakbeat feel and a groove carried by a pulsing low end.<br>A track where a French touch-leaning sense of weightlessness and a smoky mood slowly spread.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/le-voyage/266362430?i=266362509",
     "amazon_url": "https://amzn.to/42y0KSB",
-    "season": ["spring", "fall"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["high", "mid"],
-    "country": ["France"],
-    "city": ["Paris"]
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "high",
+      "mid"
+    ],
+    "country": [
+      "France"
+    ],
+    "city": [
+      "Paris"
+    ]
   },
   {
     "date": "2026-05-10",
@@ -7021,11 +9668,66 @@
     "comment": "<p>オーケストラの空気感に電子鍵盤の音が共鳴する。<br>スピリチュアル・ジャズのムードが独自の雰囲気でやわらかく立ちのぼる一曲。</p><p>The atmosphere of an orchestra resonates with the sound of electric keys.<br>A track where the mood of spiritual jazz rises softly with a uniquely otherworldly feel.</p>",
     "apple_music_embed": "https://embed.music.apple.com/jp/album/spiritual-eternal/65127415?i=65127255",
     "amazon_url": "https://amzn.to/4t1zOpd",
-    "season": ["fall", "winter"],
-    "weather": ["cloudy", "rainy"],
-    "mood": ["low", "mid"],
-    "country": ["USA"],
-    "city": ["Los Angeles"]
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "weather": [
+      "cloudy",
+      "rainy"
+    ],
+    "mood": [
+      "low",
+      "mid"
+    ],
+    "country": [
+      "USA"
+    ],
+    "city": [
+      "Los Angeles"
+    ]
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Vem Balançar – Mario Castro Neves",
+    "comment": "<p>煌めくホーンセクションとブラジル特有のリズム。<br>小気味よい中速グルーヴがすっと流れていく、明るい余韻の一曲。</p><p>Sparkling horns and rhythms that sway with ease.<br>A lively mid-tempo groove that lightens the mood.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/vem-balan%C3%A7ar/401860468?i=401861158",
+    "season": [
+      "summer"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "high"
+    ],
+    "country": [
+      "Brazil"
+    ],
+    "city": [
+      "Rio de Janeiro"
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Gbeti Madjro – Orchestre Poly-Rythmo de Cotonou",
+    "comment": "<p>タイトなドラムとパーカッションの上で、ギターやホーンのフレーズが熱を帯びながら転がっていく。<br>ベナン産アフロファンク〜サイケ寄りのグルーヴが、生々しい土臭さと高揚感を同時に押し出す一曲。</p><p>Tight drums and percussion drive the heated guitar and horn phrases.<br>A Beninese Afro-funk groove, raw and uplifting in its warmth.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/gbeti-madjro/420251399?i=420251483",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "mood": [
+      "high"
+    ],
+    "country": [
+      "Benin"
+    ],
+    "city": [
+      "Cotonou"
+    ]
   }
-
 ]

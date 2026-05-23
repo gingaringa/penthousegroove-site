@@ -4790,5 +4790,28 @@
     "mood": ["low", "mid"],
     "country": ["Netherlands"],
     "city": ["Amsterdam"]
+  },
+  {
+    "date": "2026-05-26",
+    "title": "Seraphim (Angels) – Caldera",
+    "comment": "<p>やわらかなストリングス感と、ラテン寄りのしなやかな中速グルーヴ。<br>フュージョン寄りの高揚と少しスピリチュアルな余韻が、じんわり広がる一曲。</p><p>Soft strings and a smooth, Latin-tinged groove.<br>A track that gently spreads a blend of euphoria and spirit.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%BB%E3%83%A9%E3%83%95%E3%82%A3%E3%83%A0/1584248671?i=1584249363",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-05-27",
+    "title": "Tema Para Martin – Agustin Pereyra Lucena",
+    "comment": "<p>やわらかなブラジリアン・ギターと、心地よいリズムに乗って静かにほどけるハミング。<br>ボサ寄りの夢見心地な浮遊感と、涼やかな余韻がやさしく残る一曲。</p><p>Gentle Brazilian guitar with a soothing rhythm unfolds.<br>A dreamy atmosphere lingers softly in the air.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/tema-para-martin/1711808896?i=1711809084",
+    "amazon_url": "https://amzn.to/4druxml",
+    "season": ["spring"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Argentina"],
+    "city": ["Buenos Aires"]
   }
 ]

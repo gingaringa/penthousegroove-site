@@ -5106,5 +5106,162 @@
     "mood": ["mid"],
     "country": ["UK"],
     "city": ["London"]
+  },
+  {
+    "date": "2026-06-23",
+    "title": "April Child – Moacir Santos",
+    "comment": "<p>やわらかな歌心と、ゆったり揺れるブラジリアン・ジャズのグルーヴ。<br>Moacir Santosらしい温かさと奥行きが、静かに広がっていく一曲。</p><p>Soft melodic heart, Brazilian jazz groove sways.<br>A track that quietly unfolds warmth and depth.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%A8%E3%82%A4%E3%83%97%E3%83%AA%E3%83%AB-%E3%83%81%E3%83%A3%E3%82%A4%E3%83%AB%E3%83%89/1460408997?i=1460409010",
+    "season": ["spring"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Brazil"],
+    "city": ["Flores do Pajeú"]
+  },
+  {
+    "date": "2026-06-24",
+    "title": "Magnetica – Espen Horne",
+    "comment": "<p>涼しげな北欧Nu Jazzの質感と、しなやかに進む中速グルーヴ。<br>ラウンジ感のある浮遊感とジャズファンク寄りの温度が高揚感を生む一曲。</p><p>Refreshing Nordic Nu Jazz texture, gently flowing groove.<br>A track that evokes a sense of uplifting lounge vibes.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/magnetica/751665694?i=751665857",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Norway"],
+    "city": ["Bergen"]
+  },
+  {
+    "date": "2026-06-25",
+    "title": "Fale De Mim - Mendel Edit – Germannu, Mendel",
+    "comment": "<p>ブラジリアン・グルーヴの温かな揺れと、スペーシーな広がりのあるビート。<br>温かみのあるボーカルと軽やかなギターが柔らかく包み込んでくれる一曲。</p><p>Warm Brazilian grooves with a spacious, flowing beat.<br>A track that gently wraps you in soothing vocals and light guitar.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/fale-de-mim/1522646861?i=1522646870",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Linhares"]
+  },
+  {
+    "date": "2026-06-26",
+    "title": "Two Piece Flower – John Dankworth & His Orchestra",
+    "comment": "<p>しなやかなオーケストラの流れと、軽やかに転がるジャズの躍動。<br>英国産らしい気品と少し翳りを帯びた高揚が、じんわり残る一曲。</p><p>A graceful orchestral flow with a lively jazz pulse.<br>A track that leaves a subtle elegance lingering.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/two-piece-flower/1681924176?i=1681924612",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-06-27",
+    "title": "Praça da Alegria – Marcos Resende & Index",
+    "comment": "<p>しなやかに走るブラジリアン・ジャズファンクのグルーヴと、軽やかに広がる鍵盤の高揚感。<br>70sフュージョンの熱とブラジルらしい抜けの良さが、じわっとフロアを温める一曲。</p><p>A nimble groove of Brazilian jazz funk, bright keys rise.<br>A track that gently warms the floor with fusion heat.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/pra%C3%A7a-da-alegria/1540067335?i=1540067438",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-06-28",
+    "title": "J’ai dormi sous l’eau – Air",
+    "comment": "<p>やわらかなシンセのにじみと、ゆっくり漂う中速の揺らぎ。<br>フレンチ・ダウンテンポ寄りの夢見心地な浮遊感が静かに残る一曲。</p><p>Soft synths shimmer, gently swaying in slow rhythms.<br>A dreamy, floaty vibe that lingers quietly.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/jai-dormi-sous-leau/966652812?i=966652816",
+    "season": ["spring", "fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-06-29",
+    "title": "Dentro De Você – Emílio Santiago",
+    "comment": "<p>艶のあるヴォーカルと、ブラジリアン・メロウ寄りのグルーヴ。<br>都会的なコード感がゆっくり染み込む一曲。</p><p>Lush vocals intertwine with Brazilian mellow grooves.<br>A track that seeps urban charm into your soul.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/dentro-de-voc%C3%AA/1442266862?i=1442266864",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-06-30",
+    "title": "Casino De Capri – The Bahama Soul Club",
+    "comment": "<p>ブラスの華やぎと、ラテン寄りのしなやかな中速グルーヴ。<br>夜のラウンジを思わせる艶っぽさと、軽やかな高揚が気持ちよく広がる一曲。</p><p>Bright brass and a supple Latin groove,<br>A track that evokes the sultry lounge night.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/casino-de-capri/1330915838?i=1330916302",
+    "amazon_url": "https://amzn.to/4xARaNn",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Germany"],
+    "city": ["Cologne"]
+  },
+  {
+    "date": "2026-07-01",
+    "title": "California Soul – Tamba 4",
+    "comment": "<p>軽やかなボサ寄りの揺れと、ソウル曲らしい明るい高揚感。<br>ブラジリアン・ジャズの涼やかさとポップな抜けの良さが、さらりと広がる一曲。</p><p>A light bossa sway, bright soul-infused rhythms.<br>A track that effortlessly fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/california-soul/1518142792?i=1518142794",
+    "amazon_url": "https://amzn.to/4xEzfVX",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-07-02",
+    "title": "Fate of Life (from “The Set”) – Sven Libaek",
+    "comment": "<p>静かに揺れるラウンジ感と、映画音楽らしい淡い陰影。<br>モッド・ジャズ寄りの上品さと、シネマティックな余韻が残る一曲。</p><p>A gently swaying lounge vibe, with cinematic shades.<br>A track that lingers with elegance and depth.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/fate-of-life-from-the-set/600809565?i=600809614",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Australia"],
+    "city": ["Sydney"]
+  },
+  {
+    "date": "2026-07-03",
+    "title": "Jungle Cat – Manfredo Fest",
+    "comment": "<p>軽やかに跳ねるブラジリアン・ジャズのスキャットと、涼しげに転がるスペーシーな鍵盤。<br>ラテン・フュージョン寄りのグルーヴに、都会的な余韻が心地よく混ざり合う一曲。</p><p>Lightly bouncing Brazilian jazz scatting, cool rolling keys.<br>A track that blends urban echoes with Latin grooves.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/jungle-cat/1517769004?i=1517769345",
+    "season": ["summer"],
+    "weather": ["sunny", "cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-07-04",
+    "title": "Earth Moon and Stars – The Starseeds",
+    "comment": "<p>やわらかなスペース感と、ゆっくりほどける中速グルーヴ。<br>チルアウト寄りの浮遊感と夜空を思わせる静かな広がりが、じんわり残る一曲。</p><p>Soft spaciousness and a gently unwinding groove.<br>A track that evokes a tranquil night sky.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/earth-moon-and-stars-original-released-mix/1767535181?i=1767535521",
+    "season": ["fall"],
+    "weather": ["sunny", "cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["Netherlands"],
+    "city": ["Amsterdam"]
+  },
+  {
+    "date": "2026-07-05",
+    "title": "Intenso – Gerardo Frisina",
+    "comment": "<p>疾走感のあるラテン・ジャズのグルーヴと、夜っぽい緊張感。<br>打楽器の熱とジャズファンク寄りの洒脱さが静かな高揚感を誘う一曲。</p><p>A vibrant Latin jazz groove with a night-time tension.<br>A track that invites a quiet sense of elation.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/intenso/152001279?i=152001295",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["Italy"],
+    "city": ["Milan"]
+  },
+  {
+    "date": "2026-07-06",
+    "title": "Lua Comanche – Bala Desejo, Dora Morelenbaum, Julia Mestre, Lucas Nunes, Zé Ibarra",
+    "comment": "<p>軽やかなコーラスと、トロピカリア〜MPB寄りの揺らぎ。<br>陽気さの奥に少しサイケで都会的な余韻が残る一曲。</p><p>Light, airy chorus with a sway reminiscent of MPB.<br>A track that carries a hint of psychedelia and urban vibes.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/lua-comanche/1804896867?i=1804897029",
+    "amazon_url": "https://amzn.to/3QgXqsO",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
   }
 ]

@@ -5455,5 +5455,62 @@
     "mood": ["low"],
     "country": ["France"],
     "city": ["Paris"]
+  },
+  {
+    "date": "2026-07-24",
+    "title": "Jungle Kitten – Da Lata",
+    "comment": "<p>流麗なシンセと、サンバをまとったグルーヴィーなサウンド。<br>ブラジリアン・フュージョンの高揚感を、現代的にアレンジした一曲。</p><p>Sleek synths meet a groovy samba flow.<br>A track that elevates Brazilian fusion in style.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/jungle-kitten-full-version/1562348718?i=1562348722",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny"],
+    "mood": ["high"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-07-25",
+    "title": "Kind Of Latin Rhythm – The Juju Orchestra",
+    "comment": "<p>ラテン寄りのリズムと、ジャズ・ファンクの気配。<br>パーカッションの粒立ちが、ゆるやかに熱を帯びていく一曲。</p><p>Latin-tinged rhythms with jazz-funk undertones.<br>A track that builds warmth as it evolves.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/kind-of-latin-rhythm/586026764?i=586027040",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Germany"],
+    "city": ["Braunschweig"]
+  },
+  {
+    "date": "2026-07-26",
+    "title": "Até Londres – Rosinha de Valença",
+    "comment": "<p>軽やかなギターと、遊び心のある声の掛け合い。<br>ボサの揺らぎに、弾むような楽しさが広がる一曲。</p><p>Lively guitars dance with playful vocal interplay.<br>A track that brings joy, filling the room.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=nMdIlFPRf9w",
+    "season": ["spring", "summer"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-07-27",
+    "title": "The Planet Plan – United Future Organization",
+    "comment": "<p>鋭いホーンと、ブレイクビーツ寄りの躍動感。<br>クラブ・ジャズの熱量が、スリリングに駆け抜ける一曲。</p><p>Sharp horns and driving breakbeats create a vibrant pulse.<br>A club jazz track that thrills and energizes the space.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%97%E3%83%A9%E3%83%8D%E3%83%83%E3%83%88-%E3%83%97%E3%83%A9%E3%83%B3/1444209455?i=1444209856",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Japan"],
+    "city": ["Tokyo"]
+  },
+  {
+    "date": "2026-07-28",
+    "title": "Little Cry for Him (Chorinho Pra Ele) – Hermeto Pascoal",
+    "comment": "<p>軽快なショーロのリズムに、自由奔放なメロディ。<br>エルメート・パスコアールらしい遊び心が詰まった一曲。</p><p>Lively choro rhythms with a carefree melody.<br>A track that captures Hermeto's playful spirit.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/little-cry-for-him-chorinho-pra-ele/281147840?i=281148043",
+    "amazon_url": "https://amzn.to/4b2pFCI",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
   }
 ]

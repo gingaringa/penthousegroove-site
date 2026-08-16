@@ -5726,5 +5726,119 @@
     "mood": ["mid"],
     "country": ["USA"],
     "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-08-17",
+    "title": "In Effect (The Remix) – DJ Red Alert & Mike Slammer",
+    "comment": "<p>疾走するブレイクビーツと高揚感を生むピアノ、ピッチを加工したヴォーカル。<br>レイヴの熱気を凝縮したような、1993年UKブレイクビート・ハードコアの一曲。</p><p>Driving breakbeats, soaring piano, and pitched vocals.<br>A track that captures the rapture of ’93 UK hardcore.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/in-effect-dj-slipmatt-remix/1557456244?i=1557456245",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-08-18",
+    "title": "Brother Samba – Midnight Gigolos",
+    "comment": "<p>柔らかな波の音と、ブラジリアン・ジャズ寄りのゆったりしたグルーヴ。<br>長く流れるリズムと温かな音像が、穏やかな開放感を生む一曲。</p><p>Soft waves and a laid-back Brazilian jazz groove.<br>A track that brings a sense of serene freedom.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/brother-samba/1692361733?i=1692361738",
+    "amazon_url": "https://amzn.to/4g8VnzH",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Spain"],
+    "city": ["Vigo"]
+  },
+  {
+    "date": "2026-08-19",
+    "title": "รอลมรัก (Ro Lom Rak) – เศรษฐา ศิระฉายา (Setha Sirachaya)",
+    "comment": "<p>柔らかな歌声と甘いメロディーに、どこか南国的な空気が漂うヴィンテージ・タイ・ポップ。<br>穏やかなリズムとノスタルジックな響きが心地よく溶け合う、知られざるタイ音楽の一曲。</p><p>A vintage Thai pop with gentle sound and sweet melody,<br>Warm rhythms and nostalgic echoes softly intertwine.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=WlXPDTTB49s&t=353s",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low"],
+    "country": ["Thailand"],
+    "city": ["Bangkok"]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Naja – Bruno Lacerda",
+    "comment": "<p>迫り来る土着的なパーカッションと宇宙的な金属音が拡張する。<br>静かな緊張感を帯びた呪術的かつ神秘的な一曲。</p><p>Grounded percussion merges with cosmic metallic sounds.<br>A track that evokes quiet tension and mystery.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/naja/1643589065?i=1643589066",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["Brazil"],
+    "city": ["Porto Alegre"]
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Road Dogs – Acoustic Alchemy",
+    "comment": "<p>アコースティック・ギターの掛け合いと、滑らかな中速グルーヴ。<br>穏やかな推進力と広がりのある音像が心地よい一曲。</p><p>A dance of acoustic guitars, with a smooth, mid-tempo groove.<br>A gentle drive and expansive soundscape that soothes the soul.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/road-dogs/1443860077?i=1443860270",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-08-22",
+    "title": "Seven Golden Men – Armando Trovajoli & I Cantori Moderni di Alessandroni",
+    "comment": "<p>スパイ映画を思わせる軽快なリズムに、印象的なコーラスと洒脱なオーケストレーションが絡むイタリアン・サウンドトラック。<br>ジャズ、ラウンジ、モンド的な感覚が凝縮された、スタイリッシュで少しユーモラスな一曲。</p><p>An Italian soundtrack with a lively spy beat,<br>Impressive choruses and chic orchestration fill the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/seven-golden-men/1521813335?i=1521813696",
+    "season": ["spring", "summer", "fall", "winter"],
+    "weather": ["sunny"],
+    "mood": ["mid"],
+    "country": ["Italy"],
+    "city": ["Rome"]
+  },
+  {
+    "date": "2026-08-23",
+    "title": "Something’s Coming – Shunzo Ohno",
+    "comment": "<p>鋭いトランペットとエレクトリック・キーボード、ギターが長尺のグルーヴの中で絡み合う70年代ジャズ。<br>ジャズ・ファンクからエレクトリック・ジャズ、サイケデリックな感覚までが混ざり合う、ファンキーかつ疾走感に満ちた一曲。</p><p>Sharp trumpets weave with electric keys and guitar,<br>A funky track that pulsates with vibrant energy.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%B5%E3%83%A0%E3%82%B7%E3%83%B3%E3%82%B0%E3%82%BA-%E3%82%AB%E3%83%9F%E3%83%B3%E3%82%B0/1443840268?i=1443840270",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Japan"],
+    "city": ["Tokyo"]
+  },
+  {
+    "date": "2026-08-24",
+    "title": "The Sheik – The Clovers",
+    "comment": "<p>軽快なリズムとコーラス・ワークが転がるように進む、ヴィンテージR&B／ドゥーワップ。<br>コミカルでエキゾチック、それでいてサイケな気配も漂うクセになるオールディーズ・ナンバー。</p><p>A rolling vintage R&B doo-wop with lively rhythm and choral flair.<br>A track that’s quirky and exotic, leaving a psychedelic hint.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/the-sheik/1354794031?i=1354795133",
+    "season": ["spring", "summer"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Washington, D.C."]
+  },
+  {
+    "date": "2026-08-25",
+    "title": "007 – Lilis Suryani",
+    "comment": "<p>007＝ジェームズ・ボンドの世界をインドネシア流に料理した、60年代ヴィンテージ・ポップ。<br>軽快でコミカルなリズムとLilis Suryaniのチャーミングな歌声が、スパイ映画的な遊び心とともに駆け抜ける一曲。</p><p>A vibrant blend of vintage pop and breezy beats,<br>A track that dances with a charming spy flair.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=VKhRLzCuEhY&t=475s",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["Indonesia"],
+    "city": ["Jakarta"]
+  },
+  {
+    "date": "2026-08-26",
+    "title": "JOYOUS – PLEASURE",
+    "comment": "<p>躍動するベースとパーカッション、鋭いホーンが一体となって駆け抜ける70年代ジャズ・ファンク。<br>高揚感たっぷりの長尺グルーヴがじわじわ熱を帯びていくファンク・クラシック。</p><p>A dynamic blend of bass and percussion, sharp horns take flight in '70s jazz-funk.<br>A track that builds a slow-burning excitement, filling the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/joyous/1568229263?i=1568229431",
+    "amazon_url": "https://amzn.to/4woYIRf",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny"],
+    "mood": ["high"],
+    "country": ["United States"],
+    "city": ["Portland"]
   }
 ]

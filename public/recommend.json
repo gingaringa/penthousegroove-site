@@ -6205,5 +6205,27 @@
     "mood": ["mid"],
     "country": ["USA"],
     "city": ["Honolulu"]
+  },
+  {
+    "date": "2026-09-28",
+    "title": "EVERYBODY’S DANCING – EURO FUNK",
+    "comment": "<p>弾むベースとギター、シンセにホーンが絡み合う、1981年マイアミ産ディスコ・ブギー。<br>8分を超えてじわじわ熱を上げていく、ローカル・ファンクの隠れたダンスフロア・キラー。</p><p>Bouncing bass and guitars, synths blend with horns,<br>A track that raises the heat and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/everybodys-dancing/1838897668?i=1838897670",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Miami"]
+  },
+  {
+    "date": "2026-09-29",
+    "title": "MIMO – PODER DEL ALMA",
+    "comment": "<p>重いパーカッションとサイケデリックなグルーヴが渦巻く、ニカラグア産ラテン・ファンク。<br>熱帯の湿度をまとったような妖しさと、荒々しいファンクネスが共存する一曲。</p><p>Heavy percussion swirls with psychedelic groove,<br>A track that blends allure with raw funk.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/mimo-feat-jos%C3%A9-antonio-corea-el-rey-de-nicaragua/1720860545?i=1720860551",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["Nicaragua"],
+    "city": ["Managua"]
   }
 ]

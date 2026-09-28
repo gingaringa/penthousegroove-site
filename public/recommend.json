@@ -6227,5 +6227,73 @@
     "mood": ["high"],
     "country": ["Nicaragua"],
     "city": ["Managua"]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "RAINY DAY SONG – BILLY KAUI & COUNTRY COMFORT",
+    "comment": "<p>雨の日を軽やかに包み込む、爽やかなハワイアン・フォーク／ソフトロック。<br>素朴な歌声と柔らかな演奏が、70年代ハワイの温度を伝える一曲。</p><p>A breezy Hawaiian folk with soft rock textures,<br>A track that carries the warmth of 70s Hawaii.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/rainy-day-song/210757783?i=210758171",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Honolulu"]
+  },
+  {
+    "date": "2026-10-01",
+    "title": "WALKING IN THE JUNGLE – CHUCKY BOY CHOCK AND OAHU BRAND",
+    "comment": "<p>フォークの素朴さとファンクのリズム感が混ざり合う、奇妙で土着的なハワイアン・グルーヴ。<br>ジャンル分けしきれない自由さが魅力の、オアフ産ローカル・レアグルーヴ。</p><p>An earthy blend of folk and funky rhythm,<br>A track that dances with freedom and spirit.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=gCXCS3E7GNE",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Honolulu"]
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Save For A Rainy Day Theme – Jan & Dean",
+    "comment": "<p>穏やかな鍵盤とやわらかなハーモニーが溶け合う、サンシャイン・ポップ寄りのインストゥルメンタル。<br>雨上がりの景色を思わせる、静かで心地よい余韻を残す一曲。</p><p>Gentle keys and soft harmonies meld, an instrumental sunshine pop.<br>A track that leaves a quiet, pleasant afterglow.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/save-for-a-rainy-day-theme-mono/1472276781?i=1472276917",
+    "amazon_url": "https://link.amazon/B07ZU0rYR",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-10-03",
+    "title": "EL MANICERO – BO AXELZON & HIS EXOTIC SOUNDS",
+    "comment": "<p>ラテンスタンダードを北欧エキゾチカのフィルターに通したどこか奇妙で洒落た一曲。<br>軽快な打楽器とラウンジ感のあるアレンジが南国への空想旅行を思わせる一曲。</p><p>A quirky, stylish blend of Latin vibes and Nordic flair.<br>A track that invites you on a dreamlike journey.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/el-manicero/1532627430?i=1532627435",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Sweden"],
+    "city": ["Stockholm"]
+  },
+  {
+    "date": "2026-10-04",
+    "title": "BY THE TIME I GET TO PHOENIX – GARY MCFARLAND & CO.",
+    "comment": "<p>名曲を柔らかなヴィブラフォンと洒脱なアレンジで包み込んだGary McFarland流の再解釈。<br>切なさを残しながら、軽やかなラウンジ・ジャズへと変貌させた一曲。</p><p>A reinterpretation wrapped in soft vibes, clever arrangements.<br>A track that transforms melancholy into breezy lounge jazz.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/by-the-time-i-get-to-phoenix/258313520?i=258313572",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-05",
+    "title": "BED OF NAILS – FATS THEUS",
+    "comment": "<p>重たいオルガンとGrant Greenのギターが絡み合う、ディープなソウル・ジャズ。<br>ファンキーでありながら妖しさを残した、夜の空気によく似合うグルーヴ。</p><p>A deep soul jazz with heavy organ and Grant Green's guitar,<br>A funky groove that captures the night's mysterious air.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%83%99%E3%83%83%E3%83%89-%E3%82%AA%E3%83%B4-%E3%83%8D%E3%82%A4%E3%83%AB%E3%82%BA/1831698079?i=1831698083",
+    "season": ["spring", "summer", "fall", "winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
   }
 ]

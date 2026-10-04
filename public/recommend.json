@@ -6295,5 +6295,97 @@
     "mood": ["mid"],
     "country": ["USA"],
     "city": ["New York"]
+  },
+  {
+    "date": "2026-10-06",
+    "title": "#5 (GO BANG!) – DINOSAUR L",
+    "comment": "<p>ディスコの反復するビートにオルガン、ベース、ギター、パーカッションが奇妙に絡み合うArthur Russell流の実験的ダンス・ミュージック。<br>ファンク、ジャズ、アヴァンギャルドがNYの地下フロアで溶け合ったような、中毒性の高いグルーヴ。</p><p>An eclectic mix of organ, bass, guitar, and beat,<br>A track that drips with addictive groove.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/5-go-bang-francois-k-mix/268646867?i=268647298",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-07",
+    "title": "FAIR WEATHER – JOANNE BRACKEEN & RYO KAWASAKI",
+    "comment": "<p>ピアノとギターだけで描かれる、繊細で透明感のあるジャズデュオ。<br>きらめくようなフレーズと淡い余白が交差し、タイトル通り晴れた日のような軽やかさを残す一曲。</p><p>Delicate jazz duo of piano and guitar intertwines,<br>With sparkling phrases and soft pauses, it brings light.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/fair-weather/1600963862?i=1600964032",
+    "season": ["spring", "summer", "fall", "winter"],
+    "weather": ["sunny"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-08",
+    "title": "POOLS – STEPS AHEAD",
+    "comment": "<p>ヴィブラフォン、ピアノ、ベースが描く透明感のあるハーモニーに、テナーサックスが伸びやかに重なる。<br>静かな浮遊感から熱を帯びた展開へ移っていく、1980年代ジャズ・フュージョンの美しい長尺曲。</p><p>Vibraphone, piano, and bass weave a transparent harmony,<br>As tenor sax breathes life into the soundscape.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/pools/330433267?i=330433378",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-09",
+    "title": "UN DÍA BONITO – EDDIE PALMIERI",
+    "comment": "<p>Salsaの枠を越え、Jazzや実験音楽の感覚まで飲み込んだ1970年代NY Latinの濃密な世界。<br>Eddie Palmieriのピアノから始まり、ラテンのリズムと大胆な音響処理へ展開していく一曲。</p><p>A rich tapestry of rhythms with piano and bold soundscapes.<br>A track that transcends salsa and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/un-d%C3%ADa-bonito-single-edit/1630262568?i=1630262958",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-10",
+    "title": "LADY LOVE – JON LUCIEN",
+    "comment": "<p>深く柔らかな歌声と、ジャズ、ソウル、カリビアンの感覚が溶け合うJon Lucienのメロウ・グルーヴ。<br>都会的でありながら南国の温度も感じさせる一曲。</p><p>A deep, soft voice merges jazz, soul, and Caribbean vibes.<br>A track that feels both urban and tropical.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/lady-love/1261594373?i=1261594774",
+    "amazon_url": "https://link.amazon/B0ijvimNv",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-11",
+    "title": "NEVER DID I STOP LOVING YOU – ALICE CLARK",
+    "comment": "<p>Alice Clarkの力強くも切ない歌声が胸を打つ、1972年のディープ・ソウル。<br>華やかさよりも感情の深さが前に出る、短い時間に濃密な余韻を残す一曲。</p><p>Powerful, haunting vocals weave rich emotion,<br>A track that lingers, touching the heart.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/never-did-i-stop-loving-you/422549546?i=422549551",
+    "amazon_url": "https://link.amazon/B05OGohgv",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-12",
+    "title": "LAND OF THE THIRD EYE – DAVE VALENTIN",
+    "comment": "<p>フルートを中心に、Latin JazzとJazz Funkを幻想的に横断する1980年の一曲。<br>軽やかな演奏の奥にスピリチュアルで宇宙的な空気が漂う、初期GRPならではのサウンド。</p><p>A dreamlike blend of flute, Latin Jazz, and funk.<br>A track that envelops you in a cosmic embrace.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/land-of-the-third-eye/1459572478?i=1459572505",
+    "amazon_url": "https://link.amazon/B0e76PZnF",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-13",
+    "title": "SOFRITO – MONGO SANTAMARIA",
+    "comment": "<p>アフロ・キューバンのリズムに、エレピやシンセ、フルートを溶け込ませた1976年のLatin Jazz Fusion。<br>じわじわと熱を帯びるパーカッションと吹き抜ける風のようなフルートが絶妙に交差する一曲。</p><p>A 1976 Latin Jazz Fusion blending Afro-Cuban rhythm, electric keys, and flute.<br>A track that sizzles with percussion, woven like a breeze.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/sofrito/1464278441?i=1464278447",
+    "amazon_url": "https://link.amazon/B08k9KpvJ",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Cuba"],
+    "city": ["Havana"]
   }
 ]

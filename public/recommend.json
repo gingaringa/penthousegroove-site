@@ -6387,5 +6387,86 @@
     "mood": ["mid"],
     "country": ["Cuba"],
     "city": ["Havana"]
+  },
+  {
+    "date": "2026-10-14",
+    "title": "MOTHER OF THE FUTURE – CARLOS GARNETT",
+    "comment": "<p>スピリチュアル・ジャズとファンクが宇宙的な感覚で交錯するCarlos Garnettの1974年作。<br>サックス、パーカッション、ヴォーカルが重なりながら、濃密でサイケデリックな世界へと導いていく一曲。</p><p>Saxophones and percussion weave a cosmic tapestry.<br>A track that immerses you in a psychedelic world.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/mother-of-the-future/983538373?i=983538385",
+    "season": ["fall", "winter"],
+    "weather": ["cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-15",
+    "title": "MAKE IT WITH YOU – RALFI PAGAN",
+    "comment": "<p>Breadの名曲を、1971年のニューヨークで甘くメロウなLatin Soulへ。<br>Ralfi Paganの柔らかな歌声が、原曲とは異なるラテンとソウルの温度をまとわせた名カバー。</p><p>A sweet, mellow Latin Soul with soft rhythms,<br>A track that warms the heart.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/make-it-with-you/1464955556?i=1464955577",
+    "amazon_url": "https://link.amazon/B0icgVniZ",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-16",
+    "title": "LADY BUG – BUMBLEBEE UNLIMITED",
+    "comment": "<p>早回しされた奇妙な“虫声”ヴォーカルに、うねるベースとストリングスが絡むNYアンダーグラウンド・ディスコ。<br>ユーモラスなのにどこか妖しく、Patrick AdamsとGreg Carmichaelらしい中毒性のあるグルーヴが光る一曲。</p><p>A quirky vocal flutter, with a throbbing bass and strings,<br>Humorous yet sinister, a track that captivates.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/lady-bug-disco-mix/1279542416?i=1279543463",
+    "amazon_url": "https://link.amazon/B072tfqFN",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-17",
+    "title": "I WILL ALWAYS LOVE YOU – THE GENE RAINS GROUP",
+    "comment": "<p>柔らかなヴァイブとピアノがゆったりと漂う、ロマンティックなエキゾチカ。<br>華美な演出を抑えた穏やかなアンサンブルが、南国の夜の余韻を残す一曲。</p><p>Soft vibes and piano gently float, romantic exotica.<br>A tranquil ensemble lingers, memories of tropical nights.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-will-always-love-you-2022-remastered-version/1667287487?i=1667287771",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low"],
+    "country": ["USA"],
+    "city": ["Honolulu"]
+  },
+  {
+    "date": "2026-10-18",
+    "title": "WHERE FLAMINGOS FLY – PAUL CONRAD",
+    "comment": "<p>ピアノとヴィブラフォンを中心に、静かな異国情緒を描くエキゾチカ。<br>甘美さの奥に少し影を残す、ハワイ産ラウンジの隠れた一曲。</p><p>Piano and vibraphone weave a tranquil exotic scene.<br>A track that gently lingers, casting a sweet shadow.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=_V3Rt1fYdms",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Honolulu"]
+  },
+  {
+    "date": "2026-10-19",
+    "title": "ANOTHER SIDE OF TIME – MOMI",
+    "comment": "<p>ハープの響きを中心に、ハワイの音楽を静かで幻想的な方向へと広げる一曲。<br>ソウルやAORとはまったく異なる角度から出会う、知られざるハワイアン・グルーヴ。</p><p>A track woven with harp, lush and serene,<br>A tranquil journey that fills the room.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=aS0l4YjQ0Ok",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["mid"],
+    "country": ["United States"],
+    "city": ["Honolulu"]
+  },
+  {
+    "date": "2026-10-20",
+    "title": "RED SAILS IN THE SUNSET – TERESA BRIGHT",
+    "comment": "<p>古いスタンダードを、柔らかな歌声とハワイの夕暮れへ溶かし込んだ一曲。<br>ノスタルジックな旋律がアイランド・ジャズの温もりに包まれる、優雅なカバー。</p><p>A soft voice merges with the warmth of island chords,<br>A track that envelops you in nostalgic elegance.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/red-sails-in-the-sunset/335379091?i=335379372",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low"],
+    "country": ["USA"],
+    "city": ["Honolulu"]
   }
 ]

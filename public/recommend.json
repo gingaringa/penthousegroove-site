@@ -6593,5 +6593,40 @@
     "mood": ["low", "mid"],
     "country": ["Japan"],
     "city": ["Tokyo"]
+  },
+  {
+    "date": "2026-11-01",
+    "title": "BALLET DANS L’ESPACE – JANKO NILOVIĆ",
+    "comment": "<p>フランスのライブラリー音楽を代表する作編曲家、ヤンコ・ニロヴィッチによる『Pop’ Impressions』収録曲。<br>ジャズ、ポップ、サイケデリックな感覚が交差する、宇宙的なイマジネーションに満ちた一曲。</p><p>A cosmic blend of jazz, pop, and psychedelic sounds.<br>A track that sparks imagination and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/ballet-dans-lespace-remastered/906662651?i=906662671",
+    "amazon_url": "https://link.amazon/B06RgiOKt",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-11-02",
+    "title": "TELEPHONE SONG – THE MIKE SAMMES SINGERS",
+    "comment": "<p>英国のコーラス・グループ、マイク・サムズ・シンガーズによる、遊び心あふれるヴォーカル・ナンバー。<br>軽妙なハーモニーとユニークな発想が、英国のライブラリー音楽にも通じる不思議な魅力を放つ一曲。</p><p>A playful vocal piece with bright harmonies,<br>A track that radiates whimsical charm.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/telephone-song/1105505620?i=1105505897",
+    "season": ["fall", "winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-11-03",
+    "title": "GOLDEN WINGS – OPA",
+    "comment": "<p>ウルグアイの感覚とJazz Fusion、ブラジル音楽が宇宙的に交差するOPAの1976年作。<br>エレピ、シンセ、パーカッション、ヴォーカルが柔らかく溶け合う、浮遊感たっぷりのLatin Fusion。</p><p>With dreamy keys, synths, and percussion in flight,<br>A track that merges worlds, lifting spirits with light.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/golden-wings/1786474114?i=1786474115",
+    "amazon_url": "https://link.amazon/B07wT8arJ",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Uruguay"],
+    "city": ["Montevideo"]
   }
 ]

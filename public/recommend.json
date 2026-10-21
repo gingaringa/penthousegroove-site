@@ -6468,5 +6468,130 @@
     "mood": ["low"],
     "country": ["USA"],
     "city": ["Honolulu"]
+  },
+  {
+    "date": "2026-10-21",
+    "title": "CHINA DOLL – LEON THOMAS",
+    "comment": "<p>どこか中国音楽を思わせるエキゾチックな旋律に、レオン・トーマス特有の深みのある歌声とヨーデル唱法が融合。異国情緒とスピリチュアルな響きが交差する、独創的なジャズ・ファンク。</p><p>An exotic melody reminiscent of Chinese music,<br>with Leon Thomas's deep voice and yodeling entwined.<br>A track that merges worldly soul and spiritual sound,<br>filling the room with its unique jazz-funk vibe.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/china-doll/1621363863?i=1621364859",
+    "amazon_url": "https://link.amazon/B02HRF7oJ",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-10-22",
+    "title": "GOLDEN GEMS – JOHNNY HAWKSWORTH",
+    "comment": "<p>英国のライブラリー音楽を支えた作曲家ジョニー・ホークスワースによる、穏やかなインストゥルメンタル。<br>ピアノを中心とした柔らかなリズムとギターの響きが、日常の風景に映画のワンシーンのような温かさを添える一曲。</p><p>A soft rhythm of piano and warm guitar twines,<br>A track that adds cinematic warmth to the everyday.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/golden-gems/1684791645?i=1684792142",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "GET YA SOME – MELVIN SPARKS",
+    "comment": "<p>ソウル・ジャズを代表するギタリスト、メルヴィン・スパークスによるファンキーなインストゥルメンタル。<br>鋭いギターのフレーズと重厚なリズムが絡み合う、ヒップホップのブレイクビーツ文化とも響き合う一曲。</p><p>Funky instrumentals from a masterful guitarist,<br>Sharp guitar licks entwine, a rhythmic groove fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/get-ya-some/374400005?i=374400270",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["United States"],
+    "city": ["Detroit"]
+  },
+  {
+    "date": "2026-10-24",
+    "title": "COMMUNICATIONS '72 – STAN GETZ",
+    "comment": "<p>スタン・ゲッツとミシェル・ルグランが共演した1972年のアルバムを象徴する一曲。<br>流麗なサックスに華やかなオーケストラとコーラスが重なり、ジャズと映画音楽の境界を越える独創的な世界を描く。</p><p>Flowing sax with a lush orchestra interweaves,<br>A track that transcends jazz, filling the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA-72/1471241700?i=1471241708",
+    "amazon_url": "https://link.amazon/B0bucK74K",
+    "season": ["fall", "winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-10-25",
+    "title": "EVIL – EARTH, WIND & FIRE",
+    "comment": "<p>1973年のアルバム『Head to the Sky』の幕開けを飾る、アース・ウィンド・アンド・ファイアー初期の名曲。<br>躍動するパーカッション、重厚なベースライン、スピリチュアルな歌声が交差する、アフロセントリックなジャズ・ファンク。</p><p>A fusion of vibrant percussion, a bassline so deep,<br>A track that enlivens the spirit and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/evil-remastered-live/998260876?i=998260880",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy", "rainy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-10-26",
+    "title": "BATENDO A PORTA – EMÍLIO SANTIAGO",
+    "comment": "<p>ブラジルの名シンガー、エミリオ・サンチアゴによる1975年のデビューアルバム収録曲。<br>温かく艶やかな歌声と軽快なサンバのリズムが溶け合う、洗練されたブラジリアン・ソウル。</p><p>Warm, vibrant melodies blend with a lively samba beat.<br>A track that emanates joy and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/batendo-a-porta-1975-remastered/6799860169?i=6799860178",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny"],
+    "mood": ["high"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-10-27",
+    "title": "YOUR SOUL IS PERFECT (SUPREME UNITER) – SURYA BOTOFASINA & RADHA BOTOFASINA",
+    "comment": "<p>アリス・コルトレーンのアシュラムで学んだスーリヤ・ボトファシーナによる、瞑想的なスピリチュアル・ジャズ。音の反復と精神性が聴く者を内省へ誘う一曲。</p><p>Meditative spiritual jazz with flowing textures.<br>A track that invites deep reflection and peace.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/your-soul-is-perfect-supreme-uniter/1764122176?i=1764122621",
+    "amazon_url": "https://link.amazon/B09FwmIjJ",
+    "season": ["fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-10-28",
+    "title": "C.F.D. – MAKAYA MCCRAVEN",
+    "comment": "<p>シカゴを拠点に活動するドラマー、マカヤ・マクレイヴンによる現代ジャズの一曲。<br>即興演奏とビートメイキングの感覚が溶け合い、ジャズとヒップホップの境界を曖昧にする独創的なサウンド。</p><p>An original sound blurs the lines of jazz and hip-hop,<br>Improv and beats intertwine, leaving you entranced.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/c-f-d/1581270929?i=1581271162",
+    "amazon_url": "https://link.amazon/B09CqHGpm",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-10-29",
+    "title": "THIS FEELING'S KILLING ME – THE JONES GIRLS",
+    "comment": "<p>フィラデルフィア・ソウルを代表する姉妹トリオ、The Jones Girlsによる1979年のデビューアルバム収録曲。<br>甘く重なり合うコーラスと軽快なリズムが、切ない恋心をしなやかなグルーヴへと変える一曲。</p><p>Smooth harmonies intertwine with a vibrant beat,<br>A track that transforms longing into soulful groove.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/this-feelings-killing-me/266020024?i=266020046",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Philadelphia"]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "WAJANG WOMAN – EMBRYO",
+    "comment": "<p>カリブ海のトリニダードで生まれた、ソウル、ファンク、カリプソが交差するトロピカル・グルーヴ。<br>軽快なリズムと独特のメロディが、南国の陽気さとサイケデリックな魅力を感じさせる一曲。</p><p>Tropical grooves of soul, funk, and calypso weave.<br>A track that captures sunshine and psychedelic charm.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/wajang-woman/1213063003?i=1213063024",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["Trinidad and Tobago"],
+    "city": ["Port of Spain"]
+  },
+  {
+    "date": "2026-10-31",
+    "title": "MELI-FALI – PEPE CALIFORNIA",
+    "comment": "<p>日本の音楽ユニットPepe Californiaによる、アルバム『LLAMA』収録の一曲。<br>南国を思わせる開放感と、エレクトロニックな感覚が交差する、心地よくもどこか不思議なトロピカル・サウンド。</p><p>A breezy blend of tropical tones and electronic beats.<br>A track that evokes wanderlust and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/meli-fali/73228785?i=73228756",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["Japan"],
+    "city": ["Tokyo"]
   }
 ]

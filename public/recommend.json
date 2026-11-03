@@ -6628,5 +6628,140 @@
     "mood": ["mid"],
     "country": ["Uruguay"],
     "city": ["Montevideo"]
+  },
+  {
+    "date": "2026-11-04",
+    "title": "SAMBA SÓ – CLAUDETTE SOARES",
+    "comment": "<p>ブラジルの歌手Claudette Soaresによる、軽快で洗練されたサンバ・ジャズ。 小気味よいリズムと柔らかなヴォーカルが溶け合う、ボサノヴァ時代の都会的な魅力を感じさせる一曲。</p><p>A refined samba jazz with lively rhythms,<br>A track that evokes urban charm of bossa nova.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/samba-s%C3%B3/1596160796?i=1596161514",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Brazil"],
+    "city": ["Rio de Janeiro"]
+  },
+  {
+    "date": "2026-11-05",
+    "title": "DREAM OF YOU AND ME – GENE McDANIELS",
+    "comment": "<p>1975年のアルバム『Natural Juices』に収録された一曲。<br>冒頭から繰り返される電子音のような高音のフレーズと、独特のリズムが生み出すグルーヴが印象的なレアグルーヴ・ナンバー。</p><p>Sonic echoes intertwine, dancing with a unique beat.<br>A track that immerses the soul and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/dream-of-you-and-me/6803046150?i=6803046161",
+    "season": ["spring", "summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-11-06",
+    "title": "COMING AND GOING – QUINCY JONES & THE RAY BROWN ORCHESTRA",
+    "comment": "<p>1970年の映画に関連するアルバムに収録されたRay Brown作曲の一曲。<br>ファンキーなグルーヴに官能的な女性の声が重なるサイケなレアグルーヴナンバー。</p><p>A funky groove with sensual voices entwined,<br>A track that evokes a psychedelic atmosphere.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/coming-and-going/1443856814?i=1443856837",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-11-07",
+    "title": "ANGELA'S DILEMMA – PHIL RANELIN & WENDELL HARRISON",
+    "comment": "<p>デトロイトのジャズ・コレクティブ「Tribe」を支えた二人による一曲。<br>スピリチュアル・ジャズの精神性を感じさせながらも、温かみのあるホーンの響きと心地よいグルーヴが印象的な作品。</p><p>A warm horn section dances with a smooth groove.<br>A track that invokes the spirit of spiritual jazz.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/angelas-dilemma/1547906222?i=1547906224",
+    "amazon_url": "https://link.amazon/B083ugLNo",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Detroit"]
+  },
+  {
+    "date": "2026-11-08",
+    "title": "EASY – DENNIS BROWN",
+    "comment": "<p>ジャマイカを代表するレゲエ・シンガー、Dennis Brownによる一曲。<br>温かくもどこか哀愁を帯びた歌声と、軽やかで爽やかなレゲエのグルーヴが心地よく溶け合う、味わい深いジャマイカン・ソウル。</p><p>A blend of warm vocals and bright reggae grooves,<br>A track that carries a bittersweet essence.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/easy/265705443?i=265705486",
+    "season": ["spring", "summer"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["Jamaica"],
+    "city": ["Kingston"]
+  },
+  {
+    "date": "2026-11-09",
+    "title": "I HEARD A SIGH – CORTEX",
+    "comment": "<p>フランスのジャズ・ファンク・グループ、コルテックスによる1979年のアルバム『Inédit '79』収録曲。 浮遊感のある鍵盤とメロウな歌声、軽快なグルーヴが溶け合う、フレンチ・レアグルーヴの隠れた名曲。</p><p>A lush blend of floating keys and mellow vibes,<br>A track that creates a warm, inviting atmosphere.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/i-heard-a-sigh/1294780943?i=1294781343",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["France"],
+    "city": ["Paris"]
+  },
+  {
+    "date": "2026-11-10",
+    "title": "KITOTO SOUND – SUNBURST",
+    "comment": "<p>1970年代のタンザニアで生まれたアフロ・ロック・バンド、サンバーストによる一曲。 アフリカン・リズムとファンクのグルーヴが交差する、躍動感あふれるアフロ・ファンク。</p><p>A vibrant fusion of African rhythms and funky grooves.<br>A track that pulses with life and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/kitoto-sound/1108495516?i=1108495584",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Tanzania"],
+    "city": ["Dar es Salaam"]
+  },
+  {
+    "date": "2026-11-11",
+    "title": "BONGOS IN PASTEL – PRESTON EPPS",
+    "comment": "<p>「Bongo Rock」で知られるパーカッショニスト、プレストン・エップスによるエキゾチックなインストゥルメンタル。 軽快なボンゴのリズムが独特の空気感を生み出す、ヴィンテージ・パーカッション・ミュージック。</p><p>Exotic instrumentals weave through lively bongo rhythms,<br>A track that creates a unique, vintage atmosphere.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/bongos-in-pastel/452218523?i=452218536",
+    "season": ["summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-11-12",
+    "title": "EPLE – RÖYKSOPP",
+    "comment": "<p>ノルウェーの電子音楽デュオ、ロイクソップによる2001年のデビューアルバム『Melody A.M.』収録曲。 軽やかなビートと温かい鍵盤のフレーズが重なり合う、どこか懐かしく心地よいエレクトロニカ。</p><p>A gentle beat intertwines with warm piano notes,<br>A track that evokes nostalgia and fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/eple/1049806381?i=1049806635",
+    "amazon_url": "https://link.amazon/B02QQQjLG",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["Norway"],
+    "city": ["Bergen"]
+  },
+  {
+    "date": "2026-11-13",
+    "title": "THE MYSTERY OF TWO – SUN RA",
+    "comment": "<p>宇宙をテーマに独自の音楽世界を築いたジャズの異才、サン・ラによるミステリアスな一曲。 幻想的な音の重なりと自由なアンサンブルが、現実から遠く離れた宇宙的な空間を描き出すアヴァンギャルド・ジャズ。</p><p>A unique jazz piece woven with cosmic textures,<br>An avant-garde track that transports you beyond reality.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/the-mystery-of-two/1099618199?i=1099618200",
+    "season": ["fall", "winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-11-14",
+    "title": "THE PARIS MATCH – DEE C. LEE",
+    "comment": "<p>スタイル・カウンシルの名曲を、オリジナル録音にも参加したディー・C・リーが自身の歌声で再解釈。 都会的なジャズの響きと柔らかなソウル・ヴォーカルが溶け合う、洗練されたメロウ・ソウル。</p><p>A sophisticated blend of urban jazz and soft soul,<br>A track that melts into the air with elegance.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/the-paris-match/765679813?i=765679834",
+    "amazon_url": "https://link.amazon/B03ClGNLh",
+    "season": ["spring", "fall"],
+    "weather": ["cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-11-15",
+    "title": "MAKE IT WITH YOU – DON JULIAN",
+    "comment": "<p>ブレッドの名曲を、ロサンゼルスのソウル・グループを率いたドン・ジュリアンが歌い上げる一曲。 原曲の柔らかなメロディにソウルフルな歌声が重なり、甘く切ない雰囲気を生み出すメロウ・ソウル。</p><p>A soulful voice entwines with soft melodies,<br>A track that envelops the heart with sweetness.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/make-it-with-you/1877655558?i=1877655565",
+    "season": ["summer", "fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
   }
 ]

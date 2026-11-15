@@ -6763,5 +6763,153 @@
     "mood": ["low", "mid"],
     "country": ["USA"],
     "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-11-16",
+    "title": "STONED OUT OF MY MIND – MARYANN FARRA & SATIN SOUL",
+    "comment": "<p>The Chi-Litesの名曲を、軽快なリズムと透明感のある女性ヴォーカルで再解釈したソウル・ナンバー。<br>シカゴ・ソウルの温かみとディスコの躍動感が溶け合う、爽やかで心弾むグルーヴが魅力の一曲。</p><p>A vibrant rhythm dances with airy, soulful vocals.<br>A track that fills the room with warmth and joy.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%89-%E3%82%A2%E3%82%A6%E3%83%88-%E3%82%AA%E3%83%96-%E3%83%9E%E3%82%A4-%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89/718879011?i=718879082",
+    "season": ["spring", "fall", "winter"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-11-17",
+    "title": "A NIGHTINGALE SANG IN BERKELEY SQUARE – ROLAND KIRK QUARTET & BENNY GOLSON ORCHESTRA",
+    "comment": "<p>Roland KirkとBenny Golson Orchestraが英国生まれのジャズ・スタンダードを再解釈。独創的なサウンドが魅力。</p><p>An inventive jazz blend with rich textures, enchanting the room.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=q64R7rRtIjw",
+    "season": ["fall", "winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["USA"],
+    "city": ["New York"]
+  },
+  {
+    "date": "2026-11-18",
+    "title": "THE LOVE I FEEL FOR YOU – RAMSEY LEWIS",
+    "comment": "<p>1970年のアルバム『The Piano Player』に収録された、Cleveland Eaton作曲の一曲。<br>Ramsey Lewisのピアノとしなやかなリズムセクションが織りなす、ソウルの温かみとジャズの洗練されたグルーヴが心地よいナンバー。</p><p>A warm blend of piano, smooth rhythms, and jazz's grace.<br>A track that radiates soulful refinement, inviting you in.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/%E3%82%B6-%E3%83%A9%E3%83%B4-%E3%82%A2%E3%82%A4-%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB-%E3%83%95%E3%82%A9%E3%83%BC-%E3%83%A6%E3%83%BC/1438812579?i=1438813150",
+    "amazon_url": "https://link.amazon/B0dAzGW5z",
+    "season": ["fall"],
+    "weather": ["cloudy", "rainy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Chicago"]
+  },
+  {
+    "date": "2026-11-19",
+    "title": "GLOBETROTTER – THE TORNADOS",
+    "comment": "<p>電子オルガンのような独特の音色と軽快なビートが絡み合う、60年代英国のスペースエイジ・ポップ。<br>レトロな未来感と遊び心あふれるメロディが、どこかサイケで陽気な世界へと誘う一曲。</p><p>A unique blend of bright organ tones and light beats,<br>Inviting you to a playful, psychedelic world.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/globetrotter/1436253103?i=1436253108",
+    "season": ["winter"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["UK"],
+    "city": ["London"]
+  },
+  {
+    "date": "2026-11-20",
+    "title": "YOU TURN ME ON – PUSH",
+    "comment": "<p>1978年、シアトルのローカル・ソウルシーンから生まれた一曲。<br>軽快なホーンと鍵盤の響き、ソウルフルな歌声が重なり合う、爽やかさとファンキーな躍動感を兼ね備えたモダンソウル。</p><p>Bright horns and keys weave through funky beats,<br>A track that pulses with vibrant energy.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/you-turn-me-on-1st-version/484853597?i=484853604",
+    "season": ["spring", "summer"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Seattle"]
+  },
+  {
+    "date": "2026-11-21",
+    "title": "HELP YOURSELF – FREEWAY FEAT. MARK J",
+    "comment": "<p>80年代初頭、アメリカ北西部のローカルシーンで活動したFreewayによる一曲。<br>AORの爽やかさとソウルの温かみが溶け合う、軽快なグルーヴとヴィンテージ感が魅力のモダン・ソウル。</p><p>A lively groove of vintage warmth and smooth textures.<br>A track that invites you into a comforting embrace.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/help-yourself/1069547499?i=1069547686",
+    "season": ["spring", "summer"],
+    "weather": ["sunny"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Seattle"]
+  },
+  {
+    "date": "2026-11-22",
+    "title": "BLUE CHINOOK – NOVAK",
+    "comment": "<p>90年代の英国アンダーグラウンド・シーンで活動したNovakによる一曲。<br>サイケデリックな音の重なりと、どこか不思議な温かみを感じさせるメロディが交差する、実験性とポップな感性を併せ持ったインディー・ロック。</p><p>A psychedelic blend of sound layers,<br>A track that wraps you in warmth.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/blue-chinook/319243337?i=319243355",
+    "season": ["spring", "fall"],
+    "weather": ["cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["UK"],
+    "city": ["Birmingham"]
+  },
+  {
+    "date": "2026-11-23",
+    "title": "LONG DISTANCE LOVE AFFAIR – MARCELLE JOSEPH",
+    "comment": "<p>1976年にリリースされた、Marcelle Josephによる希少なモダン・ソウル。<br>印象的なギターの響きから始まり、躍動感のあるグルーヴとソウルフルな歌声が広がる、クロスオーバー・ソウルの隠れた名曲。</p><p>A rare modern soul gem with soaring guitar tones,<br>A track that pulses with soul and vibrant energy.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=KHZFjmVqU-U",
+    "season": ["spring", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Washington, D.C."]
+  },
+  {
+    "date": "2026-11-24",
+    "title": "MANAGUA – CANDEIAS",
+    "comment": "<p>ブラジルのジャズ・フュージョン・グループ、Candeiasによる一曲。<br>ブラジル音楽の豊かなリズムとジャズの即興性が融合する、躍動感と洗練されたグルーヴが魅力のブラジリアン・フュージョン。</p><p>A vibrant blend of jazz with rich Brazilian grooves,<br>A track that dances elegantly through the air.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/managua/1260355945?i=1260355955",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Argentina"],
+    "city": ["Buenos Aires"]
+  },
+  {
+    "date": "2026-11-25",
+    "title": "MODESA – CARL SHERLOCK HOLMES",
+    "comment": "<p>アメリカのジャズ・ギタリスト、Carl Sherlock Holmesによる一曲。<br>ファンクの躍動感とジャズの自由な感性が交差する、知られざるジャズ・ファンクの世界を感じさせる作品。</p><p>A vibrant blend of funk grooves and jazzy textures.<br>A track that transports you to hidden realms of sound.</p>",
+    "apple_music_embed": "",
+    "youtube_url": "https://www.youtube.com/watch?v=Y3eIonD_fUc",
+    "season": ["spring", "summer"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid", "high"],
+    "country": ["USA"],
+    "city": ["Philadelphia"]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "SUPERSTARR PT. ZERO – K-OS",
+    "comment": "<p>カナダのアーティストk-osによる、ジャンルの境界を越えたヒップホップ。<br>生楽器を思わせるオーガニックなサウンドと躍動的なリズムが融合する、ソウルフルで独創的な一曲。</p><p>An organic sound infused with lively rhythms,<br>A track that transcends genres with soulful flair.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/superstarr-pt-zero/1622891329?i=1622891611",
+    "season": ["fall", "winter"],
+    "weather": ["sunny"],
+    "mood": ["high"],
+    "country": ["Canada"],
+    "city": ["Toronto"]
+  },
+  {
+    "date": "2026-11-27",
+    "title": "PALM TREE AND MOON – BRIAN WILSON & VAN DYKE PARKS",
+    "comment": "<p>Brian WilsonとVan Dyke Parksによる、どこか東洋的でありつつも南国の情景を思わせる一曲。<br>繊細なメロディと色彩豊かなアレンジが重なり合う、ノスタルジックで幻想的なポップ・ミュージック。</p><p>A delicate melody dances with vivid arrangements,<br>Nostalgic and dreamy, a track that fills the room.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/palm-tree-and-moon/304905604?i=304905638",
+    "amazon_url": "https://link.amazon/B0fgZd5XP",
+    "season": ["spring", "fall"],
+    "weather": ["cloudy"],
+    "mood": ["low", "mid"],
+    "country": ["USA"],
+    "city": ["Los Angeles"]
+  },
+  {
+    "date": "2026-11-28",
+    "title": "AFRO BLUE – GILLES TORRENT",
+    "comment": "<p>アフリカ由来のリズムとジャズの即興性が交差する「Afro Blue」。<br>Gilles Torrentによる、ワールドミュージックとジャズの境界を感じさせる一曲。</p><p>Rhythms from Africa blend with jazz's improvisation.<br>A track that blurs the lines of world music and jazz.</p>",
+    "apple_music_embed": "https://embed.music.apple.com/jp/album/afro-blue/6779159598?i=6779159610",
+    "season": ["summer", "fall"],
+    "weather": ["sunny", "cloudy"],
+    "mood": ["mid"],
+    "country": ["Switzerland"],
+    "city": ["Geneva"]
   }
 ]
